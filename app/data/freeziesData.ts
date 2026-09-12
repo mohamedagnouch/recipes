@@ -733,7 +733,7 @@ export const freeziesProducts: FreeziesProduct[] = [
     pros: [
       "Certified USDA Organic ingredients and non-GMO verified",
       "Gluten-free and vegetarian friendly",
-      "Under $5 retail price point at mass grocers",
+      "Budget-friendly retail value at mass grocers",
       "Generous 9.5 oz single serving that genuinely fills you up"
     ],
     cons: [
@@ -853,7 +853,7 @@ export const freeziesProducts: FreeziesProduct[] = [
       "B Corp certified sustainable sourcing"
     ],
     cons: [
-      "Premium $8.99 price point",
+      "Premium gourmet positioning",
       "Hard to stop eating after one serving"
     ],
     prepInstructions: {

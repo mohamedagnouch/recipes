@@ -125,7 +125,7 @@ export default function FreeziesAnnouncementPage() {
                   >
                     {p.name}
                   </Link>
-                  <span className="text-xs text-gray-500">{p.brand} • {p.price}</span>
+                  <span className="text-xs text-gray-500">{p.brand}</span>
                 </div>
               </div>
               <div className="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end border-t sm:border-t-0 pt-2 sm:pt-0 border-gray-100">

@@ -163,7 +163,6 @@ export default async function FreeziesCategoryPage({ params }: CategoryPageProps
                     <tr className="bg-gray-50 border-b border-gray-200 text-[11px] font-black uppercase tracking-wider text-gray-600">
                       <th className="p-4">Rank &amp; Brand</th>
                       <th className="p-4">Award Title</th>
-                      <th className="p-4">Price</th>
                       <th className="p-4">Taste (/30)</th>
                       <th className="p-4">Texture (/20)</th>
                       <th className="p-4">Overall Score</th>
@@ -183,7 +182,6 @@ export default async function FreeziesCategoryPage({ params }: CategoryPageProps
                           </div>
                         </td>
                         <td className="p-4 text-xs font-bold text-[#d97706] uppercase">{p.awardBadge}</td>
-                        <td className="p-4 font-semibold text-gray-700">{p.price}</td>
                         <td className="p-4 font-bold text-gray-900">{p.scores.taste}/30</td>
                         <td className="p-4 font-bold text-gray-900">{p.scores.texture}/20</td>
                         <td className="p-4">
@@ -231,8 +229,7 @@ export default async function FreeziesCategoryPage({ params }: CategoryPageProps
                       <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{p.brand}</span>
                       <h3 className="font-serif text-2xl font-bold text-gray-900 mt-1 mb-2">{p.name}</h3>
                       <p className="text-sm text-gray-600 leading-relaxed mb-4">{p.shortVerdict}</p>
-                      <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
-                        <span className="text-sm font-bold text-gray-900">{p.price}</span>
+                      <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
                         <Link href={`/freezies/winners/${p.slug}`} className="px-4 py-1.5 bg-[#0c5354] text-white text-xs font-bold uppercase rounded hover:bg-[#083c3d]">
                           Full Review
                         </Link>
@@ -267,7 +264,6 @@ export default async function FreeziesCategoryPage({ params }: CategoryPageProps
                       <h3 className="font-serif text-xl sm:text-2xl font-bold text-gray-900 mt-0.5 mb-1">{p.name}</h3>
                       <p className="text-sm text-gray-600 mb-3">{p.shortVerdict}</p>
                       <div className="flex flex-wrap items-center gap-3 text-xs">
-                        <span className="bg-gray-100 px-2.5 py-1 rounded font-bold text-gray-800">💰 {p.price} ({p.pricePerServing})</span>
                         <span className="bg-emerald-50 text-emerald-800 px-2.5 py-1 rounded font-bold">💪 {p.nutritionHighlights.protein}</span>
                         <span className="bg-blue-50 text-blue-800 px-2.5 py-1 rounded font-bold">🔥 {p.nutritionHighlights.calories}</span>
                       </div>

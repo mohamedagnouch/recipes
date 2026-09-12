@@ -573,7 +573,7 @@ export default function FreeziesAwardsHubPage() {
               <h1 className="hero-headline">The Best Frozen Foods of 2026</h1>
               <p className="hero-lead">
                 Over 380 supermarket frozen products rigorously tested, tasted, and scored by our editorial board.
-                Discover the pasta bakes, artisan ice creams, Detroit deep dishes, and under-$5 heroes worth keeping in your freezer.
+                Discover the pasta bakes, artisan ice creams, Detroit deep dishes, and budget-friendly heroes worth keeping in your freezer.
               </p>
               <div className="hero-actions">
                 <a href="#winners" className="btn-gold">
@@ -622,10 +622,7 @@ export default function FreeziesAwardsHubPage() {
                 <p style={{ fontSize: "15px", color: "#4b5563", lineHeight: 1.6, marginBottom: "20px" }}>
                   {grandChampion.shortVerdict}
                 </p>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", paddingTop: "16px", borderTop: "1px solid #f3f4f6" }}>
-                  <span style={{ fontSize: "14px", fontWeight: "800", color: "#111827" }}>
-                    {grandChampion.price} <span style={{ fontSize: "12px", color: "#6b7280", fontWeight: "normal" }}>({grandChampion.pricePerServing})</span>
-                  </span>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", paddingTop: "16px", borderTop: "1px solid #f3f4f6" }}>
                   <Link
                     href={`/freezies/winners/${grandChampion.slug}`}
                     style={{ background: "#0c5354", color: "#ffffff", padding: "9px 20px", borderRadius: "6px", fontSize: "12px", fontWeight: "800", textTransform: "uppercase", letterSpacing: "0.6px", textDecoration: "none" }}
@@ -667,8 +664,7 @@ export default function FreeziesAwardsHubPage() {
                       {pick.name}
                     </Link>
                     <p className="pick-verdict">{pick.shortVerdict}</p>
-                    <div className="pick-meta">
-                      <span style={{ fontSize: "13px", fontWeight: "700", color: "#111827" }}>{pick.price}</span>
+                    <div className="pick-meta" style={{ justifyContent: "flex-end" }}>
                       <Link href={`/freezies/winners/${pick.slug}`} style={{ fontSize: "12px", fontWeight: "800", color: "#0c5354", textTransform: "uppercase", textDecoration: "none" }}>
                         View Winner →
                       </Link>
@@ -729,7 +725,6 @@ export default function FreeziesAwardsHubPage() {
                     </Link>
                     <div style={{ fontSize: "12px", color: "#6b7280", marginTop: "auto", paddingTop: "8px", borderTop: "1px solid #f3f4f6", display: "flex", justifyContent: "space-between" }}>
                       <span>{winner.brand}</span>
-                      <span style={{ fontWeight: "700", color: "#111827" }}>{winner.price}</span>
                     </div>
                   </div>
                 </article>

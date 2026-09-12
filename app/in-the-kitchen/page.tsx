@@ -6,9 +6,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { recipeCollectionsData } from "../data/recipeCollectionsData";
 import { cleaningArticlesData } from "../data/cleaningOrganizingData";
+import { collectionDetailsData } from "../data/collectionDetailsData";
 
 export interface UnifiedKitchenItem {
   id: string;
+  slug?: string;
   itemType: "collection" | "cleaning";
   title: string;
   description: string;
@@ -28,6 +30,7 @@ const allUnifiedItems: UnifiedKitchenItem[] = [
   // 1. Recipe Collections
   ...recipeCollectionsData.map((item) => ({
     id: `col-${item.id}`,
+    slug: item.slug,
     itemType: "collection" as const,
     title: item.title,
     description: item.description,
@@ -37,7 +40,7 @@ const allUnifiedItems: UnifiedKitchenItem[] = [
     author: item.author,
     imageUrl: item.imageUrl,
     imageAlt: item.title,
-    linkHref: "/recipes",
+    linkHref: `/recipe-collections/${item.slug}`,
     badgeText: `${item.recipeCount} Recipes`,
     featured: item.featured,
     tags: [...(item.tags || []), item.categoryKey, "Recipe Collection"],
@@ -85,6 +88,9 @@ export default function InTheKitchenPage() {
   const [sortBy, setSortBy] = useState<"featured" | "collectionsFirst" | "cleaningFirst" | "alphabetical">("featured");
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [visibleCount, setVisibleCount] = useState(24);
+  const [previewCollectionSlug, setPreviewCollectionSlug] = useState<string | null>(null);
+
+  const previewCollection = previewCollectionSlug ? collectionDetailsData[previewCollectionSlug] : null;
 
   const toggleSave = (id: string) => {
     setSavedIds((prev) =>
@@ -610,6 +616,138 @@ export default function InTheKitchenPage() {
           border-top: 1px solid #f2f2f2;
         }
 
+        .quick-look-btn {
+          background: #e8f5f4;
+          border: 1px solid #c2dbd7;
+          color: #0c5354;
+          font-size: 11px;
+          font-weight: 700;
+          padding: 3px 8px;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 0.15s ease;
+        }
+
+        .quick-look-btn:hover {
+          background: #0c5354;
+          color: #ffffff;
+          border-color: #0c5354;
+        }
+
+        /* ── Quick Look Modal ── */
+        .ql-backdrop {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.65);
+          backdrop-filter: blur(4px);
+          z-index: 9999;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+        }
+
+        .ql-dialog {
+          background: #ffffff;
+          border-radius: 12px;
+          max-width: 780px;
+          width: 100%;
+          max-height: 88vh;
+          overflow-y: auto;
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+          position: relative;
+        }
+
+        .ql-header {
+          padding: 22px 24px 16px;
+          border-bottom: 1px solid #eeeeee;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 16px;
+        }
+
+        .ql-close-btn {
+          background: #f0f0f0;
+          border: none;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          font-size: 16px;
+          line-height: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          color: #555555;
+          transition: all 0.15s ease;
+          flex-shrink: 0;
+        }
+
+        .ql-close-btn:hover {
+          background: #0c5354;
+          color: #ffffff;
+        }
+
+        .ql-body {
+          padding: 20px 24px;
+        }
+
+        .ql-recipes-list {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin: 16px 0;
+        }
+
+        .ql-recipe-item {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          padding: 10px;
+          background: #f8faf9;
+          border-radius: 8px;
+          border: 1px solid #e7f0ee;
+        }
+
+        .ql-recipe-thumb {
+          width: 64px;
+          height: 64px;
+          border-radius: 6px;
+          object-fit: cover;
+          flex-shrink: 0;
+        }
+
+        .ql-footer {
+          padding: 16px 24px 20px;
+          border-top: 1px solid #eeeeee;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background: #fafafa;
+          border-radius: 0 0 12px 12px;
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+
+        .ql-open-btn {
+          background: #0c5354;
+          color: #ffffff;
+          padding: 10px 20px;
+          border-radius: 6px;
+          font-weight: 700;
+          font-size: 13.5px;
+          text-decoration: none;
+          transition: background 0.15s ease;
+        }
+
+        .ql-open-btn:hover {
+          background: #083c3d;
+        }
+
         /* ── Accent banner ── */
         .kitchen-accent-banner {
           margin: 36px 0 44px;
@@ -790,7 +928,25 @@ export default function InTheKitchenPage() {
                         <p className="card-desc">{item.description}</p>
                         <div className="card-meta">
                           <span>{item.author}</span>
-                          <span style={{ fontWeight: 600, color: "#0c5354" }}>Explore →</span>
+                          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                            {item.itemType === "collection" && item.slug && (
+                              <button
+                                type="button"
+                                className="quick-look-btn"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  e.stopPropagation();
+                                  setPreviewCollectionSlug(item.slug || null);
+                                }}
+                                title="Quick Look"
+                              >
+                                Quick Look
+                              </button>
+                            )}
+                            <Link href={item.linkHref} style={{ fontWeight: 600, color: "#0c5354", textDecoration: "none" }}>
+                              Explore →
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </article>
@@ -843,7 +999,25 @@ export default function InTheKitchenPage() {
                       <p className="card-desc">{item.description}</p>
                       <div className="card-meta">
                         <span>{item.author}</span>
-                        <span style={{ fontWeight: 600, color: "#0c5354" }}>Read →</span>
+                        <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                          {item.itemType === "collection" && item.slug && (
+                            <button
+                              type="button"
+                              className="quick-look-btn"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                setPreviewCollectionSlug(item.slug || null);
+                              }}
+                              title="Quick Look"
+                            >
+                              Quick Look
+                            </button>
+                          )}
+                          <Link href={item.linkHref} style={{ fontWeight: 600, color: "#0c5354", textDecoration: "none" }}>
+                            Read →
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </article>
@@ -870,6 +1044,83 @@ export default function InTheKitchenPage() {
               >
                 Load More Items ({sortedItems.length - visibleCount} remaining)
               </button>
+            </div>
+          )}
+          {/* Quick Look Preview Modal */}
+          {previewCollection && (
+            <div
+              className="ql-backdrop"
+              onClick={() => setPreviewCollectionSlug(null)}
+              role="dialog"
+              aria-modal="true"
+            >
+              <div className="ql-dialog" onClick={(e) => e.stopPropagation()}>
+                <div className="ql-header">
+                  <div>
+                    <span className="type-pill collection" style={{ position: "static", display: "inline-block", marginBottom: "8px" }}>
+                      Collection: {previewCollection.recipeCount} Dishes
+                    </span>
+                    <h2 style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: "22px", margin: "0 0 6px", color: "#111" }}>
+                      {previewCollection.title}
+                    </h2>
+                    <p style={{ margin: 0, fontSize: "13.5px", color: "#666" }}>
+                      By {previewCollection.author} • {previewCollection.readTime}
+                    </p>
+                  </div>
+                  <button
+                    className="ql-close-btn"
+                    onClick={() => setPreviewCollectionSlug(null)}
+                    aria-label="Close Preview"
+                  >
+                    ✕
+                  </button>
+                </div>
+
+                <div className="ql-body">
+                  <p style={{ fontSize: "14.5px", lineHeight: "1.6", color: "#444", marginBottom: "20px" }}>
+                    {previewCollection.subtitle}
+                  </p>
+
+                  <h3 style={{ fontSize: "14px", fontWeight: "700", textTransform: "uppercase", letterSpacing: "0.5px", color: "#0c5354", margin: "0 0 12px" }}>
+                    Featured Recipes in this Collection:
+                  </h3>
+
+                  <div className="ql-recipes-list">
+                    {previewCollection.recipes.map((rec) => (
+                      <div key={rec.id} className="ql-recipe-item">
+                        <img
+                          src={rec.imageUrl}
+                          alt={rec.title}
+                          className="ql-recipe-thumb"
+                        />
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{ fontWeight: "700", fontSize: "15px", color: "#111", marginBottom: "4px" }}>
+                            {rec.title}
+                          </div>
+                          <div style={{ fontSize: "12.5px", color: "#666", display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                            <span>⏱ {rec.totalTime}</span>
+                            <span>📊 {rec.calories}</span>
+                            <span>⭐ {rec.rating}</span>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="ql-footer">
+                  <span style={{ fontSize: "13px", color: "#777" }}>
+                    Includes step-by-step instructions, ingredients &amp; chef tips
+                  </span>
+                  <Link
+                    href={`/recipe-collections/${previewCollection.slug}`}
+                    className="ql-open-btn"
+                    onClick={() => setPreviewCollectionSlug(null)}
+                  >
+                    Open Full Collection &amp; Recipes →
+                  </Link>
+                </div>
+              </div>
             </div>
           )}
         </main>
