@@ -217,9 +217,9 @@ export default function TeamSection() {
                 </button>
               </div>
 
-              {/* Team Members 2x2 Grid with Animation */}
+              {/* Team Members 1-col on mobile, 2-col on sm+ */}
               <div className="min-h-[220px]">
-                <div className="grid grid-cols-2 gap-y-6 gap-x-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 sm:gap-y-6 gap-x-4">
                   {teamSlides[currentSlide].map((member) => (
                     <div
                       key={member.id}

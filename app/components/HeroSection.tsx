@@ -113,12 +113,12 @@ export default function HeroSection() {
             </span>
 
             <Link href="/recipes/the-one-pan-cheeseburger-pie">
-              <h1 className="font-serif text-2xl sm:text-3xl lg:text-[34px] font-bold text-gray-900 leading-[1.2] mb-3 group-hover:text-[#0c5354] transition-colors">
+              <h1 className="font-serif text-xl sm:text-3xl lg:text-[34px] font-bold text-gray-900 leading-[1.25] mb-3 group-hover:text-[#0c5354] transition-colors break-words">
                 The One-Pan Cheeseburger Pie My Family Has Made for Three Generations
               </h1>
             </Link>
 
-            <p className="text-[15px] sm:text-[16px] text-gray-600 leading-relaxed mb-4">
+            <p className="text-[14px] sm:text-[16px] text-gray-600 leading-relaxed mb-4">
               This one-pan skillet cheeseburger pie recipe layers seasoned ground beef, cheddar, and a golden Bisquick topping for an easy, nostalgic weeknight meal.
             </p>
 

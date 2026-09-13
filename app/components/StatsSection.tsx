@@ -30,7 +30,7 @@ export default function StatsSection() {
         </h2>
 
         {/* 4 Stats Grid / Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 divide-y-2 md:divide-y-0 md:divide-x divide-gray-200">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x divide-gray-200">
           {stats.map((stat, idx) => (
             <div
               key={idx}
