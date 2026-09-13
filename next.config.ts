@@ -15,16 +15,16 @@ import type { NextConfig } from "next";
 //
 const CSP_DIRECTIVES = [
   "default-src 'self'",
-  // Next.js requires 'unsafe-inline' for inline scripts during hydration (App Router)
-  "script-src 'self' 'unsafe-inline'",
+  // Next.js requires 'unsafe-inline' for inline scripts during hydration (App Router) + Google Tag Manager
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
   // next/font injects inline styles; Google Fonts CSS is fetched from googleapis.com
   "style-src 'self' 'unsafe-inline' fonts.googleapis.com",
-  // Self-hosted images + data URIs for favicons/thumbnails
-  "img-src 'self' data: blob:",
+  // Self-hosted images + data URIs for favicons/thumbnails + GA tracking pixels
+  "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
   // Google Fonts font files are served from gstatic.com
   "font-src 'self' fonts.gstatic.com",
-  // Only self for API calls (no third-party analytics yet)
-  "connect-src 'self'",
+  // API calls + Google Analytics + Vercel Analytics
+  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://vitals.vercel-insights.com",
   // No iframes needed — deny all
   "frame-src 'none'",
   // Prevent this site from being embedded in any iframe (modern browsers)

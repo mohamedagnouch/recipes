@@ -319,11 +319,11 @@ export function getSecurityHeaders(): Record<string, string> {
     // CSP — matches next.config.ts exactly
     "Content-Security-Policy": [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline'",
+      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
       "style-src 'self' 'unsafe-inline' fonts.googleapis.com",
-      "img-src 'self' data: blob:",
+      "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
       "font-src 'self' fonts.gstatic.com",
-      "connect-src 'self'",
+      "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://vitals.vercel-insights.com",
       "frame-src 'none'",
       "frame-ancestors 'none'",
       "upgrade-insecure-requests",
