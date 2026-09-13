@@ -19,11 +19,30 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dishora - Recipes for a better table",
-  description: "Delicious recipes, cooking tips, and culinary inspiration.",
+  metadataBase: new URL("https://dishora.com"),
+  title: {
+    default: "Dishora — Easy Recipes, Kitchen Guides & Food News",
+    template: "%s | Dishora",
+  },
+  description: "Dishora offers over 3,600 triple-tested recipes, grocery news, and foolproof cooking guides for home cooks in the US and Canada.",
   icons: {
     icon: "/images/dishora-logo.png",
     apple: "/images/dishora-logo.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://dishora.com",
+    siteName: "Dishora",
+    title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
+    description: "Triple-tested recipes, grocery news, and foolproof cooking guides for home cooks.",
+    images: [{ url: "/images/cheeseburger-pie.jpg", width: 1200, height: 630, alt: "Dishora Home Cooking" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
+    description: "Triple-tested recipes, grocery news, and foolproof cooking guides.",
+    images: ["/images/cheeseburger-pie.jpg"],
   },
 };
 

@@ -23,7 +23,7 @@ const latestNews: NewsItem[] = [
     timeAgo: "20 MINUTES AGO",
     title: "The $1.50 Dollar Tree Find I Wish I Bought Sooner",
     author: "By Kim Osborne",
-    imageUrl: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=300&auto=format&fit=crop&q=80",
+    imageUrl: "/images/food-news/canadian-grocery-aisle.jpg",
     imageAlt: "Dollar Tree grocery shelves",
   },
   {
@@ -33,7 +33,7 @@ const latestNews: NewsItem[] = [
     timeAgo: "58 MINUTES AGO",
     title: "I Cooked Chicken the Same Way for Years—This One Change Made It So Much Better",
     author: "By Sam Dir",
-    imageUrl: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=300&auto=format&fit=crop&q=80",
+    imageUrl: "/images/tip-roast-chicken.jpg",
     imageAlt: "Crispy roasted chicken",
   },
   {
@@ -43,7 +43,7 @@ const latestNews: NewsItem[] = [
     timeAgo: "1 HOUR AGO",
     title: "I Asked 3 Chefs If Grass-Fed Butter Is Worth Buying—They All Said the Same Thing",
     author: "By Molly Allen",
-    imageUrl: "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=300&auto=format&fit=crop&q=80",
+    imageUrl: "/images/tip-grass-fed-butter.jpg",
     imageAlt: "Fresh grass-fed butter block",
   },
   {
@@ -53,7 +53,7 @@ const latestNews: NewsItem[] = [
     timeAgo: "5 HOURS AGO",
     title: "I Asked 4 Chefs If Beef Tallow Is Worth Buying—They All Said the Same Thing",
     author: "By Laurel Randolph",
-    imageUrl: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=300&auto=format&fit=crop&q=80",
+    imageUrl: "/images/tip-beef-tallow.jpg",
     imageAlt: "Whipped beef tallow",
   },
   {
@@ -63,7 +63,7 @@ const latestNews: NewsItem[] = [
     timeAgo: "6 HOURS AGO",
     title: "The Only Way I'm Making Avocado Toast From Now on (It's Genius)",
     author: "By Laurel Randolph",
-    imageUrl: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=300&auto=format&fit=crop&q=80",
+    imageUrl: "/images/avocado-bean-toast.jpg",
     imageAlt: "Delicious avocado toast with seasoning",
   },
 ];

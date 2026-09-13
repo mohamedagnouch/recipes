@@ -25,7 +25,7 @@ const teamSlides: TeamMember[][] = [
       role: "ASSOCIATE EDITORIAL DIRECTOR",
       department: "Editorial & Strategy",
       bgColor: "#fae8a4", // Warm yellow halo
-      avatarUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230c5354"/><stop offset="100%" stop-color="%23009b72"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g1)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MS</text></svg>`,
       bio: "15+ years directing food editorial with a focus on accessible, seasonal home cooking and stress-free weeknight meals.",
       favoriteRecipe: "4-Ingredient Old Bay Pasta",
       favoriteRecipeSlug: "4-ingredient-old-bay-pasta",
@@ -37,7 +37,7 @@ const teamSlides: TeamMember[][] = [
       role: "SENIOR DIGITAL ART DIRECTOR",
       department: "Art & Visuals",
       bgColor: "#c7f0db", // Soft mint halo
-      avatarUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23059669"/><stop offset="100%" stop-color="%2310b981"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g2)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">SC</text></svg>`,
       bio: "Award-winning art director and culinary visual stylist shaping the vibrant visual identity of Simply Recipes.",
       favoriteRecipe: "Shortcut Cookies and Cream Ice Cream",
       favoriteRecipeSlug: "shortcut-cookies-and-cream-ice-cream",
@@ -49,7 +49,7 @@ const teamSlides: TeamMember[][] = [
       role: "SENIOR EDITOR, RECIPES",
       department: "Recipe Development",
       bgColor: "#fed7aa", // Peach halo
-      avatarUrl: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23ea580c"/><stop offset="100%" stop-color="%23f97316"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g3)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">AC</text></svg>`,
       bio: "Test kitchen veteran who has tested, written, and perfected more than 600 family comfort food recipes.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
@@ -61,7 +61,7 @@ const teamSlides: TeamMember[][] = [
       role: "EDITORIAL PROJECTS MANAGER",
       department: "Test Kitchen Operations",
       bgColor: "#bbf7d0", // Greenish halo
-      avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230d9488"/><stop offset="100%" stop-color="%2314b8a6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g4)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MP</text></svg>`,
       bio: "Coordinates our global network of 40+ freelance testers, ensuring every recipe passes our rigorous 3-step kitchen trial.",
       favoriteRecipe: "The One-Pan Cheeseburger Pie",
       favoriteRecipeSlug: "the-one-pan-cheeseburger-pie",
@@ -76,7 +76,7 @@ const teamSlides: TeamMember[][] = [
       role: "SENIOR CULINARY PRODUCER",
       department: "Recipe Development",
       bgColor: "#fef08a", // Sunny yellow halo
-      avatarUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23d97706"/><stop offset="100%" stop-color="%23f59e0b"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g5)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">LR</text></svg>`,
       bio: "Best-selling cookbook author and test kitchen chef specializing in quick pressure cooker and BBQ recipes.",
       favoriteRecipe: "Cowboy Corn",
       favoriteRecipeSlug: "cowboy-corn",
@@ -88,7 +88,7 @@ const teamSlides: TeamMember[][] = [
       role: "BAKING & DESSERT EDITOR",
       department: "Baking & Pastry",
       bgColor: "#ddd6fe", // Lavender halo
-      avatarUrl: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%237c3aed"/><stop offset="100%" stop-color="%238b5cf6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g6)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MA</text></svg>`,
       bio: "Professional baker and food writer sharing foolproof bread, pastry, and dessert techniques for home ovens.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
@@ -100,7 +100,7 @@ const teamSlides: TeamMember[][] = [
       role: "TEST KITCHEN CHEF",
       department: "Culinary Testing",
       bgColor: "#bae6fd", // Sky blue halo
-      avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230284c7"/><stop offset="100%" stop-color="%230ea5e9"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g7)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">SD</text></svg>`,
       bio: "Culinary school graduate focusing on knife skills, cast-iron searing, and protein cookery.",
       favoriteRecipe: "The One-Pan Cheeseburger Pie",
       favoriteRecipeSlug: "the-one-pan-cheeseburger-pie",
@@ -112,7 +112,7 @@ const teamSlides: TeamMember[][] = [
       role: "NUTRITION & GROCERY SPECIALIST",
       department: "Nutrition & Budget",
       bgColor: "#fed7aa", // Peach halo
-      avatarUrl: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23c2410c"/><stop offset="100%" stop-color="%23ea580c"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g8)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">KO</text></svg>`,
       bio: "Dietitian and budget-friendly grocery expert finding the best value ingredients and health-conscious swaps.",
       favoriteRecipe: "4-Ingredient Old Bay Pasta",
       favoriteRecipeSlug: "4-ingredient-old-bay-pasta",
@@ -127,7 +127,7 @@ const teamSlides: TeamMember[][] = [
       role: "FOUNDER & EXECUTIVE ADVISOR",
       department: "Founding Team",
       bgColor: "#fef08a", // Sunny yellow halo
-      avatarUrl: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23b45309"/><stop offset="100%" stop-color="%23d97706"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g9)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">EB</text></svg>`,
       bio: "Founded Simply Recipes in 2003 as a family recipe diary. Pioneered digital recipe testing and home cooking community blogs.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
@@ -139,7 +139,7 @@ const teamSlides: TeamMember[][] = [
       role: "CULINARY STRATEGIST",
       department: "Strategy",
       bgColor: "#c7f0db", // Mint halo
-      avatarUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230f766e"/><stop offset="100%" stop-color="%2314b8a6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g10)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">GY</text></svg>`,
       bio: "Former restaurant pastry chef focusing on modern flavor pairings and streamlining complex pastry for home cooks.",
       favoriteRecipe: "Shortcut Cookies and Cream Ice Cream",
       favoriteRecipeSlug: "shortcut-cookies-and-cream-ice-cream",
@@ -151,7 +151,7 @@ const teamSlides: TeamMember[][] = [
       role: "SENIOR FOOD WRITER",
       department: "Food & Culture",
       bgColor: "#fed7aa", // Peach halo
-      avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g11" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23be123c"/><stop offset="100%" stop-color="%23e11d48"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g11)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">DG</text></svg>`,
       bio: "Food journalist exploring pantry history, international spices, and generational comfort food stories.",
       favoriteRecipe: "Cowboy Corn",
       favoriteRecipeSlug: "cowboy-corn",
@@ -163,7 +163,7 @@ const teamSlides: TeamMember[][] = [
       role: "LEAD VIDEO PRODUCER",
       department: "Media & Video",
       bgColor: "#ddd6fe", // Lavender halo
-      avatarUrl: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200&auto=format&fit=crop&q=80",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g12" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%236d28d9"/><stop offset="100%" stop-color="%237c3aed"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g12)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">ST</text></svg>`,
       bio: "Culinary producer bringing recipes to life with crisp visual guides and foolproof step-by-step videos.",
       favoriteRecipe: "4-Ingredient Old Bay Pasta",
       favoriteRecipeSlug: "4-ingredient-old-bay-pasta",

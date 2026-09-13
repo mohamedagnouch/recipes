@@ -1,181 +1,76 @@
 /**
- * sitemap.ts — Dishora Dynamic Sitemap
+ * app/sitemap.ts — Dishora Dynamic Sitemap
  *
- * Next.js 16 App Router native sitemap generation.
- * Accessible at /sitemap.xml
+ * Accessible at /sitemap.xml (Next.js 16 App Router native)
  *
- * Includes all static pages with appropriate priorities and changeFrequencies.
- * Add dynamic recipe slugs below once a data source is available.
+ * Rules:
+ * - Only include routes that have a real page.tsx
+ * - Exclude /my-recipes and /search (user-specific / no SEO value)
+ * - Dynamic [slug] routes excluded until a data source is available
  */
 
 import { MetadataRoute } from "next";
 
-const SITE_URL = "https://dishora.com";
+const BASE = "https://dishora.com";
+const now = new Date();
+
+// Helper to build an entry with defaults
+function page(
+  path: string,
+  priority: number,
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]
+): MetadataRoute.Sitemap[number] {
+  return { url: `${BASE}${path}`, lastModified: now, changeFrequency, priority };
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  return [
+    // ── Home ────────────────────────────────────────────────────────────────
+    page("/",                        1.0, "daily"),
 
-  // ─── STATIC PAGES ──────────────────────────────────────────────────────────
+    // ── Recipe hubs (high SEO value) ────────────────────────────────────────
+    page("/recipes",                 0.9, "daily"),
+    page("/dinner",                  0.8, "weekly"),
+    page("/breakfast",               0.8, "weekly"),
+    page("/lunch",                   0.7, "weekly"),
+    page("/desserts",                0.7, "weekly"),
+    page("/appetizers",              0.7, "weekly"),
+    page("/in-the-kitchen",          0.7, "weekly"),
+    page("/recipe-round-up",         0.7, "weekly"),
+    page("/recipe-collections",      0.6, "weekly"),
 
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: SITE_URL,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 1.0,
-    },
-    // Category hubs
-    {
-      url: `${SITE_URL}/recipes`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/dinner`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/breakfast`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/lunch`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/desserts`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/appetizers`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/in-the-kitchen`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/recipe-round-up`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/recipe-collections`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-    {
-      url: `${SITE_URL}/food-news`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/cleaning-and-organizing`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    // Freezies Awards
-    {
-      url: `${SITE_URL}/freezies`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    // My Recipes (user feature)
-    {
-      url: `${SITE_URL}/my-recipes`,
-      lastModified: now,
-      changeFrequency: "never",
-      priority: 0.3,
-    },
-    // Legal & Trust pages
-    {
-      url: `${SITE_URL}/about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${SITE_URL}/editorial-guidelines`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/privacy-policy`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/terms-of-service`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/contact`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/advertise`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/careers`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/sweepstakes`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    // Search (noindex recommended, but included for crawlability)
-    {
-      url: `${SITE_URL}/search`,
-      lastModified: now,
-      changeFrequency: "never",
-      priority: 0.2,
-    },
+    // ── Editorial / News ────────────────────────────────────────────────────
+    page("/food-news",               0.8, "daily"),
+
+    // ── Lifestyle ───────────────────────────────────────────────────────────
+    page("/cleaning-and-organizing", 0.5, "monthly"),
+    // Note: /cleaning-organizing also exists as a directory — same content,
+    // canonical handled by Next.js. We only list the primary slug here.
+
+    // ── Freezies Awards ─────────────────────────────────────────────────────
+    page("/freezies",                0.7, "monthly"),
+    page("/freezies/about",          0.5, "monthly"),
+    page("/freezies/announcement",   0.5, "monthly"),
+    page("/freezies/methodology",    0.5, "monthly"),
+    page("/freezies/contact",        0.4, "monthly"),
+
+    // ── Surprise Me ─────────────────────────────────────────────────────────
+    page("/surprise-me",             0.4, "never"),
+
+    // ── Trust & Legal ───────────────────────────────────────────────────────
+    page("/about",                   0.6, "monthly"),
+    page("/editorial-guidelines",    0.5, "monthly"),
+    page("/privacy-policy",          0.4, "monthly"),
+    page("/terms-of-service",        0.4, "monthly"),
+    page("/contact",                 0.5, "monthly"),
+    page("/advertise",               0.5, "monthly"),
+    page("/careers",                 0.4, "monthly"),
+    page("/sweepstakes",             0.5, "monthly"),
+
+    // ── Excluded intentionally ───────────────────────────────────────────────
+    // /my-recipes     — user-specific localStorage page, no SEO value
+    // /search         — no static content, no SEO value
+    // /recipes/[slug] — dynamic, no data source yet (add when CMS is connected)
+    // /food-news/[slug] — same
   ];
-
-  // ─── DYNAMIC RECIPE PAGES ──────────────────────────────────────────────────
-  // TODO: When you have a CMS or database, fetch slugs here and map them.
-  // Example (uncomment and adapt):
-  //
-  // const recipes = await fetchAllRecipeSlugs();
-  // const recipePages: MetadataRoute.Sitemap = recipes.map((slug) => ({
-  //   url: `${SITE_URL}/recipes/${slug}`,
-  //   lastModified: new Date(),
-  //   changeFrequency: "monthly",
-  //   priority: 0.75,
-  // }));
-  //
-  // return [...staticPages, ...recipePages];
-
-  return staticPages;
 }

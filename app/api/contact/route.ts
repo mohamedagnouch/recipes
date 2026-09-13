@@ -15,7 +15,18 @@ import { checkRateLimit, getClientIp, isValidEmail, sanitizeInput, isSpamContent
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000; // 10 minutes
 const RATE_LIMIT_MAX = 3;                       // Max 3 submissions per 10 minutes per IP
 
-const ALLOWED_CATEGORIES = ["editorial", "recipe", "advertising", "technical", "partnership", "other"] as const;
+const ALLOWED_CATEGORIES = [
+  "editorial",
+  "correction",
+  "advertising",
+  "press",
+  "privacy",
+  "general",
+  "recipe",
+  "technical",
+  "partnership",
+  "other",
+] as const;
 
 // ─── TYPES ────────────────────────────────────────────────────────────────────
 

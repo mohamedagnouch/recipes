@@ -14,20 +14,34 @@ export default function ContactPage() {
     message: "",
     consent: false,
   });
+  // Honeypot: hidden field — bots fill it in, humans don't see it
+  const [honeypot, setHoneypot] = useState("");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [ticketId, setTicketId] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!formData.name.trim() || !formData.email.trim() || !formData.subject.trim() || !formData.message.trim()) {
-      setErrorMessage("Please complete all required fields.");
+    // Client-side validation (server re-validates too)
+    if (!formData.name.trim() || formData.name.trim().length < 2) {
+      setErrorMessage("Please enter your full name (at least 2 characters).");
       return;
     }
-
+    if (!formData.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      setErrorMessage("Please enter a valid email address.");
+      return;
+    }
+    if (!formData.subject.trim() || formData.subject.trim().length < 5) {
+      setErrorMessage("Please enter a subject (at least 5 characters).");
+      return;
+    }
+    if (!formData.message.trim() || formData.message.trim().length < 20) {
+      setErrorMessage("Please enter a message (at least 20 characters).");
+      return;
+    }
     if (!formData.consent) {
       setErrorMessage("Please agree to the privacy policy to submit your message.");
       return;
@@ -36,21 +50,36 @@ export default function ContactPage() {
     setErrorMessage("");
     setIsSubmitting(true);
 
-    // Simulate network submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      const randomId = "DSH-" + Math.floor(100000 + Math.random() * 900000);
-      setTicketId(randomId);
-      setSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        category: "editorial",
-        subject: "",
-        message: "",
-        consent: false,
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, website: honeypot }),
       });
-    }, 850);
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        if (res.status === 429) {
+          setErrorMessage("Too many submissions. Please wait a few minutes before trying again.");
+        } else if (data?.error) {
+          setErrorMessage(data.error);
+        } else {
+          setErrorMessage("Something went wrong. Please try again shortly.");
+        }
+        setIsSubmitting(false);
+        return;
+      }
+
+      setTicketId(data.ticketId ?? "");
+      setSubmitted(true);
+      setFormData({ name: "", email: "", category: "editorial", subject: "", message: "", consent: false });
+      setHoneypot("");
+    } catch {
+      setErrorMessage("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const faqList = [
@@ -145,6 +174,17 @@ export default function ContactPage() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Honeypot — hidden from real users, traps bots */}
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  autoComplete="off"
+                  tabIndex={-1}
+                  aria-hidden="true"
+                  style={{ display: "none" }}
+                />
                 {errorMessage && (
                   <div className="p-3 bg-red-50 text-red-700 text-xs rounded-xl border border-red-200">
                     {errorMessage}
@@ -160,6 +200,7 @@ export default function ContactPage() {
                       id="name"
                       type="text"
                       required
+                      maxLength={100}
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       placeholder="e.g., Alex Morgan"
@@ -175,6 +216,7 @@ export default function ContactPage() {
                       id="email"
                       type="email"
                       required
+                      maxLength={320}
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       placeholder="alex@example.com"
@@ -211,6 +253,7 @@ export default function ContactPage() {
                       id="subject"
                       type="text"
                       required
+                      maxLength={200}
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                       placeholder="e.g., Question about Lemon Spaghetti"
@@ -227,6 +270,7 @@ export default function ContactPage() {
                     id="message"
                     required
                     rows={5}
+                    maxLength={3000}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder="How can we help? Please include recipe links or specific details if applicable..."

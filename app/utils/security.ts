@@ -1,7 +1,20 @@
 /**
  * security.ts — Dishora Security Utilities
- * Shared security helpers for middleware and API routes.
- * Compatible with Next.js Edge Runtime and Node.js runtime.
+ *
+ * Shared helpers used by middleware.ts and API routes.
+ * Compatible with both Node.js Runtime and Vercel Edge Runtime.
+ *
+ * ─── RATE LIMITER LIMITATION ────────────────────────────────────────────────
+ * The rate limiter below uses a module-level Map (in-memory, per-process).
+ * On Vercel Edge, each Edge Worker instance is isolated — state is NOT shared
+ * between instances or across regions. This means:
+ *   - A bot sending 10 req/s across 3 edge workers sees 10/3 req per worker
+ *   - The rate limiter provides soft protection against unsophisticated bots
+ *   - It is NOT a distributed rate limiter and should NOT be treated as one
+ *   - It is designed fail-open: if anything goes wrong, requests are allowed
+ *
+ * For distributed rate limiting, use Upstash Redis with @upstash/ratelimit.
+ * ─────────────────────────────────────────────────────────────────────────────
  */
 
 // ─── TYPES ─────────────────────────────────────────────────────────────────
@@ -288,44 +301,31 @@ export function getClientIp(headers: Headers): string {
 // ─── SECURITY HEADERS ────────────────────────────────────────────────────────
 
 /**
- * Returns the full set of security headers to add to every response.
- * CSP is permissive enough for Google AdSense and Analytics.
+ * Returns the security headers to inject on every middleware response.
+ * Must stay in sync with the CSP defined in next.config.ts.
+ *
+ * NOTE: next.config.ts is the authoritative source for headers on page routes.
+ * This function is used by middleware only for headers on API/dynamic responses
+ * where next.config.ts headers() may not fire (e.g., 403/429 error responses).
  */
 export function getSecurityHeaders(): Record<string, string> {
   return {
-    // Prevent clickjacking
     "X-Frame-Options": "DENY",
-    // Prevent MIME sniffing
     "X-Content-Type-Options": "nosniff",
-    // Enforce HTTPS for 1 year, including subdomains
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-    // Control referrer information
     "Referrer-Policy": "strict-origin-when-cross-origin",
-    // Restrict powerful browser features
-    "Permissions-Policy":
-      "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()",
-    // Enable DNS prefetching for performance
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
     "X-DNS-Prefetch-Control": "on",
-    // Remove X-Powered-By to avoid fingerprinting
-    "X-Powered-By": "",
-    // Content Security Policy — AdSense + Analytics compatible
+    // CSP — matches next.config.ts exactly
     "Content-Security-Policy": [
       "default-src 'self'",
-      // Scripts: self + Google ecosystem (Analytics, AdSense, Tag Manager)
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' fonts.googleapis.com *.googletagmanager.com *.googlesyndication.com *.google-analytics.com pagead2.googlesyndication.com adservice.google.com",
-      // Styles: self + Google Fonts
+      "script-src 'self' 'unsafe-inline'",
       "style-src 'self' 'unsafe-inline' fonts.googleapis.com",
-      // Images: self + data URIs + Google domains
-      "img-src 'self' data: blob: *.googleusercontent.com *.googlesyndication.com *.google.com *.gstatic.com",
-      // Fonts: self + Google Fonts CDN
+      "img-src 'self' data: blob:",
       "font-src 'self' fonts.gstatic.com",
-      // Network requests: self + Analytics
-      "connect-src 'self' *.google-analytics.com *.analytics.google.com *.googlesyndication.com *.doubleclick.net",
-      // iFrames: AdSense + DoubleClick
-      "frame-src 'self' *.googlesyndication.com *.doubleclick.net",
-      // Prevent embedding in foreign frames
+      "connect-src 'self'",
+      "frame-src 'none'",
       "frame-ancestors 'none'",
-      // Upgrade HTTP to HTTPS automatically
       "upgrade-insecure-requests",
     ].join("; "),
   };
