@@ -6,6 +6,7 @@ import Link from "next/link";
 
 interface NewsItem {
   id: number;
+  slug: string;
   category: string;
   timeAgo: string;
   title: string;
@@ -17,6 +18,7 @@ interface NewsItem {
 const latestNews: NewsItem[] = [
   {
     id: 1,
+    slug: "dollar-tree-1-50-find-wish-bought-sooner",
     category: "GROCERIES",
     timeAgo: "20 MINUTES AGO",
     title: "The $1.50 Dollar Tree Find I Wish I Bought Sooner",
@@ -26,6 +28,7 @@ const latestNews: NewsItem[] = [
   },
   {
     id: 2,
+    slug: "cooked-chicken-same-way-one-change-so-much-better",
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "58 MINUTES AGO",
     title: "I Cooked Chicken the Same Way for Years—This One Change Made It So Much Better",
@@ -35,6 +38,7 @@ const latestNews: NewsItem[] = [
   },
   {
     id: 3,
+    slug: "asked-3-chefs-if-grass-fed-butter-worth-buying",
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "1 HOUR AGO",
     title: "I Asked 3 Chefs If Grass-Fed Butter Is Worth Buying—They All Said the Same Thing",
@@ -44,6 +48,7 @@ const latestNews: NewsItem[] = [
   },
   {
     id: 4,
+    slug: "asked-4-chefs-if-beef-tallow-worth-buying",
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "5 HOURS AGO",
     title: "I Asked 4 Chefs If Beef Tallow Is Worth Buying—They All Said the Same Thing",
@@ -53,6 +58,7 @@ const latestNews: NewsItem[] = [
   },
   {
     id: 5,
+    slug: "only-way-making-avocado-toast-from-now-on-genius",
     category: "GROCERIES",
     timeAgo: "6 HOURS AGO",
     title: "The Only Way I'm Making Avocado Toast From Now on (It's Genius)",
@@ -154,7 +160,7 @@ export default function HeroSection() {
                       <span className="text-gray-500 font-semibold">{news.timeAgo}</span>
                     </div>
 
-                    <Link href={`#news-${news.id}`}>
+                    <Link href={`/food-news/${news.slug}`}>
                       <h3 className="text-[14.5px] sm:text-[15px] font-bold text-gray-900 leading-snug group-hover:text-[#0c5354] transition-colors mb-2">
                         {news.title}
                       </h3>
@@ -167,7 +173,7 @@ export default function HeroSection() {
 
                   {/* Thumbnail (Right) */}
                   <Link
-                    href={`#news-${news.id}`}
+                    href={`/food-news/${news.slug}`}
                     className="shrink-0 w-20 h-20 sm:w-[90px] sm:h-[90px] rounded-xs overflow-hidden bg-gray-100 relative group-hover:opacity-90 transition-opacity"
                   >
                     <img

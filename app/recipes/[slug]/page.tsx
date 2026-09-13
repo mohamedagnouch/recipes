@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { recipesData, Recipe, ReviewItem } from "../../data/recipes";
+import { isFavorite, toggleFavorite } from "../../utils/favorites";
 
 // Helper function to scale ingredient quantities
 function scaleIngredient(text: string, factor: number): string {
@@ -122,14 +123,13 @@ export default function RecipeDetailPage({
 
   // Load persistent saved items
   useEffect(() => {
+    setIsSaved(isFavorite(recipe.slug));
+    const handleFavUpdate = () => {
+      setIsSaved(isFavorite(recipe.slug));
+    };
+    window.addEventListener("dishora_favorites_updated", handleFavUpdate);
+
     try {
-      const savedItems = localStorage.getItem("simply_recipes_saved");
-      if (savedItems) {
-        const parsed = JSON.parse(savedItems);
-        if (parsed.includes(recipe.slug)) {
-          setIsSaved(true);
-        }
-      }
       const savedRel = localStorage.getItem("simply_recipes_saved_ids");
       if (savedRel) {
         setSavedRelated(JSON.parse(savedRel));
@@ -137,6 +137,10 @@ export default function RecipeDetailPage({
     } catch (e) {
       console.log(e);
     }
+
+    return () => {
+      window.removeEventListener("dishora_favorites_updated", handleFavUpdate);
+    };
   }, [recipe.slug]);
 
   // Scroll listener for sticky quick-action bar
@@ -231,20 +235,8 @@ export default function RecipeDetailPage({
   }, [keepScreenAwake]);
 
   const toggleSaveRecipe = () => {
-    const nextSaved = !isSaved;
-    setIsSaved(nextSaved);
-    try {
-      const stored = localStorage.getItem("simply_recipes_saved");
-      let list = stored ? JSON.parse(stored) : [];
-      if (nextSaved) {
-        if (!list.includes(recipe.slug)) list.push(recipe.slug);
-      } else {
-        list = list.filter((s: string) => s !== recipe.slug);
-      }
-      localStorage.setItem("simply_recipes_saved", JSON.stringify(list));
-    } catch (e) {
-      console.log(e);
-    }
+    const newState = toggleFavorite(recipe.slug);
+    setIsSaved(newState);
   };
 
   const toggleIngredient = (index: number) => {
@@ -351,8 +343,8 @@ export default function RecipeDetailPage({
       <div className="print-only border-b-2 border-black pb-3 mb-4">
         <div className="flex justify-between items-end mb-1">
           <div>
-            <h2 className="text-xl font-bold font-serif text-[#0c5354]">Simply Recipes</h2>
-            <span className="text-[10px] text-gray-600">www.simplyrecipes.com</span>
+            <h2 className="text-xl font-bold font-serif text-[#0c5354]">Dishora</h2>
+            <span className="text-[10px] text-gray-600">www.dishora.com</span>
           </div>
           <span className="text-[10px] text-gray-600">
             {printMode === "ingredients" ? "🛒 INGREDIENTS LIST" : "🍽️ FULL RECIPE CARD"}

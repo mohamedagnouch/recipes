@@ -3,17 +3,18 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
 import { recipesData, Recipe } from "../data/recipes";
+import { useFavorites } from "../utils/favorites";
+import FavoritesDrawer from "./FavoritesDrawer";
 
 export default function MyRecipesCarousel() {
-  const [savedRecipes, setSavedRecipes] = useState<number[]>([]);
+  const { isFav, toggleFav } = useFavorites();
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const toggleSave = (id: number, e: React.MouseEvent) => {
+  const toggleSave = (slug: string, e: React.MouseEvent) => {
     e.stopPropagation();
-    setSavedRecipes((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
-    );
+    toggleFav(slug);
   };
 
   const toggleFlip = (id: number) => {
@@ -41,13 +42,16 @@ export default function MyRecipesCarousel() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
           <div className="flex flex-col">
             {/* Logo */}
-            <div className="flex items-center gap-1.5 mb-1.5">
-              <span className="text-[20px] inline-block -rotate-12">💖</span>
+            <button
+              onClick={() => setIsDrawerOpen(true)}
+              className="flex items-center gap-1.5 mb-1.5 cursor-pointer text-left group w-fit"
+            >
+              <span className="text-[20px] inline-block -rotate-12 group-hover:scale-110 transition-transform">💖</span>
               <span className="font-extrabold text-[22px] tracking-tight">
                 <span className="text-[#e71d73]">my</span>
                 <span className="text-black">recipes</span>
               </span>
-            </div>
+            </button>
 
             {/* Title & Subtitle */}
             <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
@@ -55,7 +59,7 @@ export default function MyRecipesCarousel() {
                 Start Saving These Dishes
               </h2>
               <p className="text-sm text-gray-600 font-normal">
-                Keep your Simply Recipes favorites in MyRecipes for free.
+                Keep your favorite recipes saved in My Recipes for instant access.
               </p>
             </div>
           </div>
@@ -91,7 +95,7 @@ export default function MyRecipesCarousel() {
         >
           {recipesData.map((recipe) => {
             const isFlipped = flippedCards.includes(recipe.id);
-            const isSaved = savedRecipes.includes(recipe.id);
+            const isSaved = isFav(recipe.slug);
 
             return (
               <div
@@ -114,7 +118,6 @@ export default function MyRecipesCarousel() {
                         alt={recipe.imageAlt}
                         className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                         onError={(e) => {
-                          // Fallback in case of any loading issue
                           (e.target as HTMLImageElement).src = "/images/old-bay-pasta.jpg";
                         }}
                       />
@@ -154,7 +157,7 @@ export default function MyRecipesCarousel() {
                       {/* Save Recipe Button */}
                       <div className="flex flex-col gap-1.5">
                         <button
-                          onClick={(e) => toggleSave(recipe.id, e)}
+                          onClick={(e) => toggleSave(recipe.slug, e)}
                           className={`w-full py-2 px-3 border rounded-xs font-bold text-[12.5px] flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                             isSaved
                               ? "border-[#e71d73] bg-[#fdf2f6] text-[#e71d73]"
@@ -216,7 +219,7 @@ export default function MyRecipesCarousel() {
                       </Link>
 
                       <button
-                        onClick={(e) => toggleSave(recipe.id, e)}
+                        onClick={(e) => toggleSave(recipe.slug, e)}
                         className={`w-full py-1.5 px-3 rounded-xs font-bold text-xs flex items-center justify-center gap-1.5 transition-colors ${
                           isSaved
                             ? "bg-[#e71d73] text-white"
@@ -242,6 +245,12 @@ export default function MyRecipesCarousel() {
         </div>
 
       </div>
+
+      {/* Drawer */}
+      <FavoritesDrawer
+        isOpen={isDrawerOpen}
+        onClose={() => setIsDrawerOpen(false)}
+      />
     </section>
   );
 }

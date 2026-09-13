@@ -19,8 +19,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Simply Recipes - Food, Cooking, and Recipes",
-  description: "Delicious recipes and cooking tips.",
+  title: "Dishora - Recipes for a better table",
+  description: "Delicious recipes, cooking tips, and culinary inspiration.",
+  icons: {
+    icon: "/images/dishora-logo.png",
+    apple: "/images/dishora-logo.png",
+  },
 };
 
 export default function RootLayout({

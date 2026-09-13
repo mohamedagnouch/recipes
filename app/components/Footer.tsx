@@ -2,11 +2,50 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+
+// Primary Food & Recipe hubs with active path matching
+const PRIMARY_SECTIONS = [
+  { label: "RECIPES", href: "/recipes", match: ["/recipes", "/appetizers", "/breakfast", "/lunch", "/desserts", "/freezies"] },
+  { label: "DINNER & MEALS", href: "/dinner", match: ["/dinner"] },
+  { label: "IN THE KITCHEN", href: "/in-the-kitchen", match: ["/in-the-kitchen", "/cleaning-and-organizing", "/cleaning-organizing"] },
+  { label: "RECIPE ROUND-UPS", href: "/recipe-round-up", match: ["/recipe-round-up", "/recipe-collections"] },
+  { label: "FOOD NEWS & TRENDS", href: "/food-news", match: ["/food-news"] },
+];
+
+// Editorial & Legal links
+const ABOUT_LEGAL_SECTIONS = [
+  { label: "About Us", href: "/about" },
+  { label: "Terms of Service", href: "/terms-of-service" },
+  { label: "Editorial Guidelines", href: "/editorial-guidelines" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+];
+
+// Business, Partnership & Contact links
+const BUSINESS_SECTIONS = [
+  { label: "Advertise", href: "/advertise" },
+  { label: "Careers", href: "/careers" },
+  { label: "Sweepstakes", href: "/sweepstakes" },
+  { label: "Contact", href: "/contact" },
+];
 
 export default function Footer() {
+  const pathname = usePathname();
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [showModal, setShowModal] = useState(false);
+
+  const isPrimaryActive = (section: typeof PRIMARY_SECTIONS[0]) => {
+    if (!pathname) return false;
+    if (pathname === section.href) return true;
+    return section.match.some((p) => pathname.startsWith(p));
+  };
+
+  const isLinkActive = (href: string) => {
+    if (!pathname) return false;
+    return pathname === href || pathname.startsWith(href + "/");
+  };
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,55 +65,25 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-[#f6f8f8] border-t border-gray-200 text-gray-800 transition-colors">
-      {/* Main Footer Links & Brand Section (Matches Reference) */}
+      {/* Main Footer Links & Brand Section */}
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-14 items-start">
           
           {/* Left Column: Brand, Newsletters Button & Social Icons */}
           <div className="md:col-span-5 lg:col-span-4 flex flex-col items-start space-y-6">
             
-            {/* Simply Recipes Logo */}
-            <Link href="/" className="flex items-center gap-3.5 group select-none">
-              {/* Flower / Sunburst Icon */}
-              <div className="relative flex items-center justify-center w-11 h-11 transition-transform duration-300 group-hover:scale-105">
-                <svg viewBox="0 0 100 100" className="w-full h-full" fill="none">
-                  {/* Outer Petal Dots (Teal #49bcc3) */}
-                  <circle cx="50" cy="16" r="6.8" fill="#49bcc3" />
-                  <circle cx="74" cy="26" r="6.8" fill="#49bcc3" />
-                  <circle cx="84" cy="50" r="6.8" fill="#49bcc3" />
-                  <circle cx="74" cy="74" r="6.8" fill="#49bcc3" />
-                  <circle cx="50" cy="84" r="6.8" fill="#49bcc3" />
-                  <circle cx="26" cy="74" r="6.8" fill="#49bcc3" />
-                  <circle cx="16" cy="50" r="6.8" fill="#49bcc3" />
-                  <circle cx="26" cy="26" r="6.8" fill="#49bcc3" />
-
-                  {/* Mid Petal Dots */}
-                  <circle cx="50" cy="31" r="5" fill="#49bcc3" />
-                  <circle cx="63.5" cy="36.5" r="5" fill="#49bcc3" />
-                  <circle cx="69" cy="50" r="5" fill="#49bcc3" />
-                  <circle cx="63.5" cy="63.5" r="5" fill="#49bcc3" />
-                  <circle cx="50" cy="69" r="5" fill="#49bcc3" />
-                  <circle cx="36.5" cy="63.5" r="5" fill="#49bcc3" />
-                  <circle cx="31" cy="50" r="5" fill="#49bcc3" />
-                  <circle cx="36.5" cy="36.5" r="5" fill="#49bcc3" />
-
-                  {/* Center Core Circle (Light Aqua #9fe2e5) */}
-                  <circle cx="50" cy="50" r="6.5" fill="#a0e1e4" />
-                </svg>
-              </div>
-
-              {/* Typography */}
-              <div className="flex flex-col leading-none">
-                <span className="font-serif text-[32px] sm:text-[36px] font-bold text-[#0c5354] tracking-tight -mb-1">
-                  Simply
-                </span>
-                <span className="font-sans text-[11px] font-black tracking-[0.28em] text-[#009b72] uppercase pl-0.5">
-                  Recipes
-                </span>
-              </div>
+            {/* Dishora Logo */}
+            <Link href="/" className="flex items-center group select-none py-1">
+              <Image
+                src="/images/dishora-logo.png"
+                alt="Dishora - Recipes for a better table"
+                width={200}
+                height={90}
+                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </Link>
 
-            {/* Newsletters Button (Box outline matching reference) */}
+            {/* Newsletters Button */}
             <div className="w-full max-w-[260px]">
               <button
                 onClick={() => setShowModal(true)}
@@ -116,16 +125,16 @@ export default function Footer() {
                   </svg>
                 </a>
 
-                {/* YouTube */}
+                {/* Threads */}
                 <a
-                  href="https://youtube.com"
+                  href="https://threads.net"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Follow us on YouTube"
+                  aria-label="Follow us on Threads"
                   className="p-1.5 rounded-full hover:text-[#0c5354] hover:bg-teal-50 transition-colors duration-200"
                 >
                   <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    <path d="M12.186 24C5.466 24 0 18.534 0 11.814 0 5.094 5.466 0 12.186 0c6.642 0 11.954 5.234 12.014 11.874l.004.306h-3.64c-.056-4.646-3.83-8.4-8.378-8.4-4.664 0-8.448 3.784-8.448 8.448 0 4.664 3.784 8.448 8.448 8.448 3.444 0 6.42-2.08 7.728-5.088l3.324 1.488C21.848 20.89 17.382 24 12.186 24zm4.184-12.756c-.368-2.618-2.316-4.14-4.57-4.14-2.736 0-4.814 2.194-4.814 5.082 0 2.888 2.078 5.082 4.814 5.082 1.942 0 3.65-1.12 4.358-2.84l-2.05-.88c-.466 1.036-1.34 1.54-2.308 1.54-1.636 0-2.634-1.29-2.634-2.902 0-.256.03-.508.086-.754h7.118v-.188zm-3.67-1.84c.83 0 1.492.518 1.69 1.344h-3.41c.21-.818.88-1.344 1.72-1.344z"/>
                   </svg>
                 </a>
 
@@ -146,97 +155,70 @@ export default function Footer() {
 
           </div>
 
-          {/* Right Columns: Links matching reference exactly */}
+          {/* Right Columns: Links */}
           <div className="md:col-span-7 lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 pt-2">
             
-            {/* Column 1: Primary Recipe Sections (Bold Uppercase) */}
+            {/* Column 1: Primary Recipe Sections (Bold Uppercase with Dynamic Active & Hover state) */}
             <div className="flex flex-col space-y-3.5">
-              <Link
-                href="/recipes"
-                className="font-sans text-[13px] font-black tracking-wider text-gray-900 hover:text-[#0c5354] transition-colors uppercase"
-              >
-                RECIPES
-              </Link>
-              <Link
-                href="#quick-and-easy"
-                className="font-sans text-[13px] font-black tracking-wider text-gray-900 hover:text-[#0c5354] transition-colors uppercase"
-              >
-                QUICK &amp; EASY
-              </Link>
-              <Link
-                href="#in-the-kitchen"
-                className="font-sans text-[13px] font-black tracking-wider text-gray-900 hover:text-[#0c5354] transition-colors uppercase"
-              >
-                IN THE KITCHEN
-              </Link>
-              <Link
-                href="#buying-guides"
-                className="font-sans text-[13px] font-black tracking-wider text-gray-900 hover:text-[#0c5354] transition-colors uppercase"
-              >
-                BUYING GUIDES
-              </Link>
-              <Link
-                href="#holidays-seasons"
-                className="font-sans text-[13px] font-black tracking-wider text-gray-900 hover:text-[#0c5354] transition-colors uppercase"
-              >
-                HOLIDAYS &amp; SEASONS
-              </Link>
+              {PRIMARY_SECTIONS.map((section) => {
+                const active = isPrimaryActive(section);
+                return (
+                  <Link
+                    key={section.href}
+                    href={section.href}
+                    className={`font-sans text-[13px] font-black tracking-wider uppercase transition-all duration-200 flex items-center group ${
+                      active
+                        ? "text-[#0c5354] translate-x-1 font-extrabold"
+                        : "text-gray-900 hover:text-[#0c5354] hover:translate-x-1"
+                    }`}
+                  >
+                    <span className={`inline-block transition-transform duration-200 ${active ? "text-[#009b72] font-black mr-1.5" : "text-transparent group-hover:text-[#009b72] mr-0 group-hover:mr-1.5"}`}>
+                      ▸
+                    </span>
+                    <span>{section.label}</span>
+                  </Link>
+                );
+              })}
             </div>
 
-            {/* Column 2: Legal & About */}
-            <div className="flex flex-col space-y-3.5 text-[13.5px] text-gray-700 font-medium">
-              <Link
-                href="#about-us"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                About Us
-              </Link>
-              <Link
-                href="#terms-of-service"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Terms of Service
-              </Link>
-              <Link
-                href="#editorial-guidelines"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Editorial Guidelines
-              </Link>
-              <Link
-                href="#privacy-policy"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Privacy Policy
-              </Link>
+            {/* Column 2: Legal & About (Dynamic Active & Hover State) */}
+            <div className="flex flex-col space-y-3.5 text-[13.5px] font-medium">
+              {ABOUT_LEGAL_SECTIONS.map((item) => {
+                const active = isLinkActive(item.href);
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`transition-colors duration-200 ${
+                      active
+                        ? "text-[#0c5354] font-bold underline decoration-[#009b72] decoration-2 underline-offset-4"
+                        : "text-gray-700 hover:text-[#0c5354]"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
 
-            {/* Column 3: Business, Careers & Contact */}
-            <div className="flex flex-col space-y-3.5 text-[13.5px] text-gray-700 font-medium">
-              <Link
-                href="#advertise"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Advertise
-              </Link>
-              <Link
-                href="#careers"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Careers
-              </Link>
-              <Link
-                href="#sweepstakes"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Sweepstakes
-              </Link>
-              <Link
-                href="#contact"
-                className="hover:text-[#0c5354] transition-colors"
-              >
-                Contact
-              </Link>
+            {/* Column 3: Business, Careers & Contact (Dynamic Active & Hover State) */}
+            <div className="flex flex-col space-y-3.5 text-[13.5px] font-medium">
+              {BUSINESS_SECTIONS.map((item) => {
+                const active = isLinkActive(item.href);
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`transition-colors duration-200 ${
+                      active
+                        ? "text-[#0c5354] font-bold underline decoration-[#009b72] decoration-2 underline-offset-4"
+                        : "text-gray-700 hover:text-[#0c5354]"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
 
           </div>
@@ -247,10 +229,10 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
             <span>
-              Simply Recipes is part of the <span className="font-semibold text-gray-700">Dotdash Meredith</span> publishing family.
+              Dishora is an independent digital food &amp; lifestyle publication.
             </span>
             <span className="hidden sm:inline text-gray-300">•</span>
-            <span>&copy; {new Date().getFullYear()} Simply Recipes. All rights reserved.</span>
+            <span>&copy; {new Date().getFullYear()} Dishora. All rights reserved.</span>
           </div>
 
           {/* Back to top button */}

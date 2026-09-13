@@ -1636,5 +1636,255 @@ export const foodNewsArticles: NewsArticle[] = [
       { name: "National Chicken Council", detail: "Annual Game Day Wing Report" },
       { name: "American Institute of Food Distribution", detail: "Game Day Retail Expenditure Metrics" }
     ]
+  },
+
+  // ── 33. Dollar Tree Grocery Find ──
+  {
+    id: 33,
+    slug: "dollar-tree-1-50-find-wish-bought-sooner",
+    headline: "The $1.50 Dollar Tree Find I Wish I Bought Sooner",
+    deck: "I used to spend $15+ at specialty cookware stores for small kitchen helpers. This simple $1.50 find has completely transformed my weekly meal prep.",
+    category: "GROCERIES",
+    categoryKey: "GROCERIES",
+    country: "USA",
+    countryBadge: "🇺🇸 USA",
+    author: "By Kim Osborne",
+    date: "Sept 12, 2026",
+    readTime: "3 mins read",
+    imageUrl: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&auto=format&fit=crop&q=80",
+    imageAlt: "Dollar Tree grocery shelves and affordable kitchen tools",
+    trending: true,
+    mostPopular: true,
+    keyFacts: [
+      "Dollar Tree's kitchen aisle now stocks heavy-duty silicone garlic peelers, herb strippers, and glass spice jars for $1.25–$1.50.",
+      "The heavy-gauge silicone baking mats and bench scrapers pass FDA food safety testing and perform comparably to name-brand equivalents.",
+      "Smart home cooks are saving hundreds annually by picking up pantry storage containers and prep tools at discount stores.",
+      "High-turnover locations restock seasonal culinary finds every Tuesday morning."
+    ],
+    content: {
+      whatHappened: "While browsing the household aisle at my local Dollar Tree last month, I spotted a compact silicone garlic sleeve and stainless steel bench scraper for just $1.50 each. Skeptical of budget kitchen gadgets, I brought them home—and within 48 hours, they replaced two expensive tools that had been cluttering my utensil crock for years.",
+      whyItMatters: "Cooking at home is already one of the best ways to combat inflation, but excessive spending on branded gadgets can quickly eat away at grocery savings. Finding durable, functional essentials for under two dollars proves that great cooking doesn't require luxury equipment.",
+      whoIsAffected: "Everyday home cooks, meal prep enthusiasts, and budget-conscious grocery shoppers looking for maximum value.",
+      whatReadersShouldKnow: "Always check the material grade on discount kitchenware. Look for BPA-free plastics, food-grade silicone (rated up to 450°F), and 100% stainless steel. Avoid low-grade non-stick coated items, but stock up on glass jars, prep bowls, and silicone tools."
+    },
+    faq: [
+      {
+        question: "Are Dollar Tree kitchen tools safe for food prep?",
+        answer: "Yes, all cookware and utensils sold at major retail chains in North America must meet FDA safety regulations. Glass, silicone, and stainless steel items are especially safe and long-lasting."
+      },
+      {
+        question: "What are the best items to buy in the Dollar Tree kitchen section?",
+        answer: "Silicone spatulas, bench scrapers, glass storage canisters, parchment paper rounds, and measuring spoons offer the highest quality-to-price ratio."
+      }
+    ],
+    sources: [
+      { name: "Dishora Test Kitchen", detail: "Discount Cookware Longevity & Safety Trials" },
+      { name: "Retail Food Economics Report", detail: "Dollar Store Grocery Sector Expansion 2026" }
+    ]
+  },
+
+  // ── 34. Chicken Cooking Technique ──
+  {
+    id: 34,
+    slug: "cooked-chicken-same-way-one-change-so-much-better",
+    headline: "I Cooked Chicken the Same Way for Years—This One Change Made It So Much Better",
+    deck: "Dry-brining in the refrigerator is the single easiest technique that guarantees shatteringly crisp skin and juicy, seasoned meat throughout.",
+    category: "COOKING TIPS & TECHNIQUES",
+    categoryKey: "TRENDS",
+    country: "USA",
+    countryBadge: "🇺🇸 Culinary Tip",
+    author: "By Sam Dir",
+    date: "Sept 12, 2026",
+    readTime: "4 mins read",
+    imageUrl: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80",
+    imageAlt: "Golden crispy roasted chicken breast with fresh herbs and roasted vegetables",
+    featured: true,
+    trending: true,
+    keyFacts: [
+      "Salting chicken 2 to 24 hours ahead (dry-brining) draws moisture out, dissolves the salt, and reabsorbs it deep into muscle fibers.",
+      "Leaving the seasoned chicken uncovered in the refrigerator dries the exterior skin completely for peak caramelization.",
+      "Eliminates the need for wet water brines which dilute natural chicken flavor.",
+      "Works equally well for bone-in thighs, boneless chicken breasts, and whole roasted birds."
+    ],
+    content: {
+      whatHappened: "For over a decade, my routine for cooking chicken was identical: take it out of the package, pat it with paper towels, rub with oil and spices, and immediately put it in the pan or oven. The result was decent, but often had rubbery skin and bland meat toward the center. Everything changed when I adopted the dry-brine method: seasoning with 1 teaspoon of kosher salt per pound and chilling it uncovered on a wire rack for 4 hours before cooking.",
+      whyItMatters: "Chicken is naturally lean and easily dries out if overcooked. Dry-brining denatures protein strands in the meat, allowing them to hold onto 15% more moisture during roasting while creating an ultra-crisp exterior shell that seals in juices.",
+      whoIsAffected: "Home cooks tired of dry chicken breasts or soggy roasted skin.",
+      whatReadersShouldKnow: "Use coarse kosher salt (like Diamond Crystal or Morton's) rather than fine table salt to prevent over-salting. Pull your chicken from the oven when a digital thermometer reads 160°F in the thickest part; carryover cooking will bring it to the safe 165°F mark during a 10-minute rest."
+    },
+    faq: [
+      {
+        question: "Can I dry-brine boneless, skinless chicken breasts?",
+        answer: "Yes! Even 30 to 45 minutes of salting at room temperature before searing will keep the breasts significantly juicier."
+      },
+      {
+        question: "Do I need to rinse the salt off before cooking?",
+        answer: "No, never rinse dry-brined poultry. The salt has completely absorbed into the meat; rinsing will only make the surface wet and prevent browning."
+      }
+    ],
+    sources: [
+      { name: "Dishora Culinary Science Lab", detail: "Poultry Moisture Retention & Skin Crispness Analysis" },
+      { name: "Professional Chefs Association", detail: "Dry-Brining vs Wet-Brining Comparative Study" }
+    ]
+  },
+
+  // ── 35. Grass-Fed Butter ──
+  {
+    id: 35,
+    slug: "asked-3-chefs-if-grass-fed-butter-worth-buying",
+    headline: "I Asked 3 Chefs If Grass-Fed Butter Is Worth Buying—They All Said the Same Thing",
+    deck: "Is paying $5 to $7 for Kerrygold or cultured European butter worth it? Three professional chefs explain when to splurge and when generic butter is fine.",
+    category: "COOKING TIPS & TECHNIQUES",
+    categoryKey: "TRENDS",
+    country: "USA",
+    countryBadge: "🇺🇸 Chef Guide",
+    author: "By Molly Allen",
+    date: "Sept 12, 2026",
+    readTime: "4 mins read",
+    imageUrl: "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=800&auto=format&fit=crop&q=80",
+    imageAlt: "Fresh golden grass-fed butter block on a marble board",
+    trending: true,
+    keyFacts: [
+      "Grass-fed butter contains 82%–84% butterfat compared to American standard butter's 80%, meaning less water and richer texture.",
+      "Pasture-raised cows ingest beta-carotene from fresh grass, giving the butter its natural golden-yellow color and grassy, nutty taste.",
+      "All three chefs agree: splurge for finishing, pan sauces, and bread; use standard butter for general baking.",
+      "Cultured grass-fed varieties add a slight lactic tang that elevates French pan sauces and shortbread cookies."
+    ],
+    content: {
+      whatHappened: "Walking down the dairy aisle, the price gap between generic store-brand butter ($3.49) and Irish grass-fed butter ($6.49) can make any shopper pause. To find out if the extra cost translates to better cooking, I sat down with an executive pastry chef, a French bistro owner, and an Italian culinary director. Their verdict was unanimous: grass-fed butter is 100% worth it, provided you use it in the right culinary applications.",
+      whyItMatters: "The 2% to 4% difference in fat content has massive culinary ramifications. Higher butterfat produces flaky pastry layers, velvety pan emulsions that won't break, and a melting point that coats the palate smoothly rather than feeling greasy.",
+      whoIsAffected: "Bakers, pasta makers, steak lovers, and anyone who enjoys high-quality bread and butter.",
+      whatReadersShouldKnow: "Reserve your expensive grass-fed butter for raw or gentle applications: spread on sourdough, stirred into warm risotto, melted over a seared steak, or folded into lemon pasta. For dense cakes or cookies with heavy spices and chocolate, the subtle grassy notes get lost, making standard butter more economical."
+    },
+    faq: [
+      {
+        question: "Why is grass-fed butter so yellow compared to regular butter?",
+        answer: "Cows eating fresh green pasture ingest beta-carotene (the same pigment in carrots), which dissolves in milk fat and gives the butter its vibrant golden hue."
+      },
+      {
+        question: "Can I substitute European grass-fed butter in standard American baking recipes?",
+        answer: "Yes, but because it has less water, cookies will spread slightly less and pie doughs will bake up even flakier."
+      }
+    ],
+    sources: [
+      { name: "Chef Laurent Mercier", detail: "Executive Chef, Le Petit Bistro NYC" },
+      { name: "Chef Elena Rossi", detail: "Culinary Director, Osteria Bella" }
+    ]
+  },
+
+  // ── 36. Beef Tallow ──
+  {
+    id: 36,
+    slug: "asked-4-chefs-if-beef-tallow-worth-buying",
+    headline: "I Asked 4 Chefs If Beef Tallow Is Worth Buying—They All Said the Same Thing",
+    deck: "The historic cooking fat is taking over modern kitchens. Four restaurant chefs explain why beef tallow makes everything from potatoes to steaks taste next-level.",
+    category: "COOKING TIPS & TECHNIQUES",
+    categoryKey: "TRENDS",
+    country: "USA",
+    countryBadge: "🇺🇸 Chef Guide",
+    author: "By Laurel Randolph",
+    date: "Sept 12, 2026",
+    readTime: "5 mins read",
+    imageUrl: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&auto=format&fit=crop&q=80",
+    imageAlt: "Crispy grilled sandwiches and roasted dishes prepared with beef tallow",
+    trending: true,
+    keyFacts: [
+      "Beef tallow has a high smoke point of 400°F–420°F, making it far more heat-stable than butter or unrefined oils.",
+      "Contains saturated and monounsaturated fatty acids that produce superior crispness on roast potatoes and French fries.",
+      "A single jar of tallow lasts up to a year stored in a cool, dark pantry or refrigerator.",
+      "Chefs emphasize using just 1 to 2 tablespoons to infuse dishes with deep savory umami."
+    ],
+    content: {
+      whatHappened: "Once a staple in grandmother's larder and the original secret behind McDonald's legendary fries in the 1980s, beef tallow is experiencing an unprecedented renaissance. I interviewed four professional chefs across steakhouse, comfort food, and modern European dining to uncover whether home cooks should keep a jar by their stove.",
+      whyItMatters: "Seed oils break down rapidly under high heat, whereas tallow's stable chemical structure resists oxidation. Beyond health arguments, its rich savory flavor bonds with starches and proteins, delivering a golden crunch and savory depth that no neutral vegetable oil can match.",
+      whoIsAffected: "Steak enthusiasts, cast-iron skillet cooks, and lovers of crispy roast potatoes and smash burgers.",
+      whatReadersShouldKnow: "Grass-fed Wagyu or pasture-raised beef tallow has a clean, buttery aroma rather than an overpowering beefy funk. Use it for high-temp searing of ribeyes, tossing parboiled Yukon Gold potatoes before roasting, or greasing your waffle iron for savory potato waffles."
+    },
+    faq: [
+      {
+        question: "Does beef tallow make everything taste like beef?",
+        answer: "High-quality filtered tallow has a subtle, rich umami flavor that enhances savory dishes without overpowering other ingredients."
+      },
+      {
+        question: "How long does a jar of beef tallow last?",
+        answer: "Because it is pure rendered fat with zero moisture, it stays fresh for 6 to 12 months at room temperature and over 18 months refrigerated."
+      }
+    ],
+    sources: [
+      { name: "Chef Marcus Vance", detail: "Steakhouse Executive Pitmaster" },
+      { name: "American Culinary Federation", detail: "Traditional Cooking Fats Nutritional Study" }
+    ]
+  },
+
+  // ── 37. Avocado Toast Genius Method ──
+  {
+    id: 37,
+    slug: "only-way-making-avocado-toast-from-now-on-genius",
+    headline: "The Only Way I'm Making Avocado Toast From Now on (It's Genius)",
+    deck: "Pan-frying thick sourdough in chili oil and micro-planing a soft-boiled egg over lemon-emulsified avocado turns a basic breakfast into a 5-star culinary masterpiece.",
+    category: "GROCERIES",
+    categoryKey: "RECIPES",
+    country: "USA",
+    countryBadge: "🥑 Breakfast Genius",
+    author: "By Laurel Randolph",
+    date: "Sept 12, 2026",
+    readTime: "3 mins read",
+    imageUrl: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop&q=80",
+    imageAlt: "Artisanal avocado toast with crispy sourdough, seasoned avocado, and golden egg",
+    isRecipe: true,
+    recipeDetails: {
+      prepTime: "5 mins",
+      cookTime: "5 mins",
+      totalTime: "10 mins",
+      servings: "2 servings",
+      difficulty: "Easy",
+      rating: 4.9,
+      ratingCount: 142,
+      calories: "340 kcal",
+      ingredients: [
+        "2 thick slices artisanal country sourdough bread",
+        "1 large ripe Hass avocado",
+        "1 tbsp chili crisp or garlic-infused extra virgin olive oil",
+        "1 tbsp fresh lemon juice",
+        "1 hard-boiled or jammy 6-minute egg",
+        "1/2 tsp flaky sea salt (Maldon)",
+        "1/4 tsp freshly cracked black pepper",
+        "Fresh microgreens or chopped chives for garnish"
+      ],
+      instructions: [
+        "Heat chili crisp or garlic olive oil in a cast-iron skillet over medium-high heat. Place sourdough slices in the pan and fry until deeply golden and crispy on both sides (about 2 minutes per side).",
+        "In a small bowl, roughly mash the avocado with fresh lemon juice, a drizzle of olive oil, salt, and black pepper. Do not over-mash; keep some texture.",
+        "Generously spread the creamy avocado mash over the warm, crispy fried sourdough.",
+        "Using a microplane zester, grate the boiled egg over the avocado toast, creating a light, fluffy cloud of yolk and white.",
+        "Top with flaky sea salt, extra chili crisp drizzle, and fresh chives. Serve immediately while warm!"
+      ],
+      notes: "Frying the bread in oil directly in the skillet creates a crackly outer crust that stays crunchy under the avocado and never gets soggy."
+    },
+    keyFacts: [
+      "Frying the bread in a skillet with seasoned oil creates a crisp barrier that prevents the avocado from making the toast soggy.",
+      "Micro-planing eggs creates a delicate, fluffy texture that disperses richness evenly over every single bite.",
+      "Fresh lemon juice balances the rich fatty avocado and prevents oxidation for hours.",
+      "Ready in under 10 minutes with everyday pantry staples."
+    ],
+    content: {
+      whatHappened: "Avocado toast became a worldwide breakfast phenomenon years ago, but most home versions suffer from two fatal flaws: soggy bread and bland mashed avocado. By adopting a restaurant technique of pan-crisping sourdough in chili crunch and micro-planing a soft egg over the top, the humble toast transforms into the best breakfast in town.",
+      whyItMatters: "Breakfast should be exciting without demanding an hour in the kitchen. This technique takes 7 minutes and solves texture, flavor balance, and visual appeal in one single pan.",
+      whoIsAffected: "Anyone looking for a high-protein, healthy-fat morning meal that tastes like a $22 brunch special.",
+      whatReadersShouldKnow: "Use sturdy artisan sourdough with large air pockets so the chili oil crisps the ridges. A ripe avocado should yield slightly to gentle thumb pressure near the stem without feeling mushy."
+    },
+    faq: [
+      {
+        question: "Can I make this dairy-free and gluten-free?",
+        answer: "Yes! The recipe is naturally dairy-free when using olive oil or chili crisp. Simply substitute your favorite gluten-free artisanal sourdough bread."
+      },
+      {
+        question: "How do I make the perfect 6-minute jammy egg for grating?",
+        answer: "Boil water, gently lower cold eggs, cook for exactly 6 minutes and 30 seconds, then immediately transfer to an ice bath for 5 minutes before peeling."
+      }
+    ],
+    sources: [
+      { name: "Dishora Morning Kitchen", detail: "Breakfast Innovation Lab Recipe Trials" },
+      { name: "California Avocado Commission", detail: "Avocado Flavor Pairing & Nutrition Guide" }
+    ]
   }
 ];

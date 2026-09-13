@@ -1,9 +1,13 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { recipesData } from "../data/recipes";
+import { useFavorites } from "../utils/favorites";
+import FavoritesDrawer from "./FavoritesDrawer";
+import { searchRecipes } from "../data/allRecipes";
 
 interface SubMenuItem {
   name: string;
@@ -24,6 +28,22 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [expandedMobileItem, setExpandedMobileItem] = useState<string | null>(null);
+  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+
+  const { count: favoritesCount } = useFavorites();
+
+  const liveResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    return searchRecipes(searchQuery.trim()).slice(0, 5);
+  }, [searchQuery]);
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      setIsSearchOpen(false);
+      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
 
   const navLinks: NavItem[] = [
     {
@@ -92,12 +112,16 @@ export default function Header() {
     },
     {
       name: "ABOUT US",
-      href: "#about-us",
+      href: "/about",
       submenu: [
-        { name: "Our Culinary Team", href: "#about-us" },
-        { name: "Editorial Guidelines", href: "#editorial-guidelines" },
-        { name: "Contact & FAQ", href: "#contact" },
-        { name: "VIEW ALL", href: "#about-us" },
+        { name: "About Dishora", href: "/about" },
+        { name: "Editorial Guidelines", href: "/editorial-guidelines" },
+        { name: "Contact & FAQ", href: "/contact" },
+        { name: "Careers", href: "/careers" },
+        { name: "Advertise", href: "/advertise" },
+        { name: "Terms of Service", href: "/terms-of-service" },
+        { name: "Privacy Policy", href: "/privacy-policy" },
+        { name: "VIEW ALL", href: "/about" },
       ],
     },
   ];
@@ -113,45 +137,16 @@ export default function Header() {
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-3 md:py-4">
           
-          {/* Logo Brand: Simply Recipes */}
-          <Link href="/" className="flex items-center gap-3.5 group select-none">
-            {/* Flower / Sunburst Icon */}
-            <div className="relative flex items-center justify-center w-12 h-12 transition-transform duration-300 group-hover:scale-105">
-              <svg viewBox="0 0 100 100" className="w-full h-full" fill="none">
-                {/* 8 Outer Petal Dots (Teal #49bcc3) */}
-                <circle cx="50" cy="16" r="6.8" fill="#49bcc3" />
-                <circle cx="74" cy="26" r="6.8" fill="#49bcc3" />
-                <circle cx="84" cy="50" r="6.8" fill="#49bcc3" />
-                <circle cx="74" cy="74" r="6.8" fill="#49bcc3" />
-                <circle cx="50" cy="84" r="6.8" fill="#49bcc3" />
-                <circle cx="26" cy="74" r="6.8" fill="#49bcc3" />
-                <circle cx="16" cy="50" r="6.8" fill="#49bcc3" />
-                <circle cx="26" cy="26" r="6.8" fill="#49bcc3" />
-
-                {/* 8 Mid Petal Dots */}
-                <circle cx="50" cy="31" r="5" fill="#49bcc3" />
-                <circle cx="63.5" cy="36.5" r="5" fill="#49bcc3" />
-                <circle cx="69" cy="50" r="5" fill="#49bcc3" />
-                <circle cx="63.5" cy="63.5" r="5" fill="#49bcc3" />
-                <circle cx="50" cy="69" r="5" fill="#49bcc3" />
-                <circle cx="36.5" cy="63.5" r="5" fill="#49bcc3" />
-                <circle cx="31" cy="50" r="5" fill="#49bcc3" />
-                <circle cx="36.5" cy="36.5" r="5" fill="#49bcc3" />
-
-                {/* Center Core Circle (Light Aqua #9fe2e5) */}
-                <circle cx="50" cy="50" r="6.5" fill="#a0e1e4" />
-              </svg>
-            </div>
-
-            {/* Typography */}
-            <div className="flex flex-col leading-none">
-              <span className="font-serif text-[34px] sm:text-[38px] font-bold text-[#0c5354] tracking-tight -mb-1">
-                Simply
-              </span>
-              <span className="font-sans text-[11px] sm:text-[12px] font-black tracking-[0.28em] text-[#009b72] uppercase pl-0.5">
-                Recipes
-              </span>
-            </div>
+          {/* Logo Brand: Dishora */}
+          <Link href="/" className="flex items-center group select-none py-1">
+            <Image
+              src="/images/dishora-logo.png"
+              alt="Dishora - Recipes for a better table"
+              width={220}
+              height={98}
+              priority
+              className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            />
           </Link>
 
           {/* Right Utilities (Desktop) */}
@@ -193,7 +188,7 @@ export default function Header() {
 
             {/* Sweepstakes */}
             <Link
-              href="#sweepstakes"
+              href="/sweepstakes"
               className="px-2 py-1 hover:text-[#0c5354] font-medium transition-colors"
             >
               Sweepstakes
@@ -203,9 +198,10 @@ export default function Header() {
             <span className="h-4 w-[1px] bg-gray-300 mx-2" />
 
             {/* myrecipes Badge */}
-            <Link
-              href="#myrecipes"
-              className="flex items-center gap-1.5 px-2 py-1 group hover:opacity-90 transition-opacity"
+            <button
+              onClick={() => setIsFavoritesOpen(true)}
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-pink-50/80 group transition-all cursor-pointer select-none"
+              title="View Saved Recipes"
             >
               {/* Pink Heart with black border */}
               <span className="text-[17px] inline-block -rotate-12 transform group-hover:scale-110 transition-transform">
@@ -215,11 +211,28 @@ export default function Header() {
                 <span className="font-extrabold text-[#e71d73]">my</span>
                 <span className="font-extrabold text-black">recipes</span>
               </div>
-            </Link>
+              {favoritesCount > 0 && (
+                <span className="ml-1 px-1.5 py-0.5 text-[10px] font-black bg-[#e71d73] text-white rounded-full leading-none shadow-xs">
+                  {favoritesCount}
+                </span>
+              )}
+            </button>
           </div>
 
           {/* Mobile Right Controls */}
           <div className="flex md:hidden items-center gap-2">
+            <button
+              onClick={() => setIsFavoritesOpen(true)}
+              className="relative p-1.5 text-gray-700 hover:text-[#e71d73] rounded-lg"
+              aria-label="Saved Recipes"
+            >
+              <span className="text-lg">💖</span>
+              {favoritesCount > 0 && (
+                <span className="absolute -top-1 -right-1 w-4 h-4 text-[9px] font-black bg-[#e71d73] text-white rounded-full flex items-center justify-center leading-none">
+                  {favoritesCount}
+                </span>
+              )}
+            </button>
             <button
               onClick={() => setIsSearchOpen(!isSearchOpen)}
               className="p-2 text-gray-700 hover:text-black rounded-lg"
@@ -246,23 +259,20 @@ export default function Header() {
 
         </div>
 
-        {/* Expandable Search Input */}
+        {/* Expandable Search Input with Live Dropdown Autocomplete */}
         {isSearchOpen && (
-          <div className="py-2.5 pb-4 transition-all duration-200">
+          <div className="py-2.5 pb-4 transition-all duration-200 relative">
             <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert(`Recherche : ${searchQuery}`);
-              }}
+              onSubmit={handleSearchSubmit}
               className="relative max-w-xl mx-auto flex items-center"
             >
               <input
                 type="text"
-                placeholder="Search recipes, ingredients, tips..."
+                placeholder="Search recipes, ingredients (e.g. lemon spaghetti, chicken, cake)..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 autoFocus
-                className="w-full pl-10 pr-24 py-2 border border-gray-300 rounded-full text-sm focus:outline-none focus:border-[#0c5354] focus:ring-1 focus:ring-[#0c5354] bg-gray-50 shadow-inner"
+                className="w-full pl-10 pr-24 py-2.5 border border-gray-300 rounded-full text-sm focus:outline-none focus:border-[#0c5354] focus:ring-2 focus:ring-[#0c5354]/20 bg-gray-50 shadow-inner"
               />
               <svg
                 className="w-4 h-4 text-gray-400 absolute left-3.5"
@@ -272,13 +282,94 @@ export default function Header() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery("")}
+                  className="absolute right-20 text-gray-400 hover:text-gray-600 text-xs p-1"
+                >
+                  ✕
+                </button>
+              )}
               <button
                 type="submit"
-                className="absolute right-1.5 px-4 py-1 bg-[#0c5354] text-white text-xs font-semibold rounded-full hover:bg-[#093f40] transition-colors"
+                className="absolute right-1.5 px-4 py-1.5 bg-[#0c5354] hover:bg-[#093f40] text-white text-xs font-semibold rounded-full transition-colors cursor-pointer"
               >
                 Search
               </button>
             </form>
+
+            {/* Live Autocomplete Results Dropdown */}
+            {searchQuery.trim().length > 0 && (
+              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-full max-w-xl bg-white rounded-2xl shadow-2xl border border-gray-200 z-50 overflow-hidden">
+                <div className="p-2 border-b border-gray-100 flex items-center justify-between text-xs text-gray-500 px-3 bg-gray-50/80">
+                  <span>Quick Results</span>
+                  <Link
+                    href={`/search?q=${encodeURIComponent(searchQuery.trim())}`}
+                    onClick={() => {
+                      setIsSearchOpen(false);
+                      setSearchQuery("");
+                    }}
+                    className="text-[#0c5354] font-bold hover:underline"
+                  >
+                    View all results →
+                  </Link>
+                </div>
+
+                {liveResults.length === 0 ? (
+                  <div className="p-4 text-center text-xs text-gray-500">
+                    No recipes found matching "{searchQuery}". Press Search to see all recipes.
+                  </div>
+                ) : (
+                  <div className="divide-y divide-gray-100 max-h-[340px] overflow-y-auto">
+                    {liveResults.map((r) => (
+                      <Link
+                        key={r.slug}
+                        href={`/recipes/${r.slug}`}
+                        onClick={() => {
+                          setIsSearchOpen(false);
+                          setSearchQuery("");
+                        }}
+                        className="flex items-center gap-3 p-2.5 hover:bg-[#f3f9f8] transition-colors group"
+                      >
+                        <div className="relative w-12 h-12 rounded-lg overflow-hidden bg-gray-100 shrink-0">
+                          <Image
+                            src={r.imageUrl || "/images/cheeseburger-pie.jpg"}
+                            alt={r.title}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform"
+                            sizes="48px"
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2">
+                            <span className="text-[9px] font-black uppercase text-[#0c5354] tracking-wider">
+                              {r.category || r.badge || "RECIPE"}
+                            </span>
+                            {r.totalTime && (
+                              <span className="text-[10px] text-gray-400">
+                                • {r.totalTime}
+                              </span>
+                            )}
+                          </div>
+                          <h4 className="text-xs font-bold text-gray-900 group-hover:text-[#0c5354] truncate">
+                            {r.title}
+                          </h4>
+                          {r.rating && (
+                            <span className="text-[10px] text-amber-500 font-semibold">
+                              ★ {r.rating.toFixed(1)}
+                            </span>
+                          )}
+                        </div>
+                        <span className="text-gray-300 group-hover:text-[#0c5354] text-xs">
+                          →
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -519,24 +610,37 @@ export default function Header() {
               Newsletters
             </Link>
             <Link
-              href="#sweepstakes"
+              href="/sweepstakes"
               onClick={() => setIsMobileMenuOpen(false)}
               className="hover:text-[#0c5354] font-medium"
             >
               Sweepstakes
             </Link>
-            <Link
-              href="#myrecipes"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="flex items-center gap-1.5 font-bold pt-1"
+            <button
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                setIsFavoritesOpen(true);
+              }}
+              className="flex items-center gap-1.5 font-bold pt-1 text-left cursor-pointer"
             >
               <span>💖</span>
               <span className="text-[#e71d73]">my</span>
               <span className="text-black">recipes</span>
-            </Link>
+              {favoritesCount > 0 && (
+                <span className="ml-1 px-1.5 py-0.5 text-[10px] font-black bg-[#e71d73] text-white rounded-full leading-none">
+                  {favoritesCount}
+                </span>
+              )}
+            </button>
           </div>
         </div>
       )}
+
+      {/* Global Saved Recipes Drawer */}
+      <FavoritesDrawer
+        isOpen={isFavoritesOpen}
+        onClose={() => setIsFavoritesOpen(false)}
+      />
     </header>
   );
 }
