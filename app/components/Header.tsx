@@ -135,31 +135,31 @@ export default function Header() {
     <header className="w-full bg-white border-b border-gray-200 text-gray-900 sticky top-0 z-50 shadow-xs">
       {/* Top Logo & Utilities Row */}
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-3 md:py-4">
+        <div className="flex items-center justify-between py-2 md:py-2.5">
           
           {/* Logo Brand: Dishora */}
-          <Link href="/" className="flex items-center group select-none py-1">
+          <Link href="/" className="flex items-center group select-none py-0.5">
             <Image
               src="/images/dishora-logo.png"
               alt="Dishora - Recipes for a better table"
-              width={220}
-              height={98}
+              width={200}
+              height={90}
               priority
-              className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-8 sm:h-9 md:h-10.5 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
           {/* Right Utilities (Desktop) */}
-          <div className="hidden md:flex items-center gap-1 text-[13.5px] text-gray-700">
+          <div className="hidden md:flex items-center gap-1 text-[12.5px] text-gray-700">
             {/* Search Button */}
             <button
               onClick={() => setIsSearchOpen(!isSearchOpen)}
-              className="p-2 text-gray-700 hover:text-[#0c5354] transition-colors rounded-full hover:bg-gray-100 cursor-pointer"
+              className="p-1.5 text-gray-700 hover:text-[#0c5354] transition-colors rounded-full hover:bg-gray-100 cursor-pointer"
               title="Search"
               aria-label="Search"
             >
               <svg
-                className="w-5 h-5 stroke-[2.2]"
+                className="w-4.5 h-4.5 stroke-[2.2]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -173,46 +173,46 @@ export default function Header() {
             </button>
 
             {/* Divider */}
-            <span className="h-4 w-[1px] bg-gray-300 mx-2" />
+            <span className="h-3.5 w-[1px] bg-gray-300 mx-1.5" />
 
             {/* Newsletters */}
             <Link
               href="#newsletters"
-              className="px-2 py-1 hover:text-[#0c5354] font-medium transition-colors"
+              className="px-1.5 py-0.5 hover:text-[#0c5354] font-medium transition-colors"
             >
               Newsletters
             </Link>
 
             {/* Divider */}
-            <span className="h-4 w-[1px] bg-gray-300 mx-2" />
+            <span className="h-3.5 w-[1px] bg-gray-300 mx-1.5" />
 
             {/* Sweepstakes */}
             <Link
               href="/sweepstakes"
-              className="px-2 py-1 hover:text-[#0c5354] font-medium transition-colors"
+              className="px-1.5 py-0.5 hover:text-[#0c5354] font-medium transition-colors"
             >
               Sweepstakes
             </Link>
 
             {/* Divider */}
-            <span className="h-4 w-[1px] bg-gray-300 mx-2" />
+            <span className="h-3.5 w-[1px] bg-gray-300 mx-1.5" />
 
             {/* myrecipes Badge */}
             <button
               onClick={() => setIsFavoritesOpen(true)}
-              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-pink-50/80 group transition-all cursor-pointer select-none"
+              className="flex items-center gap-1.5 px-2 py-0.5 rounded-full hover:bg-pink-50/80 group transition-all cursor-pointer select-none"
               title="View Saved Recipes"
             >
               {/* Pink Heart with black border */}
-              <span className="text-[17px] inline-block -rotate-12 transform group-hover:scale-110 transition-transform">
+              <span className="text-[15px] inline-block -rotate-12 transform group-hover:scale-110 transition-transform">
                 💖
               </span>
-              <div className="flex items-center text-[15px] tracking-tight">
+              <div className="flex items-center text-[13.5px] tracking-tight">
                 <span className="font-extrabold text-[#e71d73]">my</span>
                 <span className="font-extrabold text-black">recipes</span>
               </div>
               {favoritesCount > 0 && (
-                <span className="ml-1 px-1.5 py-0.5 text-[10px] font-black bg-[#e71d73] text-white rounded-full leading-none shadow-xs">
+                <span className="ml-1 px-1.5 py-0.5 text-[9.5px] font-black bg-[#e71d73] text-white rounded-full leading-none shadow-xs">
                   {favoritesCount}
                 </span>
               )}
@@ -377,13 +377,13 @@ export default function Header() {
       {/* Main Navigation Bar (Desktop) with Submenu Dropdowns */}
       <nav className="border-t border-gray-200/80 bg-white hidden md:block relative">
         <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
-          <ul className="flex items-center justify-start gap-8 lg:gap-10 text-[13px] lg:text-[13.5px] font-extrabold tracking-wider text-black">
+          <ul className="flex items-center justify-start gap-6 lg:gap-8 text-[12px] lg:text-[12.5px] font-extrabold tracking-wider text-black">
             {navLinks.map((link) => {
               const isOpen = activeDropdown === link.name;
               return (
                 <li
                   key={link.name}
-                  className="relative group py-3"
+                  className="relative group py-2"
                   onMouseEnter={() => setActiveDropdown(link.name)}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >

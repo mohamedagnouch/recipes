@@ -66,39 +66,39 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#f6f8f8] border-t border-gray-200 text-gray-800 transition-colors">
       {/* Main Footer Links & Brand Section */}
-      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-14 items-start">
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-9 lg:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start">
           
           {/* Left Column: Brand, Newsletters Button & Social Icons */}
-          <div className="md:col-span-5 lg:col-span-4 flex flex-col items-start space-y-6">
+          <div className="md:col-span-5 lg:col-span-4 flex flex-col items-start space-y-5">
             
             {/* Dishora Logo */}
-            <Link href="/" className="flex items-center group select-none py-1">
+            <Link href="/" className="flex items-center group select-none py-0.5">
               <Image
                 src="/images/dishora-logo.png"
                 alt="Dishora - Recipes for a better table"
-                width={200}
-                height={90}
-                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={190}
+                height={84}
+                className="h-8 sm:h-9.5 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
 
             {/* Newsletters Button */}
-            <div className="w-full max-w-[260px]">
+            <div className="w-full max-w-[240px]">
               <button
                 onClick={() => setShowModal(true)}
-                className="w-full py-2.5 px-6 border-2 border-[#0c5354] text-[#0c5354] hover:bg-[#0c5354] hover:text-white font-extrabold text-[12.5px] uppercase tracking-widest text-center transition-all duration-200 rounded-xs shadow-2xs cursor-pointer block"
+                className="w-full py-2 px-5 border-2 border-[#0c5354] text-[#0c5354] hover:bg-[#0c5354] hover:text-white font-extrabold text-[12px] uppercase tracking-widest text-center transition-all duration-200 rounded-xs shadow-2xs cursor-pointer block"
               >
                 NEWSLETTERS
               </button>
             </div>
 
             {/* Follow Us & Social Icons */}
-            <div className="flex flex-col space-y-2.5 pt-1">
-              <span className="text-[12px] font-bold text-gray-700 uppercase tracking-wider">
+            <div className="flex flex-col space-y-2 pt-0.5">
+              <span className="text-[11.5px] font-bold text-gray-700 uppercase tracking-wider">
                 Follow Us
               </span>
-              <div className="flex items-center gap-4 text-gray-700">
+              <div className="flex items-center gap-3.5 text-gray-700">
                 {/* Instagram */}
                 <a
                   href="https://instagram.com"
@@ -156,17 +156,17 @@ export default function Footer() {
           </div>
 
           {/* Right Columns: Links */}
-          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 pt-2">
+          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-5 pt-1">
             
             {/* Column 1: Primary Recipe Sections (Bold Uppercase with Dynamic Active & Hover state) */}
-            <div className="flex flex-col space-y-3.5">
+            <div className="flex flex-col space-y-3">
               {PRIMARY_SECTIONS.map((section) => {
                 const active = isPrimaryActive(section);
                 return (
                   <Link
                     key={section.href}
                     href={section.href}
-                    className={`font-sans text-[13px] font-black tracking-wider uppercase transition-all duration-200 flex items-center group ${
+                    className={`font-sans text-[12.5px] font-black tracking-wider uppercase transition-all duration-200 flex items-center group ${
                       active
                         ? "text-[#0c5354] translate-x-1 font-extrabold"
                         : "text-gray-900 hover:text-[#0c5354] hover:translate-x-1"
@@ -182,7 +182,7 @@ export default function Footer() {
             </div>
 
             {/* Column 2: Legal & About (Dynamic Active & Hover State) */}
-            <div className="flex flex-col space-y-3.5 text-[13.5px] font-medium">
+            <div className="flex flex-col space-y-3 text-[13px] font-medium">
               {ABOUT_LEGAL_SECTIONS.map((item) => {
                 const active = isLinkActive(item.href);
                 return (
@@ -202,7 +202,7 @@ export default function Footer() {
             </div>
 
             {/* Column 3: Business, Careers & Contact (Dynamic Active & Hover State) */}
-            <div className="flex flex-col space-y-3.5 text-[13.5px] font-medium">
+            <div className="flex flex-col space-y-3 text-[13px] font-medium">
               {BUSINESS_SECTIONS.map((item) => {
                 const active = isLinkActive(item.href);
                 return (
@@ -226,7 +226,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar: Copyright & Compliance */}
-        <div className="mt-12 pt-8 border-t border-gray-200/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <div className="mt-9 pt-6 border-t border-gray-200/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
             <span>
               Dishora is an independent digital food &amp; lifestyle publication.
