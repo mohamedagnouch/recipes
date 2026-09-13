@@ -1,0 +1,161 @@
+# =========================================================================
+# robots.txt — Dishora
+# https://dishora.com/robots.txt
+#
+# Allows all major legitimate search engines and social crawlers.
+# Blocks known malicious scrapers and data harvesting bots.
+# =========================================================================
+
+# ─── GOOGLE ──────────────────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /images/
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# Required: allows Google AdSense to crawl content for ad targeting
+User-agent: Mediapartners-Google
+Allow: /
+
+# ─── BING / MICROSOFT ────────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MicrosoftPreview
+Allow: /
+
+# ─── OTHER MAJOR SEARCH ENGINES ──────────────────────────────────────────────
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 5
+
+# ─── SOCIAL MEDIA CRAWLERS (needed for OG previews) ──────────────────────────
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# ─── ARCHIVING ────────────────────────────────────────────────────────────────
+User-agent: ia_archiver
+Allow: /
+
+# ─── AI CRAWLERS (Optional: remove Allow to block) ───────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ─── BLOCKED: SEO DATA HARVESTING BOTS ───────────────────────────────────────
+# These bots mass-scrape content for competing products.
+# They do NOT improve your SEO or traffic.
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+# ─── BLOCKED: MALICIOUS / SCRAPING BOTS ──────────────────────────────────────
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: masscan
+Disallow: /
+
+User-agent: nikto
+Disallow: /
+
+User-agent: sqlmap
+Disallow: /
+
+# ─── BLOCKED: AI SCRAPERS (uncomment if desired) ─────────────────────────────
+# User-agent: GPTBot
+# Disallow: /
+#
+# User-agent: ClaudeBot
+# Disallow: /
+
+# ─── DEFAULT RULE ─────────────────────────────────────────────────────────────
+# All unlisted bots are allowed with a conservative crawl delay.
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+# ─── SITEMAP ──────────────────────────────────────────────────────────────────
+Sitemap: https://dishora.com/sitemap.xml
