@@ -199,7 +199,7 @@ export default function TermsOfServicePage() {
           <ul className="text-xs sm:text-sm text-gray-600 space-y-1">
             <li><strong>Legal Entity:</strong> [ENTER LEGAL BUSINESS NAME]</li>
             <li><strong>Mailing Address:</strong> [ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, POSTAL CODE]</li>
-            <li><strong>Email:</strong> <a href="mailto:[ENTER CONTACT EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER LEGAL/CONTACT EMAIL, e.g., legal@dishora.com]</a></li>
+            <li><strong>Email:</strong> <a href="mailto:[ENTER CONTACT EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER LEGAL/CONTACT EMAIL, e.g., legal@dishora.net]</a></li>
             <li><strong>Online Form:</strong> <Link href="/contact" className="text-[#0c5354] underline font-bold">Dishora Contact Page</Link></li>
           </ul>
         </div>

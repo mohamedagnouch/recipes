@@ -344,7 +344,7 @@ export default function RecipeDetailPage({
         <div className="flex justify-between items-end mb-1">
           <div>
             <h2 className="text-xl font-bold font-serif text-[#0c5354]">Dishora</h2>
-            <span className="text-[10px] text-gray-600">www.dishora.com</span>
+            <span className="text-[10px] text-gray-600">www.dishora.net</span>
           </div>
           <span className="text-[10px] text-gray-600">
             {printMode === "ingredients" ? "🛒 INGREDIENTS LIST" : "🍽️ FULL RECIPE CARD"}

@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
             1. Introduction &amp; Scope
           </h2>
           <p>
-            <strong>Dishora</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), operated by <strong>[ENTER LEGAL BUSINESS NAME]</strong>, is committed to safeguarding your privacy. This Privacy Policy explains what information we collect when you visit our website at <strong>[ENTER WEBSITE URL, e.g., https://dishora.com]</strong>, how we use that information, how cookies are utilized, and what rights you hold as a visitor residing in the United States, Canada, or internationally.
+            <strong>Dishora</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), operated by <strong>[ENTER LEGAL BUSINESS NAME]</strong>, is committed to safeguarding your privacy. This Privacy Policy explains what information we collect when you visit our website at <strong>[ENTER WEBSITE URL, e.g., https://dishora.net]</strong>, how we use that information, how cookies are utilized, and what rights you hold as a visitor residing in the United States, Canada, or internationally.
           </p>
         </article>
 
@@ -154,7 +154,7 @@ export default function PrivacyPolicyPage() {
 
             <h3 className="font-bold text-gray-900 pt-2">How to Exercise Your Rights</h3>
             <p>
-              To submit a data access, correction, or deletion request, please email our privacy desk at <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] font-bold underline">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.com]</a>. We will process your verified request in accordance with applicable law.
+              To submit a data access, correction, or deletion request, please email our privacy desk at <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] font-bold underline">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.net]</a>. We will process your verified request in accordance with applicable law.
             </p>
           </div>
         </article>
@@ -189,7 +189,7 @@ export default function PrivacyPolicyPage() {
             <li><strong>Data Controller:</strong> [ENTER LEGAL BUSINESS NAME]</li>
             <li><strong>Attn:</strong> Privacy &amp; Data Protection Desk</li>
             <li><strong>Address:</strong> [ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, COUNTRY]</li>
-            <li><strong>Email:</strong> <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.com]</a></li>
+            <li><strong>Email:</strong> <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.net]</a></li>
           </ul>
         </div>
       </section>

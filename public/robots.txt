@@ -1,6 +1,6 @@
 # =========================================================================
 # robots.txt — Dishora
-# https://dishora.com/robots.txt
+# https://dishora.net/robots.txt
 #
 # Allows all major legitimate search engines and social crawlers.
 # Blocks known malicious scrapers and data harvesting bots.
@@ -158,4 +158,4 @@ Allow: /
 Crawl-delay: 10
 
 # ─── SITEMAP ──────────────────────────────────────────────────────────────────
-Sitemap: https://dishora.com/sitemap.xml
+Sitemap: https://dishora.net/sitemap.xml

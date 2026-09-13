@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dishora.com"),
+  metadataBase: new URL("https://dishora.net"),
   title: {
     default: "Dishora — Easy Recipes, Kitchen Guides & Food News",
     template: "%s | Dishora",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://dishora.com",
+    url: "https://dishora.net",
     siteName: "Dishora",
     title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
     description: "Triple-tested recipes, grocery news, and foolproof cooking guides for home cooks.",

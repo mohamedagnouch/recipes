@@ -11,7 +11,7 @@
 
 import { MetadataRoute } from "next";
 
-const BASE = "https://dishora.com";
+const BASE = "https://dishora.net";
 const now = new Date();
 
 // Helper to build an entry with defaults
