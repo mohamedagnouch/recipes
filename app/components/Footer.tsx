@@ -64,7 +64,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#f6f8f8] border-t border-gray-200 text-gray-800 transition-colors">
+    <footer className="w-full max-w-full overflow-x-hidden bg-[#f6f8f8] border-t border-gray-200 text-gray-800 transition-colors">
       {/* Main Footer Links & Brand Section */}
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-9 lg:py-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start">
@@ -156,7 +156,7 @@ export default function Footer() {
           </div>
 
           {/* Right Columns: Links */}
-          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-5 pt-1">
+          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-5 pt-1">
             
             {/* Column 1: Primary Recipe Sections (Bold Uppercase with Dynamic Active & Hover state) */}
             <div className="flex flex-col space-y-3">

@@ -333,7 +333,7 @@ export default function RecipeDetailPage({
   );
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 flex flex-col justify-between selection:bg-[#0c5354]/20 selection:text-[#0c5354]">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-white text-gray-900 flex flex-col justify-between selection:bg-[#0c5354]/20 selection:text-[#0c5354]">
       {/* Web Header (Hidden during print) */}
       <div className="no-print">
         <Header />
@@ -354,25 +354,26 @@ export default function RecipeDetailPage({
 
       {/* Floating Sticky Quick Action Bar (Hidden during print) */}
       <div
-        className={`no-print fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 transition-all duration-300 transform shadow-xs ${
+        className={`no-print fixed top-0 left-0 right-0 w-full max-w-full overflow-hidden z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 transition-all duration-300 transform shadow-xs ${
           showStickyBar ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"
         }`}
       >
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3 truncate">
-            <span className="text-xs font-black uppercase text-[#0c5354] tracking-wider hidden md:inline">
+        <div className="max-w-[1280px] w-full mx-auto px-3 sm:px-6 py-2 sm:py-2.5 flex items-center justify-between gap-2 sm:gap-4 overflow-hidden">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1 overflow-hidden">
+            <span className="text-[10px] sm:text-xs font-black uppercase text-[#0c5354] tracking-wider hidden md:inline shrink-0">
               {recipe.badge || "RECIPE"}
             </span>
-            <span className="text-gray-300 hidden md:inline">|</span>
-            <h4 className="font-serif font-bold text-sm sm:text-base text-gray-900 truncate">
+            <span className="text-gray-300 hidden md:inline shrink-0">|</span>
+            <h4 className="font-serif font-bold text-xs sm:text-sm md:text-base text-gray-900 truncate min-w-0">
               {recipe.title}
             </h4>
           </div>
 
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             <button
               onClick={() => setIsCookMode(true)}
-              className="px-3 sm:px-4 py-1.5 bg-[#ba4f1c] hover:bg-[#a14316] text-white text-xs font-bold uppercase tracking-wider rounded-xs flex items-center gap-1.5 transition-colors cursor-pointer shadow-2xs"
+              className="px-2.5 sm:px-3.5 py-1.5 bg-[#ba4f1c] hover:bg-[#a14316] text-white text-[11px] sm:text-xs font-bold uppercase tracking-wider rounded-xs flex items-center gap-1 transition-colors cursor-pointer shadow-2xs"
+              title="Cook Mode"
             >
               <span>👨‍🍳</span>
               <span className="hidden sm:inline">Cook Mode</span>
@@ -380,23 +381,24 @@ export default function RecipeDetailPage({
 
             <button
               onClick={scrollToRecipe}
-              className="px-3 sm:px-4 py-1.5 bg-[#0c5354] hover:bg-[#093f40] text-white text-xs font-bold uppercase tracking-wider rounded-xs transition-colors cursor-pointer"
+              className="px-2.5 sm:px-3.5 py-1.5 bg-[#0c5354] hover:bg-[#093f40] text-white text-[11px] sm:text-xs font-bold uppercase tracking-wider rounded-xs transition-colors cursor-pointer"
             >
               Recipe ↓
             </button>
 
             <button
               onClick={() => setShowPrintModal(true)}
-              className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-800 text-xs font-bold uppercase tracking-wider rounded-xs transition-colors cursor-pointer"
+              className="hidden sm:flex items-center gap-1 px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-800 text-xs font-bold uppercase tracking-wider rounded-xs transition-colors cursor-pointer"
             >
               Print 🖨️
             </button>
 
             <button
               onClick={toggleSaveRecipe}
-              className={`p-1.5 sm:px-3 sm:py-1.5 border border-gray-300 rounded-xs text-xs font-bold uppercase tracking-wider flex items-center gap-1 transition-colors cursor-pointer ${
+              className={`p-1.5 sm:px-3 sm:py-1.5 border border-gray-300 rounded-xs text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center gap-1 transition-colors cursor-pointer ${
                 isSaved ? "bg-red-50 border-red-200 text-red-600" : "hover:bg-gray-50 text-gray-700"
               }`}
+              title="Save Recipe"
             >
               <span>{isSaved ? "♥" : "♡"}</span>
               <span className="hidden sm:inline">{isSaved ? "Saved" : "Save"}</span>
@@ -406,15 +408,15 @@ export default function RecipeDetailPage({
       </div>
 
       {/* Main Content Area */}
-      <main className="max-w-[760px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+      <main className="max-w-[760px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 overflow-hidden">
         
         {/* Breadcrumbs (Hidden during print) */}
-        <nav className="no-print flex items-center gap-1.5 text-xs text-gray-500 mb-4 overflow-x-auto whitespace-nowrap scrollbar-none">
-          <Link href="/" className="hover:text-[#0c5354] transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/" className="hover:text-[#0c5354] transition-colors">{recipe.category || "Recipes"}</Link>
-          <span>/</span>
-          <span className="text-gray-900 font-medium truncate">{recipe.recipeCardTitle || recipe.title}</span>
+        <nav className="no-print flex items-center gap-1.5 text-xs text-gray-500 mb-4 max-w-full overflow-x-auto whitespace-nowrap scrollbar-none">
+          <Link href="/" className="hover:text-[#0c5354] transition-colors shrink-0">Home</Link>
+          <span className="shrink-0">/</span>
+          <Link href="/" className="hover:text-[#0c5354] transition-colors shrink-0">{recipe.category || "Recipes"}</Link>
+          <span className="shrink-0">/</span>
+          <span className="text-gray-900 font-medium truncate min-w-0 max-w-[170px] sm:max-w-none">{recipe.recipeCardTitle || recipe.title}</span>
         </nav>
 
         {/* Article Header */}
