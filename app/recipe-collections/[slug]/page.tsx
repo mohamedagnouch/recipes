@@ -21,13 +21,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!collection) {
     return {
-      title: "Recipe Collection Not Found | Simply Recipes",
+      title: "Recipe Collection Not Found | Dishora",
       description: "The requested recipe collection could not be located.",
     };
   }
 
   return {
-    title: `${collection.title} | Simply Recipes In The Kitchen`,
+    title: `${collection.title} | Dishora In The Kitchen`,
     description: collection.subtitle || collection.leadStory.slice(0, 155),
     openGraph: {
       title: collection.title,

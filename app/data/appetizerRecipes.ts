@@ -66,7 +66,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 14, 2026",
     imageUrl: "/images/appetizer-spinach-artichoke-dip.jpg",
     imageAlt: "Warm bubbling skillet creamy spinach artichoke dip",
-    imageCredit: "Simply Recipes / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description: "The ultimate party centerpiece that disappears faster than any other snack on the table. A velvety base of cream cheese, sour cream, and garlic folded with sautéed baby spinach and zesty marinated artichokes.",
     whyMakeThis: [
       "Comes together in one bowl before baking golden and bubbly in a cast iron skillet.",
@@ -148,7 +148,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 2, 2026",
     imageUrl: "/images/appetizer-whipped-feta-dip.jpg",
     imageAlt: "Creamy whipped feta dip with chili hot honey drizzle and pistachios",
-    imageCredit: "Simply Recipes / Kat Lieu",
+    imageCredit: "Dishora Studio / Kat Lieu",
     description: "An effortless 15-minute appetizer that looks and tastes like a dish from a fine Mediterranean bistro. Tangy block feta is transformed in the food processor into an airy, cloud-like dip.",
     whyMakeThis: [
       "No cooking or oven required — ready in just 15 minutes.",
@@ -231,7 +231,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 18, 2026",
     imageUrl: "/images/appetizer-charred-corn-salsa.jpg",
     imageAlt: "Smoky charred corn and black bean salsa served with tortilla chips",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description: "Bursting with smoky sweetness, zesty lime, and crisp cilantro, this vibrant salsa works equally well as a standalone chip dip or spooned over grilled chicken and fish tacos.",
     whyMakeThis: [
       "Charring the corn caramelizes natural sugars for an irresistible deep flavor.",
@@ -314,7 +314,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 29, 2026",
     imageUrl: "/images/appetizer-tomatillo-salsa-verde.jpg",
     imageAlt: "Rustic stone bowl of fire-roasted tomatillo salsa verde",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description: "A staple of Mexican cantinas and taquerias. Fire-roasting the tomatillos softens their acidic bite into a savory, smoky salsa with a kick of fresh serrano chili.",
     whyMakeThis: [
       "Roasted on a single sheet pan in under 12 minutes.",
@@ -395,7 +395,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "May 10, 2026",
     imageUrl: "/images/appetizer-roasted-chickpeas.jpg",
     imageAlt: "Golden crunchy smoky paprika roasted chickpeas in ceramic bowl",
-    imageCredit: "Simply Recipes / Lou Perseghin",
+    imageCredit: "Dishora Studio / Lou Perseghin",
     description: "The ultimate savory snack to replace potato chips. With high plant-based protein and fiber, these roasted chickpeas deliver a satisfying salty crunch with every handful.",
     whyMakeThis: [
       "Made with affordable pantry staples in just three steps.",
@@ -474,7 +474,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "August 1, 2026",
     imageUrl: "/images/appetizer-parmesan-snack-mix.jpg",
     imageAlt: "Savory baked parmesan ranch pretzel snack mix in a large party bowl",
-    imageCredit: "Simply Recipes / Molly Adams",
+    imageCredit: "Dishora Studio / Molly Adams",
     description: "A huge upgrade over ordinary party mixes. Butter, dry ranch seasoning, garlic, and finely grated parmesan create a savory glaze that bakes into every nook and cranny.",
     whyMakeThis: [
       "Makes a large crowd-sized batch perfect for movie nights or game days.",
@@ -556,7 +556,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 12, 2026",
     imageUrl: "/images/appetizer-cucumber-herb-bites.jpg",
     imageAlt: "Crisp cucumber rounds piped with herbed cream cheese and fresh dill",
-    imageCredit: "Simply Recipes / Grace Elkus",
+    imageCredit: "Dishora Studio / Grace Elkus",
     description: "Cool, crisp, and wonderfully elegant without requiring turning on the stove. Greek yogurt keeps the spread light and protein-rich while chives, garlic, and lemon provide bright flavor.",
     whyMakeThis: [
       "Naturally low-carb, keto-friendly, and under 80 calories per serving.",
@@ -636,7 +636,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 20, 2026",
     imageUrl: "/images/appetizer-stuffed-mini-peppers.jpg",
     imageAlt: "Bright roasted sweet mini peppers stuffed with goat cheese and herbs",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description: "Vibrant yellow, orange, and red mini peppers make a stunning colorful plate. Stuffed with warm goat cheese and savory Mediterranean Mediterranean toppings, they burst with sweet and tangy flavors.",
     whyMakeThis: [
       "Can be served warm right out of the oven or enjoyed at room temperature.",
@@ -718,7 +718,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "August 5, 2026",
     imageUrl: "/images/appetizer-prosciutto-melon-skewers.jpg",
     imageAlt: "Bite-sized prosciutto wrapped cantaloupe skewers with basil and mozzarella",
-    imageCredit: "Simply Recipes / Stephanie A Ganz",
+    imageCredit: "Dishora Studio / Stephanie A Ganz",
     description: "The timeless Italian antipasto transformed into handheld party skewers. Sweet melon and delicate salty cured prosciutto create an instant flavor harmony that never fails to impress.",
     whyMakeThis: [
       "Zero cooking required — assemble in 10 minutes flat.",
@@ -796,7 +796,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 24, 2026",
     imageUrl: "/images/appetizer-tomato-bruschetta.jpg",
     imageAlt: "Toasted garlic crostini topped with fresh marinated diced tomatoes and basil",
-    imageCredit: "Simply Recipes / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description: "The gold standard of Italian appetizers. Crisp toasted artisan bread rubbed with a clove of raw garlic while still warm from the oven, topped with fragrant summer tomatoes and olive oil.",
     whyMakeThis: [
       "Showcases the peak flavor of sweet summer tomatoes.",
@@ -876,7 +876,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "August 15, 2026",
     imageUrl: "/images/appetizer-cocktail-meatballs.jpg",
     imageAlt: "Glossy sweet and tangy cocktail meatballs served with party toothpicks",
-    imageCredit: "Simply Recipes / Susan Bronson",
+    imageCredit: "Dishora Studio / Susan Bronson",
     description: "The legendary 3-ingredient slow-cooker party appetizer that has anchored buffet tables for generations. The grape jelly and chili sauce melt into a glossy, sweet, tangy barbecue glaze.",
     whyMakeThis: [
       "Just 5 minutes of hands-on prep — dump in the slow cooker and walk away.",
@@ -954,7 +954,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 11, 2026",
     imageUrl: "/images/appetizer-onion-gruyere-tarts.jpg",
     imageAlt: "Golden puffed caramelized onion and gruyere pastry squares with thyme",
-    imageCredit: "Simply Recipes / Lou Perseghin",
+    imageCredit: "Dishora Studio / Lou Perseghin",
     description: "French bakery elegance made accessible at home. Sweet, slow-cooked onions combined with nutty Gruyère cheese over shattered layers of crisp golden puff pastry.",
     whyMakeThis: [
       "Looks and tastes like it came from a Parisian patisserie.",
@@ -1036,7 +1036,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 28, 2026",
     imageUrl: "/images/appetizer-bacon-wrapped-dates.jpg",
     imageAlt: "Crispy bacon wrapped dates stuffed with goat cheese on a platter",
-    imageCredit: "Simply Recipes / Kat Lieu",
+    imageCredit: "Dishora Studio / Kat Lieu",
     description: "Commonly known as 'Devils on Horseback', these sweet and savory parcels are the undisputed champion of party finger foods. The sweetness of dates melts into the rich bacon and tangy goat cheese.",
     whyMakeThis: [
       "Combines 4 distinct textures: chewy date, creamy cheese, crunchy almond, and crisp bacon.",
@@ -1113,7 +1113,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 19, 2026",
     imageUrl: "/images/appetizer-mini-crab-cakes.jpg",
     imageAlt: "Golden mini crab cakes with creamy lemon remoulade and fresh chives",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description: "Maryland coastal perfection in a two-bite finger food appetizer. Pure jumbo lump crab is bound gently with Dijon, lemon, and crushed saltines, pan-fried in butter to a delicate crisp exterior.",
     whyMakeThis: [
       "All crab and almost zero breading filler for true seafood luxury.",
@@ -1196,7 +1196,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 7, 2026",
     imageUrl: "/images/appetizer-baked-brie-pecans.jpg",
     imageAlt: "Warm molten wheel of baked brie with honey, toasted pecans, and fresh thyme",
-    imageCredit: "Simply Recipes / Ivy Manning",
+    imageCredit: "Dishora Studio / Ivy Manning",
     description: "An effortless 20-minute centerpiece that turns any gathering into a celebration. The rind softens in the oven while the interior becomes decadently molten and spoonable.",
     whyMakeThis: [
       "Requires only 5 minutes of prep and simple ingredients.",
@@ -1275,7 +1275,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 8, 2026",
     imageUrl: "/images/appetizer-mozzarella-bites.jpg",
     imageAlt: "Golden crispy fried mozzarella cheese bites with hot spicy marinara dip",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description: "Forget rubbery frozen cheese sticks. These bite-sized cubes made with real whole milk mozzarella are crunchy on the outside, melty and stringy on the inside, and paired with tangy marinara.",
     whyMakeThis: [
       "Double-breading technique ensures zero cheese leaks into the oil.",
@@ -1357,7 +1357,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 16, 2026",
     imageUrl: "/images/appetizer-garlic-parm-wings.jpg",
     imageAlt: "Crispy oven baked garlic parmesan wings tossed with herbs in a bowl",
-    imageCredit: "Simply Recipes / Megan Scott",
+    imageCredit: "Dishora Studio / Megan Scott",
     description: "Deep-fryer crispiness without any splattering oil. An aluminum-free baking powder dry brine draws out surface moisture in the oven, creating an ultra-crisp skin that absorbs garlic butter.",
     whyMakeThis: [
       "Secret baking powder method produces crackling fried-like skin in a standard oven.",
@@ -1437,7 +1437,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 29, 2026",
     imageUrl: "/images/appetizer-buffalo-wonton-cups.jpg",
     imageAlt: "Golden wonton cups filled with bubbling buffalo chicken and blue cheese",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description: "All the beloved flavor of Buffalo chicken dip packaged into crunchy, single-serving pastry cups. No messy dripping or broken chips — just neat, delicious party bites.",
     whyMakeThis: [
       "Uses store-bought rotisserie chicken for lightning-fast preparation.",
@@ -1519,7 +1519,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "May 4, 2026",
     imageUrl: "/images/appetizer-deviled-eggs.jpg",
     imageAlt: "Perfect creamy deviled eggs piped with chives and smoked paprika",
-    imageCredit: "Simply Recipes / Jamie Anulewicz",
+    imageCredit: "Dishora Studio / Jamie Anulewicz",
     description: "The gold standard deviled egg recipe passed down through generations. Silky, rich, and balanced with tangy vinegar and Dijon, topped with a dusting of smoky Spanish paprika.",
     whyMakeThis: [
       "Foolproof steam method yields shells that slide off effortlessly.",
@@ -1598,7 +1598,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 21, 2026",
     imageUrl: "/images/appetizer-zucchini-fritters.jpg",
     imageAlt: "Stack of golden crispy zucchini sweet corn fritters with garlic aioli",
-    imageCredit: "Simply Recipes / Stephanie A Ganz",
+    imageCredit: "Dishora Studio / Stephanie A Ganz",
     description: "The most delicious way to use garden zucchini. Shredded zucchini is squeezed dry, tossed with sweet corn and batter, and fried until crisp on the edges and tender in the middle.",
     whyMakeThis: [
       "Crispy edges with sweet corn pop in every bite.",
@@ -1681,7 +1681,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "June 25, 2026",
     imageUrl: "/images/appetizer-garlic-pull-apart-bread.jpg",
     imageAlt: "Crusty sourdough pull apart bread stuffed with melted mozzarella and garlic herbs",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description: "The ultimate interactive party bread. Guests pull apart warm, crusty bread fingers dripping with garlic butter and stretchy melted mozzarella straight from the baking pan.",
     whyMakeThis: [
       "Spectacular visual presentation for family dinners and dinner parties.",
@@ -1761,7 +1761,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/appetizer-spanakopita-triangles.jpg",
     imageAlt: "Golden crisp flaky phyllo spanakopita spinach and feta triangles",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description: "The beloved Greek party pastry, handheld and baked to shatteringly crisp perfection. Every bite bursts with flaky buttery phyllo pastry and savory herb-laced spinach and salty feta.",
     whyMakeThis: [
       "Can be assembled and frozen unbaked for months; bake straight from the freezer.",
@@ -1843,7 +1843,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "August 10, 2026",
     imageUrl: "/images/appetizer-loaded-beef-nachos.jpg",
     imageAlt: "Sheet pan loaded with melted cheese beef nachos, jalapeños, and sour cream",
-    imageCredit: "Simply Recipes / Amanda Luchtel",
+    imageCredit: "Dishora Studio / Amanda Luchtel",
     description: "The ultimate sharing food for Super Bowl Sunday and sports weekends. Two full layers of chips and cheese guarantee that every single chip gets an even coating of melted cheese, meat, and toppings.",
     whyMakeThis: [
       "Two-layer technique ensures no sad dry chips at the bottom of the pan.",
@@ -1924,7 +1924,7 @@ export const appetizerRecipesData: Recipe[] = [
     date: "July 31, 2026",
     imageUrl: "/images/appetizer-jalapeno-poppers.jpg",
     imageAlt: "Crispy bacon wrapped jalapeno poppers with melted cheddar on a platter",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description: "The quintessential spicy finger food for tailgates, cookouts, and Sunday games. Baking softens the jalapeños and tames their heat, while the creamy cheese and smoky bacon provide savory bliss.",
     whyMakeThis: [
       "Bacon stays crisp while the rich cheese center stays molten.",

@@ -155,7 +155,7 @@ export default function InTheKitchenPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "In The Kitchen - Recipe Collections, Cleaning & Organizing - Simply Recipes",
+    name: "In The Kitchen - Recipe Collections, Cleaning & Organizing - Dishora",
     description: "The complete In The Kitchen hub: curated recipe collections, weeknight cooking inspiration, natural cleaning formulas, and smart home organization.",
     url: "http://localhost:3000/in-the-kitchen",
     mainEntity: {

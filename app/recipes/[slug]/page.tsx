@@ -546,7 +546,7 @@ export default function RecipeDetailPage({
             </div>
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal flex justify-between items-center">
-            <span>{recipe.imageCredit || `Credit: Simply Recipes / ${recipe.author}`}</span>
+            <span>{recipe.imageCredit || `Photo & Styling: Dishora Studio / ${recipe.author}`}</span>
             <span className="text-gray-400 text-[11px]">🔥 {recipe.calories}</span>
           </div>
         </div>
@@ -664,7 +664,7 @@ export default function RecipeDetailPage({
               />
             </div>
             <div className="text-[11.5px] text-gray-500 font-normal">
-              {recipe.image2Credit || `Credit: Simply Recipes / ${recipe.author}`}
+              {recipe.image2Credit || `Photo & Styling: Dishora Studio / ${recipe.author}`}
             </div>
           </div>
         )}
@@ -698,7 +698,7 @@ export default function RecipeDetailPage({
               />
             </div>
             <div className="text-[11.5px] text-gray-500 font-normal">
-              {recipe.image3Credit || `Credit: Simply Recipes / ${recipe.author}`}
+              {recipe.image3Credit || `Photo & Styling: Dishora Studio / ${recipe.author}`}
             </div>
           </div>
         )}

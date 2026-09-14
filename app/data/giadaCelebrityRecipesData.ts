@@ -23,7 +23,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "March 4, 2026",
     imageUrl: "/images/lemon-spaghetti.jpg",
     imageAlt: "Twirl of creamy lemon mascarpone spaghetti topped with fresh basil and black pepper",
-    imageCredit: "Simply Recipes / Getty Images / Kat Lieu",
+    imageCredit: "Dishora Studio / Kat Lieu",
     description:
       "When Giada De Laurentiis first demonstrated her signature Lemon Spaghetti on television, home cooks across the country were shocked by how simple it was. Four core ingredients—spaghetti, room-temperature mascarpone cheese, fresh lemons, and freshly grated Parmigiano Reggiano—combine into a velvety, luscious sauce that tastes like sunshine on a plate.",
     whyMakeThis: [
@@ -117,9 +117,9 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 20, 2026",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
     imageAlt: "Thick slice of one-skillet cheeseburger pie with bubbling cheddar and dill pickle relish",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
-      "Out of thousands of weeknight dinner recipes tested on Simply Recipes over the past twenty years, this one-skillet cheeseburger pie consistently claims the #1 spot in reader bookmarks. It delivers the nostalgic, juicy satisfaction of an all-American bacon cheeseburger in a comforting, sliceable casserole.",
+      "Out of hundreds of weeknight dinner recipes tested by our culinary team, this one-skillet cheeseburger pie consistently claims the #1 spot in reader bookmarks. It delivers the nostalgic, juicy satisfaction of an all-American bacon cheeseburger in a comforting, sliceable casserole.",
     whyMakeThis: [
       "One skillet: Go straight from stovetop sautéing to oven baking with zero dirty mixing bowls.",
       "The batter forms its own tender biscuit crust beneath and around the meat.",
@@ -213,7 +213,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 1, 2026",
     imageUrl: "/images/cinnamon-toast.jpg",
     imageAlt: "Two thick slices of toasted country brioche bread spread with dark spiced apple butter",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "When dreary February weather sets in, the cure is warm, slow-simmered apple butter spread over thick, buttery toasted brioche. With just rich bakery bread and concentrated spiced apple butter, you have an intoxicatingly cozy breakfast or afternoon tea snack.",
     whyMakeThis: [
@@ -295,7 +295,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "January 28, 2026",
     imageUrl: "/images/dinner-italian-sausage-pasta.jpg",
     imageAlt: "Bowl of ridged rigatoni pasta coated in rich sausage tomato sauce and melted creamy goat cheese",
-    imageCredit: "Simply Recipes / Myo Quinn",
+    imageCredit: "Dishora Studio / Myo Quinn",
     description:
       "When weeknights get chaotic, Giada's famous Rigatoni with Sausage and Goat Cheese is the ultimate savior. As sweet Italian sausage browns with garlic and red pepper, crushed plum tomatoes simmer briefly. Stirring in fresh goat cheese at the very end melts into a pink, velvety sauce that clings to every ridge of the rigatoni.",
     whyMakeThis: [
@@ -389,7 +389,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "March 10, 2026",
     imageUrl: "/images/dinner-4-ingredient-pasta-bake.jpg",
     imageAlt: "Sheet pan lasagna with crispy browned cheese edges and ruffled pasta noodles",
-    imageCredit: "Simply Recipes / Myo Quinn",
+    imageCredit: "Dishora Studio / Myo Quinn",
     description:
       "Everyone loves the crispy, crunchy corner edges of traditional baked lasagna. Giada De Laurentiis solved the age-old problem of fighting over the corner piece by spreading broken lasagna noodles across a rimmed baking sheet so every single serving gets maximum caramelized cheese crust.",
     whyMakeThis: [
@@ -484,7 +484,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 24, 2026",
     imageUrl: "/images/dinner-crispy-chicken-greens.jpg",
     imageAlt: "Golden sautéed chicken cutlets on white platter drizzled with lemon butter caper sauce and parsley",
-    imageCredit: "Simply Recipes / Stephanie A Ganz",
+    imageCredit: "Dishora Studio / Stephanie A Ganz",
     description:
       "In our test kitchen showdown between two Food Network titans, Giada De Laurentiis' Chicken Piccata emerged as the definitive winner. Her technique of pounding chicken breasts extra-thin, dredging in light flour, and finishing the lemon-wine pan sauce with cold cubed butter creates an irresistible, silky glaze.",
     whyMakeThis: [
@@ -577,7 +577,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 16, 2026",
     imageUrl: "/images/appetizer-prosciutto-melon-skewers.jpg",
     imageAlt: "Small ceramic bowl filled with warm marinated green and black olives with orange peel curls and rosemary",
-    imageCredit: "Simply Recipes / Kat Lieu",
+    imageCredit: "Dishora Studio / Kat Lieu",
     description:
       "When asked about her go-to daily snack, Giada De Laurentiis always names olives—specifically, buttery bright green Castelvetrano olives. Warming them gently in extra-virgin olive oil with aromatic citrus zest and herbs transforms everyday grocery olives into a high-end Roman aperitivo bar experience.",
     whyMakeThis: [
@@ -663,7 +663,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 10, 2026",
     imageUrl: "/images/tip-crispy-potatoes.jpg",
     imageAlt: "Crispy golden smashed baby potatoes roasted on baking sheet with caramelized lemon wheels and thyme",
-    imageCredit: "Simply Recipes / Candace Nagy",
+    imageCredit: "Dishora Studio / Candace Nagy",
     description:
       "Friday night calls for a side dish that feels decadent and celebratory without hours of prep. Giada De Laurentiis' technique of boiling baby potatoes until tender, smashing them flat with the bottom of a glass, and roasting in a hot oven with lemon wheels yields fluffy, creamy centers and shatteringly crisp edges.",
     whyMakeThis: [

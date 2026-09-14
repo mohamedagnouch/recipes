@@ -65,7 +65,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 24, 2026",
     imageUrl: "/images/lunch-white-bean-salmon-salad.jpg",
     imageAlt: "Plate of white bean and wild salmon salad tossed with peppery arugula and lemon dressing",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description:
       "A satisfying, protein-dense lunch that requires zero heat. Canned cannellini beans provide creamy fiber, paired with high-quality canned wild salmon, crisp capers, pickled red onions, and lemon olive oil dressing. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -130,7 +130,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 23, 2026",
     imageUrl: "/images/lunch-royal-coronation-chicken-salad.jpg",
     imageAlt: "Stacked Coronation chicken salad sandwich with mango chutney curry mayo on crusty bread",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Created for Queen Elizabeth II's coronation banquet, this British pantry staple elevates rotisserie chicken with sweet mango chutney, mild curry powder, Greek yogurt, and crunchy toasted almonds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -195,7 +195,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 22, 2026",
     imageUrl: "/images/lunch-italian-tuna-salad.jpg",
     imageAlt: "Bowl of Mediterranean Italian tuna salad with Kalamata olives, red onion, and crisp bibb lettuce cups",
-    imageCredit: "Simply Recipes / Ivy Manning",
+    imageCredit: "Dishora Studio / Ivy Manning",
     description:
       "Say goodbye to gloppy mayo tuna salads. This Italian deli version relies on rich olive oil-packed tuna, briny Kalamata olives, diced cucumbers, pickled pepperoncini, and red wine vinegar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -261,7 +261,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 21, 2026",
     imageUrl: "/images/lunch-tomato-cheddar-sandwich.jpg",
     imageAlt: "Open-faced toasted bread topped with thick beefsteak tomato and melted browned cheddar cheese",
-    imageCredit: "Simply Recipes / Claudia Cash",
+    imageCredit: "Dishora Studio / Claudia Cash",
     description:
       "A college dorm recipe that never lost its magic: good sourdough toasted crisp, smeared with Duke's mayo, topped with a thick slab of beefsteak tomato, and melted under the broiler with sharp Vermont cheddar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -326,7 +326,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 20, 2026",
     imageUrl: "/images/lunch-fresh-tomato-salad.jpg",
     imageAlt: "Colorful bowl of halved ripe cherry and heirloom tomatoes with basil and olive oil dressing",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Pure summer on a plate. Multicolored cherry tomatoes steeped in their own sweet juices with shallots, extra virgin olive oil, and fragrant torn sweet basil leaves. Dip with crusty bread to catch the vinaigrette. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -390,7 +390,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 19, 2026",
     imageUrl: "/images/lunch-cold-soba-noodles.jpg",
     imageAlt: "Chilled Japanese buckwheat soba noodles swirled in a pink ceramic bowl with green scallions",
-    imageCredit: "Simply Recipes / Kat Thompson",
+    imageCredit: "Dishora Studio / Kat Thompson",
     description:
       "Zaru Soba is Japan's ultimate summer lifesaver. Nutty buckwheat noodles boiled for 4 minutes, plunged into ice-cold water to snap into a firm, chewy texture, then dipped into umami-rich mentsuyu broth. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -454,7 +454,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/lunch-italian-sub-panzanella.jpg",
     imageAlt: "Big wooden bowl of Italian sub panzanella salad with toasted bread cubes, salami, and tomatoes",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "All the salty, savory elements of a classic Italian hero sandwich—Genoa salami, spicy capicola, sharp provolone cheese, pepperoncini, and ripe tomatoes—tossed with crusty toasted bread cubes that soak up herb vinaigrette. Difficulty: Easy.",
     whyMakeThis: [
@@ -521,7 +521,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 17, 2026",
     imageUrl: "/images/lunch-southern-pimento-sandwich.jpg",
     imageAlt: "Sliced Southern pimento cheese sandwich on white bread with cheddar and diced pimentos",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Known as the 'Pâté of the South': freshly grated sharp cheddar cheese blended with creamy mayonnaise and sweet diced red pimento peppers. Smeared thick between two slices of squishy white bread. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -585,7 +585,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 16, 2026",
     imageUrl: "/images/lunch-greek-dakos-tomato-toast.jpg",
     imageAlt: "Cretan Dakos barley rusk toast heaped with grated ripe tomatoes, Greek feta, and dried oregano",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Dakos is the jewel of Crete: hard toasted bread softened by the natural juices of sweet grated fresh tomatoes, drizzled with peppery Greek olive oil, and crowned with creamy salty feta and wild dried oregano. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -649,7 +649,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 15, 2026",
     imageUrl: "/images/lunch-high-protein-salads-collection.jpg",
     imageAlt: "French Nicoise high protein salad with tuna, hard boiled eggs, green beans, and olives",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Salads that actually keep you full until dinner. This comprehensive collection features balanced grain, legume, fish, and chicken salads delivering at least 30 grams of protein per bowl. Difficulty: Easy.",
     whyMakeThis: [
@@ -707,7 +707,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 14, 2026",
     imageUrl: "/images/lunch-summer-casseroles-collection.jpg",
     imageAlt: "Bubbling Mexican tortilla casserole with melted cheddar, black beans, and sour cream",
-    imageCredit: "Simply Recipes / Devan Grimsrud",
+    imageCredit: "Dishora Studio / Devan Grimsrud",
     description:
       "Casseroles aren't just for winter. These light, vegetable-forward summer bakes highlight sweet corn, zucchini, tomatoes, and Mexican spices for effortless make-ahead lunches. Difficulty: Easy.",
     whyMakeThis: [
@@ -767,7 +767,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 13, 2026",
     imageUrl: "/images/lunch-no-cook-lunches-collection.jpg",
     imageAlt: "Bright plate of sliced heirloom tomatoes over creamy avocado mash on artisan toast",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "When summer heat peaks or your lunch break is squeezed, these 14 delicious recipes keep the kitchen cool while delivering fresh, exciting flavors in 15 minutes or less. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -825,7 +825,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 12, 2026",
     imageUrl: "/images/lunch-strawberry-pasta.jpg",
     imageAlt: "Bowl of curved shell pasta in pink strawberry cream sauce garnished with mint leaves",
-    imageCredit: "Simply Recipes / Jamie Anulewicz",
+    imageCredit: "Dishora Studio / Jamie Anulewicz",
     description:
       "A classic specialty from the Veneto region of Northern Italy. Sweet ripe strawberries pureed and gently simmered with heavy cream, butter, and black pepper create a delicate, floral pink sauce for pasta. Difficulty: Easy.",
     whyMakeThis: [
@@ -890,7 +890,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 11, 2026",
     imageUrl: "/images/lunch-shrimp-louie-salad.jpg",
     imageAlt: "Platter of classic Shrimp Louie salad with pink wild shrimp, hard boiled eggs, avocado, and tomatoes",
-    imageCredit: "Simply Recipes / Ivy Manning",
+    imageCredit: "Dishora Studio / Ivy Manning",
     description:
       "A nostalgic homage to legendary department store tea rooms of the 1970s. Sweet cooked Oregon bay shrimp, jammy hard-boiled eggs, ripe avocado, and asparagus spears draped in creamy Thousand Island-style Louie dressing. Difficulty: Easy.",
     whyMakeThis: [
@@ -954,7 +954,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 10, 2026",
     imageUrl: "/images/lunch-everything-bagel-salad.jpg",
     imageAlt: "Big clear bowl of everything bagel panzanella salad with lox, capers, eggs, and cream cheese croutons",
-    imageCredit: "Simply Recipes / Jill Silverman Hough",
+    imageCredit: "Dishora Studio / Jill Silverman Hough",
     description:
       "All the magic of a loaded New York bagel transformed into a crunchy lunchtime salad: toasted everything bagel croutons, ribbons of smoked Nova lox, soft boiled eggs, crisp Persian cucumbers, capers, and dill cream dressing. Difficulty: Easy.",
     whyMakeThis: [
@@ -1020,7 +1020,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 9, 2026",
     imageUrl: "/images/lunch-spring-snap-pea-salad.jpg",
     imageAlt: "Plate of thinly sliced sugar snap peas, pink radishes, chickpeas, and feta cheese with fresh mint",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description:
       "Unbelievably crunchy and vibrant. Sugar snap peas sliced on the bias with peppery pink radishes, protein-rich chickpeas, creamy feta, and fresh herbs in a zesty lemon dressing. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1084,7 +1084,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 8, 2026",
     imageUrl: "/images/lunch-caesar-pasta-salad.jpg",
     imageAlt: "Big bowl of spiral rotini pasta tossed in garlic Caesar dressing with romaine and shaved parmesan",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "The perfect marriage of two classics: cold spiral rotini pasta capturing thick garlic Caesar dressing, tossed with cold crunchy romaine hearts, shaved Parmesan, and garlic croutons. Difficulty: Easy.",
     whyMakeThis: [
@@ -1149,7 +1149,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 7, 2026",
     imageUrl: "/images/lunch-skillet-chicken-tacos.jpg",
     imageAlt: "Two warm chicken tacos topped with cheddar cheese, salsa, sour cream, and lime wedges",
-    imageCredit: "Simply Recipes / Kris Osborne",
+    imageCredit: "Dishora Studio / Kris Osborne",
     description:
       "Tacos in 20 minutes flat. Shredded cooked chicken tossed in a hot skillet with chili powder, ground cumin, garlic, and chunky tomato salsa until juicy and bubbling. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1209,7 +1209,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 6, 2026",
     imageUrl: "/images/lunch-crab-cheese-nachos.jpg",
     imageAlt: "Plate of warm melted cheese nachos piled high with sweet lump crab meat and Old Bay seasoning",
-    imageCredit: "Simply Recipes / Micah Siva, RD",
+    imageCredit: "Dishora Studio / Micah Siva, RD",
     description:
       "When you have the house to yourself, dinner is whatever makes you happy. Crispy tortilla chips smothered in melted cheddar and sweet lump blue crab meat, dusted with Old Bay seasoning and drizzled with hot sauce. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1274,7 +1274,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 5, 2026",
     imageUrl: "/images/lunch-crispy-cauliflower-nuggets.jpg",
     imageAlt: "Plate of golden crispy baked cauliflower nuggets with a bowl of red marinara dipping sauce",
-    imageCredit: "Simply Recipes / Alexandra Shytsman",
+    imageCredit: "Dishora Studio / Alexandra Shytsman",
     description:
       "Tender cauliflower florets dredged in garlic-seasoned egg and Japanese panko breadcrumbs, baked until shatteringly crisp outside and tender inside. Serve with warm marinara for dunking. Difficulty: Easy.",
     whyMakeThis: [
@@ -1334,7 +1334,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 4, 2026",
     imageUrl: "/images/lunch-spicy-garlic-sesame-noodles.jpg",
     imageAlt: "Twirled plate of curly ramen noodles coated in glossy chili crisp sesame garlic sauce",
-    imageCredit: "Simply Recipes / Rebecca Fennel",
+    imageCredit: "Dishora Studio / Rebecca Fennel",
     description:
       "Discard the flavor packet. Sizzling garlic and spicy chili crisp poured over boiled wavy noodles, seasoned with dark soy sauce and toasted sesame oil for instant savory comfort. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1393,7 +1393,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 3, 2026",
     imageUrl: "/images/lunch-ten-minute-egg-sandwich.jpg",
     imageAlt: "Toasted whole wheat English muffin egg sandwich with wilted spinach, runny egg, and melted cheese",
-    imageCredit: "Simply Recipes / Kris Osborne",
+    imageCredit: "Dishora Studio / Kris Osborne",
     description:
       "The definitive morning and lunchtime sandwich: an English muffin toasted dark, filled with an egg fried in foaming butter, a quick handful of wilted garlic spinach, and melted sharp cheese. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1453,7 +1453,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 2, 2026",
     imageUrl: "/images/lunch-dill-egg-salad.jpg",
     imageAlt: "Bowl of creamy chopped egg salad folded with fresh dill and Dijon mustard on toast",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description:
       "A classic deli egg salad that focuses on the fundamentals: perfectly boiled eggs mashed into chunky curds with good mayonnaise, tangy Dijon mustard, and an abundance of fresh chopped aromatic dill. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1512,7 +1512,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "May 1, 2026",
     imageUrl: "/images/lunch-cowboy-spaghetti.jpg",
     imageAlt: "Skillet of bubbling cowboy spaghetti with ground beef, bacon crumbles, barbecue sauce, and cheddar",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A hearty Texas-style pasta bake combining Italian spaghetti with cowboy cookout favorites: ground beef browned in bacon drippings, simmered with barbecue sauce, fire-roasted tomatoes, and hot sauce, baked under a thick blanket of sharp cheddar. Difficulty: Easy.",
     whyMakeThis: [
@@ -1578,7 +1578,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 30, 2026",
     imageUrl: "/images/lunch-pizza-white-beans.jpg",
     imageAlt: "Casserole dish of tender white beans baked in pizza sauce with melted mozzarella and pepperoni",
-    imageCredit: "Simply Recipes / Stephanie A Ganz",
+    imageCredit: "Dishora Studio / Stephanie A Ganz",
     description:
       "All the cheesy, saucy joy of a pepperoni pizza baked over tender canned cannellini beans. In 20 minutes you get a high-fiber, high-protein lunch that kids and adults scoop up with crusty bread or garlic toast. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1643,7 +1643,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 29, 2026",
     imageUrl: "/images/lunch-cajun-sausage-pasta.jpg",
     imageAlt: "Skillet of penne pasta with sliced smoked sausage in creamy Cajun spice sauce",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "A quick New Orleans dinner or lunch: smoky andouille sausage browned in a skillet, tossed with penne pasta and heavy cream seasoned with authentic Cajun spices. Ready in 15 minutes in one pan. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1708,7 +1708,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 28, 2026",
     imageUrl: "/images/lunch-sheet-pan-baked-chicken.jpg",
     imageAlt: "Sheet pan of golden baked chicken breasts covered in bubbling marinara and melted provolone cheese",
-    imageCredit: "Simply Recipes / Sara Haas",
+    imageCredit: "Dishora Studio / Sara Haas",
     description:
       "Created by a registered dietitian: thin chicken cutlets placed on a baking sheet, smothered in zesty marinara sauce, and baked with provolone cheese until bubbly and juicy in just 15 minutes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1773,7 +1773,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 27, 2026",
     imageUrl: "/images/lunch-peanut-butter-pickle-sandwich.jpg",
     imageAlt: "Sliced sandwich showing thick layers of creamy peanut butter and crisp green dill pickle planks",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description:
       "A Great Depression era sandwich that still has die-hard fans: the rich creaminess of peanut butter perfectly balances the salty, vinegary crunch of sour dill pickles. Ready in 3 minutes flat. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1830,7 +1830,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 26, 2026",
     imageUrl: "/images/lunch-five-minute-egg-salad-toast.jpg",
     imageAlt: "Slice of toasted sourdough topped with fluffy, creamy egg salad and chopped fresh chives",
-    imageCredit: "Simply Recipes / Kris Osborne",
+    imageCredit: "Dishora Studio / Kris Osborne",
     description:
       "If you keep pre-cooked hard-boiled eggs in your fridge, this five-minute lunch is your secret weapon. Chunky eggs mashed with a hint of Dijon, mayonnaise, and fresh chives on warm crusty toast. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1888,7 +1888,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 25, 2026",
     imageUrl: "/images/lunch-southern-biscuit-bacon-gravy.jpg",
     imageAlt: "Warm split buttermilk biscuit drenched in velvety Southern bacon gravy and crispy bacon bits",
-    imageCredit: "Simply Recipes / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description:
       "A mountain country comfort classic: instead of sausage, rendering thick-cut bacon in a skillet and using the flavorful drippings to make a silky white pepper cream gravy ladled over split biscuits. Difficulty: Easy.",
     whyMakeThis: [
@@ -1953,7 +1953,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 24, 2026",
     imageUrl: "/images/lunch-leftovers-dinner-collection.jpg",
     imageAlt: "Dutch oven pot of slow simmered beef chili with beans, cheddar, lime, and sour cream",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Certain meals become deeper, richer, and more harmonious as they rest overnight in the fridge. This roundup highlights the best chilis, stews, and casseroles designed to make tomorrow's lunch your favorite meal of the day. Difficulty: Easy.",
     whyMakeThis: [
@@ -2012,7 +2012,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 23, 2026",
     imageUrl: "/images/lunch-spicy-mayo-tuna-salad.jpg",
     imageAlt: "Ceramic bowl of spicy sriracha tuna salad with sesame seeds and crackers",
-    imageCredit: "Simply Recipes / Young Sun Huh",
+    imageCredit: "Dishora Studio / Young Sun Huh",
     description:
       "Inspired by Korean canned tuna snacks and spicy tuna sushi rolls: canned tuna mixed with creamy Kewpie mayonnaise, sriracha, toasted sesame oil, and crunchy scallions. Serve with roasted seaweed sheets or warm rice. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2070,7 +2070,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 22, 2026",
     imageUrl: "/images/lunch-slow-cooker-chicken-tortilla-soup.jpg",
     imageAlt: "White bowl of slow cooker chicken tortilla soup topped with diced avocado, sour cream, and crispy tortilla strips",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "Literally dump all ingredients into the slow cooker in the morning, and return to a fragrant, Mexican restaurant-quality chicken tortilla soup ready to ladle into bowls with lime and avocado. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2135,7 +2135,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 21, 2026",
     imageUrl: "/images/lunch-avocado-radish-toast.jpg",
     imageAlt: "Two pieces of sourdough avocado toast crowned with sliced cherry tomatoes and pink radishes",
-    imageCredit: "Simply Recipes / Alexandra Shytsman",
+    imageCredit: "Dishora Studio / Alexandra Shytsman",
     description:
       "A fast, satisfying lunch or breakfast toast. Warm crusty sourdough spread with fresh lime-infused avocado mash, topped with paper-thin sliced crunchy radishes, olive oil, and sea salt flakes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2193,7 +2193,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 20, 2026",
     imageUrl: "/images/lunch-classic-bloody-mary.jpg",
     imageAlt: "Two tall glasses of spicy Bloody Mary cocktails garnished with celery stalks and olives",
-    imageCredit: "Simply Recipes / Jamie Anulewicz",
+    imageCredit: "Dishora Studio / Jamie Anulewicz",
     description:
       "The definitive weekend brunch and lunch cocktail: high quality tomato juice spiced with prepared horseradish, Worcestershire sauce, hot sauce, lemon juice, and a celery salt-rimmed glass. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2252,7 +2252,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 19, 2026",
     imageUrl: "/images/lunch-spicy-salmon-cucumber-rice-bowl.jpg",
     imageAlt: "White bowl of warm rice topped with spicy salmon flakes, sliced green cucumbers, and sesame seeds",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "A fast homemade take on Emily Mariko's viral salmon rice bowl: warm rice flaked with canned wild salmon, tossed in sriracha and mayo, served with crisp sliced cucumbers and soy sauce. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2311,7 +2311,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 18, 2026",
     imageUrl: "/images/lunch-taco-stuffed-baked-potato.jpg",
     imageAlt: "Crispy baked russet potato split open and stuffed with seasoned taco ground beef, cheddar, and lettuce",
-    imageCredit: "Simply Recipes / Devan Grimsrud",
+    imageCredit: "Dishora Studio / Devan Grimsrud",
     description:
       "Turn a modest russet potato into a loaded feast. Crisp-skinned baked potatoes fluffed inside with butter, stuffed with savory taco ground beef, melted sharp cheddar, sour cream, and shredded lettuce. Difficulty: Easy.",
     whyMakeThis: [
@@ -2376,7 +2376,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 17, 2026",
     imageUrl: "/images/lunch-hard-boiled-egg-salad.jpg",
     imageAlt: "Plate of chunky golden egg salad seasoned with herbs on white platter",
-    imageCredit: "Simply Recipes / Lou Perseghin",
+    imageCredit: "Dishora Studio / Lou Perseghin",
     description:
       "Hate peeling stubborn egg shells? The viral restaurant hack: crack raw eggs directly into a greased loaf pan, steam in a water bath, and chop the solid egg loaf into tender squares. Toss with mayo and mustard in seconds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2440,7 +2440,7 @@ export const lunchRecipesData: Recipe[] = [
     date: "April 16, 2026",
     imageUrl: "/images/lunch-pickled-chicken-salad-sandwich.jpg",
     imageAlt: "Stacked crusty sandwich of chunky chicken salad packed with dill pickles and celery",
-    imageCredit: "Simply Recipes / Checka Ciammaichelli",
+    imageCredit: "Dishora Studio / Checka Ciammaichelli",
     description:
       "Dill pickle juice is the game changer here. Whisked directly into the mayonnaise dressing with chopped dill pickles and celery, it cuts through rich chicken with vinegary zing. Difficulty: Super Easy.",
     whyMakeThis: [

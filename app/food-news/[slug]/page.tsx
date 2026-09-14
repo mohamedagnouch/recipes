@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (!article) return { title: "Article Not Found" };
 
   return {
-    title: `${article.headline} - Simply Recipes Food News`,
+    title: `${article.headline} - Dishora Food News`,
     description: article.deck,
     openGraph: {
       title: article.headline,
@@ -62,7 +62,7 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
     },
     publisher: {
       "@type": "Organization",
-      name: "Simply Recipes",
+      name: "Dishora",
       logo: {
         "@type": "ImageObject",
         url: "http://localhost:3000/images/simply-recipes-logo.png",
@@ -174,7 +174,7 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
               />
             </div>
             <div className="text-[11.5px] text-gray-500 font-normal">
-              Photo: Simply Recipes Food News / Verified Editorial Photography
+              Photo: Dishora Food News / Editorial Photography
             </div>
           </div>
 

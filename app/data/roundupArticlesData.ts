@@ -18,12 +18,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "420 kcal",
-    author: "Simply Recipes Editors",
+    author: "Dishora Editors",
     authorRole: "Editorial Staff",
     date: "July 12, 2026",
     imageUrl: "/images/old-bay-pasta.jpg",
     imageAlt: "Garlic butter angel hair pasta tossed with blistered cherry tomatoes and herbs",
-    imageCredit: "Simply Recipes / Photo by Robby Lozano",
+    imageCredit: "Dishora Studio / Photo by Robby Lozano",
     description:
       "When the temperature outside climbs above 85 degrees and you are exhausted from a long day, the last thing you want is a heavy, multi-pot cooking session. This 15-minute skillet pasta is our test kitchen's ultimate low-effort, high-reward summer dinner. Sweet cherry tomatoes blister in olive oil and garlic, creating an effortless, jammy pan sauce that coats every strand of pasta.",
     whyMakeThis: [
@@ -116,12 +116,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "390 kcal",
-    author: "Simply Recipes Test Kitchen",
+    author: "Dishora Test Kitchen",
     authorRole: "Test Kitchen Staff",
     date: "July 1, 2026",
     imageUrl: "/images/cheeseburger-pie.jpg",
     imageAlt: "One-skillet cheeseburger pie topped with melted cheddar cheese and sliced dill pickles",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "When July evenings are packed with summer camp pickups, swimming sessions, and backyard play, you need a dinner that comes together fast without heating up the whole house for hours. This reader-favorite cheeseburger pie turns simple ground beef, sharp cheddar, and pantry baking mix into a golden, self-crusting weeknight miracle.",
     whyMakeThis: [
@@ -219,7 +219,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 20, 2026",
     imageUrl: "/images/appetizer-deviled-eggs.jpg",
     imageAlt: "Platter of classic deviled eggs piped with creamy yellow yolk filling and dusted with paprika",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "No summer cookout, holiday brunch, or Sunday potluck is complete without a chilled platter of classic deviled eggs. Our time-tested recipe guarantees easy-peel hard-boiled eggs every single time, with an ultra-silky yolk filling that hits the perfect harmony of tangy mustard, creamy mayonnaise, and a pinch of cayenne pepper.",
     whyMakeThis: [
@@ -314,7 +314,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 28, 2026",
     imageUrl: "/images/breakfast-strawberry-banana-smoothie.jpg",
     imageAlt: "Two tall glasses of chilled strawberry peach smoothie garnished with fresh peach slices and mint",
-    imageCredit: "Simply Recipes / Cindy Rahe",
+    imageCredit: "Dishora Studio / Cindy Rahe",
     description:
       "When ripe summer peaches and fragrant strawberries hit peak season at the farmers market, this smoothie is the most refreshing way to start your morning. Thickened naturally with Greek yogurt and sweetened with a touch of wildflower honey, it delivers a sunny, vibrant burst of vitamins and antioxidants in less than 5 minutes.",
     whyMakeThis: [
@@ -407,7 +407,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 10, 2026",
     imageUrl: "/images/breakfast-easy-zucchini-bread.jpg",
     imageAlt: "Slice of moist spiced zucchini carrot bread served on vintage linen with softened butter",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "When garden zucchini and sweet farm carrots are overflowing in mid-July, there is no better celebration than this moist, cinnamon-fragrant quick bread. The moisture from the grated vegetables creates an exceptionally tender crumb that stays soft for days on your countertop.",
     whyMakeThis: [
@@ -500,12 +500,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "2 glasses",
     servingsCount: 2,
     calories: "110 kcal per glass",
-    author: "Simply Recipes",
+    author: "Dishora Culinary Team",
     authorRole: "Culinary Team",
     date: "July 8, 2026",
     imageUrl: "/images/breakfast-summer-peach-parfait.jpg",
     imageAlt: "Glass of pale orange cantaloupe mint smoothie with a fresh lime wheel and mint sprig",
-    imageCredit: "Simply Recipes / Photo Archive",
+    imageCredit: "Dishora Studio / Photo Archive",
     description:
       "When the summer sun is beating down, plain water can feel boring. Cantaloupe is over 90% water and packed with natural potassium and vitamin A. Blended with fresh cooling mint leaves, tangy lime juice, and pure coconut water, this smoothie is summer hydration at its absolute finest.",
     whyMakeThis: [
@@ -589,7 +589,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 14, 2026",
     imageUrl: "/images/cinnamon-toast.jpg",
     imageAlt: "Golden crusty sourdough toast spread with fluffy whipped ricotta and dripping honey",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description:
       "Whipped ricotta is one of the easiest culinary tricks that instantly turns everyday ingredients into a five-star brunch plate. By whipping whole milk ricotta in a food processor with olive oil, lemon zest, and a pinch of salt, you transform gritty curds into a cloud-like, silky spread.",
     whyMakeThis: [
@@ -670,12 +670,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 bowls",
     servingsCount: 4,
     calories: "140 kcal per bowl",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen Staff",
     date: "May 25, 2026",
     imageUrl: "/images/dinner-one-pot-dal.jpg",
     imageAlt: "Steaming bowl of golden egg drop soup with delicate egg flower ribbons and scallions",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "When you crave something light, soothing, and warm without spending an hour at the stove, authentic homemade egg drop soup is unbeatable. Ready in just 20 minutes with pantry staples, this soup rivals your favorite Chinatown takeout spot with pure, clean flavors.",
     whyMakeThis: [
@@ -769,7 +769,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 6, 2026",
     imageUrl: "/images/breakfast-bacon-egg-muffins.jpg",
     imageAlt: "Batch of tall domed cinnamon zucchini muffins fresh from oven on cooling rack",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "These bakery-style zucchini muffins have high domed tops, a crunchy turbinado sugar crust, and an exceptionally tender, moist crumb spiced with cinnamon and ginger. They are the ultimate grab-and-go summer breakfast.",
     whyMakeThis: [
@@ -863,7 +863,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 25, 2026",
     imageUrl: "/images/cookies-ice-cream.jpg",
     imageAlt: "Frothy orange drink in tall diner glass with striped straw and orange wedge",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "If you grew up in the 1980s or 1990s, walking through the shopping mall on a hot summer afternoon always ended at the Orange Julius counter. This exact copycat recipe captures that velvety, creamy orange dreamsicle texture right in your home blender.",
     whyMakeThis: [
@@ -942,12 +942,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "260 kcal per serving",
-    author: "Simply Recipes Editors",
+    author: "Dishora Editors",
     authorRole: "Editorial Staff",
     date: "July 15, 2026",
     imageUrl: "/images/dessert-spiced-apple-crisp.jpg",
     imageAlt: "Cast iron skillet bubbling with juicy summer berries and golden biscuit crumble topping",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "When summer berries are at their peak sweetness, dessert does not need twenty ingredients. This 5-ingredient cast iron skillet crisp celebrates fruit purity with a quick butter biscuit crumble that bakes into bubbly perfection in 25 minutes.",
     whyMakeThis: [
@@ -1033,12 +1033,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 burgers",
     servingsCount: 4,
     calories: "520 kcal per burger",
-    author: "Simply Recipes Test Kitchen",
+    author: "Dishora Test Kitchen",
     authorRole: "Test Kitchen Staff",
     date: "August 1, 2026",
     imageUrl: "/images/grilled-burger.jpg",
     imageAlt: "Double smashed cheeseburger with melted cheese dripping down toasted brioche bun",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description:
       "August heat calls for fast stove-side searing rather than hours over the stove. These classic diner smashed cheeseburgers develop an unbeatable savory crust in a smoking-hot cast iron skillet in under two minutes per patty.",
     whyMakeThis: [
@@ -1130,7 +1130,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 2, 2026",
     imageUrl: "/images/breakfast-aunt-cindy-blueberry-muffins.jpg",
     imageAlt: "Basket of fluffy golden blueberry muffins bursting with purple berries",
-    imageCredit: "Simply Recipes / Cindy Rahe",
+    imageCredit: "Dishora Studio / Cindy Rahe",
     description:
       "My Aunt Cindy has been baking these blueberry muffins for every family road trip, Sunday breakfast, and summer beach day for over thirty years. With one bowl and a wooden spoon, you can have warm, berry-studded muffins on the table in 30 minutes flat.",
     whyMakeThis: [
@@ -1219,12 +1219,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "6 wedges",
     servingsCount: 6,
     calories: "320 kcal per wedge",
-    author: "Simply Recipes",
+    author: "Dishora Culinary Team",
     authorRole: "Editorial Team",
     date: "June 18, 2026",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
     imageAlt: "Wedge of golden baked cheesy artichoke pie with browned cheese crust and herbs",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "This savory baked artichoke pie is reminiscent of warm spinach-artichoke dip, but set in a sliceable, quiche-like custard that makes an effortless dinner or brunch centerpiece. Marinated artichoke hearts provide bright acidity and herbed olive oil flavor throughout.",
     whyMakeThis: [
@@ -1314,7 +1314,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 5, 2026",
     imageUrl: "/images/french-omelette.jpg",
     imageAlt: "Smooth pale yellow rolled French omelette on white plate garnished with fresh chives",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
       "A classic French omelette is the ultimate test of culinary finesse, yet once you understand the simple pan-shaking technique, it takes less than 4 minutes of cooking. Unlike browned American country omelettes, a French omelette has no color on the exterior, rolling up like a smooth yellow cigar with a rich, custardy interior.",
     whyMakeThis: [

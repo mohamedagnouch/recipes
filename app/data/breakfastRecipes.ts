@@ -65,7 +65,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 22, 2026",
     imageUrl: "/images/breakfast-protein-overnight-oats.jpg",
     imageAlt: "Creamy high-protein overnight oats topped with banana slices and peanut butter drizzle",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "This high-protein overnight oats formula packs 25g of protein per serving thanks to whole milk Greek yogurt and peanut butter. Prep it in 5 minutes on Sunday night for effortless grab-and-go weekday mornings. Difficulty: Easy.",
     whyMakeThis: [
@@ -136,7 +136,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 21, 2026",
     imageUrl: "/images/breakfast-pumpkin-banana-bread.jpg",
     imageAlt: "Sliced warm pumpkin spice banana bread on wooden cutting board",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "The best of both worlds: fragrant pumpkin spice meets naturally sweet overripe bananas in a tender, plush loaf you can mix in a single bowl with a fork. Difficulty: Easy.",
     whyMakeThis: [
@@ -205,7 +205,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 20, 2026",
     imageUrl: "/images/breakfast-pumpkin-chocolate-muffins.jpg",
     imageAlt: "Fluffy pumpkin chocolate chip muffins in paper liners on cooling rack",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "Tender bakery-style muffins bursting with warm autumn spices and generous handfuls of semi-sweet chocolate chips. Ready in 35 minutes from start to finish in one bowl. Difficulty: Easy.",
     whyMakeThis: [
@@ -273,7 +273,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 19, 2026",
     imageUrl: "/images/breakfast-pbj-muffins.jpg",
     imageAlt: "Golden peanut butter muffins with swirling raspberry jam dollops",
-    imageCredit: "Simply Recipes / Micah Siva, RD",
+    imageCredit: "Dishora Studio / Micah Siva, RD",
     description:
       "Created by a registered dietitian: hearty peanut butter and oat muffins stuffed with strawberry preserves. Packed with 9g protein and 4g fiber per muffin. Difficulty: Easy.",
     whyMakeThis: [
@@ -339,7 +339,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/breakfast-dutch-hagelslag-toast.jpg",
     imageAlt: "Sliced crusty buttered bread covered in colorful festive sprinkles",
-    imageCredit: "Simply Recipes / Molly Adams",
+    imageCredit: "Dishora Studio / Molly Adams",
     description:
       "In the Netherlands, breakfast without Hagelslag is unthinkable! A slice of hearty bread with a thick layer of salted European butter, topped with real milk chocolate sprinkles that stick to every bite. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -401,7 +401,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 17, 2026",
     imageUrl: "/images/breakfast-flourless-blueberry-muffins.jpg",
     imageAlt: "Plate of golden flourless blueberry muffins bursting with purple berries",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Rolled oats and Greek yogurt blended into a fluffy batter with zero flour, butter, or refined sugar. Every bite bursts with sweet, juicy blueberries. Difficulty: Easy.",
     whyMakeThis: [
@@ -466,7 +466,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 16, 2026",
     imageUrl: "/images/breakfast-easy-zucchini-bread.jpg",
     imageAlt: "Sliced fragrant zucchini quick bread loaf on cutting board",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description:
       "Stop scraping your knuckles on a box grater. Chopping zucchini into chunks and pulsing in the food processor yields the perfect finely minced texture that melts into the spiced batter. Difficulty: Easy.",
     whyMakeThis: [
@@ -531,7 +531,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 15, 2026",
     imageUrl: "/images/breakfast-cornmeal-pancakes.jpg",
     imageAlt: "Stack of golden cornmeal pancakes with melting butter and maple syrup",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A southern diner secret: turning a 60-cent box of corn muffin mix into fluffy pancakes with crispy, buttery edges and rich corn flavor. Difficulty: Easy.",
     whyMakeThis: [
@@ -591,7 +591,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 14, 2026",
     imageUrl: "/images/breakfast-world-breakfast-spread.jpg",
     imageAlt: "International breakfast spread with eggs, sausage, toast, and fruit",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "A curated collection of the world's most iconic morning meals, featuring traditional Japanese miso and rice bowls, Mexican huevos rancheros, Turkish shakshuka spreads, and classic European cafe plates. Difficulty: Moderate.",
     whyMakeThis: [
@@ -656,7 +656,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 13, 2026",
     imageUrl: "/images/breakfast-mother-in-law-banana-bread.jpg",
     imageAlt: "Thick slice of dark golden caramelized banana bread with butter",
-    imageCredit: "Simply Recipes / Haley Scarpino",
+    imageCredit: "Dishora Studio / Haley Scarpino",
     description:
       "The secret ingredient in this multi-generational family recipe is a dollop of full-fat sour cream. It adds slight acidity that balances sweet bananas and keeps the loaf moist for a full week. Difficulty: Easy.",
     whyMakeThis: [
@@ -721,7 +721,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 12, 2026",
     imageUrl: "/images/breakfast-dessert-overnight-oats.jpg",
     imageAlt: "Jars of creamy coconut mango overnight oats garnished with chia seeds",
-    imageCredit: "Simply Recipes / Haley Scarpino",
+    imageCredit: "Dishora Studio / Haley Scarpino",
     description:
       "Tastes just like tropical mango coconut sticky rice! Thick rolled oats infused with creamy coconut milk, chia seeds, pure vanilla, and topped with juicy diced sweet mango. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -781,7 +781,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 11, 2026",
     imageUrl: "/images/breakfast-high-fiber-casserole.jpg",
     imageAlt: "Casserole dish of warm berry baked oatmeal with raspberries and blueberries",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Start your day with steady energy. This collection focuses on whole oats, flaxseed, chia, berries, and legumes to keep digestion smooth and blood sugar balanced. Difficulty: Easy.",
     whyMakeThis: [
@@ -840,7 +840,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 10, 2026",
     imageUrl: "/images/breakfast-grab-and-go-baked-oats.jpg",
     imageAlt: "Sliced grab and go berry oat breakfast bars wrapped in parchment",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "School mornings don't have to be chaos. These easy meal-prep baked oat bars pack whole grains, applesauce, and berries into portable hand-held squares your kids can eat on the bus. Difficulty: Easy.",
     whyMakeThis: [
@@ -899,7 +899,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 9, 2026",
     imageUrl: "/images/breakfast-burritos.jpg",
     imageAlt: "Sliced breakfast burrito showing scrambled eggs, cheese, beans, and sausage",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "Wrapped, frozen, and reheated in 90 seconds. Soft scrambled eggs, seasoned black beans, savory ground sausage, and melted pepper jack cheese rolled tightly in tortillas. Difficulty: Easy.",
     whyMakeThis: [
@@ -965,7 +965,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 8, 2026",
     imageUrl: "/images/breakfast-kaiserschmarrn-pancakes.jpg",
     imageAlt: "Plate of torn Austrian Kaiserschmarrn pancakes dusted with powdered sugar and berries",
-    imageCredit: "Simply Recipes / Devan Grimsrud",
+    imageCredit: "Dishora Studio / Devan Grimsrud",
     description:
       "Austria's most beloved dessert and sweet brunch staple: egg whites whipped into a cloud-like batter, puffed in a hot buttered skillet, then torn into bite-size pillowy clouds and caramelized with granulated sugar. Difficulty: Moderate.",
     whyMakeThis: [
@@ -1030,7 +1030,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 7, 2026",
     imageUrl: "/images/breakfast-strawberry-scones.jpg",
     imageAlt: "Glazed triangular strawberry scones topped with pink strawberry drizzle on parchment",
-    imageCredit: "Simply Recipes / Melissa Knific",
+    imageCredit: "Dishora Studio / Melissa Knific",
     description:
       "Heavy cream and cold grated butter create ultra-flaky, tender scones that melt in your mouth without any dryness. Packed with sweet strawberries and finished with a pink strawberry icing. Difficulty: Moderate.",
     whyMakeThis: [
@@ -1095,7 +1095,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 6, 2026",
     imageUrl: "/images/breakfast-shirred-eggs.jpg",
     imageAlt: "White ceramic ramekins of baked eggs in cream with melted cheese and toast points",
-    imageCredit: "Simply Recipes / Haley Scarpino",
+    imageCredit: "Dishora Studio / Haley Scarpino",
     description:
       "Shirred eggs (also called baked eggs) look and taste like luxury from a Parisian cafe, but require only 5 minutes of prep. Eggs baked gently in individual ramekins with heavy cream, butter, and cheese until whites set and yolks stay rich and runny. Difficulty: Easy.",
     whyMakeThis: [
@@ -1160,7 +1160,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 5, 2026",
     imageUrl: "/images/breakfast-crispy-fried-eggs-rice.jpg",
     imageAlt: "Crispy fried eggs with runny yolk over warm white rice with chili oil and scallions",
-    imageCredit: "Simply Recipes / Malina Syvoravong",
+    imageCredit: "Dishora Studio / Malina Syvoravong",
     description:
       "The comforting Asian home-style breakfast: two eggs fried in screaming-hot oil so the egg white edges become bubble-crisp like lace, while the yolk stays runny. Drizzled with soy sauce, toasted sesame oil, and chili crisp over hot rice. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1225,7 +1225,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 4, 2026",
     imageUrl: "/images/breakfast-high-protein-morning-muffins.jpg",
     imageAlt: "High-protein breakfast muffins cooling on wire rack with chocolate chips",
-    imageCredit: "Simply Recipes / Amanda Luchtel",
+    imageCredit: "Dishora Studio / Amanda Luchtel",
     description:
       "A staple meal-prep breakfast muffin with a simple one-bowl method. Made with almond flour, Greek yogurt, and eggs for a tender crumb that fuels your morning without sugar crashes. Difficulty: Easy.",
     whyMakeThis: [
@@ -1285,7 +1285,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 3, 2026",
     imageUrl: "/images/breakfast-cottage-cheese-scramble.jpg",
     imageAlt: "Plate of soft, creamy scrambled eggs folded with cottage cheese and chives",
-    imageCredit: "Simply Recipes / Jamie Anulewicz",
+    imageCredit: "Dishora Studio / Jamie Anulewicz",
     description:
       "Adding 1/4 cup of cottage cheese directly into whisked eggs melts into the curds as they cook over low heat, yielding the softest, creamiest scrambled eggs you've ever tasted with zero heavy cream. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1350,7 +1350,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 2, 2026",
     imageUrl: "/images/breakfast-ricotta-blackberry-toast.jpg",
     imageAlt: "Toasted country bread spread with whipped white ricotta and swirling blackberry jam",
-    imageCredit: "Simply Recipes / Kat Lieu",
+    imageCredit: "Dishora Studio / Kat Lieu",
     description:
       "Whether enjoyed for breakfast or a sweet late-night bite, thick crunchy toasted bread topped with fluffy whipped whole-milk ricotta and tart blackberry jam is perfection in 5 minutes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1413,7 +1413,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "May 1, 2026",
     imageUrl: "/images/breakfast-caramel-apple-oats.jpg",
     imageAlt: "Jars of overnight oats with diced caramel apples and cinnamon",
-    imageCredit: "Simply Recipes / Rebecca Fennel",
+    imageCredit: "Dishora Studio / Rebecca Fennel",
     description:
       "All the nostalgia of fairground caramel apples packed into a wholesome, fiber-rich jar. Crisp diced Honeycrisp apples tossed with cinnamon and date-caramel layered over soaked oats. Difficulty: Easy.",
     whyMakeThis: [
@@ -1472,7 +1472,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 30, 2026",
     imageUrl: "/images/breakfast-avocado-tomato-toast.jpg",
     imageAlt: "Slices of sourdough avocado toast topped with halved cherry tomatoes and red pepper flakes",
-    imageCredit: "Simply Recipes / Alexandra Shytsman",
+    imageCredit: "Dishora Studio / Alexandra Shytsman",
     description:
       "The definitive cafe avocado toast made at home for under $2. Crusty toasted sourdough rubbed with garlic, topped with creamy mashed avocado, lime, and sweet cherry tomatoes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1531,7 +1531,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 29, 2026",
     imageUrl: "/images/breakfast-eggs-in-purgatory.jpg",
     imageAlt: "Eggs poached in fiery skillet marinara sauce with parmesan and basil",
-    imageCredit: "Simply Recipes / Nick Evans",
+    imageCredit: "Dishora Studio / Nick Evans",
     description:
       "Uova in Purgatorio is the Italian cousin to Shakshuka: fresh eggs cracked into simmering spicy tomato sauce until whites set and yolks remain golden and jammy, ready to dip with crusty bread. Difficulty: Easy.",
     whyMakeThis: [
@@ -1597,7 +1597,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 28, 2026",
     imageUrl: "/images/breakfast-french-bistro-casserole.jpg",
     imageAlt: "Golden croissant and ham breakfast strata with bubbling melted Gruyere",
-    imageCredit: "Simply Recipes / Cynthia Christensen",
+    imageCredit: "Dishora Studio / Cynthia Christensen",
     description:
       "Think of this as a Croque Monsieur baked into an airy, custardy brunch strata. Flaky croissants soak up rich egg custard, smoked ham, Dijon mustard, and pungent melted Gruyère cheese. Difficulty: Moderate.",
     whyMakeThis: [
@@ -1662,7 +1662,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 27, 2026",
     imageUrl: "/images/breakfast-make-ahead-baked-oatmeal.jpg",
     imageAlt: "Baked berry oatmeal casserole squares garnished with almonds and fresh fruit",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Tired of eggs? This extensive recipe roundup delivers sweet and savory make-ahead breakfasts with zero eggs, including baked berry oatmeal, chia bowls, and breakfast grain salads. Difficulty: Easy.",
     whyMakeThis: [
@@ -1721,7 +1721,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 26, 2026",
     imageUrl: "/images/breakfast-cheesy-hashbrown-casserole.jpg",
     imageAlt: "Spatula lifting a square of cheesy hashbrown breakfast casserole with sausage",
-    imageCredit: "Simply Recipes / Checka Ciammaichelli",
+    imageCredit: "Dishora Studio / Checka Ciammaichelli",
     description:
       "A classic holiday morning tradition: frozen shredded hashbrowns baked into an ultra-cheesy casserole with browned pork sausage, eggs, and a crispy golden top. Difficulty: Easy.",
     whyMakeThis: [
@@ -1781,7 +1781,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 25, 2026",
     imageUrl: "/images/breakfast-apple-oatmeal-cookies.jpg",
     imageAlt: "Stack of soft apple oatmeal breakfast cookies on linen napkin with honey",
-    imageCredit: "Simply Recipes / Lou Perseghin",
+    imageCredit: "Dishora Studio / Lou Perseghin",
     description:
       "Breakfast you can hold in your hand! Wholesome rolled oats and sweet grated fresh apples baked into chewy, soft cookies spiced with cinnamon and nutmeg. Difficulty: Easy.",
     whyMakeThis: [
@@ -1841,7 +1841,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 24, 2026",
     imageUrl: "/images/breakfast-aunt-cindy-blueberry-muffins.jpg",
     imageAlt: "Golden bakery style blueberry muffins with sugared sparkling muffin tops",
-    imageCredit: "Simply Recipes / Kris Osborne",
+    imageCredit: "Dishora Studio / Kris Osborne",
     description:
       "A recipe passed down through generations. These blueberry muffins bake tall with glistening turbinado sugar tops and an impossibly tender crumb loaded with sweet berries. Difficulty: Easy.",
     whyMakeThis: [
@@ -1901,7 +1901,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 23, 2026",
     imageUrl: "/images/breakfast-banana-bread-casserole.jpg",
     imageAlt: "Baking dish of golden banana bread French toast casserole with powdered sugar",
-    imageCredit: "Simply Recipes / Megan Scott",
+    imageCredit: "Dishora Studio / Megan Scott",
     description:
       "Transform day-old banana bread into the ultimate holiday brunch casserole. Cubed banana bread soaked in egg custard and baked under a crunchy brown sugar and pecan streusel. Difficulty: Easy.",
     whyMakeThis: [
@@ -1961,7 +1961,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 22, 2026",
     imageUrl: "/images/breakfast-one-bowl-coffee-cake.jpg",
     imageAlt: "Square of tall cinnamon streusel sour cream coffee cake on plate next to coffee mug",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "A classic bakery-style coffee cake made in one bowl. The thick brown sugar and cinnamon streusel runs through the center of the cake and piles high on top for maximum crunch with your morning coffee. Difficulty: Easy.",
     whyMakeThis: [
@@ -2025,7 +2025,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 21, 2026",
     imageUrl: "/images/breakfast-persian-kuku-sabzi.jpg",
     imageAlt: "Skillet of deep green Persian herb frittata Kuku Sabzi garnished with walnuts and barberries",
-    imageCredit: "Simply Recipes / Omid Roustaei",
+    imageCredit: "Dishora Studio / Omid Roustaei",
     description:
       "Unlike western frittatas where eggs dominate, Kuku Sabzi is a vibrant mountain of fresh herbs bound together by just enough egg. Studded with crunchy walnuts and tart barberries (zereshk). Difficulty: Easy.",
     whyMakeThis: [
@@ -2085,7 +2085,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 20, 2026",
     imageUrl: "/images/breakfast-strawberry-banana-smoothie.jpg",
     imageAlt: "Tall glass of pink strawberry banana smoothie with striped straw",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "No protein powder, no fancy syrups. Just frozen strawberries, a ripe banana, and milk blended into a thick, frost-kissed smoothie that tastes like summer soft-serve. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2138,7 +2138,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 19, 2026",
     imageUrl: "/images/breakfast-banana-egg-pancakes.jpg",
     imageAlt: "Golden fluffy banana oat pancakes topped with fresh sliced strawberries",
-    imageCredit: "Simply Recipes / Shayma Saadat",
+    imageCredit: "Dishora Studio / Shayma Saadat",
     description:
       "Mashed bananas, eggs, and rolled oats whirled in the blender and cooked into naturally sweet, tender mini pancakes with zero added sugar or flour. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2197,7 +2197,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 18, 2026",
     imageUrl: "/images/breakfast-summer-peach-parfait.jpg",
     imageAlt: "Glass jars of peach and Greek yogurt breakfast parfaits with toasted almonds",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "Juicy ripe summer peaches diced and layered in glass jars with thick vanilla Greek yogurt, chia pudding, and sliced toasted almonds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2256,7 +2256,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 17, 2026",
     imageUrl: "/images/breakfast-three-ingredient-bisquick-muffins.jpg",
     imageAlt: "Golden fluffy 3-ingredient Bisquick sweet cream muffins split with melting butter",
-    imageCredit: "Simply Recipes / Stephanie Burt",
+    imageCredit: "Dishora Studio / Stephanie Burt",
     description:
       "Also known as 7-Up or sour cream muffins in church cookbooks, combining Bisquick baking mix with sour cream and melted butter creates pillowy, feathery muffins with crispy crowns. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2315,7 +2315,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 16, 2026",
     imageUrl: "/images/breakfast-pancake-casserole.jpg",
     imageAlt: "Warm square slice of baked pancake casserole drizzled with amber maple syrup",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Never stand over a hot stove flipping pancakes one by one again. Pour your favorite pancake batter into a buttered 9x13 casserole, swirl with maple syrup and cinnamon, and bake into golden sliceable squares. Difficulty: Easy.",
     whyMakeThis: [
@@ -2374,7 +2374,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 15, 2026",
     imageUrl: "/images/breakfast-two-ingredient-banana-pancakes.jpg",
     imageAlt: "Plate of 2-ingredient flourless banana egg pancakes with sliced bananas and blueberries",
-    imageCredit: "Simply Recipes / Emma Christensen",
+    imageCredit: "Dishora Studio / Emma Christensen",
     description:
       "The famous 2-ingredient wonder: mash 1 ripe banana with 2 eggs until smooth, then cook over a gentle buttered griddle into sweet, tender crepes with zero flour or added sugar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2433,7 +2433,7 @@ export const breakfastRecipesData: Recipe[] = [
     date: "April 14, 2026",
     imageUrl: "/images/breakfast-soda-bread-scones.jpg",
     imageAlt: "Irish soda bread drop scones with currants on baking sheet with soft butter",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "All the flavor of classic Irish soda bread—tangy buttermilk, sweet currants, and fragrant caraway—baked into quick individual drop scones with crispy edges. Difficulty: Easy.",
     whyMakeThis: [
@@ -2493,12 +2493,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "340 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 13, 2026",
     imageUrl: "/images/breakfast-sweet-potato-hash.jpg",
     imageAlt: "Sheet pan sweet potato bacon hash with baked sunny eggs and chopped parsley",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A complete hearty skillet-style hash made entirely on one baking sheet. Sweet potato cubes roast in bacon drippings with smoked paprika, then eggs are cracked directly onto the pan and baked until just set. Difficulty: Easy.",
     whyMakeThis: [
@@ -2555,12 +2555,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "440 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 12, 2026",
     imageUrl: "/images/breakfast-brioche-french-toast.jpg",
     imageAlt: "Golden thick-sliced brioche French toast crowned with berries and pouring maple syrup",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The definitive French toast: thick bakery brioche soaked in a rich custard of eggs, whole milk, cream, vanilla, and cinnamon. Sizzled in clarified butter until exterior is caramelized and interior is custardy. Difficulty: Easy.",
     whyMakeThis: [
@@ -2620,12 +2620,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 tacos",
     servingsCount: 2,
     calories: "380 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 11, 2026",
     imageUrl: "/images/breakfast-austin-breakfast-tacos.jpg",
     imageAlt: "Two Austin-style breakfast tacos stuffed with scrambled eggs, chorizo, and cilantro",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A tribute to Austin's legendary breakfast taco culture: spicy Mexican pork chorizo browned until crispy, folded into soft scrambled eggs, and bundled into warm flour tortillas with melted cheese and avocado. Difficulty: Easy.",
     whyMakeThis: [
@@ -2680,12 +2680,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "280 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 10, 2026",
     imageUrl: "/images/breakfast-shakshuka-feta.jpg",
     imageAlt: "Cast iron skillet of simmering shakshuka with poached eggs, feta, and cilantro",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The North African morning masterpiece: eggs simmered gently in a fragrant sauce of crushed tomatoes, red bell peppers, onions, garlic, cumin, and smoked paprika, topped with salty crumbled feta. Difficulty: Easy.",
     whyMakeThis: [
@@ -2746,12 +2746,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 waffles",
     servingsCount: 4,
     calories: "380 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 9, 2026",
     imageUrl: "/images/breakfast-belgian-waffles.jpg",
     imageAlt: "Golden deep-pocketed Belgian waffles with melting butter and pure maple syrup",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Whipping the egg whites separately and folding them into the batter produces Belgian waffles with soaring pockets and shattering-crisp edges that stay crunchy even under warm maple syrup. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2811,12 +2811,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings (8 pancakes)",
     servingsCount: 4,
     calories: "340 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 8, 2026",
     imageUrl: "/images/breakfast-lemon-ricotta-pancakes.jpg",
     imageAlt: "Stack of fluffy lemon ricotta pancakes topped with blueberry butter and syrup",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Whipped egg whites and creamy Italian ricotta cheese give these pancakes an impossibly tender, soufflé-like crumb with bright citrus aroma. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2877,12 +2877,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "460 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 7, 2026",
     imageUrl: "/images/breakfast-classic-eggs-benedict.jpg",
     imageAlt: "Toasted English muffin half crowned with Canadian bacon, poached egg, and golden hollandaise",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The undisputed king of Sunday brunch made foolproof at home. Learn the swirl technique for perfect poached eggs and whip silky hollandaise in a blender in just 60 seconds. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2943,12 +2943,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "380 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 6, 2026",
     imageUrl: "/images/breakfast-chilaquiles-rojos.jpg",
     imageAlt: "Warm skillet of red salsa chilaquiles with runny fried eggs, cotija cheese, and cilantro",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Mexico's most beloved morning comfort food: thick tortilla chips simmered in roasted guajillo and tomato salsa until tender yet still crisp, topped with fried eggs, avocado, and crumbled cotija. Difficulty: Easy.",
     whyMakeThis: [
@@ -3010,12 +3010,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "2 melts",
     servingsCount: 2,
     calories: "390 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 5, 2026",
     imageUrl: "/images/breakfast-avocado-egg-melt.jpg",
     imageAlt: "Golden griddled sourdough breakfast melt sliced in half with melted cheddar, avocado, and egg",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A cross between grilled cheese and breakfast sandwich: buttery griddled sourdough stuffed with sharp white cheddar, creamy seasoned avocado, and a sunny fried egg with a sweet drizzle of hot honey. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3075,12 +3075,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "420 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 4, 2026",
     imageUrl: "/images/breakfast-smoked-salmon-bagel.jpg",
     imageAlt: "Everything bagel board laden with silky smoked salmon, cream cheese, capers, and red onion",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The classic appetizing board of a New York deli: freshly toasted everything bagels, ribbons of silky smoked Nova salmon, whipped herb cream cheese, sliced tomatoes, Persian cucumbers, and briny capers. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3134,12 +3134,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "280 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 3, 2026",
     imageUrl: "/images/breakfast-blueberry-baked-oatmeal.jpg",
     imageAlt: "Cast iron skillet of warm baked oatmeal bubbling with blueberries and toasted pecans",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A comforting weekend breakfast that smells like freshly baked blueberry muffins. Rolled oats baked in a cast-iron skillet with whole milk, eggs, vanilla, and sweet berries under a crunchy pecan topping. Difficulty: Easy.",
     whyMakeThis: [
@@ -3200,12 +3200,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "6 slices",
     servingsCount: 6,
     calories: "260 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 2, 2026",
     imageUrl: "/images/breakfast-sweet-potato-quiche.jpg",
     imageAlt: "Sliced savory spinach and goat cheese quiche with sweet potato crust in pie pan",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Thinly sliced sweet potatoes pressed into a pie plate form a crisp, naturally sweet crust that replaces heavy pastry dough. Filled with silken baked eggs, wilted spinach, and tangy chèvre goat cheese. Difficulty: Moderate.",
     whyMakeThis: [
@@ -3262,12 +3262,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "240 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 1, 2026",
     imageUrl: "/images/breakfast-golden-chia-pudding.jpg",
     imageAlt: "Two jars of sunny yellow golden milk chia pudding garnished with toasted coconut flakes",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Inspired by Ayurvedic golden milk: chia seeds soaked in warm spiced coconut milk infused with turmeric, ginger, cinnamon, and black pepper. Velvety, cooling, and packed with anti-inflammatory benefits. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3322,12 +3322,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "2 sandwiches",
     servingsCount: 2,
     calories: "520 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "March 31, 2026",
     imageUrl: "/images/breakfast-croque-madame.jpg",
     imageAlt: "Plate of French Croque Madame with golden melted Gruyere bechamel and sunny side fried egg",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The ultimate French bistro grilled cheese: thick toasted bread filled with smoked ham and Dijon, covered in rich nutmeg-scented béchamel sauce and broiled with Gruyère cheese, crowned with a runny fried egg. Difficulty: Moderate.",
     whyMakeThis: [
@@ -3388,12 +3388,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "390 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "March 30, 2026",
     imageUrl: "/images/breakfast-banana-walnut-french-toast.jpg",
     imageAlt: "Square slice of baked banana walnut French toast casserole with maple syrup and powdered sugar",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "All the flavor of banana bread meets the custard richness of French toast. Thick slices of brioche soak overnight in spiced egg custard, then bake with brown sugar, sliced bananas, and crunchy chopped walnuts. Difficulty: Easy.",
     whyMakeThis: [
@@ -3453,12 +3453,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "12 egg bites",
     servingsCount: 6,
     calories: "170 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "March 29, 2026",
     imageUrl: "/images/breakfast-bacon-egg-muffins.jpg",
     imageAlt: "Golden baked cheesy bacon and broccoli egg cups on white plate",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A Starbucks egg bite alternative made at home: whisked eggs, sour cream, and sharp cheddar baked in a muffin tin with crispy bacon and tender broccoli florets. Low in carbs, high in protein. Difficulty: Easy.",
     whyMakeThis: [
@@ -3518,12 +3518,12 @@ export const breakfastRecipesData: Recipe[] = [
     servings: "2 bowls",
     servingsCount: 2,
     calories: "280 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "March 28, 2026",
     imageUrl: "/images/breakfast-matcha-smoothie-bowl.jpg",
     imageAlt: "Bright green matcha smoothie bowl arranged with sliced kiwi, coconut, chia seeds, and granola",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Clean morning energy without the coffee jitters: ceremonial matcha green tea blended with frozen banana, tropical mango, and baby spinach into a thick, spoonable smoothie bowl topped with sliced kiwi, hemp seeds, and crunchy granola. Difficulty: Super Easy.",
     whyMakeThis: [

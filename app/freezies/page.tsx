@@ -34,7 +34,7 @@ export default function FreeziesAwardsHubPage() {
     url: "http://localhost:3000/freezies",
     publisher: {
       "@type": "Organization",
-      name: "Simply Recipes & The Freezies Editorial Board",
+      name: "Dishora & The Freezies Editorial Board",
       logo: {
         "@type": "ImageObject",
         url: "http://localhost:3000/images/simply-recipes-logo.png"

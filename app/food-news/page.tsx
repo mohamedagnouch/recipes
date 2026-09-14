@@ -143,12 +143,12 @@ export default function FoodNewsAndTrendsPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Food News & Trends: USA & Canada - Simply Recipes",
+    name: "Food News & Trends: USA & Canada - Dishora",
     description: "Verified food news, restaurant openings, grocery store finds, viral TikTok food trends, celebrity chef stories, and popular recipes across the United States and Canada.",
     url: "http://localhost:3000/food-news",
     publisher: {
       "@type": "Organization",
-      name: "Simply Recipes",
+      name: "Dishora",
       logo: {
         "@type": "ImageObject",
         url: "http://localhost:3000/images/simply-recipes-logo.png",
@@ -1843,7 +1843,7 @@ export default function FoodNewsAndTrendsPage() {
                 <form
                   onSubmit={(e) => {
                     e.preventDefault();
-                    alert("Thank you for subscribing to Simply Recipes Food News & Trends!");
+                    alert("Thank you for subscribing to Dishora Food News & Trends!");
                   }}
                   className="newsletter-form"
                 >

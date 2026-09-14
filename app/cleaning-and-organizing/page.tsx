@@ -72,7 +72,7 @@ export default function CleaningAndOrganizingPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Cleaning & Organizing - Simply Recipes",
+    name: "Cleaning & Organizing - Dishora",
     description: "Expert advice, practical techniques, and tested routines for maintaining an immaculate, clutter-free kitchen and serene home.",
     url: "http://localhost:3000/cleaning-and-organizing",
     mainEntity: {

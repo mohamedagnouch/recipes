@@ -122,53 +122,49 @@ export default function GiadaLemonSpaghettiPage() {
         <nav className="flex items-center gap-1.5 text-xs text-gray-500 mb-4 no-print">
           <Link href="/" className="hover:text-[#0c5354] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/" className="hover:text-[#0c5354] transition-colors">Celebrity Recipes</Link>
+          <Link href="/dinner" className="hover:text-[#0c5354] transition-colors">Dinner</Link>
           <span>/</span>
-          <span className="text-gray-900 font-medium">Giada De Laurentiis</span>
+          <span className="text-gray-900 font-medium">Lemon Spaghetti</span>
         </nav>
 
         {/* Article Header */}
         <header className="mb-6">
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-[44px] font-bold text-gray-900 leading-[1.18] tracking-tight mb-3">
-            Giada de Laurentiis Swears by This 4-Ingredient Lemon Spaghetti
+            The Famous 4-Ingredient Creamy Lemon Spaghetti
           </h1>
 
           <p className="text-xl sm:text-[22px] font-serif text-gray-700 leading-relaxed mb-4">
             This pasta is bright, silky, and exactly the kind of low-effort dinner I want to make on repeat.
           </p>
 
-          <div className="flex flex-wrap items-center gap-2 text-xs text-gray-600 pb-5 border-b border-gray-200">
+          <div className="flex wrap items-center gap-2 text-xs text-gray-600 pb-5 border-b border-gray-200">
             <span>By <strong className="text-gray-900 font-bold underline cursor-pointer hover:text-[#0c5354]">Meghan Splawn</strong></span>
             <span>|</span>
             <span>Published on February 12, 2026</span>
           </div>
         </header>
 
-        {/* Hero Photo with Giada Inset */}
+        {/* Hero Photo with Test Kitchen Inset */}
         <div className="mb-8">
           <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] rounded-xs overflow-hidden bg-gray-100 shadow-xs mb-1.5">
             <img
               src="/images/old-bay-pasta.jpg"
-              alt="Giada de Laurentiis Swears by This 4-Ingredient Lemon Spaghetti"
+              alt="Creamy 4-Ingredient Lemon Spaghetti with mascarpone and parmesan"
               className="w-full h-full object-cover"
             />
-            {/* Giada Inset Badge */}
+            {/* Test Kitchen Badge */}
             <div className="absolute top-4 left-4 flex items-center gap-3 bg-white/95 backdrop-blur-xs p-2.5 rounded-xs shadow-md border border-gray-200/80">
-              <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-[#ba4f1c] shrink-0">
-                <img
-                  src="/images/blueberry-french-toast.jpg"
-                  alt="Giada De Laurentiis"
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#ba4f1c] shrink-0 bg-[#0c5354] flex items-center justify-center text-white font-serif font-black text-sm">
+                D
               </div>
               <div>
-                <span className="text-[10px] font-black uppercase text-[#ba4f1c] tracking-wider block">CELEBRITY CHEF</span>
-                <span className="text-xs font-bold text-gray-900">Giada De Laurentiis</span>
+                <span className="text-[10px] font-black uppercase text-[#ba4f1c] tracking-wider block">TEST KITCHEN</span>
+                <span className="text-xs font-bold text-gray-900">Tested &amp; Perfected</span>
               </div>
             </div>
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Simply Recipes / Getty Images / Meghan Splawn
+            Credit: Dishora Studio / Meghan Splawn
           </div>
         </div>
 
@@ -192,7 +188,7 @@ export default function GiadaLemonSpaghettiPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Simply Recipes / Meghan Splawn
+            Photo & Styling: Dishora Studio / Meghan Splawn
           </div>
         </div>
 
@@ -225,7 +221,7 @@ export default function GiadaLemonSpaghettiPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Simply Recipes / Meghan Splawn
+            Photo & Styling: Dishora Studio / Meghan Splawn
           </div>
         </div>
 

@@ -17,7 +17,7 @@ interface TeamMember {
 }
 
 const teamSlides: TeamMember[][] = [
-  // Slide 1 (Exact from Simply Recipes screenshot)
+  // Slide 1: Editorial & Culinary Leadership
   [
     {
       id: 1,
@@ -38,7 +38,7 @@ const teamSlides: TeamMember[][] = [
       department: "Art & Visuals",
       bgColor: "#c7f0db", // Soft mint halo
       avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23059669"/><stop offset="100%" stop-color="%2310b981"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g2)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">SC</text></svg>`,
-      bio: "Award-winning art director and culinary visual stylist shaping the vibrant visual identity of Simply Recipes.",
+      bio: "Award-winning art director and culinary visual stylist shaping the vibrant visual identity of Dishora.",
       favoriteRecipe: "Shortcut Cookies and Cream Ice Cream",
       favoriteRecipeSlug: "shortcut-cookies-and-cream-ice-cream",
       yearsWithUs: "5 years",
@@ -128,7 +128,7 @@ const teamSlides: TeamMember[][] = [
       department: "Founding Team",
       bgColor: "#fef08a", // Sunny yellow halo
       avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23b45309"/><stop offset="100%" stop-color="%23d97706"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g9)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">EB</text></svg>`,
-      bio: "Founded Simply Recipes in 2003 as a family recipe diary. Pioneered digital recipe testing and home cooking community blogs.",
+      bio: "Co-founded Dishora as a dedicated recipe collection and home cooking journal. Passionate about approachable everyday home cooking.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
       yearsWithUs: "21 years",
@@ -193,17 +193,17 @@ export default function TeamSection() {
         {/* Dual Card Section Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-stretch">
           
-          {/* LEFT CARD: The Simply Recipes Team */}
+          {/* LEFT CARD: The Dishora Culinary Team */}
           <div className="bg-white rounded-xl p-7 sm:p-9 shadow-sm border border-gray-200/90 flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
             <div>
               {/* Header */}
               <h2 className="font-serif text-2xl sm:text-[30px] font-bold text-gray-900 text-center tracking-tight mb-4">
-                The Simply Recipes Team
+                The Dishora Culinary Team
               </h2>
 
               {/* Description */}
               <p className="text-gray-700 text-[13.5px] sm:text-[14.5px] leading-relaxed text-center max-w-xl mx-auto mb-4 font-normal">
-                Simply Recipes is a trusted resource for home cooks with more than 3,600 tested recipes, guides, and meal plans, drawing over 8 million readers each month from around the world. We're supported by a group of recipe developers, food writers, recipe and product testers, photographers, and other creative professionals.
+                Dishora is a trusted culinary resource for home cooks with more than 3,600 tested recipes, guides, and meal plans for families across the US and Canada. We're supported by an experienced team of recipe developers, food writers, kitchen testers, and culinary photographers.
               </p>
 
               {/* Read More Link */}
@@ -303,7 +303,7 @@ export default function TeamSection() {
 
               {/* Description */}
               <p className="text-gray-700 text-[13.5px] sm:text-[14.5px] leading-relaxed text-center max-w-xl mx-auto mb-4 font-normal">
-                For over 20 years, Simply Recipes' mission has been to help take the stress out of feeding your family. Whether you're cooking for a crew of two or the whole Brady bunch, we offer trusted, family-friendly recipes and practical cooking advice to make mealtimes easier.
+                At Dishora, our core mission is to take the stress out of everyday home cooking. Whether you're cooking for two or a busy family, we offer trusted, foolproof recipes and practical kitchen guides to make mealtimes delicious and enjoyable.
               </p>
 
               {/* Read More Link */}
@@ -449,7 +449,7 @@ export default function TeamSection() {
         </div>
       )}
 
-      {/* MODAL 2: The Simply Recipes Team Details */}
+      {/* MODAL 2: The Dishora Culinary Team Details */}
       {showTeamModal && (
         <div
           className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4"
@@ -467,7 +467,7 @@ export default function TeamSection() {
             </button>
 
             <h3 className="font-serif text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-              Meet the Simply Recipes Team
+              Meet the Dishora Culinary Team
             </h3>
             <p className="text-xs font-bold text-[#0c5354] uppercase tracking-wider mb-4">
               Passionate Cooks • Rigorous Testers • Culinary Storytellers
@@ -475,7 +475,7 @@ export default function TeamSection() {
 
             <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                Simply Recipes was founded in 2003 by Elise Bauer as a home cooking journal. Over two decades, it has grown into one of the internet's most trusted culinary destinations, reaching more than 8 million home cooks every single month.
+                Dishora was founded as a dedicated home cooking journal and digital culinary resource. Over the years, it has grown into a trusted kitchen destination for home cooks seeking reliable, foolproof recipes across North America.
               </p>
               <p>
                 Our editorial and culinary team brings together certified executive chefs, professional recipe developers, experienced food photographers, and nutrition specialists. Together, we develop and thoroughly test every single recipe in our home and test kitchens.
@@ -540,7 +540,7 @@ export default function TeamSection() {
 
             <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                At Simply Recipes, we believe good food doesn't have to be complicated, stressful, or expensive. For more than 20 years, our core mission has been to give everyday cooks the confidence and inspiration to make delicious food at home.
+                At Dishora, we believe good food doesn't have to be complicated, stressful, or expensive. Our core mission is to give everyday home cooks the confidence and inspiration to prepare delicious meals at home.
               </p>
               <p>
                 Whether you are cooking a 20-minute dinner after a long workday, baking your first loaf of artisan bread, or preparing a festive holiday feast for thirty people, we have clear, tested recipes and troubleshooting tips to ensure your success.
@@ -566,7 +566,7 @@ export default function TeamSection() {
                   onClick={() => setShowWhoWeAreModal(false)}
                   className="px-5 py-2 bg-[#0c5354] text-white font-bold text-xs rounded-lg hover:bg-[#083b3c] transition-colors cursor-pointer"
                 >
-                  Back to Simply Recipes
+                  Back to Dishora
                 </button>
               </div>
             </div>

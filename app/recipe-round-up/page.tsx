@@ -23,7 +23,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "01",
     slug: "hawaiian-macaroni-salad",
     title: "Hawaiian Macaroni Salad",
-    photoCredit: "Simply Recipes / Photo by Robby Lozano / Food Styling by Sally McKay / Christina Daley",
+    photoCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Sally McKay / Christina Daley",
     quote:
       "What makes this summery side dish different from mainland pasta salads? Firstly, the macaroni is cooked past al-dente all the way to tender. The extra-soft noodles can better absorb vinegar for some bright acidity, then an ultra-creamy dressing made from lots of mayonnaise plus some milk. Then, grated carrots, sweet onion, and a little bit of sugar bring just the right sweetness to the party. It's a perfectly balanced, decadently creamy salad that's a great partner to any summer main dish.",
     authorQuote: "Afton Cyrus, Senior Editor",
@@ -35,7 +35,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "02",
     slug: "coronation-coleslaw",
     title: "Coronation Coleslaw",
-    photoCredit: "Simply Recipes / Mark Beahm",
+    photoCredit: "Dishora Studio / Mark Beahm",
     quote:
       "While contemplating coronation chicken's sweet, savory, and spiced flavors, I realized they would translate nicely into coleslaw. With colorful and crunchy coleslaw mix, juicy mango, crisp cashews, and chewy raisins, it's an explosion of flavors and textures. A simple dressing of mayo, yogurt, lemon juice, and curry powder is all you need to complete the dish.",
     authorQuote: "Laurel Randolph, Recipe Developer",
@@ -47,7 +47,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "03",
     slug: "grilled-greek-meatballs",
     title: "Grilled Skewered Meatballs",
-    photoCredit: "Simply Recipes / Mike Lang",
+    photoCredit: "Dishora Studio / Mike Lang",
     quote:
       "I love to grill meatballs. However, I do not love wrangling loose meatballs as I place, flip, and remove them from the grill. In this recipe, I deploy flat metal skewers to simplify the process. They are the ideal grill tool for these garlic and oregano-forward meat delights.",
     authorQuote: "Mike Lang, Recipe Developer",
@@ -59,7 +59,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "04",
     slug: "potato-chip-salad",
     title: "Potato Chip Salad",
-    photoCredit: "Simply Recipes / Frank Tiu",
+    photoCredit: "Dishora Studio / Frank Tiu",
     quote:
       "The result is a salad I've made three times since, and will continue to make it all summer long. It's everything I want in a summer salad, and is excellent served with grilled fare like hot dogs, grilled chicken, and pulled pork. It'll blow everyone away at your next summer gathering or potluck.",
     authorQuote: "Laurel Randolph, Associate Editorial Director",
@@ -71,7 +71,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "05",
     slug: "mediterranean-grilled-vegetables",
     title: "Mediterranean Grilled Vegetables",
-    photoCredit: "Simply Recipes / Photo by Julia Gartland / Food Styling by Samantha Seneviratne",
+    photoCredit: "Dishora Studio / Photo by Julia Gartland / Food Styling by Samantha Seneviratne",
     quote:
       "There's nothing sadder than adding food to your grill and not hearing a 'sizzle' to accompany it. Give your grill at least 15 minutes to heat up before adding your vegetables.",
     authorQuote: "Sara Haas, Recipe Developer",
@@ -95,7 +95,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "07",
     slug: "dill-pickle-potato-salad",
     title: "Dill Pickle Potato Salad",
-    photoCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     quote:
       "This dill pickle potato salad with crushed potato chips is the perfect recipe for anyone like me who loves pickles and needs a little bit of texture added to their potato salad (sans eggs!). It's easy to make ahead and is sure to be a hit at your next summer gathering.",
     authorQuote: "Danielle Campbell, Recipe Developer",
@@ -119,7 +119,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "09",
     slug: "grilled-chicken-satay-with-peanut-sauce",
     title: "Grilled Chicken Satay With Peanut Sauce",
-    photoCredit: "Simply Recipes / Photo by Ellen Mary Cronin / Food Styling by Rochelle Honeygan Burgess",
+    photoCredit: "Dishora Studio / Photo by Ellen Mary Cronin / Food Styling by Rochelle Honeygan Burgess",
     quote:
       "Marinated meats grilled over glowing coals, called satays in Southeast Asia, have an irresistible combination of sweetness, heat, acid, and spice that is downright addictive. Travel to Indonesia, Thailand, Malaysia, Singapore, Bali and Cambodia, and you'll find these popular snacks on every corner. However, you don't have to take a long plane trip to enjoy these tasty bites. You can recreate a version in your own backyard on your grill—whether it's gas or charcoal.",
     authorQuote: "Sally Vargas, Recipe Developer",
@@ -131,7 +131,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "10",
     slug: "moms-greek-pasta-salad",
     title: "Mom's Greek Pasta Salad",
-    photoCredit: "Simply Recipes / Shilpa Iyer",
+    photoCredit: "Dishora Studio / Shilpa Iyer",
     quote:
       "Not only is this pasta salad super simple to throw together, but it's a magical combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's everything I crave on a hot summer day.",
     authorQuote: "Rebecca Fennel, Recipe Developer",
@@ -155,7 +155,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "12",
     slug: "grilled-balsamic-flank-steak",
     title: "Grilled Balsamic-Marinated Flank Steak",
-    photoCredit: "Simply Recipes / Photo by Robby Lozano / Food Styling by Margaret Dickey / Prop Styling by Julia Bayless",
+    photoCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Margaret Dickey / Prop Styling by Julia Bayless",
     quote:
       "Using balsamic vinegar in a marinade for grilled flank steak is a genius move. In just one ingredient, the vinegar imparts tons of complex flavor to the meat while also tenderizing this lean cut with its acid. A dollop of country-style Dijon mustard, some grated garlic, and a dash of paprika balance out the sweetness in the balsamic, and the char from the grill adds the slightest hint of bitterness which rounds everything out.",
     authorQuote: "Afton Cyrus, Senior Editor",
@@ -167,7 +167,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "13",
     slug: "sicilian-potato-salad",
     title: "Sicilian Potato Salad",
-    photoCredit: "Simply Recipes / Photo by Andrew Bui / Food Styling by Kaitlin Wayne",
+    photoCredit: "Dishora Studio / Photo by Andrew Bui / Food Styling by Kaitlin Wayne",
     quote:
       "You might not find this exact recipe over in Sicily, but similar iterations are common in both Sicily and mainland Italy. Potatoes, green beans, and tomatoes are a timeless Italian pairing in the summer months. Using buttery Sicilian green olives—I love Castelveltranos—plus an herb-y oregano vinaigrette gives this salad lots of island flair.",
     authorQuote: "Sheela Prakash, Recipe Developer",
@@ -179,7 +179,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "14",
     slug: "easy-grilled-peppers",
     title: "Easy Grilled Peppers",
-    photoCredit: "Simply Recipes / Sally Vargas",
+    photoCredit: "Dishora Studio / Sally Vargas",
     quote:
       "Bell peppers on the grill are one of summer's pleasures, and they're so easy it's almost a crime not to throw them on the barbie along with shrimp, chicken, burgers, or whatever else you're cooking up outside.",
     authorQuote: "Sally Vargas, Recipe Developer",
@@ -203,7 +203,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "16",
     slug: "dads-easy-greek-salad",
     title: "Easy Greek Salad",
-    photoCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     quote:
       "This Greek salad is a favorite of my father's to make during the summer. We usually have plenty of tomatoes and cucumbers growing in the garden, and all you have to do is toss in some red onions, olives, bell pepper, feta cheese, a few herbs, and some olive oil and vinegar and you have beautiful, cooling, fresh, Greek salad. All the best ingredients and flavors of Greek cuisine, all in one easy summer salad!",
     authorQuote: "Elisa Bauer, Founder",
@@ -215,7 +215,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "17",
     slug: "foil-packet-grilled-asparagus",
     title: "Foil Packet Grilled Asparagus",
-    photoCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     quote:
       "Inspired by the foil packets of grilled clams I grew up eating, I started grilling foil packets of asparagus in the same manner a few years back. In the packet, the asparagus takes on a slightly smoky flavor, doesn't get overcooked or mushy, and you create a lemony butter sauce to drizzle on top. It requires all of five minutes to prep and zero dishes. A huge win in my book!",
     authorQuote: "Molly Adams, Recipe Developer",
@@ -239,7 +239,7 @@ const roundupRecipes: RoundupItem[] = [
     number: "19",
     slug: "easy-grilled-broccolini",
     title: "Easy Grilled Broccolini",
-    photoCredit: "Simply Recipes / Photo by Matthew Pevear / Food Styling by Mike Lang",
+    photoCredit: "Dishora Studio / Photo by Matthew Pevear / Food Styling by Mike Lang",
     quote:
       "Lately, Broccolini has become my most-grilled vegetable, which is a lofty feat at my house. I particularly love it because it's prep-free. On the whole, most vegetables need some sort of culinary intervention before grilling. Zucchini needs to be sliced. Asparagus needs to be peeled. The list goes on.",
     authorQuote: "Mike Lang, Recipe Developer",
@@ -283,7 +283,7 @@ export default function RecipeRoundupPage() {
               </span>
             </div>
             <p className="text-xs text-gray-600 leading-relaxed font-sans mb-2">
-              Theodora&apos;s passion for cooking began early on as a young girl, working in the kitchen at her father&apos;s Greek diner in Brooklyn, NY. Her recipes have appeared on Delish, Spruce Eats, Today.com, Martha Stewart & Marley Spoon, Dinnerly, Simply Recipes, and in various cookbooks.
+              Theodora&apos;s passion for cooking began early on as a young girl, working in the kitchen at her father&apos;s Greek diner in Brooklyn, NY. Her recipes have appeared on leading culinary publications, national food magazines, and various cookbooks.
             </p>
             <div className="text-[11.5px] text-gray-500 pt-2 border-t border-gray-200 flex flex-wrap items-center gap-3">
               <span className="underline cursor-pointer hover:text-[#0c5354]">Editorial Process</span>
@@ -303,7 +303,7 @@ export default function RecipeRoundupPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Simply Recipes / Shilpa Iyer
+            Photo & Styling: Dishora Studio / Shilpa Iyer
           </div>
         </div>
 

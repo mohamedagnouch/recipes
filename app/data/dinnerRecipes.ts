@@ -65,7 +65,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 20, 2026",
     imageUrl: "/images/dinner-spaghetti-fra-diavolo.jpg",
     imageAlt: "Fiery skillet of caramelized Italian spaghetti with garlic and red pepper",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Legend has it that this Pugliese specialty was born when a Bari chef made pasta so spicy his customer yelled 'You are an assassin!' The uncooked spaghetti is scorched in hot olive oil, garlic, and chili paste, then slowly cooked risotto-style in concentrated tomato broth until crunchy and charred.",
     whyMakeThis: [
@@ -144,7 +144,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 19, 2026",
     imageUrl: "/images/dinner-baked-potatoes.jpg",
     imageAlt: "Twice baked russet potatoes melted with cheddar cheese and sour cream",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "When I don't know what to make for dinner and need real comfort food on the table in 25 minutes, I turn to these quick microwave-to-oven baked potatoes. They get crisp skins and steaming, fluffy insides loaded with melted sharp cheddar.",
     whyMakeThis: [
@@ -220,7 +220,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/dinner-sheet-pan-pot-pie.jpg",
     imageAlt: "Sheet pan chicken pot pie bubbling with golden biscuit topping",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Traditional pot pie takes over an hour and dirty multiple bowls and pie plates. This sheet pan shortcut spreads the creamy chicken filling across a shallow pan, then bakes golden puff pastry crowns right on top for maximum crispy crust in every bite.",
     whyMakeThis: [
@@ -290,7 +290,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 17, 2026",
     imageUrl: "/images/dinner-cowboy-sliders.jpg",
     imageAlt: "Golden pull-apart cheesy cowboy sliders glazed with garlic butter",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Sweet Hawaiian rolls baked pull-apart style, packed with smoky seasoned beef, barbecue sauce, pickled jalapeños, crispy bacon, and mountains of melted cheddar. Glazed with melted butter and toasted sesame seeds.",
     whyMakeThis: [
@@ -357,7 +357,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 16, 2026",
     imageUrl: "/images/dinner-meatloaf.jpg",
     imageAlt: "Sliced French onion meatloaf smothered in caramelized onions and melted cheese",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Everything you love about French onion soup—sweet slow-cooked onions, thyme, rich beef broth reduction, and gooey melted Swiss and Gruyère cheese—baked right into a juicy weeknight meatloaf.",
     whyMakeThis: [
@@ -424,7 +424,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 15, 2026",
     imageUrl: "/images/dinner-southern-pasta.jpg",
     imageAlt: "Comforting bowl of Southern macaroni and stewed tomatoes with black pepper",
-    imageCredit: "Simply Recipes / Stephanie A. Gunz",
+    imageCredit: "Dishora Studio / Stephanie A. Gunz",
     description:
       "Also known as macaroni and tomatoes across the American South, this vintage pantry dish turns simple elbow pasta and canned stewed tomatoes into pure nostaglic comfort food in 20 minutes.",
     whyMakeThis: [
@@ -485,7 +485,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 14, 2026",
     imageUrl: "/images/dinner-one-pot-dal.jpg",
     imageAlt: "Fragrant golden red lentil dal served with coconut cream and cilantro",
-    imageCredit: "Simply Recipes / Julia Levy Freeman",
+    imageCredit: "Dishora Studio / Julia Levy Freeman",
     description:
       "A comforting Indian red lentil curry that comes together in one pot in 35 minutes. Scented with bloomed cumin seeds, ginger, turmeric, and garlic, finished with rich coconut milk and fresh cilantro.",
     whyMakeThis: [
@@ -547,7 +547,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 13, 2026",
     imageUrl: "/images/dinner-italian-sausage-pasta.jpg",
     imageAlt: "One-pot creamy Italian sausage rigatoni in Dutch oven with parmesan",
-    imageCredit: "Simply Recipes / Haley Scarpino",
+    imageCredit: "Dishora Studio / Haley Scarpino",
     description:
       "All the pasta cooks right in the sauce with chicken broth, browned Italian sausage, and cream. The starchy pasta cooking liquid naturally thickens the sauce into an ultra-creamy restaurant-quality glaze.",
     whyMakeThis: [
@@ -613,7 +613,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 12, 2026",
     imageUrl: "/images/dinner-amish-mac-salad.jpg",
     imageAlt: "Creamy Amish macaroni salad with hard boiled eggs and sweet mustard dressing",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A classic Pennsylvania Dutch potato and pasta salad staple with that signature sweet-tart cooked dressing. Hard-boiled eggs, crunchy celery, and sweet pickles make this a guaranteed crowd-pleaser.",
     whyMakeThis: ["Tastes even better made a day ahead.", "Sweet mustard glaze that never separates."],
@@ -670,7 +670,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 11, 2026",
     imageUrl: "/images/dinner-mexican-potatoes.jpg",
     imageAlt: "Golden skillet Mexican potatoes seasoned with cumin and salsa",
-    imageCredit: "Simply Recipes / Candace Nagy",
+    imageCredit: "Dishora Studio / Candace Nagy",
     description:
       "My mom made these papas con chile on busy weeknights to wrap into warm flour tortillas with fried eggs or black beans. Crispy golden edges and tender potato centers seasoned with cumin and roasted salsa.",
     whyMakeThis: ["Fast 25-minute skillet side dish.", "Perfect taco filling or breakfast potato."],
@@ -727,7 +727,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 10, 2026",
     imageUrl: "/images/dinner-cottage-mac-cheese.jpg",
     imageAlt: "Creamy high-protein baked mac and cheese with golden breadcrumb crust",
-    imageCredit: "Simply Recipes / Kayla Hoang",
+    imageCredit: "Dishora Studio / Kayla Hoang",
     description:
       "Blending cottage cheese in a food processor or blender eliminates all curds, turning it into a silky, protein-packed béchamel alternative that melts into sharp cheddar without any flour or heavy cream.",
     whyMakeThis: ["28 grams of protein per serving.", "Ultra creamy without making a flour roux."],
@@ -789,7 +789,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 9, 2026",
     imageUrl: "/images/dinner-creamy-street-corn-beans.jpg",
     imageAlt: "Warm skillet of creamy Mexican street corn white beans with tortilla chips",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "All the addictive flavors of elote—charred corn, cotija cheese, chili powder, and lime crema—paired with hearty white beans for a lightning-fast 15-minute skillet dinner you can scoop up with warm tortilla chips.",
     whyMakeThis: ["Fast 15-minute vegetarian dinner.", "Protein-rich creamy white beans."],
@@ -847,7 +847,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 8, 2026",
     imageUrl: "/images/dinner-pork-loin-apples.jpg",
     imageAlt: "Sliced roasted pork loin surrounded by tender braised apples and cider pan sauce",
-    imageCredit: "Simply Recipes / Ivy Manning",
+    imageCredit: "Dishora Studio / Ivy Manning",
     description:
       "A classic autumn combination of lean, juicy pork roast seared until golden, then braised in a Dutch oven with tart Honeycrisp apples, sweet shallots, fresh rosemary, and reduced apple cider.",
     whyMakeThis: ["Elegant enough for guests, simple enough for weeknights.", "Pan juices reduce into a sweet-savory cider glaze."],
@@ -905,7 +905,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 7, 2026",
     imageUrl: "/images/dinner-4-ingredient-pasta-bake.jpg",
     imageAlt: "Golden bubbly 4-ingredient pepperoni pasta bake fresh from the oven",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "When you need a quick dinner that tastes like homemade pizzeria lasagna without the work, this 4-ingredient pepperoni pasta bake delivers big flavor with zero stress.",
     whyMakeThis: ["Only 4 ingredients: pasta, marinara, mozzarella, and pepperoni.", "Kids and adults both devour it."],
@@ -962,7 +962,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 6, 2026",
     imageUrl: "/images/dinner-baked-feta-orzo.jpg",
     imageAlt: "One-pan baked feta orzo with roasted cherry tomatoes and fresh basil",
-    imageCredit: "Simply Recipes / Rebecca Fennel",
+    imageCredit: "Dishora Studio / Rebecca Fennel",
     description:
       "The viral baked feta pasta gets an upgrade: cooking raw orzo directly in the tomato juices and broth under the slab of melting feta cheese. The starch from the orzo creates a luxuriously creamy sauce without any extra pans.",
     whyMakeThis: ["Zero pots to boil—uncooked orzo cooks directly in the baking dish.", "Salty Greek feta melts into sweet burst cherry tomatoes."],
@@ -1024,7 +1024,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 5, 2026",
     imageUrl: "/images/dinner-crispy-chicken-greens.jpg",
     imageAlt: "Golden crispy chicken thighs roasted over seasoned collard greens in cast iron",
-    imageCredit: "Simply Recipes / Julia Levy Freeman",
+    imageCredit: "Dishora Studio / Julia Levy Freeman",
     description:
       "Canned collard greens are already tender and seasoned. When you nestle bone-in, skin-on chicken thighs over the top in a hot skillet, the chicken drippings baste the greens as the skin turns paper-thin and shattering-crisp.",
     whyMakeThis: ["Saves 2 hours of simmering collard greens.", "Chicken skin gets extraordinarily crispy."],
@@ -1080,7 +1080,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 4, 2026",
     imageUrl: "/images/dinner-chicken-rice-casserole.jpg",
     imageAlt: "Creamy baked chicken and rice casserole topped with rippled potato chips",
-    imageCredit: "Simply Recipes / Julia Levy Freeman",
+    imageCredit: "Dishora Studio / Julia Levy Freeman",
     description:
       "A retro Midwest potluck dream: creamy chicken and tender rice seasoned with a tub of French onion dip, baked under a layer of rippled potato chips that toast into crunchy perfection.",
     whyMakeThis: ["Zero chopping required.", "French onion dip provides rich allium flavor in one step."],
@@ -1137,7 +1137,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 3, 2026",
     imageUrl: "/images/dinner-spam-mac-cheese.jpg",
     imageAlt: "One-pot mac and cheese studded with sweet caramelized Spam cubes",
-    imageCredit: "Simply Recipes / Julia Levy Freeman",
+    imageCredit: "Dishora Studio / Julia Levy Freeman",
     description:
       "A Hawaiian-inspired comfort dinner twist: frying diced Spam until crispy, deglazing with maple syrup and soy sauce, then folding it right into homemade stovetop cheddar mac and cheese.",
     whyMakeThis: ["Salty, crispy, sweet caramelized meat pairs perfectly with cheese.", "Ready in 35 minutes on the stovetop."],
@@ -1195,7 +1195,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 2, 2026",
     imageUrl: "/images/dinner-salmon-bean-salad.jpg",
     imageAlt: "Plate of white bean and wild salmon salad with fresh greens and lemon",
-    imageCredit: "Simply Recipes / Robin Asbell",
+    imageCredit: "Dishora Studio / Robin Asbell",
     description:
       "A healthy, no-cook dinner packed with omega-3s and fiber. Flaked wild salmon tossed with creamy cannellini beans, fresh parsley, capers, and a bright lemon Dijon vinaigrette.",
     whyMakeThis: ["Zero cooking—10 minutes from start to finish.", "Keeps you satisfied for hours with 32g clean protein."],
@@ -1251,7 +1251,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "May 1, 2026",
     imageUrl: "/images/dinner-chopped-pizza-salad.jpg",
     imageAlt: "Big wooden bowl of Italian chopped salad with pepperoncini and parmesan",
-    imageCredit: "Simply Recipes / Sara Tane",
+    imageCredit: "Dishora Studio / Sara Tane",
     description:
       "The classic pizzeria salad with cold shredded iceberg, bitter radicchio, salty provolone, sliced pepperoncini, and a tangy red wine oregano vinaigrette that cuts through rich pizza cheese.",
     whyMakeThis: ["The ultimate refreshing partner for homemade or delivery pizza.", "Crispy and crunchy in every bite."],
@@ -1307,7 +1307,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 30, 2026",
     imageUrl: "/images/dinner-deviled-chicken.jpg",
     imageAlt: "Platter of baked deviled chicken glazed with sweet Dijon and spices",
-    imageCredit: "Simply Recipes / Nicole Hopper",
+    imageCredit: "Dishora Studio / Nicole Hopper",
     description:
       "Deviled chicken (Pollo alla Diavola) gets its tangy punch from Dijon mustard, cayenne pepper, brown sugar, and Worcestershire. Marinate ahead and bake until caramelized and sticky.",
     whyMakeThis: ["Glaze caramelizes into an irresistible sticky crust.", "Great hot for dinner or cold the next day."],
@@ -1363,9 +1363,9 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 29, 2026",
     imageUrl: "/images/dinner-spaghetti-best-dinner.jpg",
     imageAlt: "Ribbons of tagliatelle smothered in rich, slow simmered Bolognese sauce",
-    imageCredit: "Simply Recipes / Devan Grimsrud",
+    imageCredit: "Dishora Studio / Devan Grimsrud",
     description:
-      "Voted by Simply Recipes readers as our number one dinner of all time. Ground beef and pork simmered gently with soffritto, dry white wine, milk, and San Marzano tomatoes until spoon-tender.",
+      "Voted by Dishora readers as our number one dinner of all time. Ground beef and pork simmered gently with soffritto, dry white wine, milk, and San Marzano tomatoes until spoon-tender.",
     whyMakeThis: ["The authentic Bolognese technique that tenderizes meat with milk.", "Freezes like a dream for future fast dinners."],
     ingredients: [
       "1 lb ground beef & 1/2 lb ground pork",
@@ -1427,7 +1427,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 28, 2026",
     imageUrl: "/images/dinner-creamed-corn.jpg",
     imageAlt: "Warm cast iron bowl of silky sweet homemade creamed corn",
-    imageCredit: "Simply Recipes / Megan Scott",
+    imageCredit: "Dishora Studio / Megan Scott",
     description:
       "Forget canned creamed corn with starch additives. Scraping the sweet 'milk' off fresh summer corn cobs and simmering with heavy cream and butter creates pure liquid gold in 20 minutes.",
     whyMakeThis: ["Zero flour or cornstarch—natural corn milk thickens the sauce.", "Pure sweet corn flavor."],
@@ -1483,7 +1483,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 27, 2026",
     imageUrl: "/images/dinner-zucchini-casserole.jpg",
     imageAlt: "Bubbly zucchini and squash casserole with golden Ritz cracker topping",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "When your garden or farmers market is overflowing with zucchini, this comforting southern casserole layered with cheddar cheese, sweet onions, and a crunchy Ritz cracker topping turns green squash into a dinner hero.",
     whyMakeThis: ["The best way to use up garden zucchini abundance.", "Ritz cracker topping adds buttery crunch."],
@@ -1541,7 +1541,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 26, 2026",
     imageUrl: "/images/dinner-spaghetti-meatballs.jpg",
     imageAlt: "Big platter of spaghetti with tender homemade Italian meatballs and marinara",
-    imageCredit: "Simply Recipes / Theodora Kaloudis",
+    imageCredit: "Dishora Studio / Theodora Kaloudis",
     description:
       "Tender, melt-in-your-mouth meatballs made with a milk-soaked bread panade, garlic, parsley, and freshly grated Pecorino Romano, gently simmered in savory tomato sauce.",
     whyMakeThis: ["The panade technique guarantees moist, soft meatballs that never dry out.", "Tastes just like Sunday dinner at an Italian grandmother's table."],
@@ -1598,7 +1598,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 25, 2026",
     imageUrl: "/images/dinner-broccoli-pasta.jpg",
     imageAlt: "Bowl of penne pasta and tender broccoli tossed with garlic olive oil and parmesan",
-    imageCredit: "Simply Recipes / Jeanine Donofrio",
+    imageCredit: "Dishora Studio / Jeanine Donofrio",
     description:
       "Broccoli florets are cooked directly in the same boiling pasta water for the last 3 minutes of cooking. Tossed with warm garlic oil, crushed red pepper, and heaps of parmesan, even picky eaters love it.",
     whyMakeThis: ["One pot to boil both pasta and broccoli together.", "Ready in 20 minutes with healthy greens."],
@@ -1656,7 +1656,7 @@ export const dinnerRecipesData: Recipe[] = [
     date: "April 24, 2026",
     imageUrl: "/images/dinner-steak-fingers.jpg",
     imageAlt: "Crispy Texas steak fingers served with white pepper dipping gravy",
-    imageCredit: "Simply Recipes / Stephanie Burt",
+    imageCredit: "Dishora Studio / Stephanie Burt",
     description:
       "A Texas drive-in legend: tender cube steak sliced into finger-friendly strips, double-dredged in seasoned flour, and fried until golden and shatteringly crisp, served with homemade peppery cream gravy.",
     whyMakeThis: ["Affordable cube steak transformed into crispy steakhouse tenders.", "Homemade country cream gravy for dipping."],
@@ -1713,12 +1713,12 @@ export const dinnerRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "490 kcal",
-    author: "Simply Recipes Editors",
+    author: "Dishora Editors",
     authorRole: "Test Kitchen",
     date: "April 23, 2026",
     imageUrl: "/images/dinner-tuscan-tortellini.jpg",
     imageAlt: "One-pot creamy Tuscan chicken tortellini with sun-dried tomatoes and spinach",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Restaurant-quality Tuscan tortellini made in 30 minutes in a single skillet. Tender chicken pieces, refrigerated cheese tortellini, sweet sun-dried tomatoes, and fresh spinach in a garlic cream sauce.",
     whyMakeThis: ["Ready in 30 minutes from start to finish.", "Refrigerated tortellini cooks right in the sauce in 4 minutes."],
@@ -1776,12 +1776,12 @@ export const dinnerRecipesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "440 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 22, 2026",
     imageUrl: "/images/dinner-enchilada-casserole.jpg",
     imageAlt: "Square slice of bubbly layered beef enchilada casserole with melted cheese",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "All the cheesy, saucy flavors of classic rolled enchiladas assembled lasagna-style with layered corn tortillas, seasoned ground beef, mild red enchilada sauce, and shredded Monterey Jack cheese.",
     whyMakeThis: ["No rolling individual tortillas—layered in 10 minutes flat.", "Bakes into sliceable, cheesy layers."],
@@ -1834,12 +1834,12 @@ export const dinnerRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "320 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 21, 2026",
     imageUrl: "/images/dinner-dumpling-salad.jpg",
     imageAlt: "Warm crispy potstickers tossed over crunchy Asian sesame coleslaw salad",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "When you're out of dinner ideas and energy, keep frozen potstickers and bagged coleslaw in the house. Crisp the dumplings in a hot skillet, toss over shredded cabbage with sesame ginger vinaigrette, and dinner is served in 15 minutes.",
     whyMakeThis: ["Ready in 15 minutes flat using freezer and pantry staples.", "Hot crispy dumplings over cold crunchy slaw is texture perfection."],

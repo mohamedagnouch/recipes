@@ -75,7 +75,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "fifteen-minute-summer-dinner-recipes",
     category: "DINNER",
     title: "15-Minute Summer Dinners for When You're Too Tired To Cook",
-    author: "By Simply Recipes Editors",
+    author: "By Dishora Editors",
     rating: 5,
     time: "15 mins",
     imageUrl: "/images/old-bay-pasta.jpg",
@@ -85,7 +85,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "thirty-minute-july-dinner-recipes",
     category: "DINNER",
     title: "31 Easy 30-Minute Dinners for Every Night in July",
-    author: "By Simply Recipes Test Kitchen",
+    author: "By Dishora Test Kitchen",
     rating: 5,
     time: "30 mins",
     imageUrl: "/images/cheeseburger-pie.jpg",
@@ -125,7 +125,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "cantaloupe-smoothie",
     category: "DRINKS",
     title: "Hydrating Cantaloupe Mint Smoothie",
-    author: "By Simply Recipes",
+    author: "By Dishora Culinary Team",
     rating: 5,
     time: "5 mins",
     imageUrl: "/images/breakfast-summer-peach-parfait.jpg",
@@ -145,7 +145,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "egg-drop-soup",
     category: "SOUP",
     title: "Quick and Easy 20-Minute Egg Drop Soup",
-    author: "By Simply Recipes Kitchen",
+    author: "By Dishora Test Kitchen",
     rating: 5,
     time: "20 mins",
     imageUrl: "/images/dinner-one-pot-dal.jpg",
@@ -175,7 +175,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "five-ingredient-summer-dessert-recipes",
     category: "DESSERT",
     title: "The 5-Ingredient Desserts You'll Want To Make All Summer Long",
-    author: "By Simply Recipes Editors",
+    author: "By Dishora Editors",
     rating: 5,
     time: "15 mins",
     imageUrl: "/images/dessert-spiced-apple-crisp.jpg",
@@ -185,7 +185,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "easy-30-minute-august-dinner-recipes",
     category: "DINNER",
     title: "31 Easy 30-Minute Dinners for Every Night in August",
-    author: "By Simply Recipes Test Kitchen",
+    author: "By Dishora Test Kitchen",
     rating: 5,
     time: "30 mins",
     imageUrl: "/images/grilled-burger.jpg",
@@ -205,7 +205,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "cheesy-artichoke-pie",
     category: "PIE & BAKING",
     title: "Cheesy Artichoke Pie with Garlic & Parmesan",
-    author: "By Simply Recipes",
+    author: "By Dishora Culinary Team",
     rating: 5,
     time: "1 hr 20 mins",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
@@ -225,7 +225,7 @@ export const summerCookoutRelatedArticles: RelatedArticle[] = [
     slug: "hawaiian-macaroni-salad",
     category: "SALAD",
     title: "Authentic Hawaiian Macaroni Salad",
-    author: "By Simply Recipes Test Kitchen",
+    author: "By Dishora Test Kitchen",
     rating: 5,
     time: "20 mins",
     imageUrl: "/images/hawaiian-mac-salad.jpg",
@@ -271,9 +271,9 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/cheeseburger-pie.jpg",
     imageAlt: "Golden one-pan cheeseburger pie fresh from the oven",
-    imageCredit: "Simply Recipes / Elise Bauer",
+    imageCredit: "Dishora Studio / Elise Bauer",
     description:
-      "This recipe has been a Simply Recipes reader favourite for over a decade. It is the kind of weeknight dinner that sounds almost too simple to be true — ground beef, a handful of pantry staples, one skillet, and one oven. The result is a bubbling, golden-topped pie that tastes exactly like a cheeseburger, slice for slice.",
+      "This recipe has been a Dishora reader favourite for years. It is the kind of weeknight dinner that sounds almost too simple to be true — ground beef, a handful of pantry staples, one skillet, and one oven. The result is a bubbling, golden-topped pie that tastes exactly like a cheeseburger, slice for slice.",
     whyMakeThis: [
       "One skillet — no extra pans, minimal cleanup.",
       "Ready in under 45 minutes from start to finish.",
@@ -352,7 +352,7 @@ export const recipesData: Recipe[] = [
     date: "February 12, 2026",
     imageUrl: "/images/lemon-spaghetti.jpg",
     imageAlt: "Giada de Laurentiis Swears by This 4-Ingredient Lemon Spaghetti",
-    imageCredit: "Simply Recipes / Getty Images / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description:
       "This recipe for Lemon Spaghetti calls for four ingredients (spaghetti, mascarpone, Parmigiano Reggiano, and a lemon) plus salt, pepper, and olive oil. The finished pasta is somehow cozy and creamy without being heavy. The bright lemon and pepper will keep you coming back, bite after bite!",
     whyMakeThis: [
@@ -430,7 +430,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/hawaiian-mac-salad.jpg",
     imageAlt: "Authentic Hawaiian Macaroni Salad in a serving bowl with shredded carrots",
-    imageCredit: "Simply Recipes / Photo by Robby Lozano / Food Styling by Sally McKay / Christina Daley",
+    imageCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Sally McKay / Christina Daley",
     description:
       "What makes this summery side dish different from mainland pasta salads? Firstly, the macaroni is cooked past al-dente all the way to tender. The extra-soft noodles can better absorb vinegar for some bright acidity, then an ultra-creamy dressing made from lots of mayonnaise plus some milk. Then, grated carrots, sweet onion, and a little bit of sugar bring just the right sweetness to the party.",
     whyMakeThis: [
@@ -508,7 +508,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/coronation-coleslaw.jpg",
     imageAlt: "Curried coronation coleslaw with shredded cabbage, mango chutney, and flaked almonds",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "While contemplating coronation chicken's sweet, savory, and spiced flavors, I realized they would translate nicely into coleslaw. With colorful and crunchy coleslaw mix, juicy mango, crisp cashews, and chewy raisins, it's an explosion of flavors and textures.",
     whyMakeThis: [
@@ -580,7 +580,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/grilled-meatballs.jpg",
     imageAlt: "Grilled Greek meatball skewers charred on grates with tzatziki sauce and lemon wedges",
-    imageCredit: "Simply Recipes / Mike Lang",
+    imageCredit: "Dishora Studio / Mike Lang",
     description:
       "I love to grill meatballs. However, I do not love wrangling loose meatballs as I place, flip, and remove them from the grill. In this recipe, I deploy flat metal skewers to simplify the process. They are the ideal grill tool for these garlic and oregano-forward meat delights.",
     whyMakeThis: [
@@ -650,7 +650,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/potato-chip-salad.jpg",
     imageAlt: "Crispy potato chip salad with bacon, shredded cheddar, scallions, and sour cream ranch",
-    imageCredit: "Simply Recipes / Frank Tiu",
+    imageCredit: "Dishora Studio / Frank Tiu",
     description:
       "The result is a salad I've made three times since, and will continue to make it all summer long. It's everything I want in a summer salad, and is excellent served with grilled fare like hot dogs, grilled chicken, and pulled pork. It'll blow everyone away at your next summer gathering or potluck.",
     whyMakeThis: [
@@ -711,7 +711,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/grilled-vegetables.jpg",
     imageAlt: "Colorful Mediterranean grilled vegetables with charred grill marks",
-    imageCredit: "Simply Recipes / Photo by Julia Gartland / Food Styling by Samantha Seneviratne",
+    imageCredit: "Dishora Studio / Photo by Julia Gartland / Food Styling by Samantha Seneviratne",
     description:
       "There's nothing sadder than adding food to your grill and not hearing a 'sizzle' to accompany it. Give your grill at least 15 minutes to heat up before adding your vegetables.",
     whyMakeThis: ["High-heat charred summer vegetables with fragrant herb oil."],
@@ -832,7 +832,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/dill-pickle-potato-salad.jpg",
     imageAlt: "Dill pickle potato salad garnished with fresh dill sprigs and sliced pickles",
-    imageCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    imageCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     description:
       "This dill pickle potato salad with crushed potato chips is the perfect recipe for anyone like me who loves pickles and needs a little bit of texture added to their potato salad (sans eggs!). It's easy to make ahead and is sure to be a hit at your next summer gathering.",
     whyMakeThis: ["Egg-free potato salad with extra tangy pickle juice punch."],
@@ -947,7 +947,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/chicken-satay.jpg",
     imageAlt: "Grilled chicken satay skewers with rich peanut sauce and cucumber slices",
-    imageCredit: "Simply Recipes / Photo by Ellen Mary Cronin / Food Styling by Rochelle Honeygan Burgess",
+    imageCredit: "Dishora Studio / Photo by Ellen Mary Cronin / Food Styling by Rochelle Honeygan Burgess",
     description:
       "Marinated meats grilled over glowing coals, called satays in Southeast Asia, have an irresistible combination of sweetness, heat, acid, and spice that is downright addictive. Recreate a version in your own backyard on your grill.",
     whyMakeThis: ["Fast finger-food skewers with addictive homemade peanut sauce."],
@@ -1008,7 +1008,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/greek-pasta-salad.jpg",
     imageAlt: "Bright Greek pasta salad with grape tomatoes, scallions, and fresh dill",
-    imageCredit: "Simply Recipes / Shilpa Iyer",
+    imageCredit: "Dishora Studio / Shilpa Iyer",
     description:
       "Not only is this pasta salad super simple to throw together, but it's a magical combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's everything I crave on a hot summer day.",
     whyMakeThis: ["Fresh dill and lemon juice create an ultra-refreshing pasta salad."],
@@ -1122,7 +1122,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/flank-steak.jpg",
     imageAlt: "Sliced grilled balsamic flank steak with herb garnish on carving board",
-    imageCredit: "Simply Recipes / Photo by Robby Lozano / Food Styling by Margaret Dickey / Prop Styling by Julia Bayless",
+    imageCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Margaret Dickey / Prop Styling by Julia Bayless",
     description:
       "Using balsamic vinegar in a marinade for grilled flank steak is a genius move. In just one ingredient, the vinegar imparts tons of complex flavor to the meat while also tenderizing this lean cut with its acid. A dollop of country-style Dijon mustard, some grated garlic, and a dash of paprika balance out the sweetness in the balsamic.",
     whyMakeThis: ["Fast 10-minute sear with deep steakhouse flavor."],
@@ -1183,7 +1183,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/sicilian-potato-salad.jpg",
     imageAlt: "Sicilian potato salad with tender green beans, cherry tomatoes, and Castelvetrano olives",
-    imageCredit: "Simply Recipes / Photo by Andrew Bui / Food Styling by Kaitlin Wayne",
+    imageCredit: "Dishora Studio / Photo by Andrew Bui / Food Styling by Kaitlin Wayne",
     description:
       "You might not find this exact recipe over in Sicily, but similar iterations are common in both Sicily and mainland Italy. Potatoes, green beans, and tomatoes are a timeless Italian pairing in the summer months. Using buttery Sicilian green olives—I love Castelveltranos—plus an herb-y oregano vinaigrette gives this salad lots of island flair.",
     whyMakeThis: ["Mayo-free Italian potato salad that thrives in warm weather."],
@@ -1240,7 +1240,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/grilled-peppers.jpg",
     imageAlt: "Platter of charred red, yellow, and orange grilled bell peppers",
-    imageCredit: "Simply Recipes / Sally Vargas",
+    imageCredit: "Dishora Studio / Sally Vargas",
     description:
       "Bell peppers on the grill are one of summer's pleasures, and they're so easy it's almost a crime not to throw them on the barbie along with shrimp, chicken, burgers, or whatever else you're cooking up outside.",
     whyMakeThis: ["Sweet blistered peppers in 10 minutes."],
@@ -1357,7 +1357,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/greek-salad.jpg",
     imageAlt: "Traditional Greek village salad with big blocks of feta, tomatoes, cucumbers, and olives",
-    imageCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    imageCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     description:
       "This Greek salad is a favorite of my father's to make during the summer. We usually have plenty of tomatoes and cucumbers growing in the garden, and all you have to do is toss in some red onions, olives, bell pepper, feta cheese, a few herbs, and some olive oil and vinegar and you have beautiful, cooling, fresh, Greek salad.",
     whyMakeThis: ["Pure Mediterranean garden flavors in 10 minutes."],
@@ -1416,7 +1416,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/asparagus-foil.jpg",
     imageAlt: "Foil packet opened to reveal steamed tender green asparagus with lemon butter sauce",
-    imageCredit: "Simply Recipes / Mihaela Kozaric Sebrek",
+    imageCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
     description:
       "Inspired by the foil packets of grilled clams I grew up eating, I started grilling foil packets of asparagus in the same manner a few years back. In the packet, the asparagus takes on a slightly smoky flavor, doesn't get overcooked or mushy, and you create a lemony butter sauce to drizzle on top. It requires all of five minutes to prep and zero dishes.",
     whyMakeThis: ["Zero dishes and tender asparagus that never falls through the grates."],
@@ -1533,7 +1533,7 @@ export const recipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/grilled-broccolini.jpg",
     imageAlt: "Grilled broccolini spears on platter with charred florets, shaved parmesan, and lemon",
-    imageCredit: "Simply Recipes / Photo by Matthew Pevear / Food Styling by Mike Lang",
+    imageCredit: "Dishora Studio / Photo by Matthew Pevear / Food Styling by Mike Lang",
     description:
       "Lately, Broccolini has become my most-grilled vegetable, which is a lofty feat at my house. I particularly love it because it's prep-free. On the whole, most vegetables need some sort of culinary intervention before grilling. Zucchini needs to be sliced. Asparagus needs to be peeled. The list goes on.",
     whyMakeThis: ["Zero peeling or chopping required—straight to the grill."],

@@ -559,7 +559,7 @@ const dessertGridRecipes: DessertItem[] = [
     category: "DESSERTS",
     tag: "CHOCOLATE DESSERT RECIPES",
     title: "The 2-Ingredient “Magic” Chocolate Mousse",
-    author: "By Simply Recipes Kitchen",
+    author: "By Dishora Test Kitchen",
     imageUrl: "/images/dessert-magic-chocolate-mousse-cream.jpg",
   },
   {
@@ -568,7 +568,7 @@ const dessertGridRecipes: DessertItem[] = [
     category: "DESSERTS",
     tag: "QUICK DESSERT RECIPES",
     title: "My New Favorite Dessert Is Just 3 Ingredients and Takes 5 Minutes To Make",
-    author: "By Simply Recipes Kitchen",
+    author: "By Dishora Test Kitchen",
     imageUrl: "/images/dessert-ricotta-blackberry-toast-dessert.jpg",
   },
   {
@@ -577,7 +577,7 @@ const dessertGridRecipes: DessertItem[] = [
     category: "DESSERTS",
     tag: "NO-BAKE DESSERT RECIPES",
     title: "These Millionaire Bars Have the Thickest Caramel Layer",
-    author: "By Simply Recipes Kitchen",
+    author: "By Dishora Test Kitchen",
     imageUrl: "/images/dessert-millionaire-shortbread-caramel-bars.jpg",
   },
   {
@@ -586,7 +586,7 @@ const dessertGridRecipes: DessertItem[] = [
     category: "DESSERTS",
     tag: "NO-BAKE DESSERT RECIPES",
     title: "The 2-Ingredient Retro Fudge That Tastes Like Childhood",
-    author: "By Simply Recipes Kitchen",
+    author: "By Dishora Test Kitchen",
     imageUrl: "/images/dessert-two-ingredient-peanut-butter-fudge.jpg",
   },
 ];

@@ -612,7 +612,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Skillet Searing Guidelines & Temperature Matrix" }
+      { name: "Dishora Test Kitchen", detail: "Skillet Searing Guidelines & Temperature Matrix" }
     ]
   },
 
@@ -689,7 +689,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Poultry Searing & Cream Sauce Emulsion Standards" }
+      { name: "Dishora Test Kitchen", detail: "Poultry Searing & Cream Sauce Emulsion Standards" }
     ]
   },
 
@@ -1208,7 +1208,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Air Fryer Poultry Searing & Crispness Matrix" }
+      { name: "Dishora Test Kitchen", detail: "Air Fryer Poultry Searing & Crispness Matrix" }
     ]
   },
 
@@ -1347,7 +1347,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Cast Iron Baking & Butter Browning Ratios" }
+      { name: "Dishora Test Kitchen", detail: "Cast Iron Baking & Butter Browning Ratios" }
     ]
   },
 
@@ -1416,7 +1416,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Autumn Root Vegetable Roasting Standards" }
+      { name: "Dishora Test Kitchen", detail: "Autumn Root Vegetable Roasting Standards" }
     ]
   },
 
@@ -1484,7 +1484,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Starchy Pasta Water Emulsion Physics" }
+      { name: "Dishora Test Kitchen", detail: "Starchy Pasta Water Emulsion Physics" }
     ]
   },
 
@@ -1556,7 +1556,7 @@ export const foodNewsArticles: NewsArticle[] = [
       }
     ],
     sources: [
-      { name: "Simply Recipes Test Kitchen", detail: "Slow Cooker Temperature & Seasoning Guide" }
+      { name: "Dishora Test Kitchen", detail: "Slow Cooker Temperature & Seasoning Guide" }
     ]
   },
 

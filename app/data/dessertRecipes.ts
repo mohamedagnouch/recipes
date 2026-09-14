@@ -65,7 +65,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 25, 2026",
     imageUrl: "/images/dessert-grandma-banana-cream.jpg",
     imageAlt: "Ceramic bowl of sliced sweet bananas bathed in cold heavy cream with a dusting of cinnamon",
-    imageCredit: "Simply Recipes / Alexandra Emanuelli",
+    imageCredit: "Dishora Studio / Alexandra Emanuelli",
     description:
       "A comforting Italian-American family tradition that requires no baking or cooking whatsoever: ripe sweet bananas sliced thinly into a chilled bowl, submerged in fresh cold heavy cream, and finished with fragrant ground cinnamon and sparkling raw sugar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -122,7 +122,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 24, 2026",
     imageUrl: "/images/dessert-chocolate-lasagna-lush.jpg",
     imageAlt: "Glass baking dish showing slice of no-bake chocolate icebox cake with whipped cream and crushed cookies",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "The famous 1930s Nabisco famous icebox cake made effortless: chocolate wafer cookies layered with freshly whipped vanilla cream. As it rests in the refrigerator, the cookies absorb moisture from the cream and soften into tender, chocolate cake-like layers. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -186,7 +186,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 23, 2026",
     imageUrl: "/images/dessert-toffee-chocolate-chip-cookies.jpg",
     imageAlt: "Warm split chocolate chip cookie showing melted chocolate pockets and caramelized toffee bits",
-    imageCredit: "Simply Recipes / Jeanette Hurt",
+    imageCredit: "Dishora Studio / Jeanette Hurt",
     description:
       "Adding 3/4 cup of Heath English toffee bits into your standard chocolate chip cookie dough melts into golden caramelized pockets while baking, creating irresistible chewy centers and crisp, buttery edges. Difficulty: Easy.",
     whyMakeThis: [
@@ -251,7 +251,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 22, 2026",
     imageUrl: "/images/dessert-three-ingredient-butter-cookies.jpg",
     imageAlt: "Plate of pale golden round butter shortbread cookies stamped with fork tines",
-    imageCredit: "Simply Recipes / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description:
       "A classic 1-2-3 shortbread ratio rediscovered by thousands on Reddit: 1 part sugar, 2 parts butter, 3 parts flour. The dough is rolled into simple balls, pressed with a fork, and baked into crumbly, melt-in-your-mouth perfection. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -314,7 +314,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 21, 2026",
     imageUrl: "/images/dessert-key-lime-icebox-cake.jpg",
     imageAlt: "Square slice of Carlota de Limon lime icebox cake garnished with fresh lime slices and lime zest",
-    imageCredit: "Simply Recipes / Devan Grimsrud",
+    imageCredit: "Dishora Studio / Devan Grimsrud",
     description:
       "Mexico's beloved Carlota de Limón: Maria cookies layered with an ultra-creamy, tart cream made by whipping evaporated milk, sweetened condensed milk, and freshly squeezed lime juice in a blender. It sets like a dream in the fridge. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -380,7 +380,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 20, 2026",
     imageUrl: "/images/dessert-spritz-cookies.jpg",
     imageAlt: "Golden fluted butter spritz cookies with festive sprinkles cooling on wire baking rack",
-    imageCredit: "Simply Recipes / Lauren Bair",
+    imageCredit: "Dishora Studio / Lauren Bair",
     description:
       "A true viral heirloom sensation: a grandmother loved this butter spritz cookie recipe so dearly that her family carved the exact ingredient list onto her cemetery headstone. Tender, buttery, and scented with pure almond extract. Difficulty: Easy.",
     whyMakeThis: [
@@ -445,7 +445,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 19, 2026",
     imageUrl: "/images/dessert-smores-chocolate-spoons.jpg",
     imageAlt: "Dessert spoons coated in thick melted chocolate, toasted marshmallow fluff, and crushed graham crackers",
-    imageCredit: "Simply Recipes / Rebecca Fennel",
+    imageCredit: "Dishora Studio / Rebecca Fennel",
     description:
       "All the campfire charm of s'mores without the fire! Dip spoons into melted chocolate, dollop with gooey marshmallow fluff, and roll in crunchy honey graham cracker crumbs. Ready in 15 minutes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -510,7 +510,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 18, 2026",
     imageUrl: "/images/dessert-lemon-dump-cobbler.jpg",
     imageAlt: "Warm bowl of golden lemon dump cobbler served with melting vanilla ice cream scoop",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "The ultimate lazy baker's dessert: dump canned lemon pie filling into a baking dish, sprinkle with yellow cake mix, top with thin pats of butter, and bake into a bubbling, crispy lemon cobbler. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -574,7 +574,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 17, 2026",
     imageUrl: "/images/dessert-cookie-dough-dump-cake.jpg",
     imageAlt: "Warm baking dish of chocolate chip cookie dump cake with melted chocolate ribbons and golden crust",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "A nostalgic 1990s church potluck legend: chocolate chip cookie dough pressed into the bottom of a casserole dish, topped with hot fudge, yellow cake mix, and butter, creating molten chocolate pockets under cake. Difficulty: Easy.",
     whyMakeThis: [
@@ -638,7 +638,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 16, 2026",
     imageUrl: "/images/dessert-ritz-toffee-bars.jpg",
     imageAlt: "Sliced squares of chocolate covered Ritz cracker toffee bars topped with chopped peanuts",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Also known as 'Ritz Crack': buttery Ritz crackers lined up on a sheet pan, drenched in a 3-minute boiled butter-brown sugar caramel, and topped with melted chocolate chips and chopped nuts. Incredibly crunchy, salty, and sweet. Difficulty: Easy.",
     whyMakeThis: [
@@ -704,7 +704,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 15, 2026",
     imageUrl: "/images/dessert-butterscotch-pudding-cake.jpg",
     imageAlt: "Spoon diving into warm butterscotch self-saucing pudding cake with powdered sugar",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A classic self-saucing pudding cake: pour boiling brown sugar syrup over simple cake batter, and as it bakes, the cake rises to the top while a thick, molten butterscotch sauce forms underneath. Difficulty: Easy.",
     whyMakeThis: [
@@ -768,7 +768,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 14, 2026",
     imageUrl: "/images/dessert-hot-milk-cake.jpg",
     imageAlt: "Square of golden fluffy hot milk sponge cake dusted with confectioners sugar and fresh strawberries",
-    imageCredit: "Simply Recipes / Shayma Saadat",
+    imageCredit: "Dishora Studio / Shayma Saadat",
     description:
       "A beloved mid-century staple: beating eggs and sugar into thick ribbons, then whisking in scalding hot milk and melted butter. The heat cooks the flour starch instantly, resulting in an exceptionally tender, fine-grained sponge. Difficulty: Easy.",
     whyMakeThis: [
@@ -832,7 +832,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 13, 2026",
     imageUrl: "/images/dessert-lazy-cat-chocolate-cake.jpg",
     imageAlt: "Slice of dark chocolate cake topped with fluffy cream cheese frosting and crumbled Oreo cookies",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A decadent chocolate layer cake with a whimsical name: dark fudge chocolate sponge slathered in tangy cream cheese buttercream and smothered in crushed chocolate cookies. Difficulty: Moderate.",
     whyMakeThis: [
@@ -896,7 +896,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 12, 2026",
     imageUrl: "/images/dessert-danish-dream-cake.jpg",
     imageAlt: "Squares of golden Danish Drømmekage dream cake topped with caramelized coconut brown sugar crust",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "Known in Denmark as Drømmekage fra Brovst: an airy vanilla sponge cake that is baked, then smothered in a warm boiled topping of butter, brown sugar, and shredded coconut, and returned to the oven until bubbling and caramelized. Difficulty: Easy.",
     whyMakeThis: [
@@ -960,7 +960,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 11, 2026",
     imageUrl: "/images/dessert-best-vanilla-snack-cake.jpg",
     imageAlt: "Square of tender vanilla snack cake with white frosting and rainbow sprinkles on ceramic plate",
-    imageCredit: "Simply Recipes / Afton Cyrus",
+    imageCredit: "Dishora Studio / Afton Cyrus",
     description:
       "A plush, buttery vanilla cake mixed in one bowl with a whisk. Topped with simple vanilla frosting and festive rainbow sprinkles, it's the ideal after-school or dinner party treat. Difficulty: Easy.",
     whyMakeThis: [
@@ -1024,7 +1024,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 10, 2026",
     imageUrl: "/images/dessert-double-peanut-butter-cake.jpg",
     imageAlt: "Sliced sheet pan of double peanut butter cake with fudgy peanut butter icing",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "A peanut butter lover's holy grail: peanut butter folded into the cake batter, then drenched in a boiling hot peanut butter and powdered sugar glaze that seeps into the warm cake. Difficulty: Easy.",
     whyMakeThis: [
@@ -1081,7 +1081,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 9, 2026",
     imageUrl: "/images/dessert-neiman-marcus-gooey-cake.jpg",
     imageAlt: "Golden square of gooey butter Neiman Marcus cake dusted with powdered sugar",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Legendary Department Store cake: yellow cake mix pressed with melted butter into a chewy base, crowned with a rich cream cheese and powdered sugar filling that stays deliciously gooey in the center. Difficulty: Easy.",
     whyMakeThis: [
@@ -1145,7 +1145,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 8, 2026",
     imageUrl: "/images/dessert-protein-peanut-butter-bites.jpg",
     imageAlt: "Plate of round no-bake peanut butter chocolate chip energy balls",
-    imageCredit: "Simply Recipes / Rebecca Fennel",
+    imageCredit: "Dishora Studio / Rebecca Fennel",
     description:
       "Tastes just like raw cookie dough! Rolled oats, creamy peanut butter, honey, chia seeds, and mini chocolate chips stirred in one bowl and rolled into grab-and-go energy bites. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1203,7 +1203,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 7, 2026",
     imageUrl: "/images/dessert-watergate-pistachio-cake.jpg",
     imageAlt: "Slice of pastel green pistachio Watergate cake topped with crushed pistachios on red plate",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A charming 1970s conversation piece: white cake mix combined with instant pistachio pudding and 7-Up soda, baked into an emerald green sponge and topped with pineapple-pistachio whipped topping. Difficulty: Easy.",
     whyMakeThis: [
@@ -1262,7 +1262,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 6, 2026",
     imageUrl: "/images/dessert-chocolate-water-mousse.jpg",
     imageAlt: "Glass cup of dark chocolate water mousse garnished with whipped cream and cocoa shavings",
-    imageCredit: "Simply Recipes / Jennifer Zyman",
+    imageCredit: "Dishora Studio / Jennifer Zyman",
     description:
       "Created by French food chemist Hervé This: melting high-quality 70% dark chocolate with water, then whisking it over an ice bowl. The cocoa fat molecules trap air as they cool, forming an astonishingly pure, dairy-free, egg-free chocolate mousse. Difficulty: Easy.",
     whyMakeThis: [
@@ -1326,7 +1326,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 5, 2026",
     imageUrl: "/images/dessert-divorce-carrot-cake.jpg",
     imageAlt: "Thick slice of moist spiced carrot cake crowned with fluffy cream cheese frosting on ceramic plate",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "A cake so ridiculously good that family and friends argue over the last slice. Loaded with fresh grated carrots, crushed pineapple for moisture, toasted pecans, and shredded coconut, blanketed in tangy cream cheese frosting. Difficulty: Easy.",
     whyMakeThis: [
@@ -1390,7 +1390,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 4, 2026",
     imageUrl: "/images/dessert-french-berry-clafoutis.jpg",
     imageAlt: "Ceramic pie dish of golden French berry clafoutis with dusted powdered sugar",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "France's most forgiving baked dessert: sweet fresh blackberries, raspberries, and cherries arranged in a buttered baking dish, drowned in a crepe-like custard of eggs, milk, sugar, and almond extract, baked until golden and puffed. Difficulty: Easy.",
     whyMakeThis: [
@@ -1455,7 +1455,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 3, 2026",
     imageUrl: "/images/dessert-three-ingredient-carrot-cake.jpg",
     imageAlt: "Squares of moist spiced carrot snack cake topped with cream cheese icing on parchment paper",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "Skip the messy grater completely. A box of spice cake mix combined with pure carrot puree (or baby food carrots) and eggs bakes into an intensely moist, fragrant carrot cake with zero prep mess. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1514,7 +1514,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 2, 2026",
     imageUrl: "/images/dessert-church-window-marshmallow-cookies.jpg",
     imageAlt: "Sliced church window cookies showing stained glass pattern of pastel marshmallows and chocolate",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "Also known as stained glass cookies or cathedral cookies: melted semi-sweet chocolate and butter tossed with fruity pastel-colored mini marshmallows and walnuts, rolled into logs and sliced into colorful jewel-like rounds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1578,7 +1578,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 1, 2026",
     imageUrl: "/images/dessert-carrot-coffee-cake.jpg",
     imageAlt: "Square slice of moist spiced carrot coffee cake with thick brown sugar pecan streusel",
-    imageCredit: "Simply Recipes / Annika Panikker",
+    imageCredit: "Dishora Studio / Annika Panikker",
     description:
       "The morning coffee cake reimagined for spring: moist spiced carrot cake filled with a brown sugar and cinnamon streusel layer, baked under extra crunchy butter crumbs. Difficulty: Easy.",
     whyMakeThis: [
@@ -1641,7 +1641,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 30, 2026",
     imageUrl: "/images/dessert-lemon-posset-creams.jpg",
     imageAlt: "Glass ramekins of chilled silky yellow lemon posset garnished with lemon zest and raspberries",
-    imageCredit: "Simply Recipes / Jessica Furniss",
+    imageCredit: "Dishora Studio / Jessica Furniss",
     description:
       "A medieval British dessert that feels like pure alchemy: boiling heavy cream with sugar, then stirring in fresh lemon juice. The citric acid naturally thickens the cream into a silky, luscious pudding that sets in the fridge with zero gelatin or eggs. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1707,7 +1707,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 29, 2026",
     imageUrl: "/images/dessert-cannoli-cream-dip.jpg",
     imageAlt: "Bowl of creamy cannoli dip with mini chocolate chips surrounded by broken waffle cones and strawberries",
-    imageCredit: "Simply Recipes / Jeanette Hurt",
+    imageCredit: "Dishora Studio / Jeanette Hurt",
     description:
       "All the flavor of a bakery cannoli without the tedious frying: whipped whole milk ricotta, sweet Italian mascarpone, powdered sugar, vanilla, and mini semi-sweet chocolate chips. Serve with broken waffle cones, graham crackers, or strawberries. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1766,7 +1766,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 28, 2026",
     imageUrl: "/images/dessert-grandma-spice-sheet-cake.jpg",
     imageAlt: "Square slice of dark spiced sheet cake topped with creamy brown sugar caramel frosting",
-    imageCredit: "Simply Recipes / Joey Firoben",
+    imageCredit: "Dishora Studio / Joey Firoben",
     description:
       "A comforting heirloom spice cake: fragrant ground cinnamon, ginger, cloves, and allspice folded into a buttermilk sponge, blanketed in old-fashioned boiled penuche caramel brown sugar icing. Difficulty: Easy.",
     whyMakeThis: [
@@ -1825,7 +1825,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 27, 2026",
     imageUrl: "/images/dessert-chocolate-malt-brownies.jpg",
     imageAlt: "Stack of thick fudgy dark chocolate brownies with shiny papery crinkle tops",
-    imageCredit: "Simply Recipes / Melissa Knific",
+    imageCredit: "Dishora Studio / Melissa Knific",
     description:
       "Adding 1/2 cup of Carnation malted milk powder transforms ordinary brownies into the nostalgic flavor of a 1950s soda fountain chocolate malt shake. Fudgy, dense, and finished with a paper-thin crinkly crust. Difficulty: Easy.",
     whyMakeThis: [
@@ -1889,7 +1889,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 26, 2026",
     imageUrl: "/images/dessert-strawberry-cake-cookies.jpg",
     imageAlt: "Plate of soft pink strawberry cake mix cookies topped with white frosting and sprinkles",
-    imageCredit: "Simply Recipes / Amanda Luchtel",
+    imageCredit: "Dishora Studio / Amanda Luchtel",
     description:
       "A sweet childhood favorite: combining a box of strawberry cake mix with vegetable oil and two eggs creates thick, pillowy cookies with chewy edges and pretty pastel pink color. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1953,7 +1953,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 25, 2026",
     imageUrl: "/images/dessert-spanish-orange-citrus-cake.jpg",
     imageAlt: "Square slice of golden Spanish olive oil orange cake dusted with powdered sugar on white saucer",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "Spain's beloved Bizcocho de Naranja: whole milk yogurt, fruity extra virgin olive oil, and the grated zest and juice of Valencia oranges baked into an aromatic, golden loaf that stays moist for days. Difficulty: Easy.",
     whyMakeThis: [
@@ -2017,7 +2017,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 24, 2026",
     imageUrl: "/images/dessert-lucky-charms-marshmallow-bars.jpg",
     imageAlt: "Baking dish of colorful marshmallow Lucky Charms cereal treat squares",
-    imageCredit: "Simply Recipes / Meghan Splawn",
+    imageCredit: "Dishora Studio / Meghan Splawn",
     description:
       "A colorful upgrade to Rice Krispies treats: swap in Lucky Charms cereal for festive marshmallow rainbows, hearts, and stars in every buttery, chewy bite. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2082,7 +2082,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 23, 2026",
     imageUrl: "/images/dessert-irish-potato-cinnamon-candy.jpg",
     imageAlt: "Brown paper bag filled with cute cinnamon dusted Irish potato candies that look like mini potatoes",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Despite the name, there are no actual potatoes here! A 100-year-old Philadelphia confection made by kneading cream cheese, butter, coconut, and powdered sugar into mini 'potato' shapes, then rolling them in cinnamon to look like freshly dug spuds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2147,7 +2147,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 22, 2026",
     imageUrl: "/images/dessert-skillet-cookie-casserole.jpg",
     imageAlt: "Baking dish of warm gooey chocolate chip cookie casserole topped with three scoops of melting vanilla ice cream",
-    imageCredit: "Simply Recipes / Laurel Randolph",
+    imageCredit: "Dishora Studio / Laurel Randolph",
     description:
       "Skip scooping individual cookies: spread brown butter chocolate chip dough across a casserole dish and underbake slightly so the edges turn crisp and golden while the interior stays warm, molten, and spoonable. Difficulty: Easy.",
     whyMakeThis: [
@@ -2212,7 +2212,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 21, 2026",
     imageUrl: "/images/dessert-kahlua-chocolate-bundt-cake.jpg",
     imageAlt: "Fluted chocolate bundt cake drenched in glossy dark chocolate Kahlua glaze on pedestal",
-    imageCredit: "Simply Recipes / Morgan Baker",
+    imageCredit: "Dishora Studio / Morgan Baker",
     description:
       "A famous family recipe passed down through decades: devil's food cake mix spiked with instant chocolate pudding, sour cream, miniature chocolate chips, and rich Mexican Kahlúa coffee liqueur. Incredibly moist and rich. Difficulty: Easy.",
     whyMakeThis: [
@@ -2276,7 +2276,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 20, 2026",
     imageUrl: "/images/dessert-samoas-girl-scout-cookie-cake.jpg",
     imageAlt: "Sliced giant circular Samoas cookie cake with striped chocolate drizzle and toasted coconut caramel",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "Everything you love about Samoas (Caramel deLites) blown up into a 9-inch party cookie cake: buttery crisp shortbread base layered with homemade chewy coconut caramel and drizzled with dark chocolate stripes. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2340,7 +2340,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 19, 2026",
     imageUrl: "/images/dessert-brookie-brownie-cookie-bars.jpg",
     imageAlt: "Sliced square brookie bar showing distinct layers of chocolate chip cookie and dark fudgy brownie",
-    imageCredit: "Simply Recipes / Kayla Hoang",
+    imageCredit: "Dishora Studio / Kayla Hoang",
     description:
       "Can't decide between a cookie and a brownie? Brookie bars deliver both: half chewy chocolate chip cookie, half rich fudgy brownie, baked together into chewy, dense squares. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2403,7 +2403,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 18, 2026",
     imageUrl: "/images/dessert-lunch-lady-peanut-butter-bars.jpg",
     imageAlt: "Sliced squares of Scotcheroos lunch lady bars with peanut butter cereal base and shiny chocolate butterscotch top",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Also beloved in the Midwest as Scotcheroos: crispy rice cereal folded with warm peanut butter and sugar syrup, topped with a thick layer of melted butterscotch and semi-sweet chocolate chips. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2468,7 +2468,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 17, 2026",
     imageUrl: "/images/dessert-chocolate-hamantaschen.jpg",
     imageAlt: "Golden triangular Hamantaschen cookies filled with glistening chocolate fudge filling",
-    imageCredit: "Simply Recipes / Anne Wolf",
+    imageCredit: "Dishora Studio / Anne Wolf",
     description:
       "A modern chocolate lover's spin on traditional Purim pastries: buttery citrus-scented cookie dough pinched into three-cornered hats filled with rich chocolate ganache or Nutella fudge that never leaks during baking. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2532,7 +2532,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 16, 2026",
     imageUrl: "/images/dessert-traditional-apricot-hamantaschen.jpg",
     imageAlt: "Baking sheet of golden triangular apricot jam Hamantaschen cookies fresh from the oven",
-    imageCredit: "Simply Recipes / Coco Morante",
+    imageCredit: "Dishora Studio / Coco Morante",
     description:
       "The classic Purim cookie: tender sugar cookie dough infused with orange zest, folded around sweet and tangy apricot preserves. A beloved annual tradition passed down through generations. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2596,7 +2596,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 15, 2026",
     imageUrl: "/images/dessert-raspberry-jam-hamantaschen.jpg",
     imageAlt: "Golden triangular raspberry hamantaschen cookies on parchment paper with jam centers",
-    imageCredit: "Simply Recipes / Micah Siva, RD",
+    imageCredit: "Dishora Studio / Micah Siva, RD",
     description:
       "A family childhood favorite: crisp butter cookie dough filled with vibrant seedless raspberry preserves, pinched into traditional triangular pastries. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2654,7 +2654,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 14, 2026",
     imageUrl: "/images/dessert-sock-it-to-me-bundt-cake.jpg",
     imageAlt: "Sliced golden Sock-it-to-me bundt cake showing cinnamon pecan filling ribbon",
-    imageCredit: "Simply Recipes / Erika Kwee",
+    imageCredit: "Dishora Studio / Erika Kwee",
     description:
       "A famous 1970s Southern classic made famous by Duncan Hines: yellow cake mix elevated with sour cream and oil, layered with a thick cinnamon and chopped pecan filling, finished with a powdered sugar drizzle. Difficulty: Easy.",
     whyMakeThis: [
@@ -2717,7 +2717,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 13, 2026",
     imageUrl: "/images/dessert-copycat-thin-mints.jpg",
     imageAlt: "Stack of glossy dark chocolate mint dipped cookies next to peppermint leaves",
-    imageCredit: "Simply Recipes / Afton Cyrus",
+    imageCredit: "Dishora Studio / Afton Cyrus",
     description:
       "When Girl Scout cookie season ends, make this 2-ingredient copycat: Ritz crackers dipped in dark chocolate melted with pure peppermint oil. The salty crunch of the cracker mimics the wafer texture identically! Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2780,7 +2780,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 12, 2026",
     imageUrl: "/images/dessert-joe-frogger-molasses-cookies.jpg",
     imageAlt: "Plate of large, crackled chewy dark molasses Joe Frogger cookies with sugar sparkle",
-    imageCredit: "Simply Recipes / Sara Bir",
+    imageCredit: "Dishora Studio / Sara Bir",
     description:
       "Created in Marblehead, Massachusetts in the late 1700s by freedman Joe Brown: large chewy molasses cookies made with dark rum and sea water that stayed fresh for months aboard seafaring schooners. Spiced with ginger and cloves with chewy edges. Difficulty: Easy.",
     whyMakeThis: [
@@ -2845,7 +2845,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 11, 2026",
     imageUrl: "/images/dessert-cast-iron-fudgy-skillet-brownie.jpg",
     imageAlt: "Cast iron skillet of warm gooey fudge brownie topped with two scoops of vanilla ice cream",
-    imageCredit: "Simply Recipes / Kayla Hoang",
+    imageCredit: "Dishora Studio / Kayla Hoang",
     description:
       "Melt butter directly in the cast-iron skillet, whisk in sugar, eggs, cocoa, and chocolate chips, and bake. The cast iron crisps the brownie edges while leaving the center gloriously gooey and molten for dipping spoons. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2910,7 +2910,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 10, 2026",
     imageUrl: "/images/dessert-strawberry-muddy-buddies.jpg",
     imageAlt: "Bowl of pink strawberry powdered sugar muddy buddies cereal mix with freeze dried berries",
-    imageCredit: "Simply Recipes / Molly Adams",
+    imageCredit: "Dishora Studio / Molly Adams",
     description:
       "A pastel strawberry twist on classic puppy chow: Rice Chex cereal coated in melted white chocolate and pulverized freeze-dried strawberries, shaken in a paper bag with powdered sugar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2968,7 +2968,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 9, 2026",
     imageUrl: "/images/dessert-white-chocolate-frozen-berries.jpg",
     imageAlt: "Plate of frost-kissed frozen raspberries and blueberries drenched in warm white chocolate sauce",
-    imageCredit: "Simply Recipes / Shayma Saadat",
+    imageCredit: "Dishora Studio / Shayma Saadat",
     description:
       "A famous dinner party trick from upscale British dinner parties: arranging frost-kissed frozen mixed berries on a plate and pouring warm white chocolate cream over them. The hot chocolate sauce sets instantly against the frozen fruit. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3025,7 +3025,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 8, 2026",
     imageUrl: "/images/dessert-sugar-cookie-bars.jpg",
     imageAlt: "Square sugar cookie bars topped with pastel pink frosting and festive rainbow sprinkles",
-    imageCredit: "Simply Recipes / Mark Beahm",
+    imageCredit: "Dishora Studio / Mark Beahm",
     description:
       "All the soft, melt-in-your-mouth magic of Lofthouse frosted sugar cookies without chilling or rolling dough. Pressed into a 9x13 pan, baked until soft, and covered in thick whipped buttercream. Difficulty: Easy.",
     whyMakeThis: [
@@ -3089,7 +3089,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 7, 2026",
     imageUrl: "/images/dessert-one-bowl-lemon-snack-cake.jpg",
     imageAlt: "Sliced squares of golden lemon snack cake topped with crackly translucent lemon glaze",
-    imageCredit: "Simply Recipes / Molly Adams",
+    imageCredit: "Dishora Studio / Molly Adams",
     description:
       "A cheerful pick-me-up cake made in one bowl: fresh lemon zest rubbed into sugar, stirred with yogurt, butter, and eggs, and baked into an 8x8 snacking cake drenched in tart lemon glaze. Difficulty: Easy.",
     whyMakeThis: [
@@ -3153,7 +3153,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 6, 2026",
     imageUrl: "/images/dessert-cherry-dump-cobbler.jpg",
     imageAlt: "Warm bowl of bubbling cherry dump cobbler with melting vanilla ice cream",
-    imageCredit: "Simply Recipes / Molly Allen",
+    imageCredit: "Dishora Studio / Molly Allen",
     description:
       "All the speed of a dump cake with zero boxed cake mix: canned sweet dark cherries baked under a quick 5-minute flour, sugar, butter, and buttermilk biscuit batter that turns crispy and golden. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3217,7 +3217,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 5, 2026",
     imageUrl: "/images/dessert-kentucky-butter-bundt-cake.jpg",
     imageAlt: "Golden fluted Kentucky butter bundt cake with crackly sugar crust and slice cut out on platter",
-    imageCredit: "Simply Recipes / Stephanie Burt",
+    imageCredit: "Dishora Studio / Stephanie Burt",
     description:
       "Winner of the 1963 Pillsbury Bake-Off: an ultra-moist vanilla pound cake poked with holes fresh from the oven and soaked with a hot butter, sugar, and vanilla glaze that crystallizes into a crisp sugar shell. Difficulty: Easy.",
     whyMakeThis: [
@@ -3275,12 +3275,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "290 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 4, 2026",
     imageUrl: "/images/dessert-magic-chocolate-mousse-cream.jpg",
     imageAlt: "Glass dessert dish of rich dark chocolate mousse crowned with fresh whipped cream",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "A foolproof French mousse requiring just chocolate and heavy cream. Melted chocolate folded gently into stiff whipped cream sets into an impossibly decadent, velvety texture. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3338,12 +3338,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "240 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 3, 2026",
     imageUrl: "/images/dessert-ricotta-blackberry-toast-dessert.jpg",
     imageAlt: "Toasted artisan bread spread with whipped ricotta and swirling blackberry jam",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "When you crave something sweet late at night: golden toasted brioche smeared with whipped whole-milk ricotta, swirled with blackberry jam, and finished with honey and flaky sea salt. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3395,12 +3395,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 bars",
     servingsCount: 16,
     calories: "320 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 2, 2026",
     imageUrl: "/images/dessert-millionaire-shortbread-caramel-bars.jpg",
     imageAlt: "Sliced squares of Millionaire shortbread bars displaying crisp cookie base, golden caramel, and chocolate top",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "Also known as Caramel Shortbread: a crisp Scottish shortbread base, covered with an ultra-thick layer of simmered condensed milk caramel, capped with smooth dark chocolate that snaps when cut. Difficulty: Moderate.",
     whyMakeThis: [
@@ -3460,12 +3460,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 squares",
     servingsCount: 12,
     calories: "160 kcal",
-    author: "Simply Recipes Kitchen",
+    author: "Dishora Kitchen",
     authorRole: "Test Kitchen",
     date: "April 1, 2026",
     imageUrl: "/images/dessert-two-ingredient-peanut-butter-fudge.jpg",
     imageAlt: "Square dish of two-ingredient peanut butter fudge sliced into bite-size squares on parchment paper",
-    imageCredit: "Simply Recipes / Test Kitchen",
+    imageCredit: "Dishora Studio / Test Kitchen",
     description:
       "The classic 1980s church cookbook secret: microwave a tub of vanilla frosting with a jar of creamy peanut butter for 60 seconds, stir together, and pour into a pan. It sets into velvety, sliceable peanut butter fudge. Difficulty: Super Easy.",
     whyMakeThis: [
