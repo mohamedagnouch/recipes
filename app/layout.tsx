@@ -28,8 +28,13 @@ export const metadata: Metadata = {
   },
   description: "Dishora offers over 3,600 triple-tested recipes, grocery news, and foolproof cooking guides for home cooks in the US and Canada.",
   icons: {
-    icon: "/images/dishora-logo.png",
-    apple: "/images/dishora-logo.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/dishora-icon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/dishora-icon.png", type: "image/png" },
+    ],
   },
   openGraph: {
     type: "website",
