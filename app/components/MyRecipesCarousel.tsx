@@ -93,13 +93,13 @@ export default function MyRecipesCarousel() {
           className="flex gap-5 overflow-x-auto pb-6 pt-2 scrollbar-hide snap-x snap-mandatory scroll-smooth"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
-          {recipesData.map((recipe) => {
+          {recipesData.map((recipe, idx) => {
             const isFlipped = flippedCards.includes(recipe.id);
             const isSaved = isFav(recipe.slug);
 
             return (
               <div
-                key={recipe.id}
+                key={`${recipe.slug}-${recipe.id}-${idx}`}
                 onClick={() => toggleFlip(recipe.id)}
                 className="shrink-0 w-[245px] sm:w-[265px] snap-start cursor-pointer perspective-[1000px] select-none"
               >

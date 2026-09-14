@@ -23,8 +23,8 @@ const CSP_DIRECTIVES = [
   "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
   // Google Fonts font files are served from gstatic.com
   "font-src 'self' fonts.gstatic.com",
-  // API calls + Google Analytics + Vercel Analytics
-  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://vitals.vercel-insights.com",
+  // API calls + Google Analytics + Vercel Analytics & Speed Insights
+  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://vitals.vercel-insights.com https://*.vercel-insights.com",
   // No iframes needed — deny all
   "frame-src 'none'",
   // Prevent this site from being embedded in any iframe (modern browsers)
