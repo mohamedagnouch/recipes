@@ -129,7 +129,7 @@ export default function CareersPage() {
             Send your pitch directly to our editorial team at:
           </p>
           <div className="p-3 bg-gray-50 rounded-xl font-mono text-sm text-[#0c5354] font-bold border border-gray-200 w-fit">
-            [ENTER CAREERS/PITCH EMAIL, e.g., careers@dishora.com / pitches@dishora.com]
+            <a href="mailto:recip9220@gmail.com" className="hover:underline">recip9220@gmail.com</a>
           </div>
           <p className="text-xs text-gray-500">
             <strong>Privacy Guarantee:</strong> We do not request sensitive personal data (e.g., social security numbers or banking details) during initial pitch reviews. Information submitted is handled strictly in accordance with our <Link href="/privacy-policy" className="text-[#0c5354] underline">Privacy Policy</Link>.

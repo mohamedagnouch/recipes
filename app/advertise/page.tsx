@@ -313,8 +313,8 @@ export default function AdvertisePage() {
                 {isSubmitting ? "Submitting Inquiry..." : "Submit Advertising Inquiry →"}
               </button>
 
-              <p className="text-[11px] text-gray-400 text-center">
-                Or email directly: <strong className="text-gray-600">[ENTER ADVERTISING EMAIL, e.g., advertise@dishora.com]</strong>
+              <p className="text-xs text-gray-500 text-center">
+                Or email directly: <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] font-bold underline hover:text-[#009b72]">recip9220@gmail.com</a>
               </p>
             </form>
           )}

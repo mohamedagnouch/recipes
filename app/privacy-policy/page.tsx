@@ -49,20 +49,13 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="text-sm text-gray-500">
-            Effective Date: <strong className="text-gray-700">[ENTER EFFECTIVE DATE, e.g., January 1, 2026]</strong> • Last Updated: <strong className="text-gray-700">[ENTER LAST UPDATED DATE]</strong>
+            Effective Date: <strong className="text-gray-700">January 1, 2026</strong> • Last Updated: <strong className="text-gray-700">March 14, 2026</strong>
           </p>
         </div>
       </section>
 
       {/* Main Content */}
       <section className="max-w-[900px] w-full mx-auto px-4 sm:px-6 py-12 flex-1 space-y-10 text-gray-800 text-sm sm:text-base leading-relaxed">
-        {/* Notice Box */}
-        <div className="p-4 sm:p-5 rounded-xl bg-amber-50 border border-amber-200 text-xs sm:text-sm text-amber-950">
-          <p className="font-bold mb-1">⚠️ Important Privacy &amp; Legal Notice</p>
-          <p>
-            This Privacy Policy provides a comprehensive template designed for a North American food publication. You must review and customize this document to reflect the specific analytics tools, advertising networks (e.g., Google AdSense), cookie consent banners, and legal entity details actively utilized by your website.
-          </p>
-        </div>
 
         {/* Section 1 */}
         <article className="space-y-3">
@@ -70,7 +63,7 @@ export default function PrivacyPolicyPage() {
             1. Introduction &amp; Scope
           </h2>
           <p>
-            <strong>Dishora</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), operated by <strong>[ENTER LEGAL BUSINESS NAME]</strong>, is committed to safeguarding your privacy. This Privacy Policy explains what information we collect when you visit our website at <strong>[ENTER WEBSITE URL, e.g., https://dishora.net]</strong>, how we use that information, how cookies are utilized, and what rights you hold as a visitor residing in the United States, Canada, or internationally.
+            <strong>Dishora</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to safeguarding your privacy. This Privacy Policy explains what information we collect when you visit our website at <strong className="text-gray-900">https://dishora.net</strong>, how we use that information, how cookies are utilized, and what rights you hold as a visitor residing in the United States, Canada, or internationally.
           </p>
         </article>
 
@@ -127,7 +120,7 @@ export default function PrivacyPolicyPage() {
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-gray-700">
             <li><strong>Essential Cookies:</strong> Necessary for basic website security and navigation.</li>
-            <li><strong>Analytics Cookies:</strong> Provided by services like <strong>[ENTER ANALYTICS PROVIDER, e.g., Google Analytics 4]</strong> to understand aggregated visitor trends without identifying individual users.</li>
+            <li><strong>Analytics Cookies:</strong> Provided by services like <strong>Google Analytics 4 and Vercel Analytics</strong> to understand aggregated visitor trends without identifying individual users.</li>
             <li><strong>Advertising Cookies &amp; Google AdSense:</strong> Third-party vendors, including Google, use cookies to serve ads based on prior visits to this website or other websites. Google&apos;s use of advertising cookies enables it and its partners to serve ads to users based on their visit to our sites and/or other sites on the Internet.</li>
           </ul>
           <p className="pt-2">
@@ -154,7 +147,7 @@ export default function PrivacyPolicyPage() {
 
             <h3 className="font-bold text-gray-900 pt-2">How to Exercise Your Rights</h3>
             <p>
-              To submit a data access, correction, or deletion request, please email our privacy desk at <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] font-bold underline">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.net]</a>. We will process your verified request in accordance with applicable law.
+              To submit a data access, correction, or deletion request, please email our privacy desk at <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] font-bold underline hover:text-[#009b72]">recip9220@gmail.com</a>. We will process your verified request in accordance with applicable law.
             </p>
           </div>
         </article>
@@ -186,10 +179,10 @@ export default function PrivacyPolicyPage() {
             If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact:
           </p>
           <ul className="text-xs sm:text-sm text-gray-600 space-y-1">
-            <li><strong>Data Controller:</strong> [ENTER LEGAL BUSINESS NAME]</li>
+            <li><strong>Publication:</strong> Dishora Digital Media</li>
             <li><strong>Attn:</strong> Privacy &amp; Data Protection Desk</li>
-            <li><strong>Address:</strong> [ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, COUNTRY]</li>
-            <li><strong>Email:</strong> <a href="mailto:[ENTER PRIVACY EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.net]</a></li>
+            <li><strong>Website:</strong> <span className="font-mono text-xs">https://dishora.net</span></li>
+            <li><strong>Email:</strong> <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] underline font-bold hover:text-[#009b72]">recip9220@gmail.com</a></li>
           </ul>
         </div>
       </section>

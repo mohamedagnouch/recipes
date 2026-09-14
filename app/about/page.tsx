@@ -150,16 +150,19 @@ export default function AboutPage() {
           </p>
         </article>
 
-        {/* Section 5: Legal & Publishing Entity Notice */}
-        <div className="p-5 rounded-xl bg-amber-50/70 border border-amber-200 text-xs sm:text-sm text-amber-900 space-y-1.5">
-          <p className="font-bold text-amber-950 flex items-center gap-1.5">
-            <span>ℹ️</span> Publication &amp; Ownership Information
+        {/* Section 5: Publication & Contact Information */}
+        <div className="p-6 rounded-2xl bg-teal-50/60 border border-teal-200/80 text-xs sm:text-sm text-gray-800 space-y-2">
+          <p className="font-bold text-[#0c5354] text-sm flex items-center gap-1.5">
+            <span>ℹ️</span> Publication &amp; Contact Information
           </p>
           <p>
-            Dishora is operated by <strong>[ENTER LEGAL BUSINESS NAME / PUBLISHER NAME]</strong>, headquartered at <strong>[ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, COUNTRY]</strong>.
+            <strong>Dishora</strong> is an independent digital culinary publication dedicated to tested recipes, kitchen guides, and food journalism for home cooks across North America.
           </p>
           <p>
-            For editorial inquiries, partnership proposals, or legal notices, please reach out via our dedicated <Link href="/contact" className="underline font-bold text-[#0c5354]">Contact Page</Link> or email us at <strong>[ENTER CONTACT EMAIL, e.g., contact@dishora.com]</strong>.
+            For editorial inquiries, recipe feedback, corrections, or partnership proposals, please reach out via our dedicated <Link href="/contact" className="underline font-bold text-[#0c5354]">Contact Page</Link> or email our team directly at{" "}
+            <a href="mailto:recip9220@gmail.com" className="font-bold text-[#0c5354] underline hover:text-[#009b72]">
+              recip9220@gmail.com
+            </a>.
           </p>
         </div>
 

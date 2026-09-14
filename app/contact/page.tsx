@@ -311,24 +311,24 @@ export default function ContactPage() {
             {/* Department Directory */}
             <div className="p-6 rounded-3xl bg-[#f8fbfb] border border-[#d6ebe7] space-y-4">
               <h3 className="font-serif text-xl font-bold text-[#0c5354]">
-                Department Directory
+                Direct Contact Directory
               </h3>
               <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
                 <li className="border-b border-gray-200/60 pb-2">
                   <span className="block font-bold text-gray-900">👩‍🍳 Editorial &amp; Recipe Corrections:</span>
-                  <span className="text-gray-500">[ENTER EDITORIAL EMAIL, e.g., editorial@dishora.com]</span>
+                  <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] font-medium hover:underline">recip9220@gmail.com</a>
                 </li>
                 <li className="border-b border-gray-200/60 pb-2">
-                  <span className="block font-bold text-gray-900">💼 Brand Partnerships &amp; Ads:</span>
-                  <span className="text-gray-500">[ENTER ADVERTISING EMAIL, e.g., advertise@dishora.com]</span>
+                  <span className="block font-bold text-gray-900">💼 Brand Partnerships &amp; Advertising:</span>
+                  <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] font-medium hover:underline">recip9220@gmail.com</a>
                 </li>
                 <li className="border-b border-gray-200/60 pb-2">
-                  <span className="block font-bold text-gray-900">🔒 Privacy &amp; Legal Desk:</span>
-                  <span className="text-gray-500">[ENTER PRIVACY EMAIL, e.g., privacy@dishora.com]</span>
+                  <span className="block font-bold text-gray-900">🔒 Privacy, Support &amp; Legal Desk:</span>
+                  <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] font-medium hover:underline">recip9220@gmail.com</a>
                 </li>
                 <li>
-                  <span className="block font-bold text-gray-900">🏢 Mailing Address:</span>
-                  <span className="text-gray-500">[ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, COUNTRY]</span>
+                  <span className="block font-bold text-gray-900">🌐 Official Website:</span>
+                  <span className="text-gray-600 font-mono text-xs">https://dishora.net</span>
                 </li>
               </ul>
             </div>

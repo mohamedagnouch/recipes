@@ -125,7 +125,7 @@ export default function SweepstakesPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-1">6. SPONSOR INFORMATION</h3>
               <p className="text-sm">
-                Promotions are sponsored by <strong>[ENTER LEGAL BUSINESS NAME]</strong>, located at <strong>[ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, COUNTRY]</strong>. Inquiries regarding past winner lists may be directed to <a href="mailto:[ENTER SWEEPSTAKES EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER CONTACT EMAIL, e.g., promotions@dishora.com]</a>.
+                Promotions are sponsored by <strong>Dishora Digital Media</strong>. Inquiries regarding official rules or winner lists may be directed to <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] underline font-bold hover:text-[#009b72]">recip9220@gmail.com</a>.
               </p>
             </div>
           </div>

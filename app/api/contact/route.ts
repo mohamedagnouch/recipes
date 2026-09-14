@@ -156,8 +156,8 @@ export async function POST(req: NextRequest) {
   //
   // const resend = new Resend(process.env.RESEND_API_KEY);
   // await resend.emails.send({
-  //   from: "noreply@dishora.com",
-  //   to: "editorial@dishora.com",
+  //   from: "noreply@dishora.net",
+  //   to: "recip9220@gmail.com",
   //   subject: `[Contact] ${category}: ${subject}`,
   //   text: `From: ${name} <${email}>\n\n${message}`,
   // });

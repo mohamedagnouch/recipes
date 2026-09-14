@@ -49,20 +49,13 @@ export default function TermsOfServicePage() {
             Terms of Service
           </h1>
           <p className="text-sm text-gray-500">
-            Effective Date: <strong className="text-gray-700">[ENTER EFFECTIVE DATE, e.g., January 1, 2026]</strong> • Last Updated: <strong className="text-gray-700">[ENTER LAST UPDATED DATE]</strong>
+            Effective Date: <strong className="text-gray-700">January 1, 2026</strong> • Last Updated: <strong className="text-gray-700">March 14, 2026</strong>
           </p>
         </div>
       </section>
 
       {/* Main Content */}
       <section className="max-w-[900px] w-full mx-auto px-4 sm:px-6 py-12 flex-1 space-y-10 text-gray-800 text-sm sm:text-base leading-relaxed">
-        {/* Notice Box */}
-        <div className="p-4 sm:p-5 rounded-xl bg-amber-50 border border-amber-200 text-xs sm:text-sm text-amber-950">
-          <p className="font-bold mb-1">⚠️ Legal &amp; Compliance Notice</p>
-          <p>
-            The information contained on this page is provided for general informational purposes only and does not constitute formal legal advice. Website owners must review and adapt these terms with qualified legal counsel in their respective jurisdiction before final deployment.
-          </p>
-        </div>
 
         {/* Section 1 */}
         <article className="space-y-3">
@@ -70,7 +63,7 @@ export default function TermsOfServicePage() {
             1. Acceptance of Terms
           </h2>
           <p>
-            By accessing or using <strong>Dishora</strong> (the &ldquo;Website&rdquo;), operated by <strong>[ENTER LEGAL BUSINESS NAME / WEBSITE OWNER]</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;) and our <Link href="/privacy-policy" className="text-[#0c5354] font-bold underline">Privacy Policy</Link>. If you do not agree with any part of these Terms, you must discontinue your use of the Website immediately.
+            By accessing or using <strong>Dishora</strong> (the &ldquo;Website&rdquo;), operated by Dishora Digital Media (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;) and our <Link href="/privacy-policy" className="text-[#0c5354] font-bold underline">Privacy Policy</Link>. If you do not agree with any part of these Terms, you must discontinue your use of the Website immediately.
           </p>
         </article>
 
@@ -176,7 +169,7 @@ export default function TermsOfServicePage() {
             8. Governing Law &amp; Jurisdiction
           </h2>
           <p>
-            These Terms of Service shall be governed by and construed in accordance with the laws of <strong>[ENTER GOVERNING STATE/PROVINCE, e.g., State of New York / Province of Ontario]</strong>, without giving effect to any conflict of law principles. Any legal action arising from these Terms shall be filed exclusively in the courts located in <strong>[ENTER JURISDICTION / CITY, STATE/PROVINCE]</strong>.
+            These Terms of Service shall be governed by and construed in accordance with applicable laws, without giving effect to any conflict of law principles. Any legal action arising from these Terms shall be resolved in a court of competent jurisdiction.
           </p>
         </article>
 
@@ -197,9 +190,9 @@ export default function TermsOfServicePage() {
             For questions regarding these Terms of Service or to submit a formal inquiry, please contact:
           </p>
           <ul className="text-xs sm:text-sm text-gray-600 space-y-1">
-            <li><strong>Legal Entity:</strong> [ENTER LEGAL BUSINESS NAME]</li>
-            <li><strong>Mailing Address:</strong> [ENTER BUSINESS ADDRESS, CITY, STATE/PROVINCE, POSTAL CODE]</li>
-            <li><strong>Email:</strong> <a href="mailto:[ENTER CONTACT EMAIL]" className="text-[#0c5354] underline font-bold">[ENTER LEGAL/CONTACT EMAIL, e.g., legal@dishora.net]</a></li>
+            <li><strong>Publication:</strong> Dishora Digital Media</li>
+            <li><strong>Website:</strong> <span className="font-mono text-xs">https://dishora.net</span></li>
+            <li><strong>Email:</strong> <a href="mailto:recip9220@gmail.com" className="text-[#0c5354] underline font-bold hover:text-[#009b72]">recip9220@gmail.com</a></li>
             <li><strong>Online Form:</strong> <Link href="/contact" className="text-[#0c5354] underline font-bold">Dishora Contact Page</Link></li>
           </ul>
         </div>
