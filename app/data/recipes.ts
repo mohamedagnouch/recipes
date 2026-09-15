@@ -242,7 +242,142 @@ import { appetizerRecipesData } from "./appetizerRecipes";
 import { roundupArticlesData } from "./roundupArticlesData";
 import { giadaCelebrityRecipesData } from "./giadaCelebrityRecipesData";
 
+export const moroccanCouscousRecipe: Recipe = {
+  id: 777,
+  slug: "moroccan-couscous-seven-vegetables",
+  title: "Authentic Moroccan Couscous with Seven Vegetables & Tender Beef",
+  leadText: "A majestic traditional Moroccan couscous steamed to fluffy perfection over a fragrant saffron and ginger broth, crowned with tender beef, roasted chicken, melting pumpkin, and garden vegetables.",
+  badge: "SIGNATURE RECIPE",
+  category: "Traditional & Family Dinners",
+  rating: 5,
+  ratingsCount: 384,
+  reviewCount: 112,
+  prepTime: "30 mins",
+  cookTime: "1 hr 30 mins",
+  totalTime: "2 hrs",
+  servings: "6-8 servings",
+  servingsCount: 6,
+  calories: "590 kcal",
+  author: "Chef Dishora",
+  authorRole: "Heritage Cuisine Specialist",
+  authorAvatar: "/images/editorial/team-elise.jpg",
+  date: "September 15, 2026",
+  imageUrl: "/images/moroccan-couscous-seven-vegetables.jpg",
+  imageAlt: "Authentic Moroccan seven vegetables couscous served in a traditional clay tagine platter",
+  imageCredit: "Dishora Studio / Moroccan Culinary Heritage",
+  description:
+    "Couscous with seven vegetables (Ksouksou Seb'a Khodari) is the crowning jewel of Moroccan hospitality, traditionally gathered around every Friday and for festive family celebrations. Light, fluffy semolina grains are tenderly steamed over a bubbling broth infused with ginger, turmeric, saffron, and smen, then topped with succulent cuts of beef, golden chicken, melting pumpkin, carrots, zucchini, turnip, cabbage, and chickpeas.",
+  whyMakeThis: [
+    "Traditional three-step steaming technique for ultra-fluffy, non-sticky couscous grains.",
+    "Packed with vitamins, fiber, and vibrant slow-simmered seasonal vegetables.",
+    "A stunning centerpiece dish for gatherings, family dinners, and special occasions.",
+  ],
+  storyParagraphs: [
+    "In Moroccan homes, Friday is synonymous with the soothing scent of steaming semolina, simmering saffron broth, and the warm hum of family gatherings. Couscous is never rushed; it is an art of patience where each layer of flavor is gently built upon the last.",
+    "The hallmark of true Moroccan couscous is the interplay of savory, spiced broth and the delicate sweetness of long-simmered root vegetables and pumpkin. When arranged in a traditional clay Gsaâ bowl and drenched with golden broth, every bite tells a story of hospitality and heritage."
+  ],
+  recipeCardTitle: "Traditional Moroccan 7-Vegetable Couscous",
+  ingredients: [
+    "1 kg (2.2 lbs) medium couscous semolina (durum wheat)",
+    "800g (1.75 lbs) beef shank, bone-in chuck, or lamb pieces",
+    "400g (1 lb) chicken bone-in thighs or drumsticks",
+    "1 cup (200g) cooked chickpeas (or soaked overnight)",
+    "2 large yellow onions, finely chopped",
+    "3 large ripe tomatoes, grated or puréed",
+    "1/4 cup extra virgin olive oil",
+    "2 tbsp vegetable oil",
+    "1 tbsp Moroccan smen (clarified aged butter) or European salted butter",
+    "3 large carrots, peeled and halved lengthwise",
+    "3 small zucchinis (courgettes), halved lengthwise",
+    "300g (10 oz) red pumpkin or butternut squash, cut into large wedges",
+    "2 white turnips, peeled and halved",
+    "1/4 head of green cabbage, cut into wedges",
+    "1 large sweet potato, peeled and halved",
+    "1 large bouquet fresh cilantro & flat-leaf parsley tied with twine",
+    "1 tbsp ground ginger",
+    "1 tbsp ground turmeric",
+    "1/2 tsp crushed saffron threads steeped in 2 tbsp warm water",
+    "1 1/2 tsp freshly ground black pepper",
+    "1 1/2 tbsp coarse sea salt (or to taste)",
+    "7 to 8 cups water or rich beef broth"
+  ],
+  instructions: [
+    {
+      step: 1,
+      title: "Sear meat & build the fragrant broth base",
+      text: "In the bottom pot of a couscoussier (or a large deep stockpot), heat the olive oil and vegetable oil over medium-high heat. Add the beef shank and chicken pieces. Sear for 8 to 10 minutes until deeply browned on all sides. Add the chopped onions, grated tomatoes, ginger, turmeric, steeped saffron water, black pepper, and salt. Cook stirring frequently for 5 minutes until the aromatics soften and create a rich, fragrant paste.",
+      timerMinutes: 10
+    },
+    {
+      step: 2,
+      title: "Add water, chickpeas & dense vegetables",
+      text: "Pour 7 to 8 cups of boiling water into the pot. Add the herb bouquet (parsley & cilantro) and the chickpeas. Bring to a rolling boil, then reduce to medium heat. Carefully add the vegetables that take longest to cook: carrots, turnips, and green cabbage wedges.",
+      timerMinutes: 5
+    },
+    {
+      step: 3,
+      title: "First semolina steaming cycle",
+      text: "Pour the dry couscous semolina into a large wide shallow bowl (Gsaâ). Drizzle with 2 tablespoons of oil and 1 cup of cold water. Work the grains gently between your palms to hydrate them and separate any lumps. Transfer the semolina into the top steamer basket of the couscoussier and place it over the simmering pot. Steam uncovered for 15 to 20 minutes from the moment steam starts escaping through the grains.",
+      timerMinutes: 20
+    },
+    {
+      step: 4,
+      title: "Aerate couscous & add tender vegetables",
+      text: "Tip the steamed couscous back into the wide bowl. Sprinkle with 1 cup of lightly salted cold water and 1 tablespoon of butter or olive oil. Use a wooden spoon or your hands (once cool enough) to aerate and fluff the steaming grains. Meanwhile, add the tender vegetables into the simmering broth: pumpkin wedges, zucchini, and sweet potato chunks.",
+      timerMinutes: 5
+    },
+    {
+      step: 5,
+      title: "Second steaming & enrich the broth",
+      text: "Return the fluffed couscous to the steamer basket and steam over the pot for an additional 15 to 20 minutes. Check the meat and vegetables for fork-tenderness. Stir the smen (or extra butter) directly into the bubbling broth, adjust seasoning with a pinch of salt or pepper, and turn off the heat. Discard the herb bouquet.",
+      timerMinutes: 18
+    },
+    {
+      step: 6,
+      title: "Mound, assemble & serve in a traditional Gsaâ",
+      text: "Transfer the steaming couscous grains into a large traditional ceramic or clay serving dish. Form a dome with a hollow well in the center. Carefully place the braised beef and chicken in the middle. Arrange the colorful 7 vegetables radiating outward around the mound. Scatter the chickpeas over the top. Generously ladle 2 to 3 cups of the golden saffron broth directly over the couscous until moist and glistening. Serve immediately with extra piping hot broth in side bowls.",
+      timerMinutes: 5
+    }
+  ],
+  nutrition: {
+    calories: "590 kcal",
+    protein: "42g",
+    carbs: "68g",
+    fat: "18g",
+    sodium: "620mg",
+    fiber: "9g",
+    sugar: "7g"
+  },
+  tips: [
+    "Fluffing by hand with cold water between steaming sessions is the secret to light, cloud-like couscous grains that never clump.",
+    "Keep vegetables cut in large chunks so they retain their shape and beauty during the long simmer.",
+    "Moroccan Smen adds the unmistakable restaurant-quality aroma; if unavailable, use high quality grass-fed salted butter.",
+    "Always ladle fresh hot broth over the couscous just before bringing it to the table."
+  ],
+  tags: ["Couscous", "Moroccan", "Dinner", "Traditional", "Seven Vegetables", "Family Feast", "Halal"],
+  relatedArticles: summerCookoutRelatedArticles,
+  userReviews: [
+    {
+      id: "rev-moroccan-1",
+      author: "Fatima Z.",
+      date: "September 14, 2026",
+      rating: 5,
+      comment: "This recipe tastes exactly like my grandmother's Friday couscous in Casablanca! The steaming method makes a massive difference — the grains are so airy and flavorful.",
+      helpfulCount: 29
+    },
+    {
+      id: "rev-moroccan-2",
+      author: "David M.",
+      date: "September 12, 2026",
+      rating: 5,
+      comment: "Made this for a weekend dinner party. The presentation in the clay platter with all 7 vegetables was an absolute showstopper. Everyone asked for seconds!",
+      helpfulCount: 18
+    }
+  ]
+};
+
 export const recipesData: Recipe[] = [
+  moroccanCouscousRecipe,
   ...giadaCelebrityRecipesData,
   ...roundupArticlesData,
   ...dinnerRecipesData,

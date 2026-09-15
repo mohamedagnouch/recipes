@@ -79,10 +79,10 @@ export default function HeroSection() {
         <article className="lg:col-span-7 xl:col-span-8 flex flex-col group">
           {/* Main Hero Image with Save Button */}
           <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden bg-gray-100 mb-5 shadow-xs">
-            <Link href="/recipes/the-one-pan-cheeseburger-pie" className="block w-full h-full">
+            <Link href="/recipes/moroccan-couscous-seven-vegetables" className="block w-full h-full">
               <img
-                src="/images/cheeseburger-pie.jpg"
-                alt="The One-Pan Cheeseburger Pie"
+                src="/images/moroccan-couscous-seven-vegetables.jpg"
+                alt="Authentic Moroccan Couscous with Seven Vegetables & Tender Beef"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
               />
             </Link>
@@ -109,17 +109,17 @@ export default function HeroSection() {
           {/* Metadata & Description */}
           <div className="flex flex-col">
             <span className="text-[11.5px] sm:text-[12px] font-black tracking-widest text-[#009b72] uppercase mb-2">
-              EASY FAMILY DINNERS
+              SIGNATURE FEAST • TRADITIONAL DINNER
             </span>
 
-            <Link href="/recipes/the-one-pan-cheeseburger-pie">
+            <Link href="/recipes/moroccan-couscous-seven-vegetables">
               <h1 className="font-serif text-xl sm:text-3xl lg:text-[34px] font-bold text-gray-900 leading-[1.25] mb-3 group-hover:text-[#0c5354] transition-colors break-words">
-                The One-Pan Cheeseburger Pie My Family Has Made for Three Generations
+                Authentic Moroccan Couscous with Seven Vegetables & Tender Beef
               </h1>
             </Link>
 
             <p className="text-[14px] sm:text-[16px] text-gray-600 leading-relaxed mb-4">
-              This one-pan skillet cheeseburger pie recipe layers seasoned ground beef, cheddar, and a golden Bisquick topping for an easy, nostalgic weeknight meal.
+              Steamed to cloud-light perfection over a slow-simmered saffron and ginger broth, this royal Moroccan couscous is piled high with tender beef, roasted chicken, melting pumpkin, carrots, zucchini, and chickpeas.
             </p>
 
             {/* Rating Stars & Cook Time */}
@@ -131,12 +131,12 @@ export default function HeroSection() {
                 <svg className="w-4 h-4 stroke-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>40 mins</span>
+                <span>2 hrs</span>
               </div>
             </div>
 
             <div className="text-[13.5px] text-gray-500 font-normal">
-              By <span className="text-gray-700 font-medium hover:underline cursor-pointer">Melissa Gray-Stewart</span>
+              By <span className="text-gray-700 font-medium hover:underline cursor-pointer">Chef Dishora</span>
             </div>
           </div>
         </article>
