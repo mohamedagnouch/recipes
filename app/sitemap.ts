@@ -6,10 +6,11 @@
  * Rules:
  * - Only include routes that have a real page.tsx
  * - Exclude /my-recipes and /search (user-specific / no SEO value)
- * - Dynamic [slug] routes excluded until a data source is available
+ * - Individual recipe slugs dynamically included for SEO indexation
  */
 
 import { MetadataRoute } from "next";
+import { recipesData } from "./data/recipes";
 
 const BASE = "https://dishora.net";
 const now = new Date();
@@ -24,6 +25,11 @@ function page(
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // Dynamically generate all individual recipe detail pages
+  const recipePages: MetadataRoute.Sitemap = recipesData
+    .filter((r) => r.slug && r.slug.trim() !== "")
+    .map((r) => page(`/recipes/${r.slug}`, 0.8, "monthly"));
+
   return [
     // ── Home ────────────────────────────────────────────────────────────────
     page("/",                        1.0, "daily"),
@@ -44,8 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Lifestyle ───────────────────────────────────────────────────────────
     page("/cleaning-and-organizing", 0.5, "monthly"),
-    // Note: /cleaning-organizing also exists as a directory — same content,
-    // canonical handled by Next.js. We only list the primary slug here.
 
     // ── Freezies Awards ─────────────────────────────────────────────────────
     page("/freezies",                0.7, "monthly"),
@@ -67,10 +71,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/careers",                 0.4, "monthly"),
     page("/sweepstakes",             0.5, "monthly"),
 
+    // ── Individual Recipe Pages (dynamically generated) ──────────────────────
+    ...recipePages,
+
     // ── Excluded intentionally ───────────────────────────────────────────────
-    // /my-recipes     — user-specific localStorage page, no SEO value
-    // /search         — no static content, no SEO value
-    // /recipes/[slug] — dynamic, no data source yet (add when CMS is connected)
-    // /food-news/[slug] — same
+    // /my-recipes   — user-specific localStorage page, no SEO value
+    // /search       — no static content, no SEO value
   ];
 }

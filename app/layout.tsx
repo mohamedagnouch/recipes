@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     siteName: "Dishora",
     title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
     description: "Triple-tested recipes, grocery news, and foolproof cooking guides for home cooks.",
-    images: [{ url: "/images/cheeseburger-pie.jpg", width: 1200, height: 630, alt: "Dishora Home Cooking" }],
+    images: [{ url: "/images/moroccan-couscous-seven-vegetables.jpg", width: 1200, height: 630, alt: "Authentic Moroccan Couscous with Seven Vegetables — Dishora" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
     description: "Triple-tested recipes, grocery news, and foolproof cooking guides.",
-    images: ["/images/cheeseburger-pie.jpg"],
+    images: ["/images/moroccan-couscous-seven-vegetables.jpg"],
   },
 };
 

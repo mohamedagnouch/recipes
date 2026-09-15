@@ -1,10 +1,9 @@
 "use client";
 
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { recipesData } from "../data/recipes";
 import { useFavorites } from "../utils/favorites";
 import FavoritesDrawer from "./FavoritesDrawer";
 import { searchRecipes } from "../data/allRecipes";
@@ -48,7 +47,7 @@ export default function Header() {
   const navLinks: NavItem[] = [
     {
       name: "RECIPE OF THE DAY",
-      href: "/recipes/the-one-pan-cheeseburger-pie",
+      href: "/recipes/moroccan-couscous-seven-vegetables",
       submenu: [
         { name: "Recipe Round-up", href: "/recipe-round-up" },
         { name: "Surprise Me!", href: "/recipes/giada-de-laurentiis-lemon-spaghetti", isSpecial: true },
@@ -318,7 +317,7 @@ export default function Header() {
 
                 {liveResults.length === 0 ? (
                   <div className="p-4 text-center text-xs text-gray-500">
-                    No recipes found matching "{searchQuery}". Press Search to see all recipes.
+                    No recipes found matching &ldquo;{searchQuery}&rdquo;. Press Search to see all recipes.
                   </div>
                 ) : (
                   <div className="divide-y divide-gray-100 max-h-[340px] overflow-y-auto">

@@ -134,8 +134,8 @@ export default function RecipeDetailPage({
       if (savedRel) {
         setSavedRelated(JSON.parse(savedRel));
       }
-    } catch (e) {
-      console.log(e);
+    } catch (_e) {
+      // silently ignore localStorage parse errors
     }
 
     return () => {
@@ -193,8 +193,8 @@ export default function RecipeDetailPage({
       gain.connect(ctx.destination);
       osc.start();
       osc.stop(ctx.currentTime + 0.8);
-    } catch (err) {
-      console.log(err);
+    } catch (_err) {
+      // silently ignore audio context errors
     }
   };
 
@@ -221,8 +221,8 @@ export default function RecipeDetailPage({
         try {
           lock = await (navigator as any).wakeLock.request("screen");
           setWakeLock(lock);
-        } catch (err) {
-          console.log("WakeLock error", err);
+        } catch (_err) {
+          // silently ignore WakeLock errors (unsupported browsers)
         }
       } else if (!keepScreenAwake && wakeLock) {
         wakeLock.release().then(() => setWakeLock(null));
@@ -252,8 +252,8 @@ export default function RecipeDetailPage({
         : [...prev, id];
       try {
         localStorage.setItem("simply_recipes_saved_ids", JSON.stringify(updated));
-      } catch (e) {
-        console.log(e);
+      } catch (_e) {
+        // silently ignore localStorage write errors
       }
       return updated;
     });

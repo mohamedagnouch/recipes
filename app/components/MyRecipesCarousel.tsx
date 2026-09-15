@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import Link from "next/link";
-import { recipesData, Recipe } from "../data/recipes";
+import { recipesData } from "../data/recipes";
 import { useFavorites } from "../utils/favorites";
 import FavoritesDrawer from "./FavoritesDrawer";
 
@@ -240,7 +240,7 @@ export default function MyRecipesCarousel() {
         {/* Footer Hint */}
         <div className="flex items-center justify-center gap-1.5 text-xs text-gray-500 mt-2 font-medium">
           <span>Click any card to flip for quick info, or click</span>
-          <span className="text-[#0c5354] font-bold">"View Full Recipe"</span>
+          <span className="text-[#0c5354] font-bold">&ldquo;View Full Recipe&rdquo;</span>
           <span>to view full ingredients & cooking steps! ↻</span>
         </div>
 

@@ -4,7 +4,7 @@ import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { cleaningArticlesData, CleaningArticle } from "../data/cleaningOrganizingData";
+import { cleaningArticlesData } from "../data/cleaningOrganizingData";
 
 const categoryFilters = [
   { label: "ALL ARTICLES", key: "ALL" },
@@ -615,7 +615,7 @@ export default function CleaningAndOrganizingPage() {
               <select
                 className="sort-select"
                 value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
+                onChange={(e) => setSortBy(e.target.value as "featured" | "recent" | "readTime" | "alphabetical")}
                 aria-label="Sort cleaning articles"
               >
                 <option value="featured">Featured First</option>

@@ -1,7 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

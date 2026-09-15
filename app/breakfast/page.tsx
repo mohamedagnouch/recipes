@@ -898,7 +898,7 @@ export default function BreakfastRecipesPage() {
             <div className="breakfast-kicker">RECIPES &gt; RECIPE COLLECTIONS</div>
             <h1 className="breakfast-main-title">Breakfast Recipes</h1>
             <p className="breakfast-subtitle">
-              Whether it's a grab-and-go or a hearty breakfast to eat while reading the news, get off to a great start with our breakfast recipes and ideas.
+              Whether it&apos;s a grab-and-go or a hearty breakfast to eat while reading the news, get off to a great start with our breakfast recipes and ideas.
             </p>
 
             {/* Filter pills */}
