@@ -503,9 +503,139 @@ export const moroccanChickenTagineRecipe: Recipe = {
   ]
 };
 
+export const moroccanBeefTagineRecipe: Recipe = {
+  id: 779,
+  slug: "moroccan-beef-tagine-vegetables-almonds",
+  title: "Authentic Moroccan Beef Tagine with Vegetables & Golden Almonds",
+  leadText: "Tender, melt-in-your-mouth beef slow-braised in a fragrant saffron and ginger broth with buttery potatoes, sweet carrots, caramelized onions, and crunchy toasted almonds.",
+  badge: "FAMILY FAVORITE",
+  category: "Traditional & Family Dinners",
+  rating: 5,
+  ratingsCount: 395,
+  reviewCount: 118,
+  prepTime: "25 mins",
+  cookTime: "1 hr 45 mins",
+  totalTime: "2 hrs 10 mins",
+  servings: "4-6 servings",
+  servingsCount: 4,
+  calories: "560 kcal",
+  author: "Chef Dishora",
+  authorRole: "Heritage Cuisine Specialist",
+  authorAvatar: "/images/editorial/team-elise.jpg",
+  date: "September 15, 2026",
+  imageUrl: "/images/moroccan-beef-tagine-potatoes-almonds.jpg",
+  imageAlt: "Authentic Moroccan beef tagine with tender potatoes, carrots, caramelized onions and toasted almonds in a clay tagine",
+  imageCredit: "Dishora Studio / Moroccan Culinary Heritage",
+  description:
+    "This slow-cooked Moroccan beef tagine (Tajine dial L'ham) captures the quintessential warmth and hospitality of Moroccan home cooking. Succulent cuts of beef shank or chuck are seared with garlic, fresh herbs, ginger, turmeric, and a hint of cinnamon, then slow-braised over sweet onions until fork-tender. Garnished with golden potatoes and carrots that absorb every drop of the spiced saffron broth, the dish is finished with a crown of crunchy, pan-toasted almonds. Serve hot straight from the clay tagine with crusty Moroccan khobz.",
+  whyMakeThis: [
+    "Fork-tender beef infused with saffron, ginger, and gentle sweet-savory aromatics.",
+    "Potatoes and carrots steam to buttery perfection in the rich, fragrant meat juices.",
+    "Crisp toasted almonds provide an irresistible nutty crunch against the silky sauce.",
+  ],
+  storyParagraphs: [
+    "Throughout Moroccan homes, beef tagine is the heart of family gatherings and leisurely weekend dinners. Slow cooking in an unglazed terracotta tagine allows the flavors to meld gently while locking in all natural juices.",
+    "The secret to a memorable beef tagine is the gentle pyramidal arrangement of root vegetables over the braised meat, letting aromatic steam circulate and concentrate into a glossy, caramelized sauce at the bottom."
+  ],
+  recipeCardTitle: "Moroccan Beef & Vegetable Tagine with Almonds",
+  ingredients: [
+    "1 kg (2.2 lbs) beef shank, bone-in chuck, or lamb shoulder, cut into large cubes",
+    "3 medium yellow onions, sliced into thin rings",
+    "4 medium Yukon Gold potatoes, peeled and quartered lengthwise",
+    "3 medium carrots, peeled and sliced into batons",
+    "4 cloves fresh garlic, finely minced",
+    "1/2 cup whole blanched almonds",
+    "1/3 cup extra virgin olive oil",
+    "1 tbsp Moroccan smen (clarified aged butter) or European butter",
+    "1/4 cup fresh cilantro & flat-leaf parsley, finely chopped",
+    "1 1/2 tsp ground ginger",
+    "1 1/2 tsp ground turmeric",
+    "1/2 tsp ground cinnamon",
+    "1/2 tsp crushed saffron threads, steeped in 3 tbsp warm water",
+    "1 tsp freshly ground black pepper",
+    "1 1/2 tsp coarse sea salt (or to taste)",
+    "1 to 1 1/2 cups water or beef broth",
+    "Fresh flat-leaf parsley leaves for garnish",
+    "Warm Moroccan crusty bread (khobz) for serving"
+  ],
+  instructions: [
+    {
+      step: 1,
+      title: "Season & sear the beef in the tagine",
+      text: "In the base of a clay tagine (over a heat diffuser) or heavy Dutch oven, heat 3 tablespoons of olive oil over medium-low heat. Add the beef cubes and sear for 8 to 10 minutes until lightly browned on all sides. Add minced garlic, chopped parsley, cilantro, ginger, turmeric, cinnamon, steeped saffron water, salt, and black pepper. Stir gently for 2 minutes to coat the beef in aromatics.",
+      timerMinutes: 10
+    },
+    {
+      step: 2,
+      title: "Add sliced onions & slow braise",
+      text: "Distribute half the sliced onions beneath and around the meat pieces. Add 1 cup of water or broth, cover with the conical tagine lid, and reduce heat to low. Let simmer gently for 1 hour until the beef begins to tenderize.",
+      timerMinutes: 60
+    },
+    {
+      step: 3,
+      title: "Arrange potatoes & carrots in pyramid",
+      text: "Uncover the tagine. Arrange the carrot batons and potato quarters in an attractive circular pattern radiating outward over the beef, tapering upwards towards the center. Scatter the remaining onions over the vegetables, and spoon ladles of the hot spiced broth over everything.",
+      timerMinutes: 5
+    },
+    {
+      step: 4,
+      title: "Cover & simmer until vegetables are meltingly tender",
+      text: "Cover tightly with the conical lid and continue simmering over low heat for 35 to 40 minutes, until the potatoes and carrots are fork-tender and the beef is melt-in-your-mouth succulent.",
+      timerMinutes: 40
+    },
+    {
+      step: 5,
+      title: "Pan-toast almonds until golden",
+      text: "In a small frying pan, heat 1 tablespoon of olive oil over medium-low heat. Add blanched almonds and fry, stirring constantly, for 3 to 4 minutes until evenly golden amber and fragrant. Drain on paper towels and lightly salt.",
+      timerMinutes: 4
+    },
+    {
+      step: 6,
+      title: "Garnish with almonds & serve piping hot",
+      text: "Uncover the tagine. If the sauce needs thickening, simmer uncovered for 3-5 minutes until rich and glossy. Scatter the toasted almonds and fresh parsley leaves over the top. Serve piping hot directly in the tagine with thick slices of warm crusty bread.",
+      timerMinutes: 5
+    }
+  ],
+  nutrition: {
+    calories: "560 kcal",
+    protein: "44g",
+    carbs: "32g",
+    fat: "28g",
+    sodium: "610mg",
+    fiber: "6g",
+    sugar: "5g"
+  },
+  tips: [
+    "Always pan-toast the almonds just before serving so they stay wonderfully crunchy against the tender vegetables.",
+    "Cut potatoes and carrots in hearty, uniform chunks so they keep their structure during the long gentle braise.",
+    "Use a low flame and let the steam circulate inside the conical lid; minimal water creates the most concentrated sauce."
+  ],
+  tags: ["Tagine", "Beef", "Moroccan", "Potatoes", "Almonds", "Dinner", "Traditional", "Halal"],
+  relatedArticles: summerCookoutRelatedArticles,
+  userReviews: [
+    {
+      id: "rev-beef-tagine-1",
+      author: "Nadia B.",
+      date: "September 15, 2026",
+      rating: 5,
+      comment: "This beef tagine turned out sensational! The beef was so tender it fell apart with a fork, and the crunch of the toasted almonds on top is the perfect touch.",
+      helpfulCount: 28
+    },
+    {
+      id: "rev-beef-tagine-2",
+      author: "Marc T.",
+      date: "September 14, 2026",
+      rating: 5,
+      comment: "Incredible depth of flavor from the saffron and cinnamon. The potatoes soaked up all the sauce. Highly recommend making this with fresh Moroccan bread!",
+      helpfulCount: 19
+    }
+  ]
+};
+
 export const recipesData: Recipe[] = [
   moroccanCouscousRecipe,
   moroccanChickenTagineRecipe,
+  moroccanBeefTagineRecipe,
   ...giadaCelebrityRecipesData,
   ...roundupArticlesData,
   ...dinnerRecipesData,
