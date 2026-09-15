@@ -857,7 +857,7 @@ export default function DessertRecipesPage() {
           <div className="dessert-header">
             <h1 className="dessert-main-title">Dessert Recipes</h1>
             <p className="dessert-subtitle">
-              Whether you're looking for a snack cake, lunchbox cookie, or showstopper for your dinner party, we've got scores of dessert recipes to choose from.
+              Whether you&apos;re looking for a snack cake, lunchbox cookie, or showstopper for your dinner party, we&apos;ve got scores of dessert recipes to choose from.
             </p>
 
             {/* Filter pills */}

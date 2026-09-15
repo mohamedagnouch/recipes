@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { foodNewsArticles, NewsArticle } from "../data/foodNewsData";
+import { foodNewsArticles } from "../data/foodNewsData";
 
 const categoryNavItems = [
   { id: "news-trends", label: "News & Trends", filterKey: "NEWS_TRENDS" },
@@ -35,7 +35,7 @@ export default function FoodNewsAndTrendsPage() {
   };
 
   // Switch navigation
-  const handleNavClick = (navId: string, filterKey: string) => {
+  const handleNavClick = (navId: string, _filterKey: string) => {
     setActiveNav(navId);
     if (navId === "all") {
       setViewMode("archive");
@@ -1213,21 +1213,21 @@ export default function FoodNewsAndTrendsPage() {
               <button
                 className={`country-btn${selectedCountry === "ALL" ? " active" : ""}`}
                 onClick={() => setSelectedCountry("ALL")}
-                aria-checked={selectedCountry === "ALL"}
+                aria-pressed={selectedCountry === "ALL"}
               >
                 🌎 North America
               </button>
               <button
                 className={`country-btn${selectedCountry === "USA" ? " active" : ""}`}
                 onClick={() => setSelectedCountry("USA")}
-                aria-checked={selectedCountry === "USA"}
+                aria-pressed={selectedCountry === "USA"}
               >
                 🇺🇸 United States
               </button>
               <button
                 className={`country-btn${selectedCountry === "CANADA" ? " active" : ""}`}
                 onClick={() => setSelectedCountry("CANADA")}
-                aria-checked={selectedCountry === "CANADA"}
+                aria-pressed={selectedCountry === "CANADA"}
               >
                 🇨🇦 Canada
               </button>
@@ -1301,7 +1301,7 @@ export default function FoodNewsAndTrendsPage() {
                   <select
                     className="sort-select"
                     value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value as any)}
+                    onChange={(e) => setSortBy(e.target.value as "featured" | "recent" | "readTime" | "rating")}
                     aria-label="Sort articles"
                   >
                     <option value="featured">Featured First</option>

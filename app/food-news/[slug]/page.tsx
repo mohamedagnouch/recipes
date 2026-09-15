@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { foodNewsArticles, NewsArticle } from "../../data/foodNewsData";
+import { foodNewsArticles } from "../../data/foodNewsData";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -48,7 +48,7 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
     .slice(0, 4);
 
   // Structured Data (NewsArticle or Recipe)
-  const structuredData: any = {
+  const structuredData: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": article.isRecipe ? "Recipe" : "NewsArticle",
     headline: article.headline,
