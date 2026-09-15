@@ -376,8 +376,136 @@ export const moroccanCouscousRecipe: Recipe = {
   ]
 };
 
+export const moroccanChickenTagineRecipe: Recipe = {
+  id: 778,
+  slug: "moroccan-chicken-tagine-preserved-lemons-olives",
+  title: "Authentic Moroccan Chicken Tagine with Preserved Lemons & Olives",
+  leadText: "Succulent chicken thighs and drumsticks simmered in an aromatic ginger, garlic, and saffron onion gravy (daghmira), garnished with tangy preserved lemons and green olives.",
+  badge: "MOROCCAN CLASSIC",
+  category: "Traditional & Family Dinners",
+  rating: 5,
+  ratingsCount: 420,
+  reviewCount: 135,
+  prepTime: "20 mins",
+  cookTime: "50 mins",
+  totalTime: "1 hr 10 mins",
+  servings: "4-6 servings",
+  servingsCount: 4,
+  calories: "480 kcal",
+  author: "Chef Dishora",
+  authorRole: "Heritage Cuisine Specialist",
+  authorAvatar: "/images/editorial/team-elise.jpg",
+  date: "September 15, 2026",
+  imageUrl: "/images/moroccan-chicken-tagine-olives-lemon.jpg",
+  imageAlt: "Authentic Moroccan chicken tagine with preserved lemons and green olives served in a traditional terracotta dish",
+  imageCredit: "Dishora Studio / Moroccan Culinary Heritage",
+  description:
+    "Tajine dial Djej b Zitoun w L'hamd M'rakad is Morocco's quintessential celebration feast, served everywhere from festive family Sundays to grand wedding banquets. Tender bone-in chicken is marinated in a vibrant chermoula of garlic, ginger, saffron, and fresh herbs, then gently braised over finely sliced onions. As the broth reduces, the onions caramelize into the signature silky 'daghmira' sauce. Finished with warm preserved lemon wedges and green olives, this dish is pure comfort food meant to be savored with fresh Moroccan crusty bread.",
+  whyMakeThis: [
+    "The legendary 'daghmira' sauce: sweet, slow-cooked onions reduced to a luscious, glossy glaze.",
+    "A mouthwatering balance of savory spices, tangy preserved lemon, and salty green olives.",
+    "Effortless one-pot cooking directly in a clay tagine or heavy Dutch oven.",
+  ],
+  storyParagraphs: [
+    "In Moroccan culinary culture, chicken tagine with preserved lemons and olives is the ultimate gesture of generous hospitality. When special guests arrive, the house fills with the intoxicating scent of sizzling saffron, ginger, and caramelized onions.",
+    "The hallmark of an exceptional chicken tagine is the patience to reduce the onion sauce after the meat is cooked. As the juices thicken into a jammy golden sauce, every spoonful offers the rich, complex flavors perfected by generations of home cooks."
+  ],
+  recipeCardTitle: "Traditional Moroccan Chicken Tagine with Olives & Lemon",
+  ingredients: [
+    "1.2 kg (2.5 lbs) bone-in chicken thighs and drumsticks (trimmed)",
+    "3 large yellow onions, finely chopped or thinly sliced",
+    "4 cloves fresh garlic, finely grated",
+    "1/4 cup finely chopped fresh cilantro & flat-leaf parsley",
+    "1 whole Moroccan preserved lemon (pulp minced, peel sliced into strips)",
+    "1 cup (150g) pitted green Moroccan olives (meslala or cracked green olives)",
+    "1/3 cup extra virgin olive oil (or mix with 2 tbsp vegetable oil)",
+    "1 tsp Moroccan smen (clarified aged butter) or unsalted butter",
+    "1 1/2 tsp ground ginger",
+    "1 1/2 tsp ground turmeric",
+    "1/2 tsp crushed saffron threads steeped in 3 tbsp warm water",
+    "1 tsp freshly ground black pepper",
+    "1 tsp coarse sea salt (to taste, minding salt from olives & lemon)",
+    "1/2 cup water or light chicken broth",
+    "Fresh coriander sprigs for serving",
+    "Warm crusty bread (khobz) for dipping"
+  ],
+  instructions: [
+    {
+      step: 1,
+      title: "Marinate chicken in chermoula aromatics",
+      text: "In a wide bowl, combine the minced garlic, chopped parsley and cilantro, the minced pulp from the preserved lemon, ground ginger, turmeric, steeped saffron water, black pepper, and 2 tablespoons of olive oil. Rub this chermoula marinade generously over all chicken pieces. Let rest for at least 20 minutes (or up to overnight in the refrigerator) for deep flavor infusion.",
+      timerMinutes: 20
+    },
+    {
+      step: 2,
+      title: "Layer onions & sear chicken in the tagine",
+      text: "Heat the remaining olive oil and smen in the base of a clay tagine (using a heat diffuser) or heavy-bottomed Dutch oven over medium-low heat. Spread the sliced onions evenly across the bottom, then nestle the marinated chicken pieces on top. Sauté gently undisturbed for 8 to 10 minutes until the aromatics become fragrant and onions begin to soften.",
+      timerMinutes: 10
+    },
+    {
+      step: 3,
+      title: "Simmer covered until meat is tender",
+      text: "Pour 1/2 cup of water carefully around the perimeter of the tagine without washing off the spices on the chicken. Place the conical lid on the tagine, reduce heat to low, and simmer gently for 35 to 40 minutes, turning the chicken once halfway through cooking, until the meat is thoroughly cooked and fork-tender.",
+      timerMinutes: 38
+    },
+    {
+      step: 4,
+      title: "Add preserved lemon peel & green olives",
+      text: "Uncover the tagine. Distribute the preserved lemon peel strips and the rinsed green olives around the chicken pieces. Spoon spoonfuls of the bubbling sauce over the chicken to glaze.",
+      timerMinutes: 5
+    },
+    {
+      step: 5,
+      title: "Reduce into the signature Daghmira sauce",
+      text: "If a golden crispy skin is desired, transfer the chicken to a baking sheet and broil for 4-5 minutes. Meanwhile, keep the tagine uncovered over medium-low heat and simmer the onions, stirring gently, for 10 to 12 minutes until the liquid reduces down into a thick, caramelized, glossy onion sauce ('daghmira').",
+      timerMinutes: 12
+    },
+    {
+      step: 6,
+      title: "Garnish & serve in the tagine with crusty bread",
+      text: "Return the chicken to the tagine dish nestled in the rich daghmira sauce. Garnish with a sprinkle of fresh chopped coriander. Serve piping hot straight from the clay tagine with thick slices of warm Moroccan bread for mopping up the sauce.",
+      timerMinutes: 3
+    }
+  ],
+  nutrition: {
+    calories: "480 kcal",
+    protein: "38g",
+    carbs: "14g",
+    fat: "28g",
+    sodium: "680mg",
+    fiber: "3g",
+    sugar: "4g"
+  },
+  tips: [
+    "Briefly blanch or soak olives in hot water for 5 minutes if they are very salty before adding to the tagine.",
+    "Always use a heat diffuser under a clay tagine on gas or electric stoves to distribute heat evenly and prevent cracking.",
+    "The secret to authentic Moroccan flavor is not drowning the dish in water: the onions release plenty of sweet juices as they braise."
+  ],
+  tags: ["Tagine", "Chicken", "Moroccan", "Preserved Lemon", "Olives", "Dinner", "One-Pot", "Halal"],
+  relatedArticles: summerCookoutRelatedArticles,
+  userReviews: [
+    {
+      id: "rev-tagine-1",
+      author: "Youssef K.",
+      date: "September 15, 2026",
+      rating: 5,
+      comment: "The daghmira in this recipe is absolute perfection! The balance between the tangy preserved lemon and the rich onion sauce is just like the best Moroccan restaurant in Fes.",
+      helpfulCount: 34
+    },
+    {
+      id: "rev-tagine-2",
+      author: "Sophie L.",
+      date: "September 14, 2026",
+      rating: 5,
+      comment: "My first time cooking in a clay tagine, and this recipe made it so easy. The chicken was melt-in-the-mouth tender, and mopping up the sauce with bread was heaven.",
+      helpfulCount: 21
+    }
+  ]
+};
+
 export const recipesData: Recipe[] = [
   moroccanCouscousRecipe,
+  moroccanChickenTagineRecipe,
   ...giadaCelebrityRecipesData,
   ...roundupArticlesData,
   ...dinnerRecipesData,
