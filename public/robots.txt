@@ -155,7 +155,11 @@ Disallow: /
 # All unlisted bots are allowed with a conservative crawl delay.
 User-agent: *
 Allow: /
+Disallow: /search
+Disallow: /my-recipes
+Disallow: /api/
 Crawl-delay: 10
 
 # ─── SITEMAP ──────────────────────────────────────────────────────────────────
 Sitemap: https://dishora.net/sitemap.xml
+Host: https://dishora.net
