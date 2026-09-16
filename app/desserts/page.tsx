@@ -67,6 +67,17 @@ const featuredDessertRecipes: DessertItem[] = [
 
 const dessertGridRecipes: DessertItem[] = [
   {
+    id: 856,
+    slug: "oat-carrot-apple-cake",
+    category: "DESSERTS",
+    tag: "CAKE & CUPCAKE RECIPES",
+    title: "Oat Carrot Apple Cake with Creamy Glaze",
+    author: "By Dishora Test Kitchen",
+    time: "50 mins",
+    rating: 5,
+    imageUrl: "/images/oat-carrot-apple-cake.jpg",
+  },
+  {
     id: 804,
     slug: "retro-three-ingredient-butter-cookies",
     category: "DESSERTS",
