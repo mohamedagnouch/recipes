@@ -67,6 +67,17 @@ const featuredDessertRecipes: DessertItem[] = [
 
 const dessertGridRecipes: DessertItem[] = [
   {
+    id: 857,
+    slug: "berry-tiramisu-layer-cake",
+    category: "DESSERTS",
+    tag: "CAKE & CUPCAKE RECIPES",
+    title: "Show-Stopping Berry Tiramisu Layer Cake",
+    author: "By Dishora Test Kitchen",
+    time: "30 mins",
+    rating: 5,
+    imageUrl: "/images/berry-tiramisu-layer-cake.jpg",
+  },
+  {
     id: 856,
     slug: "oat-carrot-apple-cake",
     category: "DESSERTS",
