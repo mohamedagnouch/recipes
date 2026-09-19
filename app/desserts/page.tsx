@@ -67,6 +67,17 @@ const featuredDessertRecipes: DessertItem[] = [
 
 const dessertGridRecipes: DessertItem[] = [
   {
+    id: 858,
+    slug: "salted-caramel-loaf-cake",
+    category: "DESSERTS",
+    tag: "CAKE & CUPCAKE RECIPES",
+    title: "Salted Caramel Butter Loaf Cake",
+    author: "By Dishora Test Kitchen",
+    time: "1 hr 10 mins",
+    rating: 5,
+    imageUrl: "/images/salted-caramel-loaf-cake.jpg",
+  },
+  {
     id: 857,
     slug: "berry-tiramisu-layer-cake",
     category: "DESSERTS",
