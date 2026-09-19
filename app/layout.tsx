@@ -84,6 +84,51 @@ export default function RootLayout({
             gtag('config', 'G-7Q76ZWW5F2');
           `}
         </Script>
+
+        {/* Schema.org WebSite & Organization structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://dishora.net/#organization",
+                  "name": "Dishora",
+                  "url": "https://dishora.net",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://dishora.net/#logo",
+                    "url": "https://dishora.net/dishora-icon.png",
+                    "caption": "Dishora",
+                  },
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://dishora.net/#website",
+                  "url": "https://dishora.net",
+                  "name": "Dishora",
+                  "description": "Easy Recipes, Kitchen Guides & Food News",
+                  "publisher": {
+                    "@id": "https://dishora.net/#organization",
+                  },
+                  "potentialAction": [
+                    {
+                      "@type": "SearchAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate":
+                          "https://dishora.net/search?q={search_term_string}",
+                      },
+                      "query-input": "required name=search_term_string",
+                    },
+                  ],
+                },
+              ],
+            }),
+          }}
+        />
         {children}
         <Analytics />
         <SpeedInsights />
