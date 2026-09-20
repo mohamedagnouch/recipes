@@ -95,24 +95,7 @@ export default function RecipeDetailPage({
   const timerIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Reviews state
-  const [reviews, setReviews] = useState<ReviewItem[]>(recipe.userReviews || [
-    {
-      id: "rev-default-1",
-      author: "Sarah M.",
-      date: "2 days ago",
-      rating: 5,
-      comment: "This has completely replaced my normal avocado toast! The beans blend so well you cannot even tell, and I stay full until lunchtime!",
-      helpfulCount: 14,
-    },
-    {
-      id: "rev-default-2",
-      author: "David K.",
-      date: "1 week ago",
-      rating: 5,
-      comment: "Great trick for adding protein without cooking eggs on busy mornings. Added a pinch of red pepper flakes and lemon zest—delicious.",
-      helpfulCount: 9,
-    },
-  ]);
+  const [reviews, setReviews] = useState<ReviewItem[]>(recipe.userReviews || []);
   const [newReviewAuthor, setNewReviewAuthor] = useState("");
   const [newReviewRating, setNewReviewRating] = useState(5);
   const [newReviewComment, setNewReviewComment] = useState("");
@@ -431,24 +414,34 @@ export default function RecipeDetailPage({
             {recipe.title}
           </h1>
 
-          {/* Rating & Reviews Bar */}
-          <div className="flex flex-wrap items-center gap-3 text-sm text-gray-700 mb-3">
-            <div className="flex text-[#0c5354] text-[18px] tracking-tight">
-              {"★".repeat(recipe.rating)}
-            </div>
-            <span className="font-bold text-gray-900">
-              {recipe.rating}.0 ({recipe.ratingsCount || recipe.reviewCount + 15})
+          {/* Recipe Metadata Bar */}
+          <div className="flex flex-wrap items-center gap-3 text-xs text-gray-600 mb-3">
+            <span className="font-bold text-[#0c5354] bg-[#e8f5f3] px-2.5 py-1 rounded-sm uppercase tracking-wider">
+              {recipe.category || "Recipe"}
             </span>
-            <span className="text-gray-300">|</span>
-            <button
-              onClick={scrollToReviews}
-              className="font-bold text-xs uppercase tracking-wider text-gray-800 hover:text-[#0c5354] underline cursor-pointer no-print"
-            >
-              {reviews.length} REVIEW{reviews.length > 1 ? "S" : ""}
-            </button>
-            <span className="print-only text-xs font-bold text-gray-700">
-              ({reviews.length} Reviews)
+            <span className="text-gray-300">•</span>
+            <span className="flex items-center gap-1 font-medium text-gray-700">
+              ⏱ Prep: {recipe.prepTime}
             </span>
+            <span className="text-gray-300">•</span>
+            <span className="flex items-center gap-1 font-medium text-gray-700">
+              🔥 Cook: {recipe.cookTime}
+            </span>
+            <span className="text-gray-300">•</span>
+            <span className="flex items-center gap-1 font-medium text-gray-700">
+              🍽 Servings: {recipe.servings}
+            </span>
+            {reviews.length > 0 && (
+              <>
+                <span className="text-gray-300">|</span>
+                <button
+                  onClick={scrollToReviews}
+                  className="font-bold text-xs uppercase tracking-wider text-gray-800 hover:text-[#0c5354] underline cursor-pointer no-print"
+                >
+                  {reviews.length} REVIEW{reviews.length > 1 ? "S" : ""}
+                </button>
+              </>
+            )}
           </div>
 
           {/* Lead subtitle */}
@@ -548,7 +541,7 @@ export default function RecipeDetailPage({
             </div>
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal flex justify-between items-center">
-            <span>{recipe.imageCredit || `Photo & Styling: Dishora Studio / ${recipe.author}`}</span>
+            <span>{recipe.imageCredit || "Credit: Dishora"}</span>
             <span className="text-gray-400 text-[11px]">🔥 {recipe.calories}</span>
           </div>
         </div>
@@ -666,7 +659,7 @@ export default function RecipeDetailPage({
               />
             </div>
             <div className="text-[11.5px] text-gray-500 font-normal">
-              {recipe.image2Credit || `Photo & Styling: Dishora Studio / ${recipe.author}`}
+              {recipe.image2Credit || "Credit: Dishora"}
             </div>
           </div>
         )}
@@ -700,7 +693,7 @@ export default function RecipeDetailPage({
               />
             </div>
             <div className="text-[11.5px] text-gray-500 font-normal">
-              {recipe.image3Credit || `Photo & Styling: Dishora Studio / ${recipe.author}`}
+              {recipe.image3Credit || "Credit: Dishora"}
             </div>
           </div>
         )}
@@ -1092,7 +1085,12 @@ export default function RecipeDetailPage({
 
           {/* Reviews List */}
           <div className="space-y-4">
-            {reviews.map((rev) => (
+            {reviews.length === 0 ? (
+              <div className="p-6 bg-gray-50 border border-gray-200/80 rounded-xs text-center text-sm text-gray-500 font-sans">
+                No community reviews yet. Have you tried making this recipe? Share your tips or ingredient notes above!
+              </div>
+            ) : (
+              reviews.map((rev) => (
               <div key={rev.id} className="p-4 bg-white border border-gray-200/80 rounded-xs shadow-2xs">
                 <div className="flex items-center justify-between gap-2 mb-2">
                   <div className="flex items-center gap-2">
@@ -1122,7 +1120,7 @@ export default function RecipeDetailPage({
                   </button>
                 </div>
               </div>
-            ))}
+            )))}
           </div>
         </section>
 

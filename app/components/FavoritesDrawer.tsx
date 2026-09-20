@@ -178,14 +178,9 @@ export default function FavoritesDrawer({ isOpen, onClose }: FavoritesDrawerProp
                         {recipe.title}
                       </Link>
 
-                      {recipe.rating && (
-                        <div className="flex items-center gap-1 text-xs text-amber-500 mt-0.5">
-                          <span>★ {recipe.rating.toFixed(1)}</span>
-                          {recipe.reviewCount ? (
-                            <span className="text-[10px] text-gray-400">
-                              ({recipe.reviewCount})
-                            </span>
-                          ) : null}
+                      {recipe.category && (
+                        <div className="text-[11px] font-semibold text-[#0c5354] uppercase tracking-wider mt-0.5">
+                          {recipe.category}
                         </div>
                       )}
                     </div>

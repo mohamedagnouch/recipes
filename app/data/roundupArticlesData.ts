@@ -23,9 +23,9 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 12, 2026",
     imageUrl: "/images/old-bay-pasta.jpg",
     imageAlt: "Garlic butter angel hair pasta tossed with blistered cherry tomatoes and herbs",
-    imageCredit: "Dishora Studio / Photo by Robby Lozano",
+    imageCredit: "Dishora",
     description:
-      "When the temperature outside climbs above 85 degrees and you are exhausted from a long day, the last thing you want is a heavy, multi-pot cooking session. This 15-minute skillet pasta is our test kitchen's ultimate low-effort, high-reward summer dinner. Sweet cherry tomatoes blister in olive oil and garlic, creating an effortless, jammy pan sauce that coats every strand of pasta.",
+      "When the temperature outside climbs above 85 degrees and you are exhausted from a long day, the last thing you want is a heavy, multi-pot cooking session. This 15-minute skillet pasta is our editorial team's ultimate low-effort, high-reward summer dinner. Sweet cherry tomatoes blister in olive oil and garlic, creating an effortless, jammy pan sauce that coats every strand of pasta.",
     whyMakeThis: [
       "Truly ready in 15 minutes: Angel hair pasta cooks in just 3 to 4 minutes!",
       "Blistered cherry tomatoes create their own sweet, savory sauce without canned tomato paste.",
@@ -87,16 +87,7 @@ export const roundupArticlesData: Recipe[] = [
       "If you don't eat shellfish, substitute canned cannellini beans or shredded rotisserie chicken for an equally fast meal.",
     ],
     tags: ["Dinner", "15-Minute Meals", "Pasta", "Summer", "Seafood", "Quick Weeknight"],
-    userReviews: [
-      {
-        id: "rev-15min-1",
-        author: "Brianna T.",
-        date: "July 24, 2026",
-        rating: 5,
-        comment: "This has become our Thursday night staple! 15 minutes was actually accurate, and the blistered tomatoes make it feel like a restaurant plate.",
-        helpfulCount: 14,
-      },
-    ],
+    userReviews: [],
   },
 
   // 2. 31 Easy 30-Minute Dinners for Every Night in July
@@ -117,11 +108,11 @@ export const roundupArticlesData: Recipe[] = [
     servingsCount: 6,
     calories: "390 kcal",
     author: "Dishora Editorial Team",
-    authorRole: "Test Kitchen Staff",
+    authorRole: "Editorial Staff",
     date: "July 1, 2026",
     imageUrl: "/images/cheeseburger-pie.jpg",
     imageAlt: "One-skillet cheeseburger pie topped with melted cheddar cheese and sliced dill pickles",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "When July evenings are packed with summer camp pickups, swimming sessions, and backyard play, you need a dinner that comes together fast without heating up the whole house for hours. This comforting cheeseburger pie turns simple ground beef, sharp cheddar, and pantry baking mix into a golden, self-crusting weeknight miracle.",
     whyMakeThis: [
@@ -185,16 +176,7 @@ export const roundupArticlesData: Recipe[] = [
       "Garnish each warm slice with a squirt of ketchup and yellow mustard just like a burger off the grill.",
     ],
     tags: ["Dinner", "30-Minute Meals", "Family Friendly", "Skillet Dinners", "Comfort Food"],
-    userReviews: [
-      {
-        id: "rev-30min-1",
-        author: "Marcus D.",
-        date: "July 19, 2026",
-        rating: 5,
-        comment: "My kids begged for seconds! Took me 8 minutes of prep and the oven did the rest. Definitely going into our weekly summer rotation.",
-        helpfulCount: 21,
-      },
-    ],
+    userReviews: [],
   },
 
   // 3. Classic Creamy Deviled Eggs
@@ -219,7 +201,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 20, 2026",
     imageUrl: "/images/appetizer-deviled-eggs.jpg",
     imageAlt: "Platter of classic deviled eggs piped with creamy yellow yolk filling and dusted with paprika",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "No summer cookout, holiday brunch, or potluck is complete without a chilled platter of classic deviled eggs. This recipe guarantees easy-peel hard-boiled eggs every time, with an ultra-silky yolk filling that hits the perfect harmony of tangy mustard, creamy mayonnaise, and a pinch of cayenne pepper.",
     whyMakeThis: [
@@ -280,16 +262,7 @@ export const roundupArticlesData: Recipe[] = [
       "If traveling to a potluck, transport the egg whites on a tray covered in wrap, and keep the filling in the piping bag to fill on-site.",
     ],
     tags: ["Appetizers", "Deviled Eggs", "Cookout", "Gluten-Free", "Low Carb", "Make-Ahead"],
-    userReviews: [
-      {
-        id: "rev-eggs-1",
-        author: "Donna K.",
-        date: "July 4, 2026",
-        rating: 5,
-        comment: "The steam method changed my life! Not a single torn egg white. Everyone devoured them at our 4th of July picnic.",
-        helpfulCount: 32,
-      },
-    ],
+    userReviews: [],
   },
 
   // 4. Fresh Strawberry Peach Smoothie
@@ -314,7 +287,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 28, 2026",
     imageUrl: "/images/breakfast-strawberry-banana-smoothie.jpg",
     imageAlt: "Two tall glasses of chilled strawberry peach smoothie garnished with fresh peach slices and mint",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "When ripe summer peaches and fragrant strawberries hit peak season at the farmers market, this smoothie is the most refreshing way to start your morning. Thickened naturally with Greek yogurt and sweetened with a touch of wildflower honey, it delivers a sunny, vibrant burst of vitamins and antioxidants in less than 5 minutes.",
     whyMakeThis: [
@@ -373,16 +346,7 @@ export const roundupArticlesData: Recipe[] = [
       "Add a tablespoon of chia seeds or ground flaxseed before blending for a healthy boost of Omega-3s.",
     ],
     tags: ["Smoothies", "Breakfast", "Strawberries", "Peaches", "Quick & Easy", "Summer Drinks"],
-    userReviews: [
-      {
-        id: "rev-smoothie-1",
-        author: "Chloe S.",
-        date: "July 15, 2026",
-        rating: 5,
-        comment: "The peach and strawberry combo is divine! So thick and creamy without feeling heavy. My go-to post-workout drink.",
-        helpfulCount: 16,
-      },
-    ],
+    userReviews: [],
   },
 
   // 5. Moist Zucchini Carrot Bread
@@ -407,7 +371,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 10, 2026",
     imageUrl: "/images/breakfast-easy-zucchini-bread.jpg",
     imageAlt: "Slice of moist spiced zucchini carrot bread served on vintage linen with softened butter",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "When garden zucchini and sweet farm carrots are overflowing in mid-July, there is no better celebration than this moist, cinnamon-fragrant quick bread. The moisture from the grated vegetables creates an exceptionally tender crumb that stays soft for days on your countertop.",
     whyMakeThis: [
@@ -471,16 +435,7 @@ export const roundupArticlesData: Recipe[] = [
       "Let the bread cool completely before slicing with a serrated knife for clean, intact slices.",
     ],
     tags: ["Baking", "Quick Breads", "Zucchini", "Carrots", "Breakfast", "Snacks"],
-    userReviews: [
-      {
-        id: "rev-zucch-1",
-        author: "Hannah M.",
-        date: "July 22, 2026",
-        rating: 5,
-        comment: "The best zucchini bread I've ever baked. The carrots add wonderful sweetness and color. Will make this every summer!",
-        helpfulCount: 19,
-      },
-    ],
+    userReviews: [],
   },
 
   // 6. Hydrating Cantaloupe Mint Smoothie
@@ -505,7 +460,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 8, 2026",
     imageUrl: "/images/breakfast-summer-peach-parfait.jpg",
     imageAlt: "Glass of pale orange cantaloupe mint smoothie with a fresh lime wheel and mint sprig",
-    imageCredit: "Dishora Studio / Photo Archive",
+    imageCredit: "Dishora",
     description:
       "When the summer sun is beating down, plain water can feel boring. Cantaloupe is over 90% water and packed with natural potassium and vitamin A. Blended with fresh cooling mint leaves, tangy lime juice, and pure coconut water, this smoothie is summer hydration at its absolute finest.",
     whyMakeThis: [
@@ -555,16 +510,7 @@ export const roundupArticlesData: Recipe[] = [
       "Freeze half of your cantaloupe chunks beforehand so you can skip ice cubes without diluting flavor.",
     ],
     tags: ["Drinks", "Smoothies", "Cantaloupe", "Hydration", "Vegan", "Summer"],
-    userReviews: [
-      {
-        id: "rev-cant-1",
-        author: "Devon P.",
-        date: "July 14, 2026",
-        rating: 5,
-        comment: "So light and thirst-quenching! The mint and lime transform standard cantaloupe into a spa-worthy drink.",
-        helpfulCount: 11,
-      },
-    ],
+    userReviews: [],
   },
 
   // 7. Easy Whipped Ricotta Toast with Honey
@@ -584,12 +530,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 toasts",
     servingsCount: 4,
     calories: "290 kcal per toast",
-    author: "Nick Evans",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "June 14, 2026",
     imageUrl: "/images/cinnamon-toast.jpg",
     imageAlt: "Golden crusty sourdough toast spread with fluffy whipped ricotta and dripping honey",
-    imageCredit: "Dishora Studio / Nick Evans",
+    imageCredit: "Dishora",
     description:
       "Whipped ricotta is one of the easiest culinary tricks that instantly turns everyday ingredients into a five-star brunch plate. By whipping whole milk ricotta in a food processor with olive oil, lemon zest, and a pinch of salt, you transform gritty curds into a cloud-like, silky spread.",
     whyMakeThis: [
@@ -641,16 +587,7 @@ export const roundupArticlesData: Recipe[] = [
       "Warm your honey slightly in the microwave for 8 seconds so it drizzles in delicate, glossy threads rather than thick clumps.",
     ],
     tags: ["Brunch", "Toast", "Ricotta", "Easy Dinners", "Appetizers", "Italian"],
-    userReviews: [
-      {
-        id: "rev-toast-1",
-        author: "Camille R.",
-        date: "July 2, 2026",
-        rating: 5,
-        comment: "This is pure luxury! Everyone at brunch thought I bought the spread from a specialty gourmet market.",
-        helpfulCount: 28,
-      },
-    ],
+    userReviews: [],
   },
 
   // 8. Quick and Easy 20-Minute Egg Drop Soup
@@ -670,12 +607,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 bowls",
     servingsCount: 4,
     calories: "140 kcal per bowl",
-    author: "Dishora Kitchen",
-    authorRole: "Test Kitchen Staff",
+    author: "Dishora Editorial Team",
+    authorRole: "Editorial Staff",
     date: "May 25, 2026",
     imageUrl: "/images/dinner-one-pot-dal.jpg",
     imageAlt: "Steaming bowl of golden egg drop soup with delicate egg flower ribbons and scallions",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "When you crave something light, soothing, and warm without spending an hour at the stove, authentic homemade egg drop soup is unbeatable. Ready in just 20 minutes with pantry staples, this soup rivals your favorite Chinatown takeout spot with pure, clean flavors.",
     whyMakeThis: [
@@ -735,16 +672,7 @@ export const roundupArticlesData: Recipe[] = [
       "Do not boil aggressively when adding egg; gentle simmer ensures tender, silky ribbons instead of rubbery clumps.",
     ],
     tags: ["Soup", "Quick Dinners", "Chinese Food", "Comfort Food", "Egg Drop Soup", "Low Calorie"],
-    userReviews: [
-      {
-        id: "rev-soup-1",
-        author: "Alan W.",
-        date: "June 18, 2026",
-        rating: 5,
-        comment: "Way better than our local takeout! The whirlpool trick made gorgeous egg ribbons on my first try.",
-        helpfulCount: 24,
-      },
-    ],
+    userReviews: [],
   },
 
   // 9. Tender Cinnamon Zucchini Muffins
@@ -769,7 +697,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 6, 2026",
     imageUrl: "/images/breakfast-bacon-egg-muffins.jpg",
     imageAlt: "Batch of tall domed cinnamon zucchini muffins fresh from oven on cooling rack",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "These bakery-style zucchini muffins have high domed tops, a crunchy turbinado sugar crust, and an exceptionally tender, moist crumb spiced with cinnamon and ginger. They are the ultimate grab-and-go summer breakfast.",
     whyMakeThis: [
@@ -829,16 +757,7 @@ export const roundupArticlesData: Recipe[] = [
       "Starting at 425°F forces the muffin tops to dome high before the interior sets.",
     ],
     tags: ["Muffins", "Baking", "Zucchini", "Breakfast", "Kid Friendly", "Summer"],
-    userReviews: [
-      {
-        id: "rev-muff-1",
-        author: "Emily N.",
-        date: "July 12, 2026",
-        rating: 5,
-        comment: "The crunchy sugar top is fantastic! So soft and flavorful on the inside.",
-        helpfulCount: 15,
-      },
-    ],
+    userReviews: [],
   },
 
   // 10. Copycat Orange Julius
@@ -858,12 +777,12 @@ export const roundupArticlesData: Recipe[] = [
     servings: "4 glasses",
     servingsCount: 4,
     calories: "170 kcal per glass",
-    author: "Laurel Randolph",
+    author: "Dishora Editorial Team",
     authorRole: "Associate Editorial Director",
     date: "June 25, 2026",
     imageUrl: "/images/cookies-ice-cream.jpg",
     imageAlt: "Frothy orange drink in tall diner glass with striped straw and orange wedge",
-    imageCredit: "Dishora Studio / Laurel Randolph",
+    imageCredit: "Dishora",
     description:
       "If you grew up in the 1980s or 1990s, walking through the shopping mall on a hot summer afternoon always ended at the Orange Julius counter. This exact copycat recipe captures that velvety, creamy orange dreamsicle texture right in your home blender.",
     whyMakeThis: [
@@ -913,16 +832,7 @@ export const roundupArticlesData: Recipe[] = [
       "Use frozen orange juice concentrate straight from the freezer without thawing for maximum thickness.",
     ],
     tags: ["Dessert", "Drinks", "Copycat", "Orange Julius", "Vintage", "Summer"],
-    userReviews: [
-      {
-        id: "rev-oj-1",
-        author: "Kevin B.",
-        date: "July 1, 2026",
-        rating: 5,
-        comment: "Took me straight back to 1994 at the mall food court. Spot on flavor!",
-        helpfulCount: 29,
-      },
-    ],
+    userReviews: [],
   },
 
   // 11. 5-Ingredient Summer Desserts
@@ -947,7 +857,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 15, 2026",
     imageUrl: "/images/dessert-spiced-apple-crisp.jpg",
     imageAlt: "Cast iron skillet bubbling with juicy summer berries and golden biscuit crumble topping",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "When summer berries are at their peak sweetness, dessert does not need twenty ingredients. This 5-ingredient cast iron skillet crisp celebrates fruit purity with a quick butter biscuit crumble that bakes into bubbly perfection in 25 minutes.",
     whyMakeThis: [
@@ -1004,16 +914,7 @@ export const roundupArticlesData: Recipe[] = [
       "Feel free to toss in sliced ripe peaches or nectarines along with the berries.",
     ],
     tags: ["Dessert", "5-Ingredient", "Skillet Crisp", "Berries", "Summer", "Baking"],
-    userReviews: [
-      {
-        id: "rev-crisp-1",
-        author: "Rachel L.",
-        date: "July 26, 2026",
-        rating: 5,
-        comment: "So fast to throw together after dinner! The bubbling juices and crunchy biscuit top were incredible.",
-        helpfulCount: 18,
-      },
-    ],
+    userReviews: [],
   },
 
   // 12. 31 Easy 30-Minute Dinners for Every Night in August
@@ -1034,11 +935,11 @@ export const roundupArticlesData: Recipe[] = [
     servingsCount: 4,
     calories: "520 kcal per burger",
     author: "Dishora Editorial Team",
-    authorRole: "Test Kitchen Staff",
+    authorRole: "Editorial Staff",
     date: "August 1, 2026",
     imageUrl: "/images/grilled-burger.jpg",
     imageAlt: "Double smashed cheeseburger with melted cheese dripping down toasted brioche bun",
-    imageCredit: "Dishora Studio / Nick Evans",
+    imageCredit: "Dishora",
     description:
       "August heat calls for fast stove-side searing rather than hours over the stove. These classic diner smashed cheeseburgers develop an unbeatable savory crust in a smoking-hot cast iron skillet in under two minutes per patty.",
     whyMakeThis: [
@@ -1096,16 +997,7 @@ export const roundupArticlesData: Recipe[] = [
       "Do NOT use lean ground beef (90/10) for smash burgers; 80/20 fat ratio is essential for the lacy sear.",
     ],
     tags: ["Dinner", "Burgers", "30-Minute Meals", "Cast Iron", "Fast Dinners", "American"],
-    userReviews: [
-      {
-        id: "rev-smash-1",
-        author: "Tyler G.",
-        date: "August 10, 2026",
-        rating: 5,
-        comment: "Restaurant quality at home! The crust on these patties was insane. Never going back to thick burgers.",
-        helpfulCount: 35,
-      },
-    ],
+    userReviews: [],
   },
 
   // 13. Aunt Cindy's Quick Blueberry Muffins
@@ -1130,7 +1022,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "July 2, 2026",
     imageUrl: "/images/breakfast-aunt-cindy-blueberry-muffins.jpg",
     imageAlt: "Basket of fluffy golden blueberry muffins bursting with purple berries",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "These classic blueberry muffins are ideal for family road trips, Sunday breakfast, and morning gatherings. With one bowl and a wooden spoon, you can have warm, berry-studded muffins on the table in 30 minutes flat.",
     whyMakeThis: [
@@ -1190,16 +1082,7 @@ export const roundupArticlesData: Recipe[] = [
       "Tossing berries in 1 tablespoon of flour prevents them from sinking straight to the bottom of the tin.",
     ],
     tags: ["Muffins", "Baking", "Blueberries", "Breakfast", "Family Recipes", "Quick"],
-    userReviews: [
-      {
-        id: "rev-cindy-1",
-        author: "Sarah B.",
-        date: "July 18, 2026",
-        rating: 5,
-        comment: "Baked these this morning with fresh market berries. My husband declared them the best blueberry muffins he's ever eaten!",
-        helpfulCount: 42,
-      },
-    ],
+    userReviews: [],
   },
 
   // 14. Cheesy Artichoke Pie
@@ -1224,7 +1107,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 18, 2026",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
     imageAlt: "Wedge of golden baked cheesy artichoke pie with browned cheese crust and herbs",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "This savory baked artichoke pie is reminiscent of warm spinach-artichoke dip, but set in a sliceable, quiche-like custard that makes an effortless dinner or brunch centerpiece. Marinated artichoke hearts provide bright acidity and herbed olive oil flavor throughout.",
     whyMakeThis: [
@@ -1280,16 +1163,7 @@ export const roundupArticlesData: Recipe[] = [
       "Save the oil from the second artichoke jar to make an herby vinaigrette for a side green salad.",
     ],
     tags: ["Dinner", "Brunch", "Artichoke", "Cheese", "Vegetarian", "Pies"],
-    userReviews: [
-      {
-        id: "rev-arti-1",
-        author: "Grace V.",
-        date: "July 8, 2026",
-        rating: 5,
-        comment: "Served this with a crisp green salad for dinner and everyone raved. So savory and flavorful!",
-        helpfulCount: 17,
-      },
-    ],
+    userReviews: [],
   },
 
   // 15. How to Make a Perfect French Omelette in 6 Minutes
@@ -1314,7 +1188,7 @@ export const roundupArticlesData: Recipe[] = [
     date: "June 5, 2026",
     imageUrl: "/images/french-omelette.jpg",
     imageAlt: "Smooth pale yellow rolled French omelette on white plate garnished with fresh chives",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "A classic French omelette is the ultimate test of culinary finesse, yet once you understand the simple pan-shaking technique, it takes less than 4 minutes of cooking. Unlike browned American country omelettes, a French omelette has no color on the exterior, rolling up like a smooth yellow cigar with a rich, custardy interior.",
     whyMakeThis: [
@@ -1370,15 +1244,6 @@ export const roundupArticlesData: Recipe[] = [
       "Use an 8-inch nonstick skillet; a pan that is too large will spread the eggs too thin, overcooking them into dry sheets.",
     ],
     tags: ["Breakfast", "French Omelette", "Eggs", "Quick Meals", "Classic Technique", "Keto"],
-    userReviews: [
-      {
-        id: "rev-omelet-1",
-        author: "Jean-Paul M.",
-        date: "July 11, 2026",
-        rating: 5,
-        comment: "Jacques Pépin would be proud! The pan shaking technique worked like a charm and the center was pure creamy heaven.",
-        helpfulCount: 38,
-      },
-    ],
+    userReviews: [],
   },
 ];

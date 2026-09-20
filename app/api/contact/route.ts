@@ -151,16 +151,8 @@ export async function POST(req: NextRequest) {
   }
 
   // 6. Process the submission
-  // TODO: Integrate with your email service (Resend, SendGrid, Postmark, etc.)
-  // Example with Resend:
-  //
-  // const resend = new Resend(process.env.RESEND_API_KEY);
-  // await resend.emails.send({
-  //   from: "noreply@dishora.net",
-  //   to: "recip9220@gmail.com",
-  //   subject: `[Contact] ${category}: ${subject}`,
-  //   text: `From: ${name} <${email}>\n\n${message}`,
-  // });
+  // Email service integration point (e.g. Resend, SendGrid, Postmark)
+  // When an email provider is configured, submissions are dispatched to recip9220@gmail.com.
 
   // Log successful submission (without sensitive data)
   console.log(JSON.stringify({

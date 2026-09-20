@@ -131,13 +131,6 @@ export default async function RecipeLayout({
       sodiumContent: recipe.nutrition.sodium,
       fiberContent: recipe.nutrition.fiber,
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: recipe.rating || 5,
-      reviewCount: recipe.reviewCount || 1,
-      bestRating: 5,
-      worstRating: 1,
-    },
   };
 
   return (

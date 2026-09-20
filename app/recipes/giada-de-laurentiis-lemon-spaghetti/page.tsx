@@ -149,7 +149,7 @@ export default function GiadaLemonSpaghettiPage() {
           </div>
         </header>
 
-        {/* Hero Photo with Test Kitchen Inset */}
+        {/* Hero Photo */}
         <div className="mb-8">
           <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] rounded-xs overflow-hidden bg-gray-100 shadow-xs mb-1.5">
             <img
@@ -157,19 +157,9 @@ export default function GiadaLemonSpaghettiPage() {
               alt="Creamy 4-Ingredient Lemon Spaghetti with mascarpone and parmesan"
               className="w-full h-full object-cover"
             />
-            {/* Test Kitchen Badge */}
-            <div className="absolute top-4 left-4 flex items-center gap-3 bg-white/95 backdrop-blur-xs p-2.5 rounded-xs shadow-md border border-gray-200/80">
-              <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#ba4f1c] shrink-0 bg-[#0c5354] flex items-center justify-center text-white font-serif font-black text-sm">
-                D
-              </div>
-              <div>
-                <span className="text-[10px] font-black uppercase text-[#ba4f1c] tracking-wider block">TEST KITCHEN</span>
-                <span className="text-xs font-bold text-gray-900">Tested &amp; Perfected</span>
-              </div>
-            </div>
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Dishora Culinary Studio
+            Credit: Dishora
           </div>
         </div>
 
@@ -193,7 +183,7 @@ export default function GiadaLemonSpaghettiPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Photo & Styling: Dishora Studio / Meghan Splawn
+            Credit: Dishora
           </div>
         </div>
 
@@ -226,7 +216,7 @@ export default function GiadaLemonSpaghettiPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Photo & Styling: Dishora Studio / Meghan Splawn
+            Credit: Dishora
           </div>
         </div>
 
@@ -521,7 +511,7 @@ export default function GiadaLemonSpaghettiPage() {
                 <div className="flex items-center gap-3 text-xs text-gray-600">
                   <span>{activeModalRecipe.author}</span>
                   <span>•</span>
-                  <span>★ {activeModalRecipe.rating}.0 ({activeModalRecipe.reviewCount} reviews)</span>
+                  <span>⏱ {activeModalRecipe.totalTime || activeModalRecipe.cookTime}</span>
                   <span>•</span>
                   <span>{activeModalRecipe.servings}</span>
                 </div>

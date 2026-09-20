@@ -23,7 +23,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "March 4, 2026",
     imageUrl: "/images/lemon-spaghetti.jpg",
     imageAlt: "Twirl of creamy lemon mascarpone spaghetti topped with fresh basil and black pepper",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Giada De Laurentiis' signature lemon pasta technique, this dish combines four core ingredients—spaghetti, room-temperature mascarpone cheese, fresh lemon, and freshly grated Parmigiano Reggiano—into a velvety, luscious sauce that tastes bright and refreshing.",
     whyMakeThis: [
@@ -83,16 +83,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Always grate fresh Parmigiano Reggiano from a block; pre-shredded cheese contains anti-caking starches that prevent a smooth sauce.",
     ],
     tags: ["Dinner", "Pasta", "Giada De Laurentiis", "Quick Meals", "Italian", "Vegetarian"],
-    userReviews: [
-      {
-        id: "rev-giada-1",
-        author: "Samantha K.",
-        date: "March 15, 2026",
-        rating: 5,
-        comment: "This is hands-down the easiest pasta I've ever made. The lemon zest gives it such incredible aroma!",
-        helpfulCount: 22,
-      },
-    ],
+    userReviews: [],
   },
 
   // 2. Our Most Popular Dinner Recipe Of All Time Is Ready in 30 Minutes
@@ -117,7 +108,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 20, 2026",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
     imageAlt: "Thick slice of one-skillet cheeseburger pie with bubbling cheddar and dill pickle relish",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "This one-skillet cheeseburger pie delivers the nostalgic, juicy satisfaction of an all-American bacon cheeseburger in a comforting, sliceable dinner.",
     whyMakeThis: [
@@ -179,16 +170,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Drain the ground beef thoroughly before adding the cheese to ensure the bottom crust bakes light and fluffy.",
     ],
     tags: ["Dinner", "Cheeseburger Pie", "30-Minute Meals", "Family Friendly", "Skillet Dinners"],
-    userReviews: [
-      {
-        id: "rev-chz-1",
-        author: "Mark R.",
-        date: "March 1, 2026",
-        rating: 5,
-        comment: "I made this last night and my family devoured the entire skillet. Tastes just like a good cheeseburger with zero hassle!",
-        helpfulCount: 34,
-      },
-    ],
+    userReviews: [],
   },
 
   // 3. The 2-Ingredient Recipe I Make Every Single February
@@ -213,7 +195,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 1, 2026",
     imageUrl: "/images/cinnamon-toast.jpg",
     imageAlt: "Two thick slices of toasted country brioche bread spread with dark spiced apple butter",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Slow-simmered spiced apple butter spread over thick, buttery toasted brioche makes an effortless warm breakfast or afternoon tea snack.",
     whyMakeThis: [
@@ -261,16 +243,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Use salted butter: The salt crystals amplify the sweet, spiced apple notes.",
     ],
     tags: ["Breakfast", "Toast", "Apple Butter", "2-Ingredient", "Winter Comfort", "Quick"],
-    userReviews: [
-      {
-        id: "rev-toast-2",
-        author: "Rachel E.",
-        date: "February 14, 2026",
-        rating: 5,
-        comment: "Simple perfection. The salted butter under the warm apple butter on brioche is unbeatable.",
-        helpfulCount: 19,
-      },
-    ],
+    userReviews: [],
   },
 
   // 4. I Make Giada De Laurentiis' Famous Pasta on the Busiest Weeknights
@@ -295,7 +268,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "January 28, 2026",
     imageUrl: "/images/dinner-italian-sausage-pasta.jpg",
     imageAlt: "Bowl of ridged rigatoni pasta coated in rich sausage tomato sauce and melted creamy goat cheese",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Giada De Laurentiis' popular rigatoni preparation, sweet Italian sausage browns with garlic and crushed plum tomatoes before fresh goat cheese melts in off the heat, creating a rich pink sauce that clings to every ridge of the pasta.",
     whyMakeThis: [
@@ -355,16 +328,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Use spicy Italian sausage if you love a gentle kick that plays off the creamy goat cheese.",
     ],
     tags: ["Dinner", "Pasta", "Giada De Laurentiis", "Sausage", "Goat Cheese", "Italian"],
-    userReviews: [
-      {
-        id: "rev-rig-1",
-        author: "Brian T.",
-        date: "February 8, 2026",
-        rating: 5,
-        comment: "The goat cheese makes this taste like a restaurant meal. My entire family licked their bowls clean!",
-        helpfulCount: 27,
-      },
-    ],
+    userReviews: [],
   },
 
   // 5. I Tried Giada De Laurentiis' Viral Sheet Pan Lasagna
@@ -389,7 +353,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "March 10, 2026",
     imageUrl: "/images/dinner-4-ingredient-pasta-bake.jpg",
     imageAlt: "Sheet pan lasagna with crispy browned cheese edges and ruffled pasta noodles",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Giada De Laurentiis' popular sheet pan method, broken lasagna noodles are tossed across a rimmed baking sheet with marinara, herbed ricotta, and mozzarella so every serving gets maximum crispy, caramelized edges.",
     whyMakeThis: [
@@ -450,16 +414,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Use rimmed half-sheet baking pans so the sauce and bubbling cheese don't drip into the oven.",
     ],
     tags: ["Dinner", "Lasagna", "Sheet Pan", "Giada De Laurentiis", "Comfort Food", "Italian"],
-    userReviews: [
-      {
-        id: "rev-sheet-1",
-        author: "Jessica M.",
-        date: "March 18, 2026",
-        rating: 5,
-        comment: "Genius! My kids fight over the crispy top pieces and with this recipe the entire pan is crispy edges.",
-        helpfulCount: 41,
-      },
-    ],
+    userReviews: [],
   },
 
   // 6. I Tried Alton Brown's and Giada De Laurentiis' Chicken Piccata Recipes
@@ -484,7 +439,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 24, 2026",
     imageUrl: "/images/dinner-crispy-chicken-greens.jpg",
     imageAlt: "Golden sautéed chicken cutlets on white platter drizzled with lemon butter caper sauce and parsley",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Giada De Laurentiis' celebrated Chicken Piccata, this recipe pounds chicken cutlets thin, dredges lightly in flour, and finishes the lemon-wine pan sauce with cold cubed butter for an irresistible, silky glaze.",
     whyMakeThis: [
@@ -543,16 +498,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Always use cold butter to finish the pan sauce; warm butter will separate into oil instead of creating a creamy emulsion.",
     ],
     tags: ["Dinner", "Chicken", "Chicken Piccata", "Giada De Laurentiis", "Italian", "Quick Dinners"],
-    userReviews: [
-      {
-        id: "rev-pic-1",
-        author: "David L.",
-        date: "March 5, 2026",
-        rating: 5,
-        comment: "Hands down the best chicken piccata recipe on the internet. Perfectly balanced tartness and rich sauce.",
-        helpfulCount: 30,
-      },
-    ],
+    userReviews: [],
   },
 
   // 7. This One Ingredient Is Giada De Laurentiis' Favorite Snack
@@ -577,7 +523,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 16, 2026",
     imageUrl: "/images/appetizer-prosciutto-melon-skewers.jpg",
     imageAlt: "Small ceramic bowl filled with warm marinated green and black olives with orange peel curls and rosemary",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Roman aperitivo traditions and Giada De Laurentiis' snack recipes, warming buttery Castelvetrano olives in extra-virgin olive oil with citrus zest and fresh herbs creates an effortless starter for gatherings.",
     whyMakeThis: [
@@ -629,16 +575,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Use unpitted olives: Olives kept on the pit retain far superior firmness and moisture compared to pitted varieties.",
     ],
     tags: ["Snacks", "Appetizers", "Olives", "Giada De Laurentiis", "Italian", "Aperitivo"],
-    userReviews: [
-      {
-        id: "rev-olv-1",
-        author: "Anthony C.",
-        date: "March 2, 2026",
-        rating: 5,
-        comment: "So easy and so sophisticated! Everyone at my dinner party devoured these with crusty sourdough.",
-        helpfulCount: 16,
-      },
-    ],
+    userReviews: [],
   },
 
   // 8. The 5-Ingredient Giada De Laurentiis Recipe I Make Every Friday Night
@@ -663,7 +600,7 @@ export const giadaCelebrityRecipesData: Recipe[] = [
     date: "February 10, 2026",
     imageUrl: "/images/tip-crispy-potatoes.jpg",
     imageAlt: "Crispy golden smashed baby potatoes roasted on baking sheet with caramelized lemon wheels and thyme",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "Inspired by Giada De Laurentiis' smashed potato technique, baby potatoes are boiled tender, flattened with the base of a glass, and roasted with lemon wheels and fresh thyme until crackly outside and fluffy within.",
     whyMakeThis: [
@@ -719,15 +656,6 @@ export const giadaCelebrityRecipesData: Recipe[] = [
       "Allow the boiled potatoes to steam dry for 5 minutes before oiling: removing excess surface water guarantees maximum crispiness.",
     ],
     tags: ["Sides", "Potatoes", "Giada De Laurentiis", "5-Ingredient", "Vegan", "Gluten-Free"],
-    userReviews: [
-      {
-        id: "rev-pot-1",
-        author: "Laura P.",
-        date: "February 22, 2026",
-        rating: 5,
-        comment: "The roasted lemon slices are absolute genius! These potatoes are now requested at every family dinner.",
-        helpfulCount: 23,
-      },
-    ],
+    userReviews: [],
   },
 ];

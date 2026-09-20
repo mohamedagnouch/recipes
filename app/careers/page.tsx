@@ -49,7 +49,7 @@ export default function CareersPage() {
             Create &amp; Write For Dishora
           </h1>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            We collaborate with passionate recipe developers, food journalists, test kitchen cooks, and culinary photographers across the United States and Canada.
+            We collaborate with passionate recipe developers, food journalists, culinary writers, and food photographers across the United States and Canada.
           </p>
         </div>
       </section>

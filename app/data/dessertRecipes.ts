@@ -6,7 +6,7 @@ export const dessertRelatedArticles: RelatedArticle[] = [
     slug: "grandmothers-three-ingredient-banana-cream",
     category: "DESSERTS",
     title: "Classic 3-Ingredient Banana Cream Dessert",
-    author: "By Dishora Editorial Team",
+    author: "Dishora Editorial Team",
     rating: 5,
     time: "5 mins",
     imageUrl: "/images/dessert-grandma-banana-cream.jpg",
@@ -16,7 +16,7 @@ export const dessertRelatedArticles: RelatedArticle[] = [
     slug: "chocolate-cookie-icebox-lush",
     category: "DESSERTS",
     title: "Quick 3-Ingredient Chocolate Icebox Lush",
-    author: "By Dishora Editorial Team",
+    author: "Dishora Editorial Team",
     rating: 5,
     time: "4 hrs",
     imageUrl: "/images/dessert-chocolate-lasagna-lush.jpg",
@@ -26,7 +26,7 @@ export const dessertRelatedArticles: RelatedArticle[] = [
     slug: "toffee-chip-upgrade-chocolate-chip-cookies",
     category: "DESSERTS",
     title: "Toffee-Chip Upgrade for Chocolate Chip Cookies",
-    author: "By Dishora Editorial Team",
+    author: "Dishora Editorial Team",
     rating: 5,
     time: "25 mins",
     imageUrl: "/images/dessert-toffee-chocolate-chip-cookies.jpg",
@@ -36,7 +36,7 @@ export const dessertRelatedArticles: RelatedArticle[] = [
     slug: "key-lime-icebox-cake-carlota",
     category: "DESSERTS",
     title: "Classic Key Lime Icebox Cake (Carlota de Limón)",
-    author: "By Dishora Editorial Team",
+    author: "Dishora Editorial Team",
     rating: 5,
     time: "4 hrs 15 mins",
     imageUrl: "/images/dessert-key-lime-icebox-cake.jpg",
@@ -66,7 +66,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "September 19, 2026",
     imageUrl: "/images/salted-caramel-loaf-cake.jpg",
     imageAlt: "A golden salted caramel butter loaf cake on a ceramic serving plate with warm cascading caramel sauce and sea salt flakes",
-    imageCredit: "Dishora Studio / Baking & Confectionery Arts",
+    imageCredit: "Dishora",
     description:
       "This Salted Caramel Butter Loaf Cake is the ultimate cozy bakery showstopper: an ultra-tender, golden pound cake with a fine, velvety crumb, crowned with a generous cascade of warm homemade salted caramel glaze and flaky Maldon sea salt. With rich brown sugar, European-style unsalted butter, and a touch of sour cream for extraordinary moisture, every single slice melts in your mouth with an addictive balance of sweet cream and salty warmth.",
     whyMakeThis: [
@@ -147,24 +147,7 @@ export const dessertRecipesData: Recipe[] = [
     ],
     tags: ["Caramel", "Loaf Cake", "Pound Cake", "Baking", "Desserts", "Salted Caramel", "Afternoon Tea"],
     relatedArticles: dessertRelatedArticles,
-    userReviews: [
-      {
-        id: "rev-caramel-1",
-        author: "Camille D.",
-        date: "September 19, 2026",
-        rating: 5,
-        comment: "This is hands-down the best loaf cake I have ever made. The texture is so buttery and soft, and the homemade caramel drizzle with the flaky salt makes it taste like it came from a high-end French bakery!",
-        helpfulCount: 29,
-      },
-      {
-        id: "rev-caramel-2",
-        author: "Julien P.",
-        date: "September 19, 2026",
-        rating: 5,
-        comment: "Incredibly moist and not overly sweet because the sea salt balances the caramel perfectly. It was gone in less than an hour at tea time. Highly recommend!",
-        helpfulCount: 21,
-      },
-    ],
+    userReviews: [],
   },
   {
     id: 857,
@@ -188,7 +171,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "September 18, 2026",
     imageUrl: "/images/berry-tiramisu-layer-cake.jpg",
     imageAlt: "A tall multi-tiered berry tiramisu cake on a ceramic stand with espresso-soaked ladyfingers, velvety mascarpone cream, cocoa powder, raspberries, blueberries, and mint",
-    imageCredit: "Dishora Studio / Photography & Pastry Arts",
+    imageCredit: "Dishora",
     description:
       "Want to impress your table with the ultimate dessert centerpiece? This Berry Tiramisu Layer Cake reimagines Italy's most beloved coffee dessert as a tall, freestanding celebration cake. Delicate Italian savoiardi ladyfingers are swiftly bathed in rich, dark espresso, then built into multiple architectural tiers bound by a luxurious, cloud-like mascarpone cream. Finished with an intense dusting of Dutch-process cocoa powder, curls of bittersweet chocolate, ruby raspberries, sweet blueberries, and garden mint, it's a breathtaking no-bake masterpiece.",
     whyMakeThis: [
@@ -271,24 +254,7 @@ export const dessertRecipesData: Recipe[] = [
     ],
     tags: ["Tiramisu", "Layer Cake", "No-Bake", "Mascarpone", "Berries", "Coffee Desserts", "Italian", "Showstopper"],
     relatedArticles: dessertRelatedArticles,
-    userReviews: [
-      {
-        id: "rev-tiramisu-1",
-        author: "Elena V.",
-        date: "September 18, 2026",
-        rating: 5,
-        comment: "Made this for our family anniversary dinner and everyone was speechless! The freestanding tiers looked like it came straight out of a Milanese pasticceria. The fresh berries on top cut through the richness of the mascarpone so well.",
-        helpfulCount: 31,
-      },
-      {
-        id: "rev-tiramisu-2",
-        author: "Marco B.",
-        date: "September 18, 2026",
-        rating: 5,
-        comment: "Best tiramisu variation I've ever made. The instructions for dipping the Savoiardi are spot-on; the slices came out tall, sturdy, and amazingly creamy. A 10/10 showstopper!",
-        helpfulCount: 22,
-      },
-    ],
+    userReviews: [],
   },
   {
     id: 856,
@@ -312,7 +278,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "September 16, 2026",
     imageUrl: "/images/oat-carrot-apple-cake.jpg",
     imageAlt: "A generous slice of double-layer oat carrot apple cake with dripping cream cheese glaze and grated carrot garnish",
-    imageCredit: "Dishora Studio / Photography & Recipe Development",
+    imageCredit: "Dishora",
     description:
       "This Oat Carrot Apple Cake is the ultimate guilt-free bake: moist, tender, and naturally sweetened with wholesome honey or maple syrup. Rolled oats provide a hearty, nutty crumb while freshly grated crisp apples and sweet carrots ensure every bite is bursting with moisture and natural sweetness without refined sugar. Drizzled with a silky cream glaze and finished with carrot zest, it makes an unforgettable dessert or cozy afternoon tea treat.",
     whyMakeThis: [
@@ -322,7 +288,7 @@ export const dessertRecipesData: Recipe[] = [
       "Comes together in one bowl with basic pantry staples in under an hour.",
     ],
     storyParagraphs: [
-      "There is something deeply satisfying about a rustic home-baked cake that bridges the gap between comforting indulgence and wholesome nutrition. This Oat Carrot Apple Cake was developed in our test kitchen as an ode to seasonal autumn harvests and nourishing afternoon bakes.",
+      "There is something deeply satisfying about a rustic home-baked cake that bridges the gap between comforting indulgence and wholesome nutrition. This Oat Carrot Apple Cake was developed for home cooks as an ode to seasonal autumn harvests and nourishing afternoon bakes.",
       "By combining wholesome rolled oats with the natural juices of crisp apples and sweet tender carrots, you achieve an exceptionally tender crumb that stays moist for days without heavy butter or refined sugars. The delicate touch of warm cinnamon and real vanilla ties every component together into pure comfort."
     ],
     recipeCardTitle: "Wholesome Oat Carrot Apple Cake",
@@ -394,24 +360,7 @@ export const dessertRecipesData: Recipe[] = [
     ],
     tags: ["Carrot Cake", "Apple Cake", "Oat Cake", "Healthy Desserts", "Cinnamon", "Autumn Bakes", "Refined Sugar Free"],
     relatedArticles: dessertRelatedArticles,
-    userReviews: [
-      {
-        id: "rev-oat-carrot-1",
-        author: "Camille R.",
-        date: "September 16, 2026",
-        rating: 5,
-        comment: "This cake exceeded all my expectations! So moist, perfectly spiced, and you would never guess there is zero refined flour or sugar in it. The creamy glaze on top makes it look like a bakery showstopper!",
-        helpfulCount: 24,
-      },
-      {
-        id: "rev-oat-carrot-2",
-        author: "Julian M.",
-        date: "September 16, 2026",
-        rating: 5,
-        comment: "Made this with my kids for an afternoon snack. Extremely easy one-bowl recipe, and the house smelled like heaven. Will be making this every week!",
-        helpfulCount: 18,
-      },
-    ],
+    userReviews: [],
   },
   {
     id: 801,
@@ -434,7 +383,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "May 25, 2026",
     imageUrl: "/images/dessert-grandma-banana-cream.jpg",
     imageAlt: "Ceramic bowl of sliced sweet bananas bathed in cold heavy cream with a dusting of cinnamon",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "A comforting retro family tradition that requires no baking or cooking whatsoever: ripe sweet bananas sliced thinly into a chilled bowl, submerged in fresh cold heavy cream, and finished with fragrant ground cinnamon and sparkling raw sugar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -486,12 +435,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "310 kcal",
-    author: "Jessica Furniss",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 24, 2026",
     imageUrl: "/images/dessert-chocolate-lasagna-lush.jpg",
     imageAlt: "Glass baking dish showing slice of no-bake chocolate icebox cake with whipped cream and crushed cookies",
-    imageCredit: "Dishora Studio / Jessica Furniss",
+    imageCredit: "Dishora",
     description:
       "The famous 1930s Nabisco famous icebox cake made effortless: chocolate wafer cookies layered with freshly whipped vanilla cream. As it rests in the refrigerator, the cookies absorb moisture from the cream and soften into tender, chocolate cake-like layers. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -550,12 +499,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 cookies",
     servingsCount: 12,
     calories: "190 kcal",
-    author: "Jeanette Hurt",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 23, 2026",
     imageUrl: "/images/dessert-toffee-chocolate-chip-cookies.jpg",
     imageAlt: "Warm split chocolate chip cookie showing melted chocolate pockets and caramelized toffee bits",
-    imageCredit: "Dishora Studio / Jeanette Hurt",
+    imageCredit: "Dishora",
     description:
       "Adding 3/4 cup of Heath English toffee bits into your standard chocolate chip cookie dough melts into golden caramelized pockets while baking, creating irresistible chewy centers and crisp, buttery edges. Difficulty: Easy.",
     whyMakeThis: [
@@ -615,12 +564,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "20 cookies",
     servingsCount: 10,
     calories: "130 kcal",
-    author: "Meghan Splawn",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 22, 2026",
     imageUrl: "/images/dessert-three-ingredient-butter-cookies.jpg",
     imageAlt: "Plate of pale golden round butter shortbread cookies stamped with fork tines",
-    imageCredit: "Dishora Studio / Meghan Splawn",
+    imageCredit: "Dishora",
     description:
       "A classic 1-2-3 shortbread ratio rediscovered by thousands on Reddit: 1 part sugar, 2 parts butter, 3 parts flour. The dough is rolled into simple balls, pressed with a fork, and baked into crumbly, melt-in-your-mouth perfection. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -678,12 +627,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "10 servings",
     servingsCount: 10,
     calories: "280 kcal",
-    author: "Devan Grimsrud",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 21, 2026",
     imageUrl: "/images/dessert-key-lime-icebox-cake.jpg",
     imageAlt: "Square slice of Carlota de Limon lime icebox cake garnished with fresh lime slices and lime zest",
-    imageCredit: "Dishora Studio / Devan Grimsrud",
+    imageCredit: "Dishora",
     description:
       "Mexico's beloved Carlota de Limón: Maria cookies layered with an ultra-creamy, tart cream made by whipping evaporated milk, sweetened condensed milk, and freshly squeezed lime juice in a blender. It sets like a dream in the fridge. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -744,12 +693,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "48 cookies",
     servingsCount: 12,
     calories: "90 kcal",
-    author: "Lauren Bair",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 20, 2026",
     imageUrl: "/images/dessert-spritz-cookies.jpg",
     imageAlt: "Golden fluted butter spritz cookies with festive sprinkles cooling on wire baking rack",
-    imageCredit: "Dishora Studio / Lauren Bair",
+    imageCredit: "Dishora",
     description:
       "A true viral heirloom sensation: a grandmother loved this butter spritz cookie recipe so dearly that her family carved the exact ingredient list onto her cemetery headstone. Tender, buttery, and scented with pure almond extract. Difficulty: Easy.",
     whyMakeThis: [
@@ -809,12 +758,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 spoons",
     servingsCount: 6,
     calories: "140 kcal",
-    author: "Rebecca Fennel",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 19, 2026",
     imageUrl: "/images/dessert-smores-chocolate-spoons.jpg",
     imageAlt: "Dessert spoons coated in thick melted chocolate, toasted marshmallow fluff, and crushed graham crackers",
-    imageCredit: "Dishora Studio / Rebecca Fennel",
+    imageCredit: "Dishora",
     description:
       "All the campfire charm of s'mores without the fire! Dip spoons into melted chocolate, dollop with gooey marshmallow fluff, and roll in crunchy honey graham cracker crumbs. Ready in 15 minutes. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -874,12 +823,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "340 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 18, 2026",
     imageUrl: "/images/dessert-lemon-dump-cobbler.jpg",
     imageAlt: "Warm bowl of golden lemon dump cobbler served with melting vanilla ice cream scoop",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "The ultimate lazy baker's dessert: dump canned lemon pie filling into a baking dish, sprinkle with yellow cake mix, top with thin pats of butter, and bake into a bubbling, crispy lemon cobbler. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -938,12 +887,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "410 kcal",
-    author: "Morgan Baker",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 17, 2026",
     imageUrl: "/images/dessert-cookie-dough-dump-cake.jpg",
     imageAlt: "Warm baking dish of chocolate chip cookie dump cake with melted chocolate ribbons and golden crust",
-    imageCredit: "Dishora Studio / Morgan Baker",
+    imageCredit: "Dishora",
     description:
       "A nostalgic 1990s church potluck legend: chocolate chip cookie dough pressed into the bottom of a casserole dish, topped with hot fudge, yellow cake mix, and butter, creating molten chocolate pockets under cake. Difficulty: Easy.",
     whyMakeThis: [
@@ -1002,12 +951,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 bars",
     servingsCount: 12,
     calories: "180 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 16, 2026",
     imageUrl: "/images/dessert-ritz-toffee-bars.jpg",
     imageAlt: "Sliced squares of chocolate covered Ritz cracker toffee bars topped with chopped peanuts",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "Also known as 'Ritz Crack': buttery Ritz crackers lined up on a sheet pan, drenched in a 3-minute boiled butter-brown sugar caramel, and topped with melted chocolate chips and chopped nuts. Incredibly crunchy, salty, and sweet. Difficulty: Easy.",
     whyMakeThis: [
@@ -1068,12 +1017,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "9 servings",
     servingsCount: 9,
     calories: "320 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 15, 2026",
     imageUrl: "/images/dessert-butterscotch-pudding-cake.jpg",
     imageAlt: "Spoon diving into warm butterscotch self-saucing pudding cake with powdered sugar",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "A classic self-saucing pudding cake: pour boiling brown sugar syrup over simple cake batter, and as it bakes, the cake rises to the top while a thick, molten butterscotch sauce forms underneath. Difficulty: Easy.",
     whyMakeThis: [
@@ -1132,12 +1081,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "9 squares",
     servingsCount: 9,
     calories: "260 kcal",
-    author: "Shayma Saadat",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 14, 2026",
     imageUrl: "/images/dessert-hot-milk-cake.jpg",
     imageAlt: "Square of golden fluffy hot milk sponge cake dusted with confectioners sugar and fresh strawberries",
-    imageCredit: "Dishora Studio / Shayma Saadat",
+    imageCredit: "Dishora",
     description:
       "A beloved mid-century staple: beating eggs and sugar into thick ribbons, then whisking in scalding hot milk and melted butter. The heat cooks the flour starch instantly, resulting in an exceptionally tender, fine-grained sponge. Difficulty: Easy.",
     whyMakeThis: [
@@ -1196,12 +1145,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 slices",
     servingsCount: 12,
     calories: "380 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 13, 2026",
     imageUrl: "/images/dessert-lazy-cat-chocolate-cake.jpg",
     imageAlt: "Slice of dark chocolate cake topped with fluffy cream cheese frosting and crumbled Oreo cookies",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "A decadent chocolate layer cake with a whimsical name: dark fudge chocolate sponge slathered in tangy cream cheese buttercream and smothered in crushed chocolate cookies. Difficulty: Moderate.",
     whyMakeThis: [
@@ -1260,12 +1209,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 squares",
     servingsCount: 12,
     calories: "310 kcal",
-    author: "Mark Beahm",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 12, 2026",
     imageUrl: "/images/dessert-danish-dream-cake.jpg",
     imageAlt: "Squares of golden Danish Drømmekage dream cake topped with caramelized coconut brown sugar crust",
-    imageCredit: "Dishora Studio / Mark Beahm",
+    imageCredit: "Dishora",
     description:
       "Known in Denmark as Drømmekage fra Brovst: an airy vanilla sponge cake that is baked, then smothered in a warm boiled topping of butter, brown sugar, and shredded coconut, and returned to the oven until bubbling and caramelized. Difficulty: Easy.",
     whyMakeThis: [
@@ -1324,12 +1273,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "9 squares",
     servingsCount: 9,
     calories: "280 kcal",
-    author: "Afton Cyrus",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 11, 2026",
     imageUrl: "/images/dessert-best-vanilla-snack-cake.jpg",
     imageAlt: "Square of tender vanilla snack cake with white frosting and rainbow sprinkles on ceramic plate",
-    imageCredit: "Dishora Studio / Afton Cyrus",
+    imageCredit: "Dishora",
     description:
       "A plush, buttery vanilla cake mixed in one bowl with a whisk. Topped with simple vanilla frosting and festive rainbow sprinkles, it's the ideal after-school or dinner party treat. Difficulty: Easy.",
     whyMakeThis: [
@@ -1388,12 +1337,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 squares",
     servingsCount: 16,
     calories: "340 kcal",
-    author: "Molly Allen",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 10, 2026",
     imageUrl: "/images/dessert-double-peanut-butter-cake.jpg",
     imageAlt: "Sliced sheet pan of double peanut butter cake with fudgy peanut butter icing",
-    imageCredit: "Dishora Studio / Molly Allen",
+    imageCredit: "Dishora",
     description:
       "A peanut butter lover's holy grail: peanut butter folded into the cake batter, then drenched in a boiling hot peanut butter and powdered sugar glaze that seeps into the warm cake. Difficulty: Easy.",
     whyMakeThis: [
@@ -1445,12 +1394,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 squares",
     servingsCount: 16,
     calories: "320 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 9, 2026",
     imageUrl: "/images/dessert-neiman-marcus-gooey-cake.jpg",
     imageAlt: "Golden square of gooey butter Neiman Marcus cake dusted with powdered sugar",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "Legendary Department Store cake: yellow cake mix pressed with melted butter into a chewy base, crowned with a rich cream cheese and powdered sugar filling that stays deliciously gooey in the center. Difficulty: Easy.",
     whyMakeThis: [
@@ -1509,12 +1458,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 bites",
     servingsCount: 8,
     calories: "140 kcal",
-    author: "Rebecca Fennel",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 8, 2026",
     imageUrl: "/images/dessert-protein-peanut-butter-bites.jpg",
     imageAlt: "Plate of round no-bake peanut butter chocolate chip energy balls",
-    imageCredit: "Dishora Studio / Rebecca Fennel",
+    imageCredit: "Dishora",
     description:
       "Tastes just like raw cookie dough! Rolled oats, creamy peanut butter, honey, chia seeds, and mini chocolate chips stirred in one bowl and rolled into grab-and-go energy bites. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1567,12 +1516,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 slices",
     servingsCount: 12,
     calories: "290 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 7, 2026",
     imageUrl: "/images/dessert-watergate-pistachio-cake.jpg",
     imageAlt: "Slice of pastel green pistachio Watergate cake topped with crushed pistachios on red plate",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "A charming 1970s conversation piece: white cake mix combined with instant pistachio pudding and 7-Up soda, baked into an emerald green sponge and topped with pineapple-pistachio whipped topping. Difficulty: Easy.",
     whyMakeThis: [
@@ -1626,12 +1575,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "220 kcal",
-    author: "Jennifer Zyman",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 6, 2026",
     imageUrl: "/images/dessert-chocolate-water-mousse.jpg",
     imageAlt: "Glass cup of dark chocolate water mousse garnished with whipped cream and cocoa shavings",
-    imageCredit: "Dishora Studio / Jennifer Zyman",
+    imageCredit: "Dishora",
     description:
       "Created by French food chemist Hervé This: melting high-quality 70% dark chocolate with water, then whisking it over an ice bowl. The cocoa fat molecules trap air as they cool, forming an astonishingly pure, dairy-free, egg-free chocolate mousse. Difficulty: Easy.",
     whyMakeThis: [
@@ -1690,12 +1639,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 squares",
     servingsCount: 16,
     calories: "380 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 5, 2026",
     imageUrl: "/images/dessert-divorce-carrot-cake.jpg",
     imageAlt: "Thick slice of moist spiced carrot cake crowned with fluffy cream cheese frosting on ceramic plate",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "A cake so ridiculously good that family and friends argue over the last slice. Loaded with fresh grated carrots, crushed pineapple for moisture, toasted pecans, and shredded coconut, blanketed in tangy cream cheese frosting. Difficulty: Easy.",
     whyMakeThis: [
@@ -1754,12 +1703,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "210 kcal",
-    author: "Morgan Baker",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 4, 2026",
     imageUrl: "/images/dessert-french-berry-clafoutis.jpg",
     imageAlt: "Ceramic pie dish of golden French berry clafoutis with dusted powdered sugar",
-    imageCredit: "Dishora Studio / Morgan Baker",
+    imageCredit: "Dishora",
     description:
       "France's most forgiving baked dessert: sweet fresh blackberries, raspberries, and cherries arranged in a buttered baking dish, drowned in a crepe-like custard of eggs, milk, sugar, and almond extract, baked until golden and puffed. Difficulty: Easy.",
     whyMakeThis: [
@@ -1819,12 +1768,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 servings",
     servingsCount: 12,
     calories: "220 kcal",
-    author: "Jessica Furniss",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 3, 2026",
     imageUrl: "/images/dessert-three-ingredient-carrot-cake.jpg",
     imageAlt: "Squares of moist spiced carrot snack cake topped with cream cheese icing on parchment paper",
-    imageCredit: "Dishora Studio / Jessica Furniss",
+    imageCredit: "Dishora",
     description:
       "Skip the messy grater completely. A box of spice cake mix combined with pure carrot puree (or baby food carrots) and eggs bakes into an intensely moist, fragrant carrot cake with zero prep mess. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1878,12 +1827,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 slices",
     servingsCount: 12,
     calories: "170 kcal",
-    author: "Jessica Furniss",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 2, 2026",
     imageUrl: "/images/dessert-church-window-marshmallow-cookies.jpg",
     imageAlt: "Sliced church window cookies showing stained glass pattern of pastel marshmallows and chocolate",
-    imageCredit: "Dishora Studio / Jessica Furniss",
+    imageCredit: "Dishora",
     description:
       "Also known as stained glass cookies or cathedral cookies: melted semi-sweet chocolate and butter tossed with fruity pastel-colored mini marshmallows and walnuts, rolled into logs and sliced into colorful jewel-like rounds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -1942,12 +1891,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "9 squares",
     servingsCount: 9,
     calories: "340 kcal",
-    author: "Annika Panikker",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "May 1, 2026",
     imageUrl: "/images/dessert-carrot-coffee-cake.jpg",
     imageAlt: "Square slice of moist spiced carrot coffee cake with thick brown sugar pecan streusel",
-    imageCredit: "Dishora Studio / Annika Panikker",
+    imageCredit: "Dishora",
     description:
       "The morning coffee cake reimagined for spring: moist spiced carrot cake filled with a brown sugar and cinnamon streusel layer, baked under extra crunchy butter crumbs. Difficulty: Easy.",
     whyMakeThis: [
@@ -2005,12 +1954,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "4 pots",
     servingsCount: 4,
     calories: "290 kcal",
-    author: "Jessica Furniss",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 30, 2026",
     imageUrl: "/images/dessert-lemon-posset-creams.jpg",
     imageAlt: "Glass ramekins of chilled silky yellow lemon posset garnished with lemon zest and raspberries",
-    imageCredit: "Dishora Studio / Jessica Furniss",
+    imageCredit: "Dishora",
     description:
       "A medieval British dessert that feels like pure alchemy: boiling heavy cream with sugar, then stirring in fresh lemon juice. The citric acid naturally thickens the cream into a silky, luscious pudding that sets in the fridge with zero gelatin or eggs. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2071,12 +2020,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "210 kcal",
-    author: "Jeanette Hurt",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 29, 2026",
     imageUrl: "/images/dessert-cannoli-cream-dip.jpg",
     imageAlt: "Bowl of creamy cannoli dip with mini chocolate chips surrounded by broken waffle cones and strawberries",
-    imageCredit: "Dishora Studio / Jeanette Hurt",
+    imageCredit: "Dishora",
     description:
       "All the flavor of a bakery cannoli without the tedious frying: whipped whole milk ricotta, sweet Italian mascarpone, powdered sugar, vanilla, and mini semi-sweet chocolate chips. Serve with broken waffle cones, graham crackers, or strawberries. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2130,12 +2079,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 slices",
     servingsCount: 16,
     calories: "290 kcal",
-    author: "Joey Firoben",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 28, 2026",
     imageUrl: "/images/dessert-grandma-spice-sheet-cake.jpg",
     imageAlt: "Square slice of dark spiced sheet cake topped with creamy brown sugar caramel frosting",
-    imageCredit: "Dishora Studio / Joey Firoben",
+    imageCredit: "Dishora",
     description:
       "A comforting heirloom spice cake: fragrant ground cinnamon, ginger, cloves, and allspice folded into a buttermilk sponge, blanketed in old-fashioned boiled penuche caramel brown sugar icing. Difficulty: Easy.",
     whyMakeThis: [
@@ -2189,12 +2138,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 brownies",
     servingsCount: 16,
     calories: "240 kcal",
-    author: "Melissa Knific",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 27, 2026",
     imageUrl: "/images/dessert-chocolate-malt-brownies.jpg",
     imageAlt: "Stack of thick fudgy dark chocolate brownies with shiny papery crinkle tops",
-    imageCredit: "Dishora Studio / Melissa Knific",
+    imageCredit: "Dishora",
     description:
       "Adding 1/2 cup of Carnation malted milk powder transforms ordinary brownies into the nostalgic flavor of a 1950s soda fountain chocolate malt shake. Fudgy, dense, and finished with a paper-thin crinkly crust. Difficulty: Easy.",
     whyMakeThis: [
@@ -2253,12 +2202,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "20 cookies",
     servingsCount: 10,
     calories: "140 kcal",
-    author: "Amanda Luchtel",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 26, 2026",
     imageUrl: "/images/dessert-strawberry-cake-cookies.jpg",
     imageAlt: "Plate of soft pink strawberry cake mix cookies topped with white frosting and sprinkles",
-    imageCredit: "Dishora Studio / Amanda Luchtel",
+    imageCredit: "Dishora",
     description:
       "A sweet childhood favorite: combining a box of strawberry cake mix with vegetable oil and two eggs creates thick, pillowy cookies with chewy edges and pretty pastel pink color. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2317,12 +2266,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "10 slices",
     servingsCount: 10,
     calories: "280 kcal",
-    author: "Mark Beahm",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 25, 2026",
     imageUrl: "/images/dessert-spanish-orange-citrus-cake.jpg",
     imageAlt: "Square slice of golden Spanish olive oil orange cake dusted with powdered sugar on white saucer",
-    imageCredit: "Dishora Studio / Mark Beahm",
+    imageCredit: "Dishora",
     description:
       "Spain's beloved Bizcocho de Naranja: whole milk yogurt, fruity extra virgin olive oil, and the grated zest and juice of Valencia oranges baked into an aromatic, golden loaf that stays moist for days. Difficulty: Easy.",
     whyMakeThis: [
@@ -2381,12 +2330,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 squares",
     servingsCount: 16,
     calories: "160 kcal",
-    author: "Meghan Splawn",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 24, 2026",
     imageUrl: "/images/dessert-lucky-charms-marshmallow-bars.jpg",
     imageAlt: "Baking dish of colorful marshmallow Lucky Charms cereal treat squares",
-    imageCredit: "Dishora Studio / Meghan Splawn",
+    imageCredit: "Dishora",
     description:
       "A colorful upgrade to Rice Krispies treats: swap in Lucky Charms cereal for festive marshmallow rainbows, hearts, and stars in every buttery, chewy bite. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2446,12 +2395,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 candies",
     servingsCount: 12,
     calories: "140 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 23, 2026",
     imageUrl: "/images/dessert-irish-potato-cinnamon-candy.jpg",
     imageAlt: "Brown paper bag filled with cute cinnamon dusted Irish potato candies that look like mini potatoes",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "Despite the name, there are no actual potatoes here! A 100-year-old Philadelphia confection made by kneading cream cheese, butter, coconut, and powdered sugar into mini 'potato' shapes, then rolling them in cinnamon to look like freshly dug spuds. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2511,12 +2460,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "380 kcal",
-    author: "Laurel Randolph",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 22, 2026",
     imageUrl: "/images/dessert-skillet-cookie-casserole.jpg",
     imageAlt: "Baking dish of warm gooey chocolate chip cookie casserole topped with three scoops of melting vanilla ice cream",
-    imageCredit: "Dishora Studio / Laurel Randolph",
+    imageCredit: "Dishora",
     description:
       "Skip scooping individual cookies: spread brown butter chocolate chip dough across a casserole dish and underbake slightly so the edges turn crisp and golden while the interior stays warm, molten, and spoonable. Difficulty: Easy.",
     whyMakeThis: [
@@ -2581,7 +2530,7 @@ export const dessertRecipesData: Recipe[] = [
     date: "April 21, 2026",
     imageUrl: "/images/dessert-kahlua-chocolate-bundt-cake.jpg",
     imageAlt: "Fluted chocolate bundt cake drenched in glossy dark chocolate Kahlua glaze on pedestal",
-    imageCredit: "Dishora Studio",
+    imageCredit: "Dishora",
     description:
       "A classic crowd-pleasing dessert: devil's food cake mix spiked with instant chocolate pudding, sour cream, miniature chocolate chips, and rich Mexican Kahlúa coffee liqueur. Incredibly moist and rich. Difficulty: Easy.",
     whyMakeThis: [
@@ -2640,12 +2589,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "10 wedges",
     servingsCount: 10,
     calories: "390 kcal",
-    author: "Molly Allen",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 20, 2026",
     imageUrl: "/images/dessert-samoas-girl-scout-cookie-cake.jpg",
     imageAlt: "Sliced giant circular Samoas cookie cake with striped chocolate drizzle and toasted coconut caramel",
-    imageCredit: "Dishora Studio / Molly Allen",
+    imageCredit: "Dishora",
     description:
       "Everything you love about Samoas (Caramel deLites) blown up into a 9-inch party cookie cake: buttery crisp shortbread base layered with homemade chewy coconut caramel and drizzled with dark chocolate stripes. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2704,12 +2653,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 bars",
     servingsCount: 16,
     calories: "280 kcal",
-    author: "Kayla Hoang",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 19, 2026",
     imageUrl: "/images/dessert-brookie-brownie-cookie-bars.jpg",
     imageAlt: "Sliced square brookie bar showing distinct layers of chocolate chip cookie and dark fudgy brownie",
-    imageCredit: "Dishora Studio / Kayla Hoang",
+    imageCredit: "Dishora",
     description:
       "Can't decide between a cookie and a brownie? Brookie bars deliver both: half chewy chocolate chip cookie, half rich fudgy brownie, baked together into chewy, dense squares. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2767,12 +2716,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "20 bars",
     servingsCount: 10,
     calories: "220 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 18, 2026",
     imageUrl: "/images/dessert-lunch-lady-peanut-butter-bars.jpg",
     imageAlt: "Sliced squares of Scotcheroos lunch lady bars with peanut butter cereal base and shiny chocolate butterscotch top",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "Also beloved in the Midwest as Scotcheroos: crispy rice cereal folded with warm peanut butter and sugar syrup, topped with a thick layer of melted butterscotch and semi-sweet chocolate chips. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -2832,12 +2781,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 cookies",
     servingsCount: 12,
     calories: "160 kcal",
-    author: "Anne Wolf",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 17, 2026",
     imageUrl: "/images/dessert-chocolate-hamantaschen.jpg",
     imageAlt: "Golden triangular Hamantaschen cookies filled with glistening chocolate fudge filling",
-    imageCredit: "Dishora Studio / Anne Wolf",
+    imageCredit: "Dishora",
     description:
       "A modern chocolate lover's spin on traditional Purim pastries: buttery citrus-scented cookie dough pinched into three-cornered hats filled with rich chocolate ganache or Nutella fudge that never leaks during baking. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2896,12 +2845,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 cookies",
     servingsCount: 12,
     calories: "150 kcal",
-    author: "Coco Morante",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 16, 2026",
     imageUrl: "/images/dessert-traditional-apricot-hamantaschen.jpg",
     imageAlt: "Baking sheet of golden triangular apricot jam Hamantaschen cookies fresh from the oven",
-    imageCredit: "Dishora Studio / Coco Morante",
+    imageCredit: "Dishora",
     description:
       "The classic Purim cookie: tender sugar cookie dough infused with orange zest, folded around sweet and tangy apricot preserves. A beloved annual tradition passed down through generations. Difficulty: Moderate.",
     whyMakeThis: [
@@ -2960,12 +2909,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 cookies",
     servingsCount: 12,
     calories: "150 kcal",
-    author: "Micah Siva, RD",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 15, 2026",
     imageUrl: "/images/dessert-raspberry-jam-hamantaschen.jpg",
     imageAlt: "Golden triangular raspberry hamantaschen cookies on parchment paper with jam centers",
-    imageCredit: "Dishora Studio / Micah Siva, RD",
+    imageCredit: "Dishora",
     description:
       "A family childhood favorite: crisp butter cookie dough filled with vibrant seedless raspberry preserves, pinched into traditional triangular pastries. Difficulty: Moderate.",
     whyMakeThis: [
@@ -3018,12 +2967,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "12 slices",
     servingsCount: 12,
     calories: "340 kcal",
-    author: "Erika Kwee",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 14, 2026",
     imageUrl: "/images/dessert-sock-it-to-me-bundt-cake.jpg",
     imageAlt: "Sliced golden Sock-it-to-me bundt cake showing cinnamon pecan filling ribbon",
-    imageCredit: "Dishora Studio / Erika Kwee",
+    imageCredit: "Dishora",
     description:
       "A famous 1970s Southern classic made famous by Duncan Hines: yellow cake mix elevated with sour cream and oil, layered with a thick cinnamon and chopped pecan filling, finished with a powdered sugar drizzle. Difficulty: Easy.",
     whyMakeThis: [
@@ -3081,12 +3030,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 cookies",
     servingsCount: 12,
     calories: "110 kcal",
-    author: "Afton Cyrus",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 13, 2026",
     imageUrl: "/images/dessert-copycat-thin-mints.jpg",
     imageAlt: "Stack of glossy dark chocolate mint dipped cookies next to peppermint leaves",
-    imageCredit: "Dishora Studio / Afton Cyrus",
+    imageCredit: "Dishora",
     description:
       "When Girl Scout cookie season ends, make this 2-ingredient copycat: Ritz crackers dipped in dark chocolate melted with pure peppermint oil. The salty crunch of the cracker mimics the wafer texture identically! Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3144,12 +3093,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 giant cookies",
     servingsCount: 16,
     calories: "190 kcal",
-    author: "Sara Bir",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 12, 2026",
     imageUrl: "/images/dessert-joe-frogger-molasses-cookies.jpg",
     imageAlt: "Plate of large, crackled chewy dark molasses Joe Frogger cookies with sugar sparkle",
-    imageCredit: "Dishora Studio / Sara Bir",
+    imageCredit: "Dishora",
     description:
       "Created in Marblehead, Massachusetts in the late 1700s by freedman Joe Brown: large chewy molasses cookies made with dark rum and sea water that stayed fresh for months aboard seafaring schooners. Spiced with ginger and cloves with chewy edges. Difficulty: Easy.",
     whyMakeThis: [
@@ -3209,12 +3158,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "340 kcal",
-    author: "Kayla Hoang",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 11, 2026",
     imageUrl: "/images/dessert-cast-iron-fudgy-skillet-brownie.jpg",
     imageAlt: "Cast iron skillet of warm gooey fudge brownie topped with two scoops of vanilla ice cream",
-    imageCredit: "Dishora Studio / Kayla Hoang",
+    imageCredit: "Dishora",
     description:
       "Melt butter directly in the cast-iron skillet, whisk in sugar, eggs, cocoa, and chocolate chips, and bake. The cast iron crisps the brownie edges while leaving the center gloriously gooey and molten for dipping spoons. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3274,12 +3223,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "8 servings",
     servingsCount: 8,
     calories: "190 kcal",
-    author: "Molly Adams",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 10, 2026",
     imageUrl: "/images/dessert-strawberry-muddy-buddies.jpg",
     imageAlt: "Bowl of pink strawberry powdered sugar muddy buddies cereal mix with freeze dried berries",
-    imageCredit: "Dishora Studio / Molly Adams",
+    imageCredit: "Dishora",
     description:
       "A pastel strawberry twist on classic puppy chow: Rice Chex cereal coated in melted white chocolate and pulverized freeze-dried strawberries, shaken in a paper bag with powdered sugar. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3332,12 +3281,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "210 kcal",
-    author: "Shayma Saadat",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 9, 2026",
     imageUrl: "/images/dessert-white-chocolate-frozen-berries.jpg",
     imageAlt: "Plate of frost-kissed frozen raspberries and blueberries drenched in warm white chocolate sauce",
-    imageCredit: "Dishora Studio / Shayma Saadat",
+    imageCredit: "Dishora",
     description:
       "A famous dinner party trick from upscale British dinner parties: arranging frost-kissed frozen mixed berries on a plate and pouring warm white chocolate cream over them. The hot chocolate sauce sets instantly against the frozen fruit. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3389,12 +3338,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 bars",
     servingsCount: 16,
     calories: "270 kcal",
-    author: "Mark Beahm",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 8, 2026",
     imageUrl: "/images/dessert-sugar-cookie-bars.jpg",
     imageAlt: "Square sugar cookie bars topped with pastel pink frosting and festive rainbow sprinkles",
-    imageCredit: "Dishora Studio / Mark Beahm",
+    imageCredit: "Dishora",
     description:
       "All the soft, melt-in-your-mouth magic of Lofthouse frosted sugar cookies without chilling or rolling dough. Pressed into a 9x13 pan, baked until soft, and covered in thick whipped buttercream. Difficulty: Easy.",
     whyMakeThis: [
@@ -3453,12 +3402,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "9 squares",
     servingsCount: 9,
     calories: "260 kcal",
-    author: "Molly Adams",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 7, 2026",
     imageUrl: "/images/dessert-one-bowl-lemon-snack-cake.jpg",
     imageAlt: "Sliced squares of golden lemon snack cake topped with crackly translucent lemon glaze",
-    imageCredit: "Dishora Studio / Molly Adams",
+    imageCredit: "Dishora",
     description:
       "A cheerful pick-me-up cake made in one bowl: fresh lemon zest rubbed into sugar, stirred with yogurt, butter, and eggs, and baked into an 8x8 snacking cake drenched in tart lemon glaze. Difficulty: Easy.",
     whyMakeThis: [
@@ -3517,12 +3466,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "6 servings",
     servingsCount: 6,
     calories: "280 kcal",
-    author: "Molly Allen",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 6, 2026",
     imageUrl: "/images/dessert-cherry-dump-cobbler.jpg",
     imageAlt: "Warm bowl of bubbling cherry dump cobbler with melting vanilla ice cream",
-    imageCredit: "Dishora Studio / Molly Allen",
+    imageCredit: "Dishora",
     description:
       "All the speed of a dump cake with zero boxed cake mix: canned sweet dark cherries baked under a quick 5-minute flour, sugar, butter, and buttermilk biscuit batter that turns crispy and golden. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3581,12 +3530,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "14 slices",
     servingsCount: 14,
     calories: "380 kcal",
-    author: "Stephanie Burt",
+    author: "Dishora Editorial Team",
     authorRole: "Recipe Developer",
     date: "April 5, 2026",
     imageUrl: "/images/dessert-kentucky-butter-bundt-cake.jpg",
     imageAlt: "Golden fluted Kentucky butter bundt cake with crackly sugar crust and slice cut out on platter",
-    imageCredit: "Dishora Studio / Stephanie Burt",
+    imageCredit: "Dishora",
     description:
       "Winner of the 1963 Pillsbury Bake-Off: an ultra-moist vanilla pound cake poked with holes fresh from the oven and soaked with a hot butter, sugar, and vanilla glaze that crystallizes into a crisp sugar shell. Difficulty: Easy.",
     whyMakeThis: [
@@ -3644,12 +3593,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "4 servings",
     servingsCount: 4,
     calories: "290 kcal",
-    author: "Dishora Kitchen",
-    authorRole: "Test Kitchen",
+    author: "Dishora Editorial Team",
+    authorRole: "Editorial Staff",
     date: "April 4, 2026",
     imageUrl: "/images/dessert-magic-chocolate-mousse-cream.jpg",
     imageAlt: "Glass dessert dish of rich dark chocolate mousse crowned with fresh whipped cream",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "A foolproof French mousse requiring just chocolate and heavy cream. Melted chocolate folded gently into stiff whipped cream sets into an impossibly decadent, velvety texture. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3707,12 +3656,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "240 kcal",
-    author: "Dishora Kitchen",
-    authorRole: "Test Kitchen",
+    author: "Dishora Editorial Team",
+    authorRole: "Editorial Staff",
     date: "April 3, 2026",
     imageUrl: "/images/dessert-ricotta-blackberry-toast-dessert.jpg",
     imageAlt: "Toasted artisan bread spread with whipped ricotta and swirling blackberry jam",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "When you crave something sweet late at night: golden toasted brioche smeared with whipped whole-milk ricotta, swirled with blackberry jam, and finished with honey and flaky sea salt. Difficulty: Super Easy.",
     whyMakeThis: [
@@ -3764,12 +3713,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "16 bars",
     servingsCount: 16,
     calories: "320 kcal",
-    author: "Dishora Kitchen",
-    authorRole: "Test Kitchen",
+    author: "Dishora Editorial Team",
+    authorRole: "Editorial Staff",
     date: "April 2, 2026",
     imageUrl: "/images/dessert-millionaire-shortbread-caramel-bars.jpg",
     imageAlt: "Sliced squares of Millionaire shortbread bars displaying crisp cookie base, golden caramel, and chocolate top",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "Also known as Caramel Shortbread: a crisp Scottish shortbread base, covered with an ultra-thick layer of simmered condensed milk caramel, capped with smooth dark chocolate that snaps when cut. Difficulty: Moderate.",
     whyMakeThis: [
@@ -3829,12 +3778,12 @@ export const dessertRecipesData: Recipe[] = [
     servings: "24 squares",
     servingsCount: 12,
     calories: "160 kcal",
-    author: "Dishora Kitchen",
-    authorRole: "Test Kitchen",
+    author: "Dishora Editorial Team",
+    authorRole: "Editorial Staff",
     date: "April 1, 2026",
     imageUrl: "/images/dessert-two-ingredient-peanut-butter-fudge.jpg",
     imageAlt: "Square dish of two-ingredient peanut butter fudge sliced into bite-size squares on parchment paper",
-    imageCredit: "Dishora Studio / Test Kitchen",
+    imageCredit: "Dishora",
     description:
       "The classic 1980s church cookbook secret: microwave a tub of vanilla frosting with a jar of creamy peanut butter for 60 seconds, stir together, and pour into a pan. It sets into velvety, sliceable peanut butter fudge. Difficulty: Super Easy.",
     whyMakeThis: [

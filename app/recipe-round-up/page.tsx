@@ -23,10 +23,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "01",
     slug: "hawaiian-macaroni-salad",
     title: "Hawaiian Macaroni Salad",
-    photoCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Sally McKay / Christina Daley",
+    photoCredit: "Dishora",
     quote:
-      "What makes this summery side dish different from mainland pasta salads? Firstly, the macaroni is cooked past al-dente all the way to tender. The extra-soft noodles can better absorb vinegar for some bright acidity, then an ultra-creamy dressing made from lots of mayonnaise plus some milk. Then, grated carrots, sweet onion, and a little bit of sugar bring just the right sweetness to the party. It's a perfectly balanced, decadently creamy salad that's a great partner to any summer main dish.",
-    authorQuote: "Afton Cyrus, Senior Editor",
+      "What makes this summery side dish distinctive from mainland pasta salads? The macaroni is cooked until tender so it thoroughly absorbs cider vinegar for bright acidity, followed by a rich dressing of mayonnaise and milk, with grated carrots and sweet onion.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/hawaiian-mac-salad.jpg",
     time: "20 mins",
     category: "Salads & Sides",
@@ -35,10 +35,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "02",
     slug: "coronation-coleslaw",
     title: "Coronation Coleslaw",
-    photoCredit: "Dishora Studio / Mark Beahm",
+    photoCredit: "Dishora",
     quote:
-      "While contemplating coronation chicken's sweet, savory, and spiced flavors, I realized they would translate nicely into coleslaw. With colorful and crunchy coleslaw mix, juicy mango, crisp cashews, and chewy raisins, it's an explosion of flavors and textures. A simple dressing of mayo, yogurt, lemon juice, and curry powder is all you need to complete the dish.",
-    authorQuote: "Laurel Randolph, Recipe Developer",
+      "With colorful and crunchy coleslaw mix, juicy mango, crisp cashews, and chewy raisins, this side delivers an explosion of textures. A simple dressing of mayo, yogurt, lemon juice, and mild curry powder completes the dish.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/coronation-coleslaw.jpg",
     time: "15 mins",
     category: "Coleslaw & Salads",
@@ -47,10 +47,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "03",
     slug: "grilled-greek-meatballs",
     title: "Grilled Skewered Meatballs",
-    photoCredit: "Dishora Studio / Mike Lang",
+    photoCredit: "Dishora",
     quote:
-      "I love to grill meatballs. However, I do not love wrangling loose meatballs as I place, flip, and remove them from the grill. In this recipe, I deploy flat metal skewers to simplify the process. They are the ideal grill tool for these garlic and oregano-forward meat delights.",
-    authorQuote: "Mike Lang, Recipe Developer",
+      "Flat metal skewers simplify the grilling process, preventing meatballs from rolling as they cook. Seasoned with garlic, oregano, and lemon, they make a flavorful weeknight meal.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-meatballs.jpg",
     time: "25 mins",
     category: "Mains & Skewers",
@@ -59,10 +59,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "04",
     slug: "potato-chip-salad",
     title: "Potato Chip Salad",
-    photoCredit: "Dishora Studio / Frank Tiu",
+    photoCredit: "Dishora",
     quote:
-      "The result is a salad I've made three times since, and will continue to make it all summer long. It's everything I want in a summer salad, and is excellent served with grilled fare like hot dogs, grilled chicken, and pulled pork. It'll blow everyone away at your next summer gathering or potluck.",
-    authorQuote: "Laurel Randolph, Associate Editorial Director",
+      "A crisp, satisfying summer side that pairs naturally with grilled fare like barbecue chicken, burgers, and roasted vegetables for family gatherings.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/potato-chip-salad.jpg",
     time: "10 mins",
     category: "Sides & Salads",
@@ -71,10 +71,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "05",
     slug: "mediterranean-grilled-vegetables",
     title: "Mediterranean Grilled Vegetables",
-    photoCredit: "Dishora Studio / Photo by Julia Gartland / Food Styling by Samantha Seneviratne",
+    photoCredit: "Dishora",
     quote:
-      "There's nothing sadder than adding food to your grill and not hearing a 'sizzle' to accompany it. Give your grill at least 15 minutes to heat up before adding your vegetables.",
-    authorQuote: "Sara Haas, Recipe Developer",
+      "Give your grill at least 15 minutes to heat up before adding vegetables. A hot grate ensures clean sear marks and preserves texture.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-vegetables.jpg",
     time: "22 mins",
     category: "Sides & Grilling",
@@ -83,10 +83,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "06",
     slug: "grilled-halibut-calabrian-chile-gremolata",
     title: "Grilled Halibut with Calabrian Chile Gremolata",
-    photoCredit: "Matt Armendariz",
+    photoCredit: "Dishora",
     quote:
-      "Grilled fish is one of my absolute favorite things to cook when I have friends over for dinner. It's light, it's filling, and it's super easy to make. In this recipe, the fish only takes 10 minutes on the grill, and it's topped with the most next-level gremolata made with Calabrian chiles, parsley, and garlic. I literally want to bathe in the gremolata, it's so delicious!",
-    authorQuote: "Gaby Dalkin, Recipe Developer",
+      "Grilled halibut cooks in just 10 minutes over direct heat. Paired with a zesty Calabrian chile, parsley, and garlic gremolata, it offers bright Mediterranean flavor.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-halibut.jpg",
     time: "20 mins",
     category: "Seafood & Grilling",
@@ -95,10 +95,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "07",
     slug: "dill-pickle-potato-salad",
     title: "Dill Pickle Potato Salad",
-    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora",
     quote:
-      "This dill pickle potato salad with crushed potato chips is the perfect recipe for anyone like me who loves pickles and needs a little bit of texture added to their potato salad (sans eggs!). It's easy to make ahead and is sure to be a hit at your next summer gathering.",
-    authorQuote: "Danielle Campbell, Recipe Developer",
+      "Crushed potato chips add pleasant crunch to this dill-forward potato salad, making it a crowd-pleasing make-ahead side dish.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/dill-pickle-potato-salad.jpg",
     time: "25 mins",
     category: "Sides & Salads",
@@ -107,10 +107,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "08",
     slug: "summer-stone-fruit-tomato-cucumber-salad",
     title: "Stone Fruit, Tomato and Cucumber Salad",
-    photoCredit: "Alison Bickel",
+    photoCredit: "Dishora",
     quote:
-      "Cherries and cucumbers? Peaches and chile peppers? Celery with fruit? The answer is yes, yes, and yes! The key is to dice them on the smaller side and about the same size. Each and every bite is an explosion of summer's brightest flavors.",
-    authorQuote: "Virginia Willis, Recipe Developer",
+      "Dicing ripe stone fruits, cucumbers, and chiles into uniform small cubes ensures every bite balances sweet, crisp, and savory notes.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/stone-fruit-salad.jpg",
     time: "15 mins",
     category: "Salads & Fruit",
@@ -119,10 +119,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "09",
     slug: "grilled-chicken-satay-with-peanut-sauce",
     title: "Grilled Chicken Satay With Peanut Sauce",
-    photoCredit: "Dishora Studio / Photo by Ellen Mary Cronin / Food Styling by Rochelle Honeygan Burgess",
+    photoCredit: "Dishora",
     quote:
-      "Marinated meats grilled over glowing coals, called satays in Southeast Asia, have an irresistible combination of sweetness, heat, acid, and spice that is downright addictive. Travel to Indonesia, Thailand, Malaysia, Singapore, Bali and Cambodia, and you'll find these popular snacks on every corner. However, you don't have to take a long plane trip to enjoy these tasty bites. You can recreate a version in your own backyard on your grill—whether it's gas or charcoal.",
-    authorQuote: "Sally Vargas, Recipe Developer",
+      "Marinated chicken skewers grilled over hot coals provide a balance of savory spice, bright lime, and rich peanut dipping sauce.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/chicken-satay.jpg",
     time: "25 mins",
     category: "Mains & Skewers",
@@ -131,9 +131,9 @@ const roundupRecipes: RoundupItem[] = [
     number: "10",
     slug: "moms-greek-pasta-salad",
     title: "Classic Mediterranean Greek Pasta Salad",
-    photoCredit: "Dishora Studio / Shilpa Iyer",
+    photoCredit: "Dishora",
     quote:
-      "Not only is this pasta salad super simple to throw together, but it's a balanced combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's a cooling side for warm summer gatherings.",
+      "Not only is this pasta salad super simple to throw together, but it is a balanced combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes.",
     authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/greek-pasta-salad.jpg",
     time: "20 mins",
@@ -143,9 +143,9 @@ const roundupRecipes: RoundupItem[] = [
     number: "11",
     slug: "grilled-mexican-street-corn-elotes",
     title: "Grilled Mexican Street Corn (Elotes)",
-    photoCredit: "Dishora Studio",
+    photoCredit: "Dishora",
     quote:
-      "Mexican street corn (Elotes) brings vibrant street-food flavors straight to your grill. Sweet charred corn on the cob is slathered in a savory, zesty crema sauce, then generously dusted with salty cotija cheese, chili powder, and fresh cilantro in just 15 minutes.",
+      "Mexican street corn (Elotes) brings vibrant street-food flavors straight to your grill. Sweet charred corn on the cob is slathered in a savory crema sauce, then dusted with cotija cheese and fresh cilantro.",
     authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/cowboy-corn.jpg",
     time: "15 mins",
@@ -155,10 +155,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "12",
     slug: "grilled-balsamic-flank-steak",
     title: "Grilled Balsamic-Marinated Flank Steak",
-    photoCredit: "Dishora Studio / Photo by Robby Lozano / Food Styling by Margaret Dickey / Prop Styling by Julia Bayless",
+    photoCredit: "Dishora",
     quote:
-      "Using balsamic vinegar in a marinade for grilled flank steak is a genius move. In just one ingredient, the vinegar imparts tons of complex flavor to the meat while also tenderizing this lean cut with its acid. A dollop of country-style Dijon mustard, some grated garlic, and a dash of paprika balance out the sweetness in the balsamic, and the char from the grill adds the slightest hint of bitterness which rounds everything out.",
-    authorQuote: "Afton Cyrus, Senior Editor",
+      "A balsamic-Dijon marinade tenderizes lean flank steak while creating a savory, caramelized crust under direct high heat.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/flank-steak.jpg",
     time: "20 mins",
     category: "Mains & Beef",
@@ -167,10 +167,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "13",
     slug: "sicilian-potato-salad",
     title: "Sicilian Potato Salad",
-    photoCredit: "Dishora Studio / Photo by Andrew Bui / Food Styling by Kaitlin Wayne",
+    photoCredit: "Dishora",
     quote:
-      "You might not find this exact recipe over in Sicily, but similar iterations are common in both Sicily and mainland Italy. Potatoes, green beans, and tomatoes are a timeless Italian pairing in the summer months. Using buttery Sicilian green olives—I love Castelveltranos—plus an herb-y oregano vinaigrette gives this salad lots of island flair.",
-    authorQuote: "Sheela Prakash, Recipe Developer",
+      "Potatoes, crisp green beans, and ripe tomatoes tossed with buttery Sicilian green olives and an oregano vinaigrette create a bright summer side.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/sicilian-potato-salad.jpg",
     time: "25 mins",
     category: "Sides & Salads",
@@ -179,10 +179,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "14",
     slug: "easy-grilled-peppers",
     title: "Easy Grilled Peppers",
-    photoCredit: "Dishora Studio / Sally Vargas",
+    photoCredit: "Dishora",
     quote:
-      "Bell peppers on the grill are one of summer's pleasures, and they're so easy it's almost a crime not to throw them on the barbie along with shrimp, chicken, burgers, or whatever else you're cooking up outside.",
-    authorQuote: "Sally Vargas, Recipe Developer",
+      "Sweet bell peppers charred on the grill develop natural sweetness that complements burgers, chicken, and vegetarian platters.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-peppers.jpg",
     time: "15 mins",
     category: "Sides & Grilling",
@@ -191,10 +191,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "15",
     slug: "how-to-grill-the-best-burgers",
     title: "Grilled Burgers",
-    photoCredit: "Nick Evans",
+    photoCredit: "Dishora",
     quote:
-      "My aim: a burger that is easy to throw together on a weeknight, flavorful enough to stand up to the person who adds every condiment known to mankind to his or her burger, and yet balanced enough to satisfy the minimalist burger eater (ketchup only, please!).",
-    authorQuote: "Summer Miller, former Senior Editor",
+      "A simple seasoning of kosher salt and freshly cracked black pepper allows good-quality ground beef to develop a rich, savory crust on the grill.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-burger.jpg",
     time: "18 mins",
     category: "Burgers & Mains",
@@ -203,10 +203,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "16",
     slug: "dads-easy-greek-salad",
     title: "Easy Greek Salad",
-    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora",
     quote:
-      "This Greek salad is a favorite of my father's to make during the summer. We usually have plenty of tomatoes and cucumbers growing in the garden, and all you have to do is toss in some red onions, olives, bell pepper, feta cheese, a few herbs, and some olive oil and vinegar and you have beautiful, cooling, fresh, Greek salad. All the best ingredients and flavors of Greek cuisine, all in one easy summer salad!",
-    authorQuote: "Elisa Bauer, Founder",
+      "Ripe summer tomatoes, cucumbers, red onion, kalamata olives, and block feta tossed with olive oil and oregano make an effortless fresh salad.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/greek-salad.jpg",
     time: "10 mins",
     category: "Salads & Sides",
@@ -215,10 +215,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "17",
     slug: "foil-packet-grilled-asparagus",
     title: "Foil Packet Grilled Asparagus",
-    photoCredit: "Dishora Studio / Mihaela Kozaric Sebrek",
+    photoCredit: "Dishora",
     quote:
-      "Inspired by the foil packets of grilled clams I grew up eating, I started grilling foil packets of asparagus in the same manner a few years back. In the packet, the asparagus takes on a slightly smoky flavor, doesn't get overcooked or mushy, and you create a lemony butter sauce to drizzle on top. It requires all of five minutes to prep and zero dishes. A huge win in my book!",
-    authorQuote: "Molly Adams, Recipe Developer",
+      "Grilling asparagus in a foil packet with butter, lemon, and sea salt creates tender stalks with light smokiness and zero cleanup.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/asparagus-foil.jpg",
     time: "15 mins",
     category: "Sides & Grilling",
@@ -227,10 +227,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "18",
     slug: "hot-dogs-with-spicy-kimchi-slaw",
     title: "Hot Dogs with Spicy Kimchi Slaw",
-    photoCredit: "Nick Evans",
+    photoCredit: "Dishora",
     quote:
-      "These Korean-style hot dogs are your basic grilled beef hot dog in a bun, but with a really special (and simple) spicy kimchi slaw and creamy sauce. The slaw features daikon radish, carrot, and kimchi—a mix that will taste familiar if you've eaten a lot of Korean food like bibimbap!",
-    authorQuote: "Nick Evans, Recipe Developer",
+      "Topped with spicy kimchi slaw and creamy sauce, these grilled beef hot dogs offer bold, zesty flavor in under 20 minutes.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/kimchi-hot-dogs.jpg",
     time: "18 mins",
     category: "Mains & Grilling",
@@ -239,10 +239,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "19",
     slug: "easy-grilled-broccolini",
     title: "Easy Grilled Broccolini",
-    photoCredit: "Dishora Studio / Photo by Matthew Pevear / Food Styling by Mike Lang",
+    photoCredit: "Dishora",
     quote:
-      "Lately, Broccolini has become my most-grilled vegetable, which is a lofty feat at my house. I particularly love it because it's prep-free. On the whole, most vegetables need some sort of culinary intervention before grilling. Zucchini needs to be sliced. Asparagus needs to be peeled. The list goes on.",
-    authorQuote: "Mike Lang, Recipe Developer",
+      "Tossed in olive oil and coarse salt, whole broccolini chars quickly on the grill without requiring tedious prep work.",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/grilled-broccolini.jpg",
     time: "10 mins",
     category: "Sides & Grilling",
@@ -283,7 +283,7 @@ export default function RecipeRoundupPage() {
               </span>
             </div>
             <p className="text-xs text-gray-600 leading-relaxed font-sans mb-2">
-              Curated and tested by the Dishora Editorial Team, focusing on fresh, seasonal ingredients and straightforward techniques for easy summer entertaining.
+              Curated by the Dishora Editorial Team, focusing on fresh, seasonal ingredients and straightforward techniques for easy summer entertaining.
             </p>
             <div className="text-[11.5px] text-gray-500 pt-2 border-t border-gray-200 flex flex-wrap items-center gap-3">
               <span className="underline cursor-pointer hover:text-[#0c5354]">Editorial Process</span>
@@ -303,7 +303,7 @@ export default function RecipeRoundupPage() {
             />
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Photo & Styling: Dishora Studio / Shilpa Iyer
+            Credit: Dishora
           </div>
         </div>
 
@@ -545,7 +545,7 @@ export default function RecipeRoundupPage() {
                 <div className="flex items-center gap-3 text-xs text-gray-600">
                   <span>{activeModalRecipe.author}</span>
                   <span>•</span>
-                  <span>★ {activeModalRecipe.rating}.0 ({activeModalRecipe.reviewCount} reviews)</span>
+                  <span>⏱ {activeModalRecipe.totalTime || activeModalRecipe.cookTime}</span>
                   <span>•</span>
                   <span>{activeModalRecipe.servings}</span>
                 </div>
@@ -633,7 +633,7 @@ export default function RecipeRoundupPage() {
               {activeModalRecipe.tips && activeModalRecipe.tips.length > 0 && (
                 <div className="p-4 bg-amber-50 border-l-4 border-amber-400 rounded-r-md">
                   <div className="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1">
-                    💡 Test Kitchen Tip
+                    💡 Kitchen Tip
                   </div>
                   <p className="text-xs text-amber-900 leading-relaxed">
                     {activeModalRecipe.tips[0]}

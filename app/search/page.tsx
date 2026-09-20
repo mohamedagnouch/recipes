@@ -216,14 +216,9 @@ function SearchContent() {
                             ⏱️ {recipe.totalTime}
                           </span>
                         )}
-                        {recipe.rating && (
-                          <span className="flex items-center gap-1 text-amber-600 font-bold">
-                            ★ {recipe.rating.toFixed(1)}
-                            {recipe.reviewCount ? (
-                              <span className="text-gray-400 font-normal text-[11px]">
-                                ({recipe.reviewCount})
-                              </span>
-                            ) : null}
+                        {recipe.category && (
+                          <span className="text-[11px] font-semibold text-[#0c5354] uppercase tracking-wider bg-[#e8f5f3] px-2 py-0.5 rounded-xs">
+                            {recipe.category}
                           </span>
                         )}
                       </div>

@@ -37,7 +37,7 @@ export interface CollectionDetail {
   categoryKey: "WEEKNIGHT" | "FAST" | "SUMMER" | "ITALIAN" | "PROTEIN" | "COMFORT" | "BREAKFAST";
   tags: string[];
   highlights: { label: string; value: string; icon: string }[];
-  testKitchenRules: { title: string; advice: string }[];
+  culinaryRules: { title: string; advice: string }[];
   recipes: CollectionRecipeItem[];
   faq: { question: string; answer: string }[];
   relatedSlugs: string[];
@@ -49,7 +49,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "Our Most-Saved Reader Favorite Recipes This Month",
   "subtitle": "The verified 5-star recipes our home cooks bookmarked, shared, and made on repeat.",
   "leadStory": "When thousands of home cooks bookmark the exact same recipes in a single month, we pay close attention. This curated collection brings together the undisputed crowd favorites: creamy weeknight pasta bakes, tender cast-iron proteins, and one-skillet family wonders that readers swear make weeknight dinner feel like a restaurant meal without the fuss.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor & Recipe Tester",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -82,12 +82,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -304,7 +304,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "25 Dinners To Make With a Package of Ground Beef",
   "subtitle": "Turn one humble pound of ground beef into satisfying, flavor-packed weeknight feasts.",
   "leadStory": "Ground beef is the undisputed MVP of weeknight dinner. It's budget-friendly, defrosts quickly, and cooks in minutes while absorbing bold spices like a sponge. Whether you're craving a cozy baked pasta, savory Asian lettuce wraps, crispy smash burgers, or Mexican taco skillets, here is how our editors maximize every single pound.",
-  "author": "Devan Grimsrud",
+  "author": "Dishora Editorial Team",
   "authorRole": "Food Stylist & Home Cooking Strategist",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -337,12 +337,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -556,7 +556,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "20 Sizzling Recipes for Your Ultimate Weekend Cookout",
   "subtitle": "From flame-kissed ribs and charred burgers to crisp summer sides and refreshing sauces.",
   "leadStory": "Nothing brings friends and family together quite like the aroma of charcoal smoke and sizzling meat drifting across the backyard. Our ultimate weekend cookout guide covers every corner of the grill: foolproof marinades, temperature charts for juicy results, charred summer corn, and make-ahead salads that stay crisp in the summer sun.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -590,12 +590,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -806,7 +806,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "20 Bucket List Recipes To Make Before the End of Summer",
   "subtitle": "Savor peak sweet corn, heirloom tomatoes, fresh peaches, and basil before autumn arrives.",
   "leadStory": "August and September offer the absolute pinnacle of fresh produce. Before sweater weather sets in, honor the harvest with sun-drenched heirloom tomato tarts, sweet corn risotto, charred zucchini flatbreads, and warm peach crumbles bursting with fragrant juices.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -839,12 +839,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -1054,8 +1054,8 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "slug": "best-dinner-recipes-of-all-time",
   "title": "Our 34 Best Dinner Recipes of All Time",
   "subtitle": "The Hall of Fame recipes our editors and readers turn to when failure is not an option.",
-  "leadStory": "These are the crown jewels of our recipe library. Every recipe in this collection has earned at least 500 five-star reviews and survived multiple rounds of rigorous test kitchen testing. From perfectly seared steaks and golden roast chicken to traditional Bolognese, these dishes guarantee dinner table applause.",
-  "author": "Devan Grimsrud",
+  "leadStory": "These are the crown jewels of our recipe library. Selected for their reliable flavor, accessible ingredients, and straightforward cooking steps. From perfectly seared steaks and golden roast chicken to traditional Bolognese, these dishes guarantee dinner table applause.",
+  "author": "Dishora Editorial Team",
   "authorRole": "Food Stylist & Home Cooking Strategist",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -1088,12 +1088,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -1304,7 +1304,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "20 Italian Dinner Recipes That Make You Feel Like You're Back in Nonna's Kitchen",
   "subtitle": "Handmade pastas, slow-simmered sauces, tender cutlets, and rustic garlic focaccia.",
   "leadStory": "True Italian home cooking isn't about complicated culinary gymnastics; it's about honoring simple, premium ingredients. These recipes celebrate the warmth and spirit of Sunday dinners with Nonna: silky carbonara made the Roman way without cream, crispy golden chicken parmesan, melt-in-your-mouth meatballs, and garlic bread hot from the oven.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -1337,12 +1337,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -1550,7 +1550,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "5 Quick and Easy Dinners To Fuel Your Busy Week",
   "subtitle": "Nutritious, high-energy 20-minute dinners designed by a culinary dietitian.",
   "leadStory": "When Monday through Friday gets hectic, takeout can feel tempting. These five 20-minute recipes were developed with culinary dietitians to pack lean proteins, colorful produce, and complex carbohydrates into delicious, zero-stress meals that keep your energy steady all evening long.",
-  "author": "Micah Siva, RD",
+  "author": "Dishora Editorial Team",
   "authorRole": "Registered Dietitian",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -1583,12 +1583,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -1800,7 +1800,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "19 Low-Stress Dinners for Busy Back-to-School Nights",
   "subtitle": "One pan, zero panic. Speedy sheet pan meals, 15-minute skillets, and easy cleanup.",
   "leadStory": "When school, sports practice, and homework collide at 6 PM, the last thing you need is a mountain of dirty dishes. These sheet pan and one-pan dinners let your oven do all the heavy lifting while you help with math homework or unwind. Cleanup takes under 5 minutes.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -1833,12 +1833,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -2045,7 +2045,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "5 Dinners That Are So Easy You'll Have Energy to Spare",
   "subtitle": "When you're exhausted at 6 PM, these 4-ingredient wonders come to the rescue.",
   "leadStory": "We all have those days where cooking feels like climbing Mount Everest. These ultra-minimalist dinners require almost zero chopping, use pantry and freezer shortcuts smartly, and go from package to table in under 20 minutes so you can relax on the couch faster.",
-  "author": "Micah Siva, RD",
+  "author": "Dishora Editorial Team",
   "authorRole": "Registered Dietitian",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -2078,12 +2078,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -2282,7 +2282,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "The 16 Best Chicken Recipes of All Time",
   "subtitle": "Never eat dry, bland chicken again. Golden cutlets, lemon-roast birds, and sticky glazed thighs.",
   "leadStory": "Chicken is the staple we turn to most, but all too often it ends up dry or uninspired. Our culinary editors tested dozens of techniques to create this definitive master list: from buttermilk brined crispy cutlets to sticky garlic honey thighs and French-style pan roasts that guarantee juicy perfection.",
-  "author": "Devan Grimsrud",
+  "author": "Dishora Editorial Team",
   "authorRole": "Food Stylist & Home Cooking Strategist",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -2315,12 +2315,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -2531,7 +2531,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 High-Fiber Sides for Balanced Weeknight Dinners",
   "subtitle": "Roasted veggies, zesty whole grains, and crisp salads to transform any meal.",
   "leadStory": "Meeting your daily fiber target doesn't mean eating cardboard. These 15 vibrant side dishes pair sweet caramelized root vegetables, nutty grains like farro and quinoa, and cruciferous superstars with bold dressings that make veggies the star of your plate.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -2564,12 +2564,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -2778,7 +2778,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "31 Easy 30-Minute Dinners for Every Night of the Month",
   "subtitle": "A complete month-long blueprint of lightning-fast dinners so you never ask 'what's for dinner?' again.",
   "leadStory": "Meal planning fatigue is real. That's why our editorial team designed a 31-day blueprint of varied, lightning-fast 30-minute meals. From spicy noodle bowls to skillet taco bakes and creamy Tuscan chicken, every single night of the month is solved with speed and flavor.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -2811,12 +2811,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -3030,7 +3030,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "14 Kid-Approved After School Snacks That Fill Them Up",
   "subtitle": "Wholesome, nutrient-dense bites made with whole grains, fruit, and protein.",
   "leadStory": "Kids storm into the kitchen starving after school, and packaged snacks often leave them crashing 30 minutes later. These 14 colorful, wholesome snack ideas are packed with protein and complex carbs to fuel homework, sports practice, and play until dinner time.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -3063,12 +3063,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -3271,7 +3271,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 Comfort Food Dinners To Make On a Lazy Sunday Afternoon",
   "subtitle": "Slow-braised pot roasts, bubbly chicken pot pies, and decadent baked mac and cheese.",
   "leadStory": "Sundays are meant for slow cooking. When the weather turns brisk, fill your house with the irresistible aromas of red wine braised short ribs, bubbly golden chicken pot pie, and velvety four-cheese baked macaroni. These are the recipes that make you want to curl up on the sofa with a warm bowl in hand.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -3304,12 +3304,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -3525,7 +3525,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "20 High-Protein, High-Fiber Dinners You Can Make in 30 Minutes or Less",
   "subtitle": "Hit your macro goals with ease: 30g+ protein and 8g+ fiber in every single 30-minute dish.",
   "leadStory": "Eating for fitness, satiety, and metabolic health doesn't mean boring chicken breast and dry brown rice. These 20 dietitian-crafted recipes maximize both lean protein and gut-nourishing fiber to keep you energized, satisfied, and meeting your wellness goals effortlessly.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -3558,12 +3558,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -3777,7 +3777,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "14 15-Minute Toasts and Sandwiches for Easy, Satisfying Lunches",
   "subtitle": "Ditch the boring lunch rut: artisan paninis, loaded open-faced toasts, and crunchy wraps.",
   "leadStory": "Lunchtime shouldn't mean soggy turkey bread or expensive deli runs. With artisan bread and a few smart flavor combinations, you can create restaurant-worthy warm paninis, creamy avocado-egg toasts, and crunchy Mediterranean wraps in under 15 minutes.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -3810,12 +3810,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -4023,7 +4023,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "18 Italian Dinners That Don't Use Red Sauce",
   "subtitle": "Silky Alfredo, cacio e pepe, buttery lemon piccata, and white wine garlic pastas.",
   "leadStory": "When you think of Italian cuisine, vibrant tomato sauce often comes to mind first. But Italy's white sauce and butter-based pasta traditions—from Rome's ancient cacio e pepe to northern Italy's velvety gorgonzola cream—deliver incredible richness, delicate nuance, and pure comfort.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -4056,12 +4056,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -4273,7 +4273,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 Recipes To Make When You Want To Treat Yourself",
   "subtitle": "Celebratory steaks, silky truffle pastas, and bakery-worthy chocolate lava cakes.",
   "leadStory": "Whether you just landed a promotion, survived an intense work week, or simply feel like celebrating life, you deserve a restaurant-caliber feast at home. From buttery pan-seared filet mignon and butter poached lobster tails to decadent molten chocolate lava cakes, here is how to cook like royalty.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -4307,12 +4307,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -4525,7 +4525,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "18 Breakfasts From Around the World to Expand Your Morning Horizons",
   "subtitle": "From fiery Middle Eastern shakshuka and Japanese soufflé pancakes to Turkish poached eggs.",
   "leadStory": "Step outside the standard eggs-and-toast routine. Around the world, morning meals are treated with reverence, featuring fragrant spices, savory broths, fermented breads, and fluffy clouds of batter. Travel the globe from your kitchen with these 18 celebrated morning rituals.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -4558,12 +4558,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -4781,7 +4781,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "12 30-Minute Recipes Where Bacon Is the Star",
   "subtitle": "Crispy, smoky, salty perfection: carbonaras, warm bacon spinach salads, and loaded skewers.",
   "leadStory": "Few ingredients elevate a dish as quickly as thick-cut, Applewood-smoked bacon. It provides rich savory fat to sear proteins, crispy bits for texture, and unmistakable smoky depth. These 12 speedy 30-minute meals put bacon front and center.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -4814,12 +4814,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -5027,8 +5027,8 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "slug": "high-fiber-morning-bakes-start-your-day",
   "title": "16 High-Fiber Breakfast Recipes To Start Your Day Strong",
   "subtitle": "Hearty baked oats, chia puddings, and whole grain muffins that keep hunger away until lunch.",
-  "leadStory": "Starting your morning with a refined sugar pastry guarantees an energy crash by 10 AM. These 16 test kitchen bakes and bowls lean on whole rolled oats, chia seeds, flaxseed, and fresh fruits to provide long-lasting satiety and steady blood sugar all morning long.",
-  "author": "Theodora Kaloudis",
+  "leadStory": "Starting your morning with a refined sugar pastry guarantees an energy crash by 10 AM. These 16 wholesome breakfast bakes and bowls lean on whole rolled oats, chia seeds, flaxseed, and fresh fruits to provide long-lasting satiety and steady blood sugar all morning long.",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -5061,12 +5061,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -5280,7 +5280,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 Easy Mediterranean Recipes for the Last Gasp of Summer",
   "subtitle": "Sun-drenched Greek salads, garlic shrimp with feta, and lemon oregano chicken.",
   "leadStory": "Mediterranean cuisine shines brightest when late-summer produce is at its peak. Savor the season's sweet heirloom tomatoes, crisp cucumbers, fragrant oregano, and cold-pressed olive oils with these healthy, vibrant coastal classics.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -5314,12 +5314,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -5527,7 +5527,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 Make-Ahead Recipes for Relaxed Sundays With Family",
   "subtitle": "Assemble Saturday night, bake Sunday afternoon: stress-free brunch and dinner casseroles.",
   "leadStory": "Hosting family or Sunday supper shouldn't require spending your entire weekend trapped in the kitchen. These 15 make-ahead casseroles can be completely assembled the night before, chilled in the fridge, and baked effortlessly while you relax with family.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -5560,12 +5560,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -5774,8 +5774,8 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "15 Easy Pantry Meals You Can Make Without a Grocery Run",
   "subtitle": "Canned beans, pasta, marinara, and tuna transformed into restaurant-worthy meals.",
   "leadStory": "When the fridge looks empty and you don't want to step outside, your dry pantry and freezer hold all the secrets to a magnificent dinner. These 15 clever meals turn humble cans of beans, crushed tomatoes, dried pasta, and canned tuna into crave-worthy feasts.",
-  "author": "Rachel Knecht",
-  "authorRole": "Test Kitchen Associate",
+  "author": "Dishora Editorial Team",
+  "authorRole": "Editorial Staff",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
   "recipeCount": 15,
@@ -5807,12 +5807,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -6017,7 +6017,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "7 Grab-and-Go Breakfasts for Stress-Free School Mornings",
   "subtitle": "Prep Sunday, grab Monday: egg bites, freezer burritos, and overnight parfaits.",
   "leadStory": "School mornings are chaotic enough without cooking breakfast from scratch. These 7 make-ahead recipes can be batch-cooked on Sunday in under an hour, stored in the fridge or freezer, and grabbed in seconds for a nutritious, stress-free morning routine.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -6050,12 +6050,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -6259,7 +6259,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "7 Dump Dinners for Every Night of the Week",
   "subtitle": "Zero browning, zero sautéing: simply layer, set a timer, and enjoy a comforting meal.",
   "leadStory": "True dump dinners are the holy grail of effortless cooking. There's no browning meat first, no sautéing onions in separate pans, and no babysitting a stove. Simply dump all ingredients into your slow cooker or casserole dish, set the timer, and come home to a hot dinner ready to eat.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -6292,12 +6292,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -6508,7 +6508,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "7 Top-Rated Skewer Recipes for Summer Grilling",
   "subtitle": "Tender beef satay, chipotle chicken kabobs, and charred shrimp skewers in 12 minutes.",
   "leadStory": "Food on a stick is inherently fun, cookout-friendly, and cooks faster on the grill than whole steaks or bone-in chicken. These 7 top-rated skewer recipes pair foolproof marinades with colorful vegetables to deliver maximum flavor and beautiful grill marks in under 12 minutes of flame time.",
-  "author": "Theodora Kaloudis",
+  "author": "Dishora Editorial Team",
   "authorRole": "Senior Food Editor",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -6541,12 +6541,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."
@@ -6753,7 +6753,7 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
   "title": "12 Beloved Recipes From Mom That You'll Want To Make Forever",
   "subtitle": "Nostalgic, soul-warming dishes: scratch-made chicken noodle soup, drop biscuits, and pot roasts.",
   "leadStory": "There's an undeniable magic to the dishes our mothers and grandmothers cooked with love. They didn't measure with digital scales; they cooked with instinct, time, and heart. These 12 treasured heirloom recipes bring back the unforgettable flavors of home.",
-  "author": "Sara Bir",
+  "author": "Dishora Editorial Team",
   "authorRole": "Food Writer & Recipe Historian",
   "authorAvatar": "/images/dinner-spaghetti-best-dinner.jpg",
   "date": "Updated September 2026",
@@ -6786,12 +6786,12 @@ export const collectionDetailsData: Record<string, CollectionDetail> = {
       "icon": "🍳"
     },
     {
-      "label": "Tested & Perfected",
-      "value": "Test Kitchen Approved",
+      "label": "Recipe Quality",
+      "value": "Carefully Developed",
       "icon": "⭐"
     }
   ],
-  "testKitchenRules": [
+  "culinaryRules": [
     {
       "title": "Layer Flavors Sequentially",
       "advice": "Season with kosher salt, fresh aromatics, and acids at each stage of cooking."

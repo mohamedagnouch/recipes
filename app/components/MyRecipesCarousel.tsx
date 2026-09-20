@@ -136,14 +136,11 @@ export default function MyRecipesCarousel() {
                           {recipe.title}
                         </h3>
 
-                        {/* Stars & Review Count & Time */}
+                        {/* Category & Time */}
                         <div className="flex items-center justify-center gap-2 text-xs text-gray-600 mb-3">
-                          <div className="flex items-center text-[#009b72] text-[12px]">
-                            {"★".repeat(recipe.rating)}
-                            <span className="text-gray-500 text-[11px] ml-1">
-                              ({recipe.reviewCount})
-                            </span>
-                          </div>
+                          <span className="text-[11px] font-semibold text-[#0c5354] uppercase tracking-wider bg-[#e8f5f3] px-2 py-0.5 rounded-xs">
+                            {recipe.category}
+                          </span>
                           <span className="text-gray-300">•</span>
                           <div className="flex items-center gap-1 text-[11px] text-gray-500 font-medium">
                             <svg className="w-3 h-3 stroke-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

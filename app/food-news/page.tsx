@@ -1559,7 +1559,7 @@ export default function FoodNewsAndTrendsPage() {
                   <div className="sec-title-wrap">
                     <h2 className="sec-title">Popular Recipes</h2>
                     <span className="sec-badge" style={{ background: "#ecfdf5", color: "#059669" }}>
-                      ★ Test Kitchen Certified
+                      ★ Reader Favorites
                     </span>
                   </div>
                   <button

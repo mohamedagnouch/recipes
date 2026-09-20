@@ -85,11 +85,6 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
       position: idx + 1,
       text: step,
     }));
-    structuredData.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: article.recipeDetails.rating,
-      reviewCount: article.recipeDetails.ratingCount,
-    };
     structuredData.nutrition = {
       "@type": "NutritionInformation",
       calories: article.recipeDetails.calories,
@@ -311,7 +306,7 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
                 <div className="pt-6">
                   <h4 className="font-serif text-base font-bold text-[#ba4f1c] mb-2 flex items-center gap-1.5">
                     <span>💡</span>
-                    <span>Test Kitchen Chef&apos;s Tip</span>
+                    <span>Culinary Tip</span>
                   </h4>
                   <p className="text-sm font-sans text-gray-700 leading-relaxed italic bg-white p-4 rounded-md border border-amber-200">
                     &ldquo;{article.recipeDetails.notes}&rdquo;

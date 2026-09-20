@@ -913,10 +913,10 @@ export default function CollectionDetailClient({ collection }: Props) {
             <p className="lead-paragraph">{collection.leadStory}</p>
 
             <h2 className="rules-heading">
-              <span>🌟</span> Test Kitchen Golden Rules for This Collection
+              <span>🌟</span> Culinary Tips for This Collection
             </h2>
             <div className="rules-grid">
-              {collection.testKitchenRules.map((rule, idx) => (
+              {collection.culinaryRules.map((rule, idx) => (
                 <div key={idx} className="rule-card">
                   <div className="rule-title">{rule.title}</div>
                   <p className="rule-text">{rule.advice}</p>
@@ -1061,7 +1061,7 @@ export default function CollectionDetailClient({ collection }: Props) {
 
                           <div className="pro-tip-box">
                             <div className="pro-tip-title">
-                              <span>💡</span> Test Kitchen Tip:
+                              <span>💡</span> Kitchen Tip:
                             </div>
                             <div>{recipe.proTip}</div>
                           </div>

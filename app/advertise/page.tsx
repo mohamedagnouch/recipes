@@ -168,7 +168,7 @@ export default function AdvertisePage() {
         <div className="p-5 rounded-2xl bg-[#f8fbfb] border border-[#d6ebe7] text-xs sm:text-sm text-gray-700 space-y-1.5">
           <p className="font-bold text-[#0c5354]">⚖️ FTC &amp; Transparency Compliance</p>
           <p>
-            Dishora strictly adheres to US Federal Trade Commission (FTC) guidelines and Canadian advertising standards. All paid promotions, sponsored articles, and gifted items are clearly labeled for transparency. Advertisers do not dictate editorial reviews or test kitchen ratings.
+            Dishora strictly adheres to US Federal Trade Commission (FTC) guidelines and Canadian advertising standards. All paid promotions, sponsored articles, and gifted items are clearly labeled for transparency. Advertisers do not dictate editorial reviews or recipe recommendations.
           </p>
         </div>
 
