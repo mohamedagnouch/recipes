@@ -21,7 +21,7 @@ const latestNews: NewsItem[] = [
     category: "GROCERIES",
     timeAgo: "20 MINUTES AGO",
     title: "The $1.50 Dollar Tree Find I Wish I Bought Sooner",
-    author: "By Dishora News Desk",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/food-news/canadian-grocery-aisle.jpg",
     imageAlt: "Dollar Tree grocery shelves",
   },
@@ -31,7 +31,7 @@ const latestNews: NewsItem[] = [
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "58 MINUTES AGO",
     title: "I Cooked Chicken the Same Way for Years—This One Change Made It So Much Better",
-    author: "By Dishora Culinary Editors",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/tip-roast-chicken.jpg",
     imageAlt: "Crispy roasted chicken",
   },
@@ -41,7 +41,7 @@ const latestNews: NewsItem[] = [
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "1 HOUR AGO",
     title: "I Asked 3 Chefs If Grass-Fed Butter Is Worth Buying—They All Said the Same Thing",
-    author: "By Dishora Food Editors",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/tip-grass-fed-butter.jpg",
     imageAlt: "Fresh grass-fed butter block",
   },
@@ -51,7 +51,7 @@ const latestNews: NewsItem[] = [
     category: "COOKING TIPS & TECHNIQUES",
     timeAgo: "5 HOURS AGO",
     title: "I Asked 4 Chefs If Beef Tallow Is Worth Buying—They All Said the Same Thing",
-    author: "By Dishora Kitchen Editors",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/tip-beef-tallow.jpg",
     imageAlt: "Whipped beef tallow",
   },
@@ -61,7 +61,7 @@ const latestNews: NewsItem[] = [
     category: "GROCERIES",
     timeAgo: "6 HOURS AGO",
     title: "The Only Way I'm Making Avocado Toast From Now on (It's Genius)",
-    author: "By Dishora Food Editors",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/avocado-bean-toast.jpg",
     imageAlt: "Delicious avocado toast with seasoning",
   },
@@ -135,7 +135,7 @@ export default function HeroSection() {
             </div>
 
             <div className="text-[13.5px] text-gray-500 font-normal">
-              By <span className="text-gray-700 font-medium hover:underline cursor-pointer">Dishora Culinary Team</span>
+              By <span className="text-gray-700 font-medium hover:underline cursor-pointer">Dishora Editorial Team</span>
             </div>
           </div>
         </article>

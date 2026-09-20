@@ -893,7 +893,7 @@ export default function CollectionDetailClient({ collection }: Props) {
               className="hero-img"
             />
             <span className="hero-caption">
-              Photo: Dishora Test Kitchen / Photo Archives
+              Photo: Dishora Editorial Team / Photo Archives
             </span>
           </div>
 

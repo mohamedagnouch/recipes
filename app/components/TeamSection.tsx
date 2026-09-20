@@ -142,12 +142,12 @@ export default function TeamSection() {
         {/* Dual Card Section Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-stretch">
           
-          {/* LEFT CARD: The Dishora Culinary Team */}
+          {/* LEFT CARD: The Dishora Editorial Team */}
           <div className="bg-white rounded-xl p-7 sm:p-9 shadow-sm border border-gray-200/90 flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
             <div>
               {/* Header */}
               <h2 className="font-serif text-2xl sm:text-[30px] font-bold text-gray-900 text-center tracking-tight mb-4">
-                The Dishora Culinary Team
+                The Dishora Editorial Team
               </h2>
 
               {/* Description */}
@@ -398,7 +398,7 @@ export default function TeamSection() {
         </div>
       )}
 
-      {/* MODAL 2: The Dishora Culinary Team Details */}
+      {/* MODAL 2: The Dishora Editorial Team Details */}
       {showTeamModal && (
         <div
           className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4"
@@ -416,7 +416,7 @@ export default function TeamSection() {
             </button>
 
             <h3 className="font-serif text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-              Meet the Dishora Culinary Team
+              Meet the Dishora Editorial Team
             </h3>
             <p className="text-xs font-bold text-[#0c5354] uppercase tracking-wider mb-4">
               Passionate Cooks • Rigorous Testers • Culinary Storytellers

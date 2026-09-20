@@ -134,7 +134,7 @@ const roundupRecipes: RoundupItem[] = [
     photoCredit: "Dishora Studio / Shilpa Iyer",
     quote:
       "Not only is this pasta salad super simple to throw together, but it's a balanced combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's a cooling side for warm summer gatherings.",
-    authorQuote: "Dishora Test Kitchen",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/greek-pasta-salad.jpg",
     time: "20 mins",
     category: "Pasta Salads & Sides",
@@ -146,7 +146,7 @@ const roundupRecipes: RoundupItem[] = [
     photoCredit: "Dishora Studio",
     quote:
       "Mexican street corn (Elotes) brings vibrant street-food flavors straight to your grill. Sweet charred corn on the cob is slathered in a savory, zesty crema sauce, then generously dusted with salty cotija cheese, chili powder, and fresh cilantro in just 15 minutes.",
-    authorQuote: "Dishora Culinary Team",
+    authorQuote: "Dishora Editorial Team",
     imageUrl: "/images/cowboy-corn.jpg",
     time: "15 mins",
     category: "Sides & BBQ",
@@ -283,7 +283,7 @@ export default function RecipeRoundupPage() {
               </span>
             </div>
             <p className="text-xs text-gray-600 leading-relaxed font-sans mb-2">
-              Curated and tested by the Dishora Culinary Team, focusing on fresh, seasonal ingredients and straightforward techniques for easy summer entertaining.
+              Curated and tested by the Dishora Editorial Team, focusing on fresh, seasonal ingredients and straightforward techniques for easy summer entertaining.
             </p>
             <div className="text-[11.5px] text-gray-500 pt-2 border-t border-gray-200 flex flex-wrap items-center gap-3">
               <span className="underline cursor-pointer hover:text-[#0c5354]">Editorial Process</span>

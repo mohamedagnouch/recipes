@@ -886,7 +886,7 @@ export const lunchRecipesData: Recipe[] = [
     servingsCount: 2,
     calories: "410 kcal",
     author: "Dishora Editorial Team",
-    authorRole: "Dishora Test Kitchen",
+    authorRole: "Dishora Editorial Team",
     date: "May 11, 2026",
     imageUrl: "/images/lunch-shrimp-louie-salad.jpg",
     imageAlt: "Platter of classic Shrimp Louie salad with pink wild shrimp, hard boiled eggs, avocado, and tomatoes",
