@@ -89,7 +89,7 @@ export default function ContactPage() {
     },
     {
       q: "How do I report a mistake or typo in a recipe?",
-      a: "Please select 'Recipe Correction / Typo' in the contact form below and include the exact recipe URL and ingredient/step in question. Our test kitchen team reviews corrections promptly.",
+      a: "Please select 'Recipe Correction / Typo' in the contact form below and include the exact recipe URL and ingredient/step in question. Our editorial team reviews corrections promptly.",
     },
     {
       q: "How do I inquire about advertising or brand partnerships?",
@@ -130,7 +130,7 @@ export default function ContactPage() {
             Contact Dishora
           </h1>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Have a question about a recipe, feedback for our test kitchen, or a partnership inquiry? Our team is here to help.
+            Have a question about a recipe, feedback for our editorial team, or a partnership inquiry? Our team is here to help.
           </p>
         </div>
       </section>

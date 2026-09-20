@@ -96,8 +96,8 @@ export default async function RecipeLayout({
     description: recipe.leadText || recipe.description,
     image: [fullImageUrl],
     author: {
-      "@type": "Person",
-      name: recipe.author,
+      "@type": "Organization",
+      name: "Dishora Editorial Team",
     },
     publisher: {
       "@type": "Organization",

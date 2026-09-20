@@ -5,16 +5,16 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Us | Dishora - Food, Tested Recipes & Culinary Culture",
+  title: "About Us | Dishora - Food, Reliable Recipes & Culinary Culture",
   description:
-    "Learn about Dishora, our mission to bring tested recipes, trusted food news, and joyful everyday cooking to home cooks across the United States and Canada.",
+    "Learn about Dishora, our mission to bring clear recipes, trusted food news, and joyful everyday cooking to home cooks across the United States and Canada.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: "About Dishora - Our Mission & Editorial Standards",
     description:
-      "Tested recipes, trustworthy food journalism, and practical kitchen inspiration for everyday cooks across North America.",
+      "Original recipes, trustworthy food journalism, and practical kitchen inspiration for everyday cooks across North America.",
     url: "/about",
     type: "website",
   },
@@ -63,7 +63,7 @@ export default function AboutPage() {
             Who We Are
           </h2>
           <p className="text-gray-700 leading-relaxed text-base sm:text-[17px] mb-4">
-            At <strong>Dishora</strong>, we believe that good food has the power to bring people together. Whether you are throwing together a fast 20-minute weeknight pasta, perfecting a slow-simmered weekend stew, or researching the latest grocery store finds, we are here to provide clear, tested guidance you can count on.
+            At <strong>Dishora</strong>, we believe that good food has the power to bring people together. Whether you are throwing together a fast 20-minute weeknight pasta, perfecting a slow-simmered weekend stew, or researching the latest grocery store finds, we are here to provide clear, practical guidance you can count on.
           </p>
           <p className="text-gray-700 leading-relaxed text-base sm:text-[17px]">
             Our digital magazine is tailored for readers throughout North America, focusing on practical pantry ingredients, seasonal produce, kitchen efficiency, and honest food news that impacts what you buy and cook every day.
@@ -76,7 +76,7 @@ export default function AboutPage() {
             <div className="w-12 h-12 rounded-xl bg-[#e8f5f3] flex items-center justify-center text-2xl mb-4 text-[#0c5354]">
               🍳
             </div>
-            <h3 className="font-serif text-xl font-bold text-gray-900 mb-2">Tested Recipes</h3>
+            <h3 className="font-serif text-xl font-bold text-gray-900 mb-2">Reliable Recipes</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               Every recipe is crafted with straightforward steps, accurate cooking times, temperature checkpoints, and accessible ingredients found in standard grocery stores.
             </p>
@@ -155,7 +155,7 @@ export default function AboutPage() {
             <span>ℹ️</span> Publication &amp; Contact Information
           </p>
           <p>
-            <strong>Dishora</strong> is an independent digital culinary publication dedicated to tested recipes, kitchen guides, and food journalism for home cooks across North America.
+            <strong>Dishora</strong> is an independent digital culinary publication dedicated to original recipes, kitchen guides, and food journalism for home cooks across North America.
           </p>
           <p>
             For editorial inquiries, recipe feedback, corrections, or partnership proposals, please reach out via our dedicated <Link href="/contact" className="underline font-bold text-[#0c5354]">Contact Page</Link> or email our team directly at{" "}

@@ -60,9 +60,9 @@ export default function EditorialGuidelinesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-2xl bg-white border border-gray-200/80 shadow-xs space-y-2">
             <span className="text-2xl">👩‍🍳</span>
-            <h3 className="font-serif text-xl font-bold text-gray-900">1. Rigorous Recipe Testing</h3>
+            <h3 className="font-serif text-xl font-bold text-gray-900">1. Careful Recipe Development</h3>
             <p className="text-sm text-gray-600">
-              Every recipe is tested repeatedly with accessible grocery ingredients, ensuring home cooks achieve delicious, reliable results on the first try.
+              Every recipe is developed with accessible grocery ingredients, clear instructions, and practical cooking guidance for reliable home kitchen results.
             </p>
           </div>
 
@@ -104,13 +104,13 @@ export default function EditorialGuidelinesPage() {
               <strong>Concept &amp; Practicality Review:</strong> We ask: Is this dish achievable on a weeknight? Are the ingredients accessible at standard supermarkets in the US and Canada? Does it offer genuine culinary value?
             </li>
             <li>
-              <strong>Kitchen Testing:</strong> Recipes are tested to establish precise cooking times, pan temperatures, ingredient ratios, and visual cues (e.g., &ldquo;golden brown with bubbly edges,&rdquo; rather than just &ldquo;bake for 20 mins&rdquo;).
+              <strong>Practical Development:</strong> Recipes are crafted with precise cooking times, pan temperatures, ingredient ratios, and visual cues (e.g., &ldquo;golden brown with bubbly edges,&rdquo; rather than just &ldquo;bake for 20 mins&rdquo;).
             </li>
             <li>
               <strong>Clear Measurements:</strong> Ingredients list standard US volume measurements alongside weight equivalents where precision matters (e.g., baking recipes), with Celsius/Fahrenheit oven settings.
             </li>
             <li>
-              <strong>Sensory &amp; Storage Notes:</strong> We provide real-world testing notes on make-ahead options, freezer storage duration, and sensible substitutions (e.g., gluten-free or dairy-free adjustments).
+              <strong>Sensory &amp; Storage Notes:</strong> We provide real-world culinary notes on make-ahead options, freezer storage duration, and sensible substitutions (e.g., gluten-free or dairy-free adjustments).
             </li>
           </ol>
         </article>
@@ -167,7 +167,7 @@ export default function EditorialGuidelinesPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2.5 text-gray-700 text-sm sm:text-base">
             <li>
-              <strong>Editorial Independence:</strong> Advertisers and sponsors have no influence over our recipe ratings, test kitchen results, or news coverage.
+              <strong>Editorial Independence:</strong> Advertisers and sponsors have no influence over our recipe guides, culinary evaluations, or news coverage.
             </li>
             <li>
               <strong>Prominent Labeling:</strong> Any sponsored post, paid brand integration, or custom feature is prominently labeled as &ldquo;Sponsored&rdquo; or &ldquo;Partner Content&rdquo; at the top of the page.

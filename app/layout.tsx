@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     template: "%s | Dishora",
   },
   description: "Dishora offers step-by-step recipes, grocery news, and practical cooking guides for home cooks in the US and Canada.",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
