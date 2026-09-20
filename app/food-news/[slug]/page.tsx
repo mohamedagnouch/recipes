@@ -53,7 +53,7 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
     "@type": article.isRecipe ? "Recipe" : "NewsArticle",
     headline: article.headline,
     description: article.deck,
-    image: [`http://localhost:3000${article.imageUrl}`],
+    image: [`https://dishora.net${article.imageUrl}`],
     datePublished: article.date,
     dateModified: article.date,
     author: {
@@ -65,12 +65,12 @@ export default async function FoodNewsArticlePage({ params }: PageProps) {
       name: "Dishora",
       logo: {
         "@type": "ImageObject",
-        url: "http://localhost:3000/images/simply-recipes-logo.png",
+        url: "https://dishora.net/images/dishora-logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `http://localhost:3000/food-news/${article.slug}`,
+      "@id": `https://dishora.net/food-news/${article.slug}`,
     },
   };
 

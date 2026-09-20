@@ -90,6 +90,17 @@ const nextConfig: NextConfig = {
         destination: "/:path+",
         permanent: true,
       },
+      // Redirect legacy/mock freezies URLs to recipes
+      {
+        source: "/freezies",
+        destination: "/recipes",
+        permanent: true,
+      },
+      {
+        source: "/freezies/:path*",
+        destination: "/recipes",
+        permanent: true,
+      },
     ];
   },
 };

@@ -74,7 +74,7 @@ export default function CleaningAndOrganizingPage() {
     "@type": "CollectionPage",
     name: "Cleaning & Organizing - Dishora",
     description: "Expert advice, practical techniques, and tested routines for maintaining an immaculate, clutter-free kitchen and serene home.",
-    url: "http://localhost:3000/cleaning-and-organizing",
+    url: "https://dishora.net/cleaning-and-organizing",
     mainEntity: {
       "@type": "ItemList",
       itemListElement: cleaningArticlesData.slice(0, 12).map((item, index) => ({
@@ -82,7 +82,7 @@ export default function CleaningAndOrganizingPage() {
         position: index + 1,
         name: item.title,
         description: item.description,
-        image: `http://localhost:3000${item.imageUrl}`,
+        image: `https://dishora.net${item.imageUrl}`,
       })),
     },
   };

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     default: "Dishora — Easy Recipes, Kitchen Guides & Food News",
     template: "%s | Dishora",
   },
-  description: "Dishora offers over 3,600 triple-tested recipes, grocery news, and foolproof cooking guides for home cooks in the US and Canada.",
+  description: "Dishora offers step-by-step recipes, grocery news, and practical cooking guides for home cooks in the US and Canada.",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
     url: "https://dishora.net",
     siteName: "Dishora",
     title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
-    description: "Triple-tested recipes, grocery news, and foolproof cooking guides for home cooks.",
+    description: "Step-by-step recipes, grocery news, and practical cooking guides for home cooks.",
     images: [{ url: "/images/moroccan-couscous-seven-vegetables.jpg", width: 1200, height: 630, alt: "Authentic Moroccan Couscous with Seven Vegetables — Dishora" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dishora — Easy Recipes, Kitchen Guides & Food News",
-    description: "Triple-tested recipes, grocery news, and foolproof cooking guides.",
+    description: "Step-by-step recipes, grocery news, and practical cooking guides for home cooks.",
     images: ["/images/moroccan-couscous-seven-vegetables.jpg"],
   },
 };

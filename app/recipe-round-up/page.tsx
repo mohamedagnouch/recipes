@@ -130,11 +130,11 @@ const roundupRecipes: RoundupItem[] = [
   {
     number: "10",
     slug: "moms-greek-pasta-salad",
-    title: "Mom's Greek Pasta Salad",
+    title: "Classic Mediterranean Greek Pasta Salad",
     photoCredit: "Dishora Studio / Shilpa Iyer",
     quote:
-      "Not only is this pasta salad super simple to throw together, but it's a magical combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's everything I crave on a hot summer day.",
-    authorQuote: "Rebecca Fennel, Recipe Developer",
+      "Not only is this pasta salad super simple to throw together, but it's a balanced combination of flavors: salty from the feta, bright from the lemon juice, fresh from the dill and scallions, and juicy from the grape tomatoes. It's a cooling side for warm summer gatherings.",
+    authorQuote: "Dishora Test Kitchen",
     imageUrl: "/images/greek-pasta-salad.jpg",
     time: "20 mins",
     category: "Pasta Salads & Sides",
@@ -143,10 +143,10 @@ const roundupRecipes: RoundupItem[] = [
     number: "11",
     slug: "grilled-mexican-street-corn-elotes",
     title: "Grilled Mexican Street Corn (Elotes)",
-    photoCredit: "Megan Keno",
+    photoCredit: "Dishora Studio",
     quote:
-      "When we are far away from the lively celebrations of his hometown, my husband and I can relive the fun by grilling corn and making our own version of Mexican street corn in just a few minutes. The charred kernels and the tangy sauce really make this different from your everyday corn on the cob.",
-    authorQuote: "Megan Keno, Recipe Developer",
+      "Mexican street corn (Elotes) brings vibrant street-food flavors straight to your grill. Sweet charred corn on the cob is slathered in a savory, zesty crema sauce, then generously dusted with salty cotija cheese, chili powder, and fresh cilantro in just 15 minutes.",
+    authorQuote: "Dishora Culinary Team",
     imageUrl: "/images/cowboy-corn.jpg",
     time: "15 mins",
     category: "Sides & BBQ",
@@ -278,12 +278,12 @@ export default function RecipeRoundupPage() {
           <div className="p-4 bg-[#f8faf9] border border-gray-200 rounded-xs mb-6">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold text-gray-500 uppercase">By</span>
-              <span className="font-bold text-sm text-[#0c5354] underline hover:text-[#009b72] cursor-pointer">
-                Theodora Kaloudis
+              <span className="font-bold text-sm text-[#0c5354]">
+                Dishora Editorial Team
               </span>
             </div>
             <p className="text-xs text-gray-600 leading-relaxed font-sans mb-2">
-              Theodora&apos;s passion for cooking began early on as a young girl, working in the kitchen at her father&apos;s Greek diner in Brooklyn, NY. Her recipes have appeared on leading culinary publications, national food magazines, and various cookbooks.
+              Curated and tested by the Dishora Culinary Team, focusing on fresh, seasonal ingredients and straightforward techniques for easy summer entertaining.
             </p>
             <div className="text-[11.5px] text-gray-500 pt-2 border-t border-gray-200 flex flex-wrap items-center gap-3">
               <span className="underline cursor-pointer hover:text-[#0c5354]">Editorial Process</span>

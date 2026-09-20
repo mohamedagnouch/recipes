@@ -2,20 +2,20 @@ import React from "react";
 
 const stats = [
   {
-    number: "20+ Years",
-    label: "Helping Home Cooks Since 2003",
+    number: "Step-by-Step",
+    label: "Clear, reliable cooking instructions for home cooks",
   },
   {
-    number: "3,600+",
-    label: "Trusted Recipes",
+    number: "Everyday Staples",
+    label: "Accessible ingredients found at standard supermarkets",
   },
   {
-    number: "100+",
-    label: "Expert Contributors & Recipe Developers",
+    number: "Weeknight Meals",
+    label: "Practical dinner ideas for busy family schedules",
   },
   {
-    number: "8M+",
-    label: "Monthly Readers",
+    number: "Kitchen Guides",
+    label: "Helpful techniques and pantry organization tips",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function StatsSection() {
         
         {/* Section Heading */}
         <h2 className="font-serif text-2xl sm:text-3xl font-bold text-gray-900 text-center mb-10 tracking-tight">
-          Trusted Recipes for Real Life
+          Cooking Inspiration for Real Life
         </h2>
 
         {/* 4 Stats Grid / Row */}

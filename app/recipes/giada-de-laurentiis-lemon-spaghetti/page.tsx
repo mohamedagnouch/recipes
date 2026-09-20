@@ -20,64 +20,64 @@ const giadaRelatedArticles: RelatedCelebrityArticle[] = [
     id: 1,
     slug: "giada-4-ingredient-dinner",
     category: "CELEBRITY",
-    title: "Giada De Laurentiis's 4-Ingredient Dinner Is My New Go-To",
-    author: "By Kat Lieu",
+    title: "Giada De Laurentiis's 4-Ingredient Dinner: Creamy Lemon Spaghetti",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/lemon-spaghetti.jpg",
   },
   {
     id: 2,
     slug: "most-popular-dinner-recipe-30-minutes",
     category: "NEWS & TRENDS",
-    title: "Our Most Popular Dinner Recipe Of All Time Is Ready in 30 Minutes",
-    author: "By Sheela Prakash",
+    title: "Skillet Cheeseburger Pie Ready in 30 Minutes",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/cheeseburger-pie-slice.jpg",
   },
   {
     id: 3,
     slug: "two-ingredient-recipe-february",
     category: "NEWS & TRENDS",
-    title: "The 2-Ingredient Recipe I Make Every Single February",
-    author: "By Laurel Randolph",
+    title: "Slow-Cooker Spiced Apple Butter Brioche Toast",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/cinnamon-toast.jpg",
   },
   {
     id: 4,
     slug: "giada-famous-pasta-busy-weeknights",
     category: "CELEBRITY",
-    title: "I Make Giada De Laurentiis' Famous Pasta on the Busiest Weeknights—It's So Good",
-    author: "By Myo Quinn",
+    title: "Rigatoni with Sausage & Goat Cheese (Inspired by Giada De Laurentiis)",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/dinner-italian-sausage-pasta.jpg",
   },
   {
     id: 5,
     slug: "giada-viral-sheet-pan-lasagna",
     category: "CELEBRITY",
-    title: "I Tried Giada De Laurentiis' Viral Sheet Pan Lasagna—My Family Can't Get Enough",
-    author: "By Myo Quinn",
+    title: "Sheet Pan Lasagna (Inspired by Giada De Laurentiis)",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/dinner-4-ingredient-pasta-bake.jpg",
   },
   {
     id: 6,
     slug: "alton-brown-vs-giada-chicken-piccata",
     category: "CELEBRITY",
-    title: "I Tried Alton Brown's and Giada De Laurentiis' Chicken Piccata Recipes—There's a Clear Winner",
-    author: "By Stephanie A Ganz",
+    title: "Comparing Classic Chicken Piccata Approaches",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/dinner-crispy-chicken-greens.jpg",
   },
   {
     id: 7,
     slug: "giada-favorite-snack-ingredient",
     category: "CELEBRITY",
-    title: "This One Ingredient Is Giada De Laurentiis' Favorite Snack",
-    author: "By Kat Lieu",
+    title: "Simple Prosciutto and Melon Italian Appetizer",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/appetizer-prosciutto-melon-skewers.jpg",
   },
   {
     id: 8,
     slug: "five-ingredient-giada-friday-night",
     category: "CELEBRITY",
-    title: "The 5-Ingredient Giada De Laurentiis Recipe I Make Every Friday Night",
-    author: "By Candace Nagy",
+    title: "Crispy Roasted Potatoes (Italian-Style)",
+    author: "By Dishora Editorial Team",
     imageUrl: "/images/tip-crispy-potatoes.jpg",
   },
 ];
@@ -138,9 +138,14 @@ export default function GiadaLemonSpaghettiPage() {
           </p>
 
           <div className="flex wrap items-center gap-2 text-xs text-gray-600 pb-5 border-b border-gray-200">
-            <span>By <strong className="text-gray-900 font-bold underline cursor-pointer hover:text-[#0c5354]">Meghan Splawn</strong></span>
+            <span>By <strong className="text-gray-900 font-bold underline cursor-pointer hover:text-[#0c5354]">Dishora Editorial Team</strong></span>
             <span>|</span>
             <span>Published on February 12, 2026</span>
+          </div>
+
+          {/* Editorial Disclaimer */}
+          <div className="mt-4 p-3 bg-gray-50 border border-gray-200 rounded-sm text-xs text-gray-600 leading-relaxed">
+            <strong className="text-gray-800">Editorial Note:</strong> This recipe review is independently produced by the Dishora editorial team, inspired by Giada De Laurentiis&apos;s published cooking methods. Dishora is not affiliated with, sponsored by, or officially endorsed by Giada De Laurentiis.
           </div>
         </header>
 
@@ -164,17 +169,17 @@ export default function GiadaLemonSpaghettiPage() {
             </div>
           </div>
           <div className="text-[11.5px] text-gray-500 font-normal">
-            Credit: Dishora Studio / Meghan Splawn
+            Credit: Dishora Culinary Studio
           </div>
         </div>
 
         {/* Story Section 1 */}
         <div className="space-y-4 text-[17px] sm:text-[18px] text-gray-800 leading-relaxed font-serif mb-8">
           <p>
-            I&apos;d love to travel to Italy at any time, but being in Milan for the 2026 Olympic Games would be top-tier. Since a trip abroad isn&apos;t in my budget this year, I needed a meal that would satisfy my travel dreams. Right now, Giada De Laurentiis is covering the Olympics and food in Milan as a correspondent for <em>The Today Show</em>, so I decided to choose something from her repertoire.
+            Inspired by Italian culinary tradition and Giada De Laurentiis&apos;s popular lemon spaghetti technique, this 4-ingredient pasta highlights the simple elegance of weeknight pantry cooking.
           </p>
           <p>
-            This recipe for <strong>Lemon Spaghetti</strong> calls for four ingredients (spaghetti, mascarpone, Parmigiano Reggiano, and a lemon) plus salt, pepper, and olive oil. If you need me, I&apos;ll be eating a bowl of this pasta while I watch cross-country skiing.
+            This recipe for <strong>Lemon Spaghetti</strong> calls for four core ingredients (spaghetti, mascarpone, Parmigiano Reggiano, and fresh lemon) plus salt, pepper, and olive oil, coming together into a rich yet vibrant dinner.
           </p>
         </div>
 
@@ -225,14 +230,14 @@ export default function GiadaLemonSpaghettiPage() {
           </div>
         </div>
 
-        {/* Section: How To Make Pasta Just Like Giada Would */}
+        {/* Section: Tips for Making Lemon Spaghetti */}
         <div className="mb-10">
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-            How To Make Pasta Just Like Giada Would
+            Tips for Making Lemon Spaghetti
           </h2>
 
           <p className="text-[17px] sm:text-[18px] text-gray-800 leading-relaxed font-serif mb-5">
-            Having watched Giada make this recipe and many others over the years, here&apos;s my advice to whip up this dish exactly like she would:
+            Based on classic Italian lemon pasta methods and Giada De Laurentiis&apos;s published techniques, here are key tips to achieve a velvety, well-emulsified sauce:
           </p>
 
           <ul className="space-y-4 text-[16px] sm:text-[17px] text-gray-800 leading-relaxed font-serif pl-5 list-disc">

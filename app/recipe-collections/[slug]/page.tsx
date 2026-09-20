@@ -29,10 +29,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${collection.title} | Dishora In The Kitchen`,
     description: collection.subtitle || collection.leadStory.slice(0, 155),
+    alternates: {
+      canonical: `https://dishora.net/recipe-collections/${collection.slug}`,
+    },
     openGraph: {
       title: collection.title,
       description: collection.subtitle,
-      url: `https://simplyrecipes.com/recipe-collections/${collection.slug}`,
+      url: `https://dishora.net/recipe-collections/${collection.slug}`,
       images: [
         {
           url: collection.heroImage,
@@ -65,7 +68,7 @@ export default async function RecipeCollectionPage({ params }: PageProps) {
     "@type": "CollectionPage",
     name: collection.title,
     description: collection.subtitle,
-    url: `https://simplyrecipes.com/recipe-collections/${collection.slug}`,
+    url: `https://dishora.net/recipe-collections/${collection.slug}`,
     image: collection.heroImage,
     author: {
       "@type": "Person",

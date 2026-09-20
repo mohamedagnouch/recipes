@@ -157,7 +157,7 @@ export default function InTheKitchenPage() {
     "@type": "CollectionPage",
     name: "In The Kitchen - Recipe Collections, Cleaning & Organizing - Dishora",
     description: "The complete In The Kitchen hub: curated recipe collections, weeknight cooking inspiration, natural cleaning formulas, and smart home organization.",
-    url: "http://localhost:3000/in-the-kitchen",
+    url: "https://dishora.net/in-the-kitchen",
     mainEntity: {
       "@type": "ItemList",
       itemListElement: allUnifiedItems.slice(0, 15).map((item, index) => ({
@@ -165,7 +165,7 @@ export default function InTheKitchenPage() {
         position: index + 1,
         name: item.title,
         description: item.description,
-        image: `http://localhost:3000${item.imageUrl}`,
+        image: `https://dishora.net${item.imageUrl}`,
       })),
     },
   };

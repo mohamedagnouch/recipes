@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 // Primary Food & Recipe hubs with active path matching
 const PRIMARY_SECTIONS = [
-  { label: "RECIPES", href: "/recipes", match: ["/recipes", "/appetizers", "/breakfast", "/lunch", "/desserts", "/freezies"] },
+  { label: "RECIPES", href: "/recipes", match: ["/recipes", "/appetizers", "/breakfast", "/lunch", "/desserts"] },
   { label: "DINNER & MEALS", href: "/dinner", match: ["/dinner"] },
   { label: "IN THE KITCHEN", href: "/in-the-kitchen", match: ["/in-the-kitchen", "/cleaning-and-organizing", "/cleaning-organizing"] },
   { label: "RECIPE ROUND-UPS", href: "/recipe-round-up", match: ["/recipe-round-up", "/recipe-collections"] },

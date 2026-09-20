@@ -17,157 +17,106 @@ interface TeamMember {
 }
 
 const teamSlides: TeamMember[][] = [
-  // Slide 1: Editorial & Culinary Leadership
+  // Slide 1: Core Editorial & Kitchen Desks
   [
     {
       id: 1,
-      name: "Megan O. Steintrager",
-      role: "ASSOCIATE EDITORIAL DIRECTOR",
+      name: "Editorial Desk",
+      role: "RECIPE CURATION & STANDARDS",
       department: "Editorial & Strategy",
-      bgColor: "#fae8a4", // Warm yellow halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230c5354"/><stop offset="100%" stop-color="%23009b72"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g1)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MS</text></svg>`,
-      bio: "15+ years directing food editorial with a focus on accessible, seasonal home cooking and stress-free weeknight meals.",
+      bgColor: "#fae8a4",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230c5354"/><stop offset="100%" stop-color="%23009b72"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g1)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">ED</text></svg>`,
+      bio: "Curates approachable, seasonal home cooking guides and stress-free weeknight dinner collections for families.",
       favoriteRecipe: "4-Ingredient Old Bay Pasta",
       favoriteRecipeSlug: "4-ingredient-old-bay-pasta",
-      yearsWithUs: "6 years",
+      yearsWithUs: "Editorial Desk",
     },
     {
       id: 2,
-      name: "Sarah Crowder",
-      role: "SENIOR DIGITAL ART DIRECTOR",
+      name: "Culinary Studio",
+      role: "RECIPE VISUALS & STYLING",
       department: "Art & Visuals",
-      bgColor: "#c7f0db", // Soft mint halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23059669"/><stop offset="100%" stop-color="%2310b981"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g2)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">SC</text></svg>`,
-      bio: "Award-winning art director and culinary visual stylist shaping the vibrant visual identity of Dishora.",
+      bgColor: "#c7f0db",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23059669"/><stop offset="100%" stop-color="%2310b981"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g2)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">CS</text></svg>`,
+      bio: "Produces clean, step-by-step culinary imagery and clear presentations to guide home cooks through each technique.",
       favoriteRecipe: "Shortcut Cookies and Cream Ice Cream",
       favoriteRecipeSlug: "shortcut-cookies-and-cream-ice-cream",
-      yearsWithUs: "5 years",
+      yearsWithUs: "Visuals Desk",
     },
     {
       id: 3,
-      name: "Afton Cyrus",
-      role: "SENIOR EDITOR, RECIPES",
+      name: "Recipe Development",
+      role: "TESTING & COOKING RATIOS",
       department: "Recipe Development",
-      bgColor: "#fed7aa", // Peach halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23ea580c"/><stop offset="100%" stop-color="%23f97316"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g3)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">AC</text></svg>`,
-      bio: "Test kitchen veteran who has tested, written, and perfected more than 600 family comfort food recipes.",
+      bgColor: "#fed7aa",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23ea580c"/><stop offset="100%" stop-color="%23f97316"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g3)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">RD</text></svg>`,
+      bio: "Verifies cooking times, ingredient ratios, oven temperatures, and visual doneness cues for home kitchens.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
-      yearsWithUs: "7 years",
+      yearsWithUs: "Testing Desk",
     },
     {
       id: 4,
-      name: "Munni Pramanik",
-      role: "EDITORIAL PROJECTS MANAGER",
-      department: "Test Kitchen Operations",
-      bgColor: "#bbf7d0", // Greenish halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230d9488"/><stop offset="100%" stop-color="%2314b8a6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g4)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MP</text></svg>`,
-      bio: "Coordinates our global network of 40+ freelance testers, ensuring every recipe passes our rigorous 3-step kitchen trial.",
+      name: "Recipe Writers",
+      role: "STEP-BY-STEP GUIDES",
+      department: "Editorial Writing",
+      bgColor: "#bbf7d0",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230d9488"/><stop offset="100%" stop-color="%2314b8a6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g4)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">RW</text></svg>`,
+      bio: "Drafts clear, straightforward instructions and troubleshooting tips to help readers cook with confidence.",
       favoriteRecipe: "The One-Pan Cheeseburger Pie",
       favoriteRecipeSlug: "the-one-pan-cheeseburger-pie",
-      yearsWithUs: "4 years",
+      yearsWithUs: "Writing Desk",
     },
   ],
-  // Slide 2 (Culinary & Test Kitchen Specialists)
+  // Slide 2: Specialty & Focus Desks
   [
     {
       id: 5,
-      name: "Laurel Randolph",
-      role: "SENIOR CULINARY PRODUCER",
-      department: "Recipe Development",
-      bgColor: "#fef08a", // Sunny yellow halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23d97706"/><stop offset="100%" stop-color="%23f59e0b"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g5)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">LR</text></svg>`,
-      bio: "Best-selling cookbook author and test kitchen chef specializing in quick pressure cooker and BBQ recipes.",
+      name: "Dinner & Quick Meals",
+      role: "WEEKNIGHT COOKING DESK",
+      department: "Dinner & Meals",
+      bgColor: "#fef08a",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23d97706"/><stop offset="100%" stop-color="%23f59e0b"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g5)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">DQ</text></svg>`,
+      bio: "Develops quick, practical skillet dinners, sheet-pan recipes, and family comfort foods for busy weeknights.",
       favoriteRecipe: "Cowboy Corn",
       favoriteRecipeSlug: "cowboy-corn",
-      yearsWithUs: "8 years",
+      yearsWithUs: "Dinner Desk",
     },
     {
       id: 6,
-      name: "Molly Allen",
-      role: "BAKING & DESSERT EDITOR",
+      name: "Baking & Pastry",
+      role: "BAKING & DESSERT DESK",
       department: "Baking & Pastry",
-      bgColor: "#ddd6fe", // Lavender halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%237c3aed"/><stop offset="100%" stop-color="%238b5cf6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g6)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">MA</text></svg>`,
-      bio: "Professional baker and food writer sharing foolproof bread, pastry, and dessert techniques for home ovens.",
+      bgColor: "#ddd6fe",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%237c3aed"/><stop offset="100%" stop-color="%238b5cf6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g6)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">BP</text></svg>`,
+      bio: "Shares dependable bread, cake, and cookie recipes tailored for home bakers and everyday ovens.",
       favoriteRecipe: "Shortcut Sweet Potato Cornbread",
       favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
-      yearsWithUs: "3 years",
+      yearsWithUs: "Baking Desk",
     },
     {
       id: 7,
-      name: "Sam Dir",
-      role: "TEST KITCHEN CHEF",
-      department: "Culinary Testing",
-      bgColor: "#bae6fd", // Sky blue halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230284c7"/><stop offset="100%" stop-color="%230ea5e9"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g7)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">SD</text></svg>`,
-      bio: "Culinary school graduate focusing on knife skills, cast-iron searing, and protein cookery.",
+      name: "Grocery & Pantry",
+      role: "INGREDIENT SOURCING",
+      department: "Market & Grocery",
+      bgColor: "#bae6fd",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230284c7"/><stop offset="100%" stop-color="%230ea5e9"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g7)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">GP</text></svg>`,
+      bio: "Verifies accessible pantry staples, supermarket brand items, and practical budget-friendly ingredient swaps.",
       favoriteRecipe: "The One-Pan Cheeseburger Pie",
       favoriteRecipeSlug: "the-one-pan-cheeseburger-pie",
-      yearsWithUs: "4 years",
+      yearsWithUs: "Pantry Desk",
     },
     {
       id: 8,
-      name: "Kim Osborne",
-      role: "NUTRITION & GROCERY SPECIALIST",
-      department: "Nutrition & Budget",
-      bgColor: "#fed7aa", // Peach halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23c2410c"/><stop offset="100%" stop-color="%23ea580c"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g8)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">KO</text></svg>`,
-      bio: "Dietitian and budget-friendly grocery expert finding the best value ingredients and health-conscious swaps.",
+      name: "Community Desk",
+      role: "READER QUESTIONS & TIPS",
+      department: "Community & Support",
+      bgColor: "#fed7aa",
+      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23c2410c"/><stop offset="100%" stop-color="%23ea580c"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g8)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800">CD</text></svg>`,
+      bio: "Monitors feedback, reader ratings, and kitchen questions to keep published recipe notes clear and accurate.",
       favoriteRecipe: "4-Ingredient Old Bay Pasta",
       favoriteRecipeSlug: "4-ingredient-old-bay-pasta",
-      yearsWithUs: "5 years",
-    },
-  ],
-  // Slide 3 (Founders & Leadership)
-  [
-    {
-      id: 9,
-      name: "Elise Bauer",
-      role: "FOUNDER & EXECUTIVE ADVISOR",
-      department: "Founding Team",
-      bgColor: "#fef08a", // Sunny yellow halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23b45309"/><stop offset="100%" stop-color="%23d97706"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g9)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">EB</text></svg>`,
-      bio: "Co-founded Dishora as a dedicated recipe collection and home cooking journal. Passionate about approachable everyday home cooking.",
-      favoriteRecipe: "Shortcut Sweet Potato Cornbread",
-      favoriteRecipeSlug: "shortcut-sweet-potato-cornbread",
-      yearsWithUs: "21 years",
-    },
-    {
-      id: 10,
-      name: "Genevieve Yam",
-      role: "CULINARY STRATEGIST",
-      department: "Strategy",
-      bgColor: "#c7f0db", // Mint halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%230f766e"/><stop offset="100%" stop-color="%2314b8a6"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g10)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">GY</text></svg>`,
-      bio: "Former restaurant pastry chef focusing on modern flavor pairings and streamlining complex pastry for home cooks.",
-      favoriteRecipe: "Shortcut Cookies and Cream Ice Cream",
-      favoriteRecipeSlug: "shortcut-cookies-and-cream-ice-cream",
-      yearsWithUs: "3 years",
-    },
-    {
-      id: 11,
-      name: "Devan Grimsrud",
-      role: "SENIOR FOOD WRITER",
-      department: "Food & Culture",
-      bgColor: "#fed7aa", // Peach halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g11" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23be123c"/><stop offset="100%" stop-color="%23e11d48"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g11)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">DG</text></svg>`,
-      bio: "Food journalist exploring pantry history, international spices, and generational comfort food stories.",
-      favoriteRecipe: "Cowboy Corn",
-      favoriteRecipeSlug: "cowboy-corn",
-      yearsWithUs: "4 years",
-    },
-    {
-      id: 12,
-      name: "Sara Tane",
-      role: "LEAD VIDEO PRODUCER",
-      department: "Media & Video",
-      bgColor: "#ddd6fe", // Lavender halo
-      avatarUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><linearGradient id="g12" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%236d28d9"/><stop offset="100%" stop-color="%237c3aed"/></linearGradient></defs><circle cx="60" cy="60" r="60" fill="url(%23g12)"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="800">ST</text></svg>`,
-      bio: "Culinary producer bringing recipes to life with crisp visual guides and foolproof step-by-step videos.",
-      favoriteRecipe: "4-Ingredient Old Bay Pasta",
-      favoriteRecipeSlug: "4-ingredient-old-bay-pasta",
-      yearsWithUs: "3 years",
+      yearsWithUs: "Community Desk",
     },
   ],
 ];
@@ -203,7 +152,7 @@ export default function TeamSection() {
 
               {/* Description */}
               <p className="text-gray-700 text-[13.5px] sm:text-[14.5px] leading-relaxed text-center max-w-xl mx-auto mb-4 font-normal">
-                Dishora is a trusted culinary resource for home cooks with more than 3,600 tested recipes, guides, and meal plans for families across the US and Canada. We're supported by an experienced team of recipe developers, food writers, kitchen testers, and culinary photographers.
+                Dishora is a culinary resource for home cooks, offering step-by-step tested recipes, seasonal guides, and weeknight meal ideas. We provide clear instructions, sensible ingredient substitutions, and reliable techniques for cooks of all levels.
               </p>
 
               {/* Read More Link */}
@@ -324,9 +273,9 @@ export default function TeamSection() {
                     ✓
                   </div>
                   <div>
-                    <h3 className="font-bold text-[13px] text-gray-900">100% Tested In-House</h3>
+                    <h3 className="font-bold text-[13px] text-gray-900">Tested Recipes</h3>
                     <p className="text-[11.5px] text-gray-600 leading-snug mt-0.5">
-                      Every recipe is made at least 3 times before publishing.
+                      Recipes reviewed and crafted with clear step-by-step guidance.
                     </p>
                   </div>
                 </div>
@@ -371,7 +320,7 @@ export default function TeamSection() {
 
             {/* Bottom Callout / Community Stats */}
             <div className="mt-6 pt-4 border-t border-teal-200/60 flex items-center justify-between text-xs text-[#0c5354]">
-              <span className="font-medium">🌟 Over 8,000,000 cooks each month</span>
+              <span className="font-medium">🌟 Everyday recipes and cooking inspiration for home cooks</span>
               <button
                 onClick={() => setShowWhoWeAreModal(true)}
                 className="font-bold underline hover:text-[#083b3c] cursor-pointer"
@@ -478,7 +427,7 @@ export default function TeamSection() {
                 Dishora was founded as a dedicated home cooking journal and digital culinary resource. Over the years, it has grown into a trusted kitchen destination for home cooks seeking reliable, foolproof recipes across North America.
               </p>
               <p>
-                Our editorial and culinary team brings together certified executive chefs, professional recipe developers, experienced food photographers, and nutrition specialists. Together, we develop and thoroughly test every single recipe in our home and test kitchens.
+                Our editorial team and contributors bring together experienced food writers, recipe developers, and home cooking enthusiasts. Together, we share practical recipes designed for home kitchens.
               </p>
 
               <div className="bg-teal-50/70 border border-teal-200 rounded-xl p-4 my-4">
@@ -535,7 +484,7 @@ export default function TeamSection() {
               Who We Are: Our Story & Mission
             </h3>
             <p className="text-xs font-bold text-[#e71d73] uppercase tracking-wider mb-4">
-              Helping Home Cooks Since 2003
+              Recipes &amp; Cooking Inspiration for Home Cooks
             </p>
 
             <div className="space-y-4 text-sm text-gray-700 leading-relaxed">

@@ -89,26 +89,7 @@ export default function Header() {
         { name: "VIEW ALL", href: "/food-news#all" },
       ],
     },
-    {
-      name: "THE 2026 FREEZIES AWARDS",
-      href: "/freezies",
-      submenu: [
-        { name: "Best Frozen Dinners", href: "/freezies/categories/best-frozen-dinners" },
-        { name: "Best Ice Cream & Treats", href: "/freezies/categories/best-ice-cream" },
-        { name: "Best Frozen Pizzas", href: "/freezies/categories/best-frozen-pizzas" },
-        { name: "Best Frozen Breakfasts", href: "/freezies/categories/best-frozen-breakfast" },
-        { name: "Best Frozen Snacks", href: "/freezies/categories/best-frozen-snacks" },
-        { name: "Best Budget Freezer Finds", href: "/freezies/categories/best-budget-freezer-finds" },
-        { name: "Best Healthy Frozen Foods", href: "/freezies/categories/best-healthy-frozen-foods" },
-        { name: "Best New Frozen Foods", href: "/freezies/categories/best-new-frozen-foods" },
-        { name: "Fruits & Smoothies", href: "/freezies/categories/best-frozen-smoothies" },
-        { name: "Supermarket Finds", href: "/freezies/categories/best-supermarket-finds" },
-        { name: "Winners Announcement", href: "/freezies/announcement" },
-        { name: "Testing Methodology", href: "/freezies/methodology" },
-        { name: "About The Freezies", href: "/freezies/about" },
-        { name: "VIEW ALL", href: "/freezies" },
-      ],
-    },
+
     {
       name: "ABOUT US",
       href: "/about",
@@ -398,97 +379,7 @@ export default function Header() {
                   </Link>
 
                   {/* Dropdown Menu */}
-                  {link.name === "THE 2026 FREEZIES AWARDS" && link.submenu ? (
-                    <div
-                      className={`absolute top-full -left-20 lg:left-0 w-[620px] bg-white border border-gray-200 shadow-2xl rounded-b-lg p-5 z-50 transition-all duration-150 transform origin-top-left ${
-                        isOpen
-                          ? "opacity-100 scale-100 visible pointer-events-auto"
-                          : "opacity-0 scale-95 invisible pointer-events-none"
-                      }`}
-                    >
-                      <div className="grid grid-cols-12 gap-5 pb-4 border-b border-gray-100">
-                        {/* Categories (7 cols) */}
-                        <div className="col-span-7">
-                          <div className="text-[10px] font-black uppercase tracking-wider text-gray-400 mb-2.5">
-                            Award Categories
-                          </div>
-                          <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
-                            <Link href="/freezies/categories/best-frozen-dinners" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🍝</span><span>Frozen Dinners</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-ice-cream" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🍨</span><span>Ice Cream</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-frozen-pizzas" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🍕</span><span>Frozen Pizzas</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-frozen-breakfast" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🧇</span><span>Breakfast</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-frozen-snacks" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🥟</span><span>Snacks &amp; Bites</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-budget-freezer-finds" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🏷️</span><span>Budget Finds</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-healthy-frozen-foods" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🥗</span><span>Healthy Frozen</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-new-frozen-foods" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>✨</span><span>New Foods</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-frozen-smoothies" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🍓</span><span>Fruits &amp; Bowls</span>
-                            </Link>
-                            <Link href="/freezies/categories/best-supermarket-finds" onClick={() => setActiveDropdown(null)} className="py-1 text-xs font-semibold text-gray-700 hover:text-[#0c5354] flex items-center gap-1.5 transition-colors">
-                              <span>🛒</span><span>Store Brands</span>
-                            </Link>
-                          </div>
-                        </div>
-
-                        {/* Featured Winner Spotlight (5 cols) */}
-                        <div className="col-span-5 bg-[#fdfbf7] p-3.5 rounded-lg border border-amber-200/80 flex flex-col justify-between">
-                          <div>
-                            <span className="inline-block text-[9.5px] font-black uppercase tracking-wider bg-amber-500 text-white px-2 py-0.5 rounded-full mb-1.5">
-                              🏆 2026 Grand Champion
-                            </span>
-                            <div className="text-xs font-bold text-gray-900 leading-snug">
-                              Rao&apos;s Meat Lasagna with Bolognese
-                            </div>
-                            <p className="text-[11px] text-gray-500 mt-1 line-clamp-2">
-                              Top score 98/100 across 48 tested frozen dinners.
-                            </p>
-                          </div>
-                          <div className="pt-2 border-t border-amber-100 flex flex-col gap-1 text-[11px] font-semibold text-[#0c5354]">
-                            <Link href="/freezies/announcement" onClick={() => setActiveDropdown(null)} className="hover:underline flex items-center gap-1">
-                              <span>📢</span><span>Winners Announcement</span>
-                            </Link>
-                            <Link href="/freezies/methodology" onClick={() => setActiveDropdown(null)} className="hover:underline flex items-center gap-1">
-                              <span>🔬</span><span>Testing Methodology</span>
-                            </Link>
-                            <Link href="/freezies/about" onClick={() => setActiveDropdown(null)} className="hover:underline flex items-center gap-1">
-                              <span>📖</span><span>About The Freezies</span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Bottom Bar */}
-                      <div className="pt-3 flex items-center justify-between">
-                        <span className="text-[11px] text-gray-400 font-medium">
-                          The authoritative guide to American frozen foods.
-                        </span>
-                        <Link
-                          href="/freezies"
-                          onClick={() => setActiveDropdown(null)}
-                          className="text-xs font-extrabold text-white bg-[#0c5354] hover:bg-[#083c3d] px-4 py-1.5 rounded transition-colors uppercase tracking-wider flex items-center gap-1"
-                        >
-                          <span>Explore All 2026 Winners</span>
-                          <span>→</span>
-                        </Link>
-                      </div>
-                    </div>
-                  ) : link.submenu ? (
+                  {link.submenu ? (
                     <div
                       className={`absolute top-full left-0 w-48 bg-white border border-gray-200/90 shadow-lg py-2.5 z-50 transition-all duration-150 transform origin-top-left ${
                         isOpen

@@ -145,13 +145,13 @@ export default function FoodNewsAndTrendsPage() {
     "@type": "CollectionPage",
     name: "Food News & Trends: USA & Canada - Dishora",
     description: "Verified food news, restaurant openings, grocery store finds, viral TikTok food trends, celebrity chef stories, and popular recipes across the United States and Canada.",
-    url: "http://localhost:3000/food-news",
+    url: "https://dishora.net/food-news",
     publisher: {
       "@type": "Organization",
       name: "Dishora",
       logo: {
         "@type": "ImageObject",
-        url: "http://localhost:3000/images/simply-recipes-logo.png",
+        url: "https://dishora.net/images/dishora-logo.png",
       },
     },
     mainEntity: {
@@ -161,8 +161,8 @@ export default function FoodNewsAndTrendsPage() {
         position: index + 1,
         name: item.headline,
         description: item.deck,
-        image: `http://localhost:3000${item.imageUrl}`,
-        url: `http://localhost:3000/food-news/${item.slug}`,
+        image: `https://dishora.net${item.imageUrl}`,
+        url: `https://dishora.net/food-news/${item.slug}`,
       })),
     },
   };

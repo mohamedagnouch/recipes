@@ -872,7 +872,7 @@ export const lunchRecipesData: Recipe[] = [
   {
     id: 714,
     slug: "fancy-department-store-shrimp-louie-salad",
-    title: "The Fancy Department Store Salad That Reminds Me of My Mom",
+    title: "Classic Department Store Shrimp Louie Salad",
     leadText: "Chilled tender shrimp, hard-boiled eggs, avocado, and crisp butter lettuce with homemade tangy Louie dressing.",
     badge: "RETRO GLAMOUR",
     category: "Salad Recipes",
@@ -885,14 +885,14 @@ export const lunchRecipesData: Recipe[] = [
     servings: "2 servings",
     servingsCount: 2,
     calories: "410 kcal",
-    author: "Ivy Manning",
-    authorRole: "Recipe Developer",
+    author: "Dishora Editorial Team",
+    authorRole: "Dishora Test Kitchen",
     date: "May 11, 2026",
     imageUrl: "/images/lunch-shrimp-louie-salad.jpg",
     imageAlt: "Platter of classic Shrimp Louie salad with pink wild shrimp, hard boiled eggs, avocado, and tomatoes",
-    imageCredit: "Dishora Studio / Ivy Manning",
+    imageCredit: "Dishora Studio",
     description:
-      "A nostalgic homage to legendary department store tea rooms of the 1970s. Sweet cooked Oregon bay shrimp, jammy hard-boiled eggs, ripe avocado, and asparagus spears draped in creamy Thousand Island-style Louie dressing. Difficulty: Easy.",
+      "A classic department store-style salad: sweet bay shrimp, jammy hard-boiled eggs, ripe avocado, and crisp butter lettuce draped in creamy Thousand Island-style Louie dressing. Difficulty: Easy.",
     whyMakeThis: [
       "Tastes luxurious and elegant for a weekday lunch.",
       "High in lean seafood protein and healthy fats.",
